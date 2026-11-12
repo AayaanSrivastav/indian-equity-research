@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Indian Equity Research Engine">
+  <rect width="32" height="32" rx="8" fill="#4a3aa7"/>
+  <g fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9.5 9H22.5"/>
+    <path d="M9.5 13.5H22.5"/>
+    <path d="M12 9h3.4a4.2 4.2 0 0 1 0 8.4H12l8 6.6"/>
+  </g>
+</svg>

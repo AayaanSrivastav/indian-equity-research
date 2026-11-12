@@ -1,0 +1,26 @@
+{
+  "balance_sheet_date": "2026-09-30",
+  "last_full_year": "2026-03-31",
+  "history_years": [
+    "2022-03-31",
+    "2023-03-31",
+    "2024-03-31",
+    "2025-03-31",
+    "2026-03-31"
+  ],
+  "prices": "Quote-Equity-TCS-EQ-*.csv",
+  "kd_pre_tax": {
+    "same_as": "risk_free",
+    "label": "ASSUMPTION",
+    "source": "Set equal to the 10-year G-sec yield above (the 12-month average)",
+    "note": "TCS has no borrowings; lease liabilities are the only debt and their incremental borrowing rate is not transcribed. Debt is about 1.5% of capital, so this barely moves WACC."
+  },
+  "bull_growth_note": " (which includes an acquisition)",
+  "terminal_growth": {
+    "bear": 0.04,
+    "base": 0.05,
+    "bull": 0.055,
+    "label": "ASSUMPTION",
+    "note": "Nominal INR; kept at or below the default-free INR rate (G-sec yield minus default spread). A case above that cap is set to the cap, and the output says so."
+  }
+}

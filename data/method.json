@@ -1,0 +1,45 @@
+{
+ "built": "2026-11-12",
+ "companies": "10",
+ "gate": {
+  "min_years": "three",
+  "fcff_min_positive": "three",
+  "fcff_window": "four",
+  "tax_years": "three",
+  "tax_low": "0%",
+  "tax_high": "50%"
+ },
+ "scenarios": {
+  "bear_margin": "2",
+  "bull_margin": "1"
+ },
+ "template_b": {
+  "roic_years": "three",
+  "bear_share": "50%",
+  "bull_add": "2",
+  "growth_high": "60%",
+  "growth_high_a": "30%"
+ },
+ "defaults": {
+  "history_years": "five",
+  "g_bear": "4.0%",
+  "g_base": "5.0%",
+  "g_bull": "5.5%"
+ },
+ "market": {
+  "index": "NIFTY 50",
+  "beta_years": "two",
+  "erp": "6.92%",
+  "default_spread": "1.75%",
+  "risk_free": "mean of month-end FBIL 10-year par yields over the last 12 months"
+ },
+ "event": {
+  "from": "−250",
+  "to": "−11",
+  "min_obs": "120",
+  "large_z": "2"
+ },
+ "actions": {
+  "band": "10%"
+ }
+}

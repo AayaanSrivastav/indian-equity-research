@@ -1,0 +1,789 @@
+{
+  "label": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
+  "company": {
+    "name": "Tata Consultancy Services Ltd",
+    "nse": "TCS",
+    "bse": "532540",
+    "basis": "consolidated, Ind AS, INR crore",
+    "slug": "tcs",
+    "group": "Tata Group",
+    "industry": "IT services",
+    "sector_index": "NIFTY IT"
+  },
+  "valuation_date": "2026-11-12",
+  "balance_sheet_date": "2026-09-30",
+  "inputs_verification": {
+    "facts_by_status": {
+      "unverified": 1259,
+      "verified": 165
+    },
+    "note": "165 of 1,424 facts in use were checked by the author against the filings (the forecast-input lines of five signed-off pages, including the same figures reprinted in later filings); the rest were transcribed and passed the reconciliation checks but have not been checked by a person."
+  },
+  "inputs_by_rule": {
+    "filled": [
+      "latest_quarter",
+      "valuation_date",
+      "price",
+      "shares"
+    ],
+    "label": "ASSUMPTION (default rule, not reviewed by a person)",
+    "assumptions": []
+  },
+  "market": {
+    "price": 2442.4,
+    "price_label": "FACT",
+    "price_source": "NSE close (BhavCopy_NSE_CM_0_0_0_20261112_F_0000.csv.zip); checked against the raw file at build time",
+    "shares": 3618087518.0,
+    "shares_basis": "FY26 weighted-average count",
+    "market_cap": 883681.6953963201,
+    "enterprise_value": 841725.6953963201,
+    "pe_ttm": 17.122959529459,
+    "ev_ebit_ttm": 12.088723023400021,
+    "ttm": {
+      "quarters": [
+        "2025-12-31",
+        "2026-03-31",
+        "2026-06-30",
+        "2026-09-30"
+      ],
+      "revenue": 283248.0,
+      "ebit": 69629.0,
+      "profit_owners": 51608.0
+    },
+    "beta": {
+      "beta": 0.8293908729371396,
+      "std_error": 0.07793588824707968,
+      "n": 494,
+      "blume_adjusted": 0.8856918848678836,
+      "first_session": "2024-11-13",
+      "last_session": "2026-11-12"
+    }
+  },
+  "latest_quarter": {
+    "quarter": {
+      "end": "2026-09-30",
+      "revenue": 73188.0,
+      "ebit": 17553.0,
+      "ebit_margin_pct": 23.98343990818167,
+      "profit_owners": 13884.0,
+      "eps": 38.37
+    },
+    "year_ago": {
+      "end": "2025-09-30",
+      "revenue": 65799.0,
+      "ebit": 16565.0,
+      "ebit_margin_pct": 25.175154637608475,
+      "profit_owners": 12075.0,
+      "eps": 33.37
+    },
+    "revenue_growth_yoy_pct": 11.229653946108598,
+    "profit_growth_yoy_pct": 14.981366459627331,
+    "label": "FACT (TCS filings) and CALCULATION"
+  },
+  "bridge": {
+    "cash_like": 54898.0,
+    "lease_liabilities": 11808.0,
+    "borrowings": 0.0,
+    "equity_method_investments": 0.0,
+    "class_b_ccps": 126.0,
+    "non_controlling_interests": 1008.0,
+    "net": 41956.0,
+    "as_of": "2026-09-30"
+  },
+  "history": [
+    {
+      "fy_end": "2022-03-31",
+      "revenue": 191754.0,
+      "ebit": 48453.0,
+      "ebit_margin_pct": 25.268312525423198,
+      "tax_rate_pct": 25.611855979259772,
+      "nopat": 36043.28742236926,
+      "invested_capital": 48958.0,
+      "cash_like": 48706.0,
+      "sales_to_capital": 3.916704113730136,
+      "roe_pct": 42.79433697660441,
+      "cash_conversion": 1.0390127181461157,
+      "capex_to_revenue_pct": 1.5618970138823702,
+      "cash_returned_to_profit": 0.8145075294546023
+    },
+    {
+      "fy_end": "2023-03-31",
+      "revenue": 225458.0,
+      "ebit": 54237.0,
+      "ebit_margin_pct": 24.056365265370932,
+      "tax_rate_pct": 25.662923717644574,
+      "nopat": 40318.20006326111,
+      "invested_capital": 50699.0,
+      "cash_like": 48195.0,
+      "sales_to_capital": 4.446991064912523,
+      "roe_pct": 46.38181698572462,
+      "cash_conversion": 0.9920100229298159,
+      "capex_to_revenue_pct": 1.3749789317744325,
+      "cash_returned_to_profit": 1.076495756802118,
+      "revenue_growth_pct": 17.576686796624852,
+      "roic_pct": 82.35262891307062,
+      "fcff": 38577.20006326111
+    },
+    {
+      "fy_end": "2024-03-31",
+      "revenue": 240893.0,
+      "ebit": 59311.0,
+      "ebit_margin_pct": 24.621304894704288,
+      "tax_rate_pct": 25.643176282723356,
+      "nopat": 44101.77571495395,
+      "invested_capital": 54292.0,
+      "cash_like": 45048.0,
+      "sales_to_capital": 4.436988874972371,
+      "roe_pct": 50.481279908890805,
+      "cash_conversion": 0.9617996051975097,
+      "capex_to_revenue_pct": 1.1100364062052446,
+      "cash_returned_to_profit": 0.9999349226664352,
+      "revenue_growth_pct": 6.846064455463985,
+      "roic_pct": 86.9874666461941,
+      "fcff": 40508.77571495395
+    },
+    {
+      "fy_end": "2025-03-31",
+      "revenue": 255324.0,
+      "ebit": 62165.0,
+      "ebit_margin_pct": 24.347495730914446,
+      "tax_rate_pct": 25.30804671595414,
+      "nopat": 46432.252759027106,
+      "invested_capital": 58736.0,
+      "cash_like": 46427.0,
+      "sales_to_capital": 4.346976300735494,
+      "roe_pct": 50.95174948575247,
+      "cash_conversion": 1.0022747300038937,
+      "capex_to_revenue_pct": 1.5419623693816484,
+      "cash_returned_to_profit": 0.9194007828350104,
+      "revenue_growth_pct": 5.990626543735189,
+      "roic_pct": 85.52319450200233,
+      "fcff": 41988.252759027106
+    },
+    {
+      "fy_end": "2026-03-31",
+      "revenue": 267021.0,
+      "ebit": 66838.0,
+      "ebit_margin_pct": 25.030990071941904,
+      "tax_rate_pct": 24.482721761571,
+      "nopat": 50474.238429001176,
+      "invested_capital": 72991.0,
+      "cash_like": 46896.0,
+      "sales_to_capital": 3.65827293775945,
+      "roe_pct": 45.58896734821808,
+      "cash_conversion": 1.053382941723622,
+      "capex_to_revenue_pct": 1.5526868673250418,
+      "cash_returned_to_profit": 0.7974481336191208,
+      "revenue_growth_pct": 4.581237956478823,
+      "roic_pct": 85.93407523324908,
+      "fcff": 36219.238429001176
+    }
+  ],
+  "anchors": {
+    "revenue_cagr_history": 0.08630116794619269,
+    "history_span": "FY22-FY26",
+    "revenue_growth_last_year": 0.04581237956478823,
+    "last_year_label": "FY26",
+    "revenue_growth_ytd_yoy": 0.12556098919805625,
+    "ytd_label": "H1 FY27",
+    "ebit_margin_last_year": 0.25030990071941905,
+    "median_sales_to_capital": 4.346976300735494,
+    "median_roic": 0.857286348676257,
+    "tax_rate_mean_last3": 0.25144648253416163,
+    "tax_years": "FY24-FY26"
+  },
+  "template": "A",
+  "terminal_growth_caps": {
+    "bear": {
+      "set": 0.04,
+      "used": 0.04,
+      "capped": false
+    },
+    "base": {
+      "set": 0.05,
+      "used": 0.05,
+      "capped": false
+    },
+    "bull": {
+      "set": 0.055,
+      "used": 0.05093333333333333,
+      "capped": true
+    }
+  },
+  "wacc": {
+    "cost_of_equity": 0.1083271817405834,
+    "cost_of_debt_after_tax": 0.05122601237857888,
+    "weight_equity": 0.9868139186182661,
+    "weight_debt": 0.013186081381733938,
+    "wacc": 0.10757424107438383,
+    "rf_local": 0.05093333333333333,
+    "beta": {
+      "beta": 0.8293908729371396,
+      "std_error": 0.07793588824707968,
+      "n": 494,
+      "blume_adjusted": 0.8856918848678836,
+      "first_session": "2024-11-13",
+      "last_session": "2026-11-12"
+    },
+    "tax_rate": 0.25144648253416163,
+    "inputs": {
+      "risk_free": {
+        "value": 0.06843333333333333,
+        "n": 12,
+        "observations": [
+          {
+            "date": "2025-10-31",
+            "yield_pct": 6.5,
+            "file": "FBIL_2025-10-31_gsec-prices-par-yield.xlsx",
+            "row": 45
+          },
+          {
+            "date": "2025-11-28",
+            "yield_pct": 6.55,
+            "file": "FBIL_2025-11-28_gsec-prices-par-yield.xlsx",
+            "row": 45
+          },
+          {
+            "date": "2025-12-31",
+            "yield_pct": 6.67,
+            "file": "FBIL_2025-12-31_gsec-prices-par-yield.xlsx",
+            "row": 45
+          },
+          {
+            "date": "2026-01-30",
+            "yield_pct": 6.77,
+            "file": "FBIL_2026-01-30_gsec-prices-par-yield.xlsx",
+            "row": 45
+          },
+          {
+            "date": "2026-02-27",
+            "yield_pct": 6.71,
+            "file": "FBIL_2026-02-27_gsec-prices-par-yield.xlsx",
+            "row": 45
+          },
+          {
+            "date": "2026-03-30",
+            "yield_pct": 7.11,
+            "file": "FBIL_2026-03-30_gsec-prices-par-yield.xlsx",
+            "row": 45
+          },
+          {
+            "date": "2026-04-30",
+            "yield_pct": 7.08,
+            "file": "FBIL_2026-04-30_gsec-prices-par-yield.xlsx",
+            "row": 45
+          },
+          {
+            "date": "2026-05-29",
+            "yield_pct": 6.99,
+            "file": "FBIL_2026-05-29_gsec-prices-par-yield.xlsx",
+            "row": 45
+          },
+          {
+            "date": "2026-06-30",
+            "yield_pct": 6.74,
+            "file": "FBIL_2026-06-30_gsec-prices-par-yield.xlsx",
+            "row": 45
+          },
+          {
+            "date": "2026-07-31",
+            "yield_pct": 6.84,
+            "file": "FBIL_2026-07-31_gsec-prices-par-yield.xlsx",
+            "row": 45
+          },
+          {
+            "date": "2026-08-31",
+            "yield_pct": 6.97,
+            "file": "FBIL_2026-08-31_gsec-prices-par-yield.xlsx",
+            "row": 45
+          },
+          {
+            "date": "2026-09-30",
+            "yield_pct": 7.19,
+            "file": "FBIL_2026-09-30_gsec-prices-par-yield.xlsx",
+            "row": 45
+          }
+        ],
+        "min": 0.065,
+        "max": 0.0719,
+        "spot_reference": {
+          "as_of": "08-Oct-2026",
+          "value": 0.07339999999999999
+        },
+        "method": "mean of month-end FBIL 10-year par yields over the last 12 months",
+        "label": "CALCULATION from FACTs",
+        "note": "The last business day of each month on FBIL's archive (30 March 2026, not 31 March). Averaging smooths the rate, but it is a different date basis from the spot price and the July 2026 ERP; the spot yield is reported beside it. Par yield over a single bond, and the July ERP, confirmed by the author (2026-10-15)."
+      },
+      "default_spread": {
+        "value": 0.0175,
+        "date": "2026-07-01",
+        "label": "ASSUMPTION",
+        "source": "Damodaran, Country and Equity Risk Premiums, July 2026 update (market/erp/Damodaran_2026-07-01_country-risk-premiums.xlsx, sheet 'ERPs by country', row 73: India, Baa3, rating-based default spread 1.7499%)",
+        "note": "Removed from the G-sec yield to get a default-free INR rate, so India's default risk is not counted twice (Damodaran's convention). UNCERTAIN: the file's 'Date of update' cell reads 30 June 2022 (Excel serial 44742) while the same row says 'Default spreads corrected on July 9, 2026' and the file is named ctrypremJuly26: probably a stale cell."
+      },
+      "erp": {
+        "value": 0.0692,
+        "date": "2026-07-01",
+        "label": "ASSUMPTION",
+        "source": "Damodaran, same file and row: India total equity risk premium 6.9202% (mature market 4.20% + country risk premium 2.72%)",
+        "note": "July 2026 update chosen over the January 2026 page (7.08%)."
+      },
+      "kd_pre_tax": {
+        "same_as": "risk_free",
+        "label": "ASSUMPTION",
+        "source": "Set equal to the 10-year G-sec yield above (the 12-month average)",
+        "note": "TCS has no borrowings; lease liabilities are the only debt and their incremental borrowing rate is not transcribed. Debt is about 1.5% of capital, so this barely moves WACC.",
+        "value": 0.06843333333333333
+      }
+    },
+    "label": "CALCULATION from dated inputs (FACT / ASSUMPTION as marked)"
+  },
+  "gate": {
+    "template": "A (non-financial, positive free cash flow)",
+    "applicable": true,
+    "reasons": [],
+    "failed": []
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "g_high": 0.04581237956478823,
+        "margin_target": 0.23030990071941906,
+        "g_terminal": 0.04,
+        "roic_terminal": 0.10757424107438383,
+        "sales_to_capital": 4.346976300735494,
+        "tax_rate": 0.25144648253416163,
+        "wacc": 0.10757424107438383,
+        "years": 10,
+        "fade_start": 5
+      },
+      "what_has_to_happen": "Revenue grows only at FY26's pace for five years, the operating margin slips 2 points, and growth after year 10 earns no more than its cost of capital.",
+      "per_share": 1721.003544423374,
+      "enterprise_value": 580718.1442511968,
+      "equity_value": 622674.1442511968,
+      "terminal_share_of_ev": 0.4469316772423196,
+      "label": "CALCULATION under ASSUMPTIONS"
+    },
+    "base": {
+      "assumptions": {
+        "g_high": 0.08630116794619269,
+        "margin_target": 0.25030990071941905,
+        "g_terminal": 0.05,
+        "roic_terminal": 0.857286348676257,
+        "sales_to_capital": 4.346976300735494,
+        "tax_rate": 0.25144648253416163,
+        "wacc": 0.10757424107438383,
+        "years": 10,
+        "fade_start": 5
+      },
+      "what_has_to_happen": "Revenue keeps its FY22-FY26 growth rate for five years, the FY26 margin holds, and TCS keeps its historical return on capital indefinitely.",
+      "per_share": 3082.3476005648054,
+      "enterprise_value": 1073264.337974077,
+      "equity_value": 1115220.337974077,
+      "terminal_share_of_ev": 0.6271066671949946,
+      "label": "CALCULATION under ASSUMPTIONS"
+    },
+    "bull": {
+      "assumptions": {
+        "g_high": 0.12556098919805625,
+        "margin_target": 0.26030990071941906,
+        "g_terminal": 0.05093333333333333,
+        "roic_terminal": 0.857286348676257,
+        "sales_to_capital": 4.346976300735494,
+        "tax_rate": 0.25144648253416163,
+        "wacc": 0.10757424107438383,
+        "years": 10,
+        "fade_start": 5
+      },
+      "what_has_to_happen": "Revenue grows at H1 FY27's year-on-year pace (which includes an acquisition) for five years and the margin rises 1 point.",
+      "per_share": 3974.4382738494437,
+      "enterprise_value": 1396030.550967614,
+      "equity_value": 1437986.550967614,
+      "terminal_share_of_ev": 0.655923625497617,
+      "label": "CALCULATION under ASSUMPTIONS"
+    }
+  },
+  "base_projection": [
+    {
+      "year": 1,
+      "growth": 0.08630116794619269,
+      "revenue": 290065.22416616033,
+      "margin": 0.25030990071941905,
+      "ebit": 72606.19746318762,
+      "nopat": 54349.62450088833,
+      "reinvestment": 5301.207683663085,
+      "fcff": 49048.41681722524,
+      "fcff_counted": 24457.01879653423,
+      "t": 0.4986301369863014,
+      "discount_factor": 0.9503298294333823
+    },
+    {
+      "year": 2,
+      "growth": 0.08630116794619269,
+      "revenue": 315098.1917922742,
+      "margin": 0.25030990071941905,
+      "ebit": 78872.19710439262,
+      "nopat": 59040.06057275201,
+      "reinvestment": 5758.708098288541,
+      "fcff": 53281.35247446347,
+      "fcff_counted": 53281.35247446347,
+      "t": 1.4986301369863013,
+      "discount_factor": 0.8580281070021372
+    },
+    {
+      "year": 3,
+      "growth": 0.08630116794619269,
+      "revenue": 342291.5337616809,
+      "margin": 0.25030990071941905,
+      "ebit": 85678.95983298402,
+      "nopat": 64135.28675579448,
+      "reinvestment": 6255.691333032038,
+      "fcff": 57879.59542276244,
+      "fcff_counted": 57879.59542276244,
+      "t": 2.4986301369863013,
+      "discount_factor": 0.7746912804416807
+    },
+    {
+      "year": 4,
+      "growth": 0.08630116794619269,
+      "revenue": 371831.6929034076,
+      "margin": 0.25030990071941905,
+      "ebit": 93073.15413498548,
+      "nopat": 69670.23690938353,
+      "reinvestment": 6795.564801383582,
+      "fcff": 62874.67210799995,
+      "fcff_counted": 62874.67210799995,
+      "t": 3.4986301369863013,
+      "discount_factor": 0.6994486253943613
+    },
+    {
+      "year": 5,
+      "growth": 0.08630116794619269,
+      "revenue": 403921.20228038175,
+      "margin": 0.25030990071941905,
+      "ebit": 101105.47604127074,
+      "nopat": 75682.85972575126,
+      "reinvestment": 7382.029980597018,
+      "fcff": 68300.82974515425,
+      "fcff_counted": 68300.82974515425,
+      "t": 4.498630136986302,
+      "discount_factor": 0.6315139874649602
+    },
+    {
+      "year": 6,
+      "growth": 0.07904093435695415,
+      "revenue": 435847.5115152075,
+      "margin": 0.25030990071941905,
+      "ebit": 109096.94733617743,
+      "nopat": 81664.90367328095,
+      "reinvestment": 7344.486610019911,
+      "fcff": 74320.41706326103,
+      "fcff_counted": 74320.41706326103,
+      "t": 5.498630136986302,
+      "discount_factor": 0.5701775682796402
+    },
+    {
+      "year": 7,
+      "growth": 0.07178070076771562,
+      "revenue": 467132.95131963404,
+      "margin": 0.25030990071941905,
+      "ebit": 116928.00266758681,
+      "nopat": 87526.86768707704,
+      "reinvestment": 7197.057825949771,
+      "fcff": 80329.80986112727,
+      "fcff_counted": 80329.80986112727,
+      "t": 6.498630136986302,
+      "discount_factor": 0.5147985093320236
+    },
+    {
+      "year": 8,
+      "growth": 0.06452046717847708,
+      "revenue": 497272.58757323766,
+      "margin": 0.25030990071941905,
+      "ebit": 124472.25202594574,
+      "nopat": 93174.14208091602,
+      "reinvestment": 6933.471491092347,
+      "fcff": 86240.67058982367,
+      "fcff_counted": 86240.67058982367,
+      "t": 7.498630136986302,
+      "discount_factor": 0.4647981961305384
+    },
+    {
+      "year": 9,
+      "growth": 0.05726023358923854,
+      "revenue": 525746.5320952063,
+      "margin": 0.25030990071941905,
+      "ebit": 131599.56225232995,
+      "nopat": 98509.31522094616,
+      "reinvestment": 6550.287499186725,
+      "fcff": 91959.02772175943,
+      "fcff_counted": 91959.02772175943,
+      "t": 8.498630136986302,
+      "discount_factor": 0.4196542126870599
+    },
+    {
+      "year": 10,
+      "growth": 0.05,
+      "revenue": 552033.8586999667,
+      "margin": 0.25030990071941905,
+      "ebit": 138179.54036494647,
+      "nopat": 103434.78098199348,
+      "reinvestment": 6047.267062466533,
+      "fcff": 97387.51391952694,
+      "fcff_counted": 97387.51391952694,
+      "t": 9.498630136986302,
+      "discount_factor": 0.37889488318180936
+    }
+  ],
+  "reverse_dcf": {
+    "price": 2442.4,
+    "implied_one_at_a_time": {
+      "g_high": 0.04169703889638185,
+      "margin_target": 0.1940697025740519,
+      "g_terminal": 0.025696193012098464
+    },
+    "implied_growth_by_margin": [
+      {
+        "margin_target": 0.2103,
+        "implied_g_high": 0.07198335202410816,
+        "beyond": null
+      },
+      {
+        "margin_target": 0.2203,
+        "implied_g_high": 0.06380667462944983,
+        "beyond": null
+      },
+      {
+        "margin_target": 0.2303,
+        "implied_g_high": 0.05606139618903398,
+        "beyond": null
+      },
+      {
+        "margin_target": 0.2403,
+        "implied_g_high": 0.04870578451082109,
+        "beyond": null
+      },
+      {
+        "margin_target": 0.2503,
+        "implied_g_high": 0.04170380681753157,
+        "beyond": null
+      },
+      {
+        "margin_target": 0.2603,
+        "implied_g_high": 0.03502414384856818,
+        "beyond": null
+      },
+      {
+        "margin_target": 0.2703,
+        "implied_g_high": 0.028639406803995356,
+        "beyond": null
+      },
+      {
+        "margin_target": 0.2803,
+        "implied_g_high": 0.022525510750710957,
+        "beyond": null
+      },
+      {
+        "margin_target": 0.2903,
+        "implied_g_high": 0.016661167144775384,
+        "beyond": null
+      }
+    ],
+    "growth_range": [
+      -0.1,
+      0.3
+    ],
+    "g_high_beyond": null,
+    "label": "CALCULATION: the value of one driver, others at base, that reproduces the price"
+  },
+  "sensitivity": {
+    "wacc_by_terminal_growth": {
+      "wacc": [
+        0.09757,
+        0.10257,
+        0.10757,
+        0.11257,
+        0.11757
+      ],
+      "g_terminal": [
+        0.035,
+        0.04,
+        0.045,
+        0.05
+      ],
+      "per_share": [
+        [
+          3064.1583943498968,
+          2834.758444479822,
+          2637.26549521325,
+          2465.500227469247,
+          2314.7804223557805
+        ],
+        [
+          3247.3051559515707,
+          2986.120217046556,
+          2763.8774945144196,
+          2572.5187181655947,
+          2406.0636346929073
+        ],
+        [
+          3465.0920943820556,
+          3163.5998116943715,
+          2910.571088580034,
+          2695.2387421693275,
+          2509.803305712241
+        ],
+        [
+          3728.4356679626785,
+          3374.6439379912904,
+          3082.5736950557416,
+          2837.4201406934444,
+          2628.760843697704
+        ]
+      ]
+    },
+    "growth_by_margin": {
+      "g_high": [
+        0.0463,
+        0.0663,
+        0.0863,
+        0.1063,
+        0.1263
+      ],
+      "margin_target": [
+        0.2103,
+        0.2203,
+        0.2303,
+        0.2403,
+        0.2503,
+        0.2603,
+        0.2703,
+        0.2803,
+        0.2903
+      ],
+      "per_share": [
+        [
+          2144.109985666277,
+          2372.856489198317,
+          2627.0661433068303,
+          2909.2312478713966,
+          3222.0482874746785
+        ],
+        [
+          2233.4673139838665,
+          2473.7674299774644,
+          2740.8536408424197,
+          3037.348378658473,
+          3366.0889211570943
+        ],
+        [
+          2322.824642301455,
+          2574.6783707566115,
+          2854.64113837801,
+          3165.465509445548,
+          3510.129554839509
+        ],
+        [
+          2412.1819706190427,
+          2675.589311535758,
+          2968.4286359136004,
+          3293.5826402326225,
+          3654.170188521925
+        ],
+        [
+          2501.5392989366323,
+          2776.5002523149055,
+          3082.2161334491893,
+          3421.699771019697,
+          3798.2108222043403
+        ],
+        [
+          2590.8966272542198,
+          2877.4111930940526,
+          3196.0036309847796,
+          3549.816901806772,
+          3942.2514558867556
+        ],
+        [
+          2680.253955571809,
+          2978.3221338731996,
+          3309.7911285203686,
+          3677.934032593847,
+          4086.2920895691705
+        ],
+        [
+          2769.611283889397,
+          3079.2330746523467,
+          3423.5786260559594,
+          3806.0511633809224,
+          4230.332723251585
+        ],
+        [
+          2858.9686122069857,
+          3180.1440154314937,
+          3537.3661235915497,
+          3934.168294167997,
+          4374.373356934001
+        ]
+      ]
+    }
+  },
+  "driver_ranking": [
+    {
+      "driver": "wacc",
+      "low_input": 0.11757424107438383,
+      "high_input": 0.09757424107438384,
+      "value_at_low": 2628.5970510308007,
+      "value_at_high": 3728.103923817618,
+      "spread": 1099.5068727868174
+    },
+    {
+      "driver": "roic_terminal",
+      "low_input": 0.10757424107438383,
+      "high_input": 1.0716079358453212,
+      "value_at_low": 2279.380634539326,
+      "value_at_high": 3105.390729014282,
+      "spread": 826.0100944749561
+    },
+    {
+      "driver": "g_high",
+      "low_input": 0.06630116794619269,
+      "high_input": 0.1063011679461927,
+      "value_at_low": 2776.6170889776267,
+      "value_at_high": 3421.8474902404505,
+      "spread": 645.2304012628238
+    },
+    {
+      "driver": "margin_target",
+      "low_input": 0.23030990071941906,
+      "high_input": 0.27030990071941907,
+      "value_at_low": 2854.7710193545904,
+      "value_at_high": 3309.924181775019,
+      "spread": 455.15316242042854
+    },
+    {
+      "driver": "g_terminal",
+      "low_input": 0.045000000000000005,
+      "high_input": 0.05093333333333333,
+      "value_at_low": 2910.373745488938,
+      "value_at_high": 3117.792403414203,
+      "spread": 207.41865792526505
+    },
+    {
+      "driver": "tax_rate",
+      "low_input": 0.27144648253416165,
+      "high_input": 0.23144648253416164,
+      "value_at_low": 3000.294573826546,
+      "value_at_high": 3164.4006273030623,
+      "spread": 164.10605347651608
+    },
+    {
+      "driver": "sales_to_capital",
+      "low_input": 3.2602322255516203,
+      "high_input": 5.433720375919368,
+      "value_at_low": 3047.458165603397,
+      "value_at_high": 3103.281261541649,
+      "spread": 55.82309593825221
+    }
+  ]
+}

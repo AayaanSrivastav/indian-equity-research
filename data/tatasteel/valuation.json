@@ -1,0 +1,210 @@
+{
+  "label": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
+  "company": {
+    "name": "Tata Steel Ltd",
+    "nse": "TATASTEEL",
+    "bse": "500470",
+    "basis": "consolidated, Ind AS, INR crore",
+    "slug": "tatasteel",
+    "group": "Tata Group",
+    "industry": "Steel",
+    "sector_index": "NIFTY METAL"
+  },
+  "valuation_date": "2026-11-12",
+  "balance_sheet_date": "2026-03-31",
+  "inputs_verification": {
+    "facts_by_status": {
+      "unverified": 1534
+    },
+    "note": "None of the 1,534 facts in use has been checked by a person yet; they were read from the exchange XBRL filings (76 lines the XBRL lacks were transcribed from the results PDFs) and passed the reconciliation checks."
+  },
+  "inputs_by_rule": {
+    "filled": [
+      "prices",
+      "latest_quarter",
+      "balance_sheet_date",
+      "last_full_year",
+      "history_years",
+      "valuation_date",
+      "price",
+      "shares",
+      "kd_pre_tax",
+      "terminal_growth"
+    ],
+    "label": "ASSUMPTION (default rule, not reviewed by a person)",
+    "assumptions": [
+      "kd_pre_tax",
+      "terminal_growth"
+    ]
+  },
+  "market": {
+    "price": 188.0,
+    "price_label": "FACT",
+    "price_source": "NSE close (BhavCopy_NSE_CM_0_0_0_20261112_F_0000.csv.zip); checked against the raw file at build time",
+    "shares": 12474400000.0,
+    "shares_basis": "share capital ÷ ₹1 face value at 2026-03-31",
+    "market_cap": 234518.72,
+    "enterprise_value": 311366.82,
+    "pe_ttm": 20.218525415545905,
+    "ev_ebit_ttm": 12.926715068825283,
+    "ttm": {
+      "quarters": [
+        "2025-12-31",
+        "2026-03-31",
+        "2026-06-30",
+        "2026-09-30"
+      ],
+      "revenue": 246503.06,
+      "ebit": 24087.079999999994,
+      "profit_owners": 11599.199999999999
+    },
+    "beta": {
+      "beta": 1.19861324791249,
+      "std_error": 0.07320645953149785,
+      "n": 494,
+      "blume_adjusted": 1.1330708761013684,
+      "first_session": "2024-11-13",
+      "last_session": "2026-11-12"
+    }
+  },
+  "latest_quarter": {
+    "quarter": {
+      "end": "2026-09-30",
+      "revenue": 65436.24,
+      "ebit": 6751.239999999998,
+      "ebit_margin_pct": 10.317279843707398,
+      "profit_owners": 3666.41,
+      "eps": 2.94
+    },
+    "year_ago": {
+      "end": "2025-09-30",
+      "revenue": 58689.29,
+      "ebit": 6003.540000000001,
+      "ebit_margin_pct": 10.229362120414134,
+      "profit_owners": 3101.75,
+      "eps": 2.49
+    },
+    "revenue_growth_yoy_pct": 11.496049790345042,
+    "profit_growth_yoy_pct": 18.204561940839838,
+    "label": "FACT (TATASTEEL filings) and CALCULATION"
+  },
+  "bridge": {
+    "cash_like": 14202.91,
+    "lease_liabilities": 7425.29,
+    "borrowings": 84956.39,
+    "equity_method_investments": 2943.47,
+    "class_b_ccps": 0.0,
+    "non_controlling_interests": 1612.8,
+    "net": -76848.09999999999,
+    "as_of": "2026-03-31"
+  },
+  "history": [
+    {
+      "fy_end": "2022-03-31",
+      "revenue": 243959.17,
+      "ebit": 54389.080000000016,
+      "ebit_margin_pct": 22.294337204049356,
+      "tax_rate_pct": 17.09951911857163,
+      "nopat": 45088.80886698479,
+      "invested_capital": 163621.03,
+      "cash_like": 26077.13,
+      "sales_to_capital": 1.49100130955049,
+      "roe_pct": 35.65317596832614,
+      "cash_conversion": 1.0630350386545218,
+      "capex_to_revenue_pct": 4.3130987861616354,
+      "cash_returned_to_profit": 0.07233938181508105
+    },
+    {
+      "fy_end": "2023-03-31",
+      "revenue": 243352.69,
+      "ebit": 22964.96000000002,
+      "ebit_margin_pct": 9.43690410818965,
+      "tax_rate_pct": 57.0228994780266,
+      "nopat": null,
+      "invested_capital": 168300.69000000003,
+      "cash_like": 18534.239999999998,
+      "sales_to_capital": 1.4459399423733792,
+      "roe_pct": 7.67799750530567,
+      "cash_conversion": 2.685094763694453,
+      "capex_to_revenue_pct": 5.8115198973144695,
+      "cash_returned_to_profit": 0.7792392899378974,
+      "revenue_growth_pct": -0.24859897662383723,
+      "roic_pct": null,
+      "fcff": null
+    },
+    {
+      "fy_end": "2024-03-31",
+      "revenue": 229170.78,
+      "ebit": 12423.74000000002,
+      "ebit_margin_pct": 5.421171058544209,
+      "tax_rate_pct": -345.48785190898576,
+      "nopat": null,
+      "invested_capital": 164579.56999999998,
+      "cash_like": 11988.130000000001,
+      "sales_to_capital": 1.3924618954831394,
+      "roe_pct": -5.311548700168359,
+      "cash_conversion": -4.134884440923006,
+      "capex_to_revenue_pct": 7.944555584267767,
+      "cash_returned_to_profit": -0.9020675776691022,
+      "revenue_growth_pct": -5.827718608740263,
+      "roic_pct": null,
+      "fcff": null
+    },
+    {
+      "fy_end": "2025-03-31",
+      "revenue": 218542.51,
+      "ebit": 14877.120000000024,
+      "ebit_margin_pct": 6.807426161619551,
+      "tax_rate_pct": 63.719919338949126,
+      "nopat": null,
+      "invested_capital": 168312.74000000002,
+      "cash_like": 14870.23,
+      "sales_to_capital": 1.2984311823335535,
+      "roe_pct": 3.4742018797895367,
+      "cash_conversion": 7.408141080982299,
+      "capex_to_revenue_pct": 7.17046765867199,
+      "cash_returned_to_profit": 1.4146758754545052,
+      "revenue_growth_pct": -4.637707302824556,
+      "roic_pct": null,
+      "fcff": null
+    },
+    {
+      "fy_end": "2026-03-31",
+      "revenue": 232139.94,
+      "ebit": 22397.929999999993,
+      "ebit_margin_pct": 9.648460320959845,
+      "tax_rate_pct": 32.5821031666922,
+      "nopat": 15100.213340196493,
+      "invested_capital": 179015.75,
+      "cash_like": 14202.91,
+      "sales_to_capital": 1.2967570730508349,
+      "roe_pct": 10.489278086576036,
+      "cash_conversion": 3.2211133382694186,
+      "capex_to_revenue_pct": 6.271669579995582,
+      "cash_returned_to_profit": 0.41245124391180454,
+      "revenue_growth_pct": 6.22186960330966,
+      "roic_pct": 8.97152131216953,
+      "fcff": 4397.203340196513
+    }
+  ],
+  "anchors": {
+    "revenue_cagr_history": -0.012338374233587857,
+    "history_span": "FY22-FY26",
+    "revenue_growth_last_year": 0.0622186960330966,
+    "last_year_label": "FY26"
+  },
+  "template": null,
+  "gate": {
+    "template": "A (non-financial, positive free cash flow)",
+    "applicable": false,
+    "reasons": [
+      "free cash flow not positive in at least 3 of the last 4 years",
+      "effective tax rate outside 0-50% in FY24 (-345.5%), FY25 (63.7%), so after-tax operating profit and the tax assumption are not meaningful"
+    ],
+    "failed": [
+      "fcff",
+      "tax"
+    ]
+  },
+  "valuation_note": "No template applies, so no DCF value, scenario, reverse DCF or sensitivity is computed."
+}

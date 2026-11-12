@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research Method</title>
+<meta name="description" content="How the company pages are built: sources, checks, labels, prices, results-day reactions and the valuation templates, with every threshold read from the engine itself. Not investment advice.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Indian Equity Research Engine">
+<meta property="og:title" content="Research Method · Indian Equity Research Engine">
+<meta property="og:description" content="How the company pages are built: sources, checks, labels, prices, results-day reactions and the valuation templates, with every threshold read from the engine itself. Not investment advice.">
+<meta property="og:image" content="https://aayaansrivastav.github.io/indian-equity-research/assets/preview.png">
+<meta property="og:url" content="https://aayaansrivastav.github.io/indian-equity-research/method.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#f4f4f1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d0d0d" media="(prefers-color-scheme: dark)">
+<noscript><style>.skeleton { display: none !important; }</style></noscript>
+<script>
+  try { var t = localStorage.getItem("theme"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
+</head>
+<body>
+<script src="assets/disclaimer.js"></script>
+<div class="wrap">
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="All companies"><div class="brand-mark" aria-hidden="true">₹</div><div>Indian Equity Research Engine<small>Academic case studies · listed Indian companies</small></div></a>
+    <div class="topbar-r">
+      <nav class="sitenav" aria-label="Site"><a href="index.html">Companies</a><a href="compare.html">Compare</a><a href="method.html" aria-current="page">Method</a></nav>
+      <button class="icon-btn" id="theme" type="button" aria-label="Switch between light and dark theme">◐</button>
+    </div>
+  </header>
+  <div class="disclaimer-bar" id="disclaimer">Academic case study, not investment advice and not SEBI-registered research.</div>
+  <noscript><div class="error">The figures on this page are filled in from the engine's settings with JavaScript. Turn it on to see them.</div></noscript>
+
+  <article class="section prose reveal-each">
+    <h1 class="co-name" style="font-size:26px">Method</h1>
+    <p class="lede">How every company page is built. The figures in this page are read from the engine's own settings when the site is built, so they cannot drift from what the pages use. This build covers <span class="v" data-m="companies"></span> companies (<span data-m="built"></span>).</p>
+
+    <h2>Where the numbers come from</h2>
+    <ul class="tight">
+      <li>Each company's exchange filings in machine-readable form (XBRL), downloaded one file at a time from NSE; nothing is scraped automatically.</li>
+      <li>Where a filing leaves a line out or folds it into a wider total (lease liabilities are the common case), that line is read from the company's results document and tied back to the filing's total exactly.</li>
+      <li>Every filing is checked: totals must equal their lines, quarters must add up to the year, and figures printed in two documents must agree. A company's own filing error is listed on its page with the reason, never hidden and never corrected by guesswork. A filing that cannot be trusted is left out, and its years are shown as missing.</li>
+      <li>"Checked by a person" counts only figures that a person compared with the printed document.</li>
+    </ul>
+
+    <h2>Labels</h2>
+    <p class="small"><span class="label FACT">FACT</span> printed in a filing or exchange data · <span class="label CALCULATION">CALCULATION</span> computed by the engine from facts · <span class="label ASSUMPTION">ASSUMPTION</span> a chosen input, shown and editable · <span class="label UNCERTAIN">UNCERTAIN</span> what the data cannot settle · <span class="label INTERPRETATION">INTERPRETATION</span> a reading, never presented as fact</p>
+
+    <h2>Prices</h2>
+    <ul class="tight">
+      <li>End-of-day NSE closes: each company's quote history, then one daily exchange file (the bhavcopy) that updates every company at once. A page shows the latest close and its range over the past year; price histories are published only as rebased series.</li>
+      <li>Bonus issues and share splits: prices before the ex-date are divided by the ratio and the share count is multiplied by it, so returns and values compare like with like. The build stops unless the prices themselves show the step, within <span class="v" data-m="actions.band"></span>.</li>
+    </ul>
+
+    <h2>Results-day reactions</h2>
+    <ul class="tight">
+      <li>The reaction session is the results day when the result came out during market hours, and the next session otherwise, using the exchange's broadcast time.</li>
+      <li>The expected move comes from a market model fitted on sessions <span class="v" data-m="event.from"></span> to <span class="v" data-m="event.to"></span> before the reaction session (at least <span class="v" data-m="event.min_obs"></span> of them), against the <span data-m="market.index"></span>.</li>
+      <li>A move at or above <span class="v" data-m="event.large_z"></span> times the stock's usual daily variation is called large. These figures measure the size of a move, not its cause.</li>
+    </ul>
+
+    <h2>Valuation: two templates, read as "what the price implies"</h2>
+    <p>The headline is the growth today's price is consistent with (a reverse discounted cash flow), followed by a bear, base and bull range with what has to happen in each. A range under stated assumptions is never presented as the right value of the shares. Both templates run the same driver-based model: revenue growth, operating margin, and the capital each extra rupee of sales needs.</p>
+    <p><b>Template A</b> applies only to a non-financial company with at least <span class="v" data-m="gate.min_years"></span> years of history, positive operating profit every year, free cash flow to the firm positive in at least <span class="v" data-m="gate.fcff_min_positive"></span> of the last <span class="v" data-m="gate.fcff_window"></span> years, positive equity, and an effective tax rate between <span class="v" data-m="gate.tax_low"></span> and <span class="v" data-m="gate.tax_high"></span> in each of the <span class="v" data-m="gate.tax_years"></span> years the tax assumption uses. Its bear case takes the latest year's growth and its bull case the current year's so far.</p>
+    <p><b>Template B, reinvestment phase.</b> A company spending heavily on growth (stores, stock, plant) can have negative free cash flow for years and still add value, if the capital it reinvests earns more than it costs. Template B is tried only when free cash flow is Template A's only objection. It needs after-tax operating profit positive in every year, and the median return on invested capital of the last <span class="v" data-m="template_b.roic_years"></span> years above the cost of capital; below that cost, growth would not add value, and the company is refused. Its bear and bull cases are set around the history growth rate (bear: <span class="v" data-m="template_b.bear_share"></span> of it; bull: <span class="v" data-m="template_b.bull_add"></span> points a year faster), because the latest years are the reinvestment itself. Its reverse DCF searches growth up to <span class="v" data-m="template_b.growth_high"></span> a year (Template A: up to <span class="v" data-m="template_b.growth_high_a"></span>); a price beyond that is reported as such, never forced. Each Template B page also splits the base case's enterprise value into capital in place and the present value of economic profit (after-tax operating profit less a charge for the capital used), which shows how negative free cash flow and a positive value fit together.</p>
+    <p>In both templates the bear case's margin slips <span class="v" data-m="scenarios.bear_margin"></span> points and growth after the explicit period earns only its cost of capital; the bull case's margin rises <span class="v" data-m="scenarios.bull_margin"></span> point. Either template also refuses when its own bear, base and bull cases come out in the wrong order. When neither applies, the page says why, shows the market's multiples and free cash flow by year, and shows no model value. Banks, insurers and holding companies have no template yet.</p>
+    <p>Inputs set by written rule, and labelled so on the page when a person has not reviewed them:</p>
+    <ul class="tight">
+      <li>History: the last <span class="v" data-m="defaults.history_years"></span> complete years.</li>
+      <li>Long-run growth: bear <span class="v" data-m="defaults.g_bear"></span>, base <span class="v" data-m="defaults.g_base"></span>, bull <span class="v" data-m="defaults.g_bull"></span>, each capped at the default-free rate.</li>
+      <li>Cost of equity: the default-free rate (the risk-free rate, the <span data-m="market.risk_free"></span>, less a default spread of <span class="v" data-m="market.default_spread"></span>) plus beta (<span data-m="market.beta_years"></span> years of daily returns against the <span data-m="market.index"></span>) times an equity risk premium of <span class="v" data-m="market.erp"></span>. The cost of debt is the risk-free rate.</li>
+    </ul>
+
+    <h2>Comparing companies</h2>
+    <p>The compare page puts the same figures side by side in the order you choose. Nothing is sorted, ranked or coloured by value, and the company list orders by name, sector or size only, never by a model result. The template row shows which one applies; a company to which neither applies shows that, with the reasons.</p>
+
+    <h2>What this is not</h2>
+    <ul class="tight">
+      <li>Not investment advice. No recommendation, no price target, no rating, and companies are not ranked.</li>
+      <li>Not a screener and not live: prices are end of day, as of the date on each page.</li>
+      <li>Not complete: each page lists its own limitations.</li>
+    </ul>
+  </article>
+
+  <footer class="footer" id="footer">Academic case study, not investment advice and not SEBI-registered research. No recommendation, no price target, no rating.</footer>
+</div>
+<script src="assets/motion.js"></script>
+<script src="assets/method.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Company Research Case</title>
+<meta name="description" content="An academic company case study: provenance-tagged financials, a deterministic DCF read as 'what the price implies', and a results-day event study. Not investment advice.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Indian Equity Research Engine">
+<meta property="og:title" content="Company Research Case · Indian Equity Research Engine">
+<meta property="og:description" content="An academic company case study: provenance-tagged financials, a deterministic DCF read as 'what the price implies', and a results-day event study. Not investment advice.">
+<meta property="og:image" content="https://aayaansrivastav.github.io/indian-equity-research/assets/preview.png">
+<meta property="og:url" content="https://aayaansrivastav.github.io/indian-equity-research/company.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#f4f4f1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d0d0d" media="(prefers-color-scheme: dark)">
+<noscript><style>.skeleton { display: none !important; }</style></noscript>
+<script>
+  try { var t = localStorage.getItem("theme"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
+</head>
+<body>
+<script src="assets/disclaimer.js"></script>
+<div class="wrap">
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="All companies"><div class="brand-mark" aria-hidden="true">₹</div><div>Indian Equity Research Engine<small>Academic case study · ← all companies</small></div></a>
+    <div class="topbar-r">
+      <nav class="sitenav" aria-label="Site"><a href="index.html">Companies</a><a href="compare.html" id="compare-link">Compare</a><a href="method.html">Method</a></nav>
+      <button class="icon-btn" id="theme" type="button" aria-label="Switch between light and dark theme">◐</button>
+    </div>
+  </header>
+  <div class="disclaimer-bar" id="disclaimer">Academic case study, not investment advice and not SEBI-registered research.</div>
+  <noscript><div class="error">This page loads its figures and charts with JavaScript. Turn it on to see them.</div></noscript>
+
+  <section class="card section reveal in" id="overview" aria-label="Company header">
+    <div class="hero">
+      <div>
+        <h1 class="co-name" id="co-name"><span class="skeleton" style="display:inline-block;width:70%"></span></h1>
+        <div class="chips" id="chips"></div>
+        <div class="price" id="price"><span class="skeleton" style="display:inline-block;width:40%"></span></div>
+        <div id="change"></div>
+        <p class="small muted" id="asof"></p>
+      </div>
+      <div class="hero-stats stagger" id="hero-stats"></div>
+    </div>
+  </section>
+
+  <nav class="nav" aria-label="Sections">
+    <ul>
+      <li><a href="#story">Story</a></li>
+      <li><a href="#chart">Chart</a></li>
+      <li><a href="#metrics">Key metrics</a></li>
+      <li><a href="#financials">Financials</a></li>
+      <li><a href="#results">Results &amp; reaction</a></li>
+      <li><a href="#valuation">Valuation</a></li>
+      <li><a href="#sources">Sources &amp; method</a></li>
+    </ul>
+  </nav>
+
+  <section class="card section reveal" id="story">
+    <div class="toolbar"><h2>The story in five lines</h2><span class="badge ok" id="story-badge">Validated</span></div>
+    <p class="lede">Generated from the engine's numbers by fixed templates, then checked: every figure must trace to a computed value, no advice words, and no cause stated as fact. Each statement carries its label.</p>
+    <div class="stagger" id="story-lines"><div class="skeleton" style="height:120px"></div></div>
+  </section>
+
+  <section class="card section reveal" id="chart">
+    <div class="toolbar"><div><h2 id="chart-title">Price against the market and the sector</h2><p class="lede" id="chart-lede">Each line rebased to a common start. Dots mark results days.</p></div><div class="seg" id="range" role="group" aria-label="Chart range"></div></div>
+    <div class="legend" id="price-legend"></div>
+    <div class="chart-bar">
+      <div class="readout" id="price-tip"></div>
+      <div class="chart-tools" id="price-tools">
+        <div class="seg zoom-seg" role="group" aria-label="Zoom the price chart"><button type="button" data-zoom="out" aria-label="Zoom out" title="Zoom out (or pinch, or Ctrl / ⌘ + scroll)">−</button><button type="button" data-zoom="in" aria-label="Zoom in" title="Zoom in (or pinch, or Ctrl / ⌘ + scroll)">+</button><button type="button" data-zoom="fit" title="Back to the chosen range">Fit</button></div>
+      </div>
+    </div>
+    <div class="chart-box" id="price-chart" style="margin-top:4px"></div>
+    <details class="tableview"><summary>Results days as a table</summary><div class="table-wrap" id="marker-table"></div></details>
+  </section>
+
+  <section class="section reveal" id="metrics">
+    <h2>Key metrics</h2>
+    <p class="lede">Tap ⓘ for the definition and source. Everything here is calculated from the filings and the price on the date shown.</p>
+    <div class="metrics stagger" id="metric-grid"></div>
+  </section>
+
+  <section class="card section reveal" id="financials">
+    <div class="toolbar"><div><h2>Financials</h2><p class="lede">Consolidated, Ind AS, ₹ crore. Hover a number for its source and page. <span class="small">● = checked against the filing by a person; others were transcribed and passed the reconciliation checks.</span></p></div><div class="seg" id="fin-toggle" role="group" aria-label="Annual or quarterly"></div></div>
+    <div class="grid-2">
+      <div><div class="small muted" id="rev-title">Revenue</div><div class="chart-box sm"><canvas id="rev-chart" aria-label="Revenue chart"></canvas></div></div>
+      <div><div class="small muted">Operating margin (EBIT ÷ revenue)</div><div class="chart-box sm"><canvas id="margin-chart" aria-label="Operating margin chart"></canvas></div></div>
+    </div>
+    <div class="table-wrap" id="fin-table" style="margin-top:14px"></div>
+  </section>
+
+  <section class="card section reveal" id="results">
+    <h2>Latest results and the market's reaction</h2>
+    <p class="lede" id="results-lede">How the share moved on each results day after allowing for the market.</p>
+    <div id="score-block" hidden>
+    <div class="toolbar"><h3 style="margin:0;font-size:15px" id="score-title"></h3><span class="badge warn">Not pre-registered</span></div>
+    <p class="small ink2" id="score-note"></p>
+    <div class="table-wrap" id="score-table"></div>
+    </div>
+    <h3 style="margin:20px 0 4px;font-size:15px">Results-day moves beyond what the market explains</h3>
+    <p class="small ink2">Each bar is the share's move on the first session after results, minus what its usual relationship with the NIFTY 50 predicts. A larger bar is a more unusual day; it does not show why the share moved.</p>
+    <div class="chart-box md"><canvas id="ar-chart" aria-label="Abnormal return by results day"></canvas></div>
+    <details class="tableview" open><summary>Table</summary><div class="table-wrap" id="event-table"></div></details>
+  </section>
+
+  <section class="card section reveal" id="valuation">
+    <h2>What the price implies</h2>
+    <p class="lede" id="valuation-lede">A discounted cash flow model run backwards: which growth would make the model's value equal today's price? This is a reading of expectations, not a price target or an estimate of what the share is worth.</p>
+    <div id="valuation-refused" hidden>
+      <div class="refused"><span class="badge warn">Template does not apply</span><div id="refused-text" style="margin-top:10px"></div></div>
+      <h3 style="margin:22px 0 6px;font-size:15px">Free cash flow to the firm, by year</h3>
+      <p class="small ink2">After-tax operating profit less the increase in invested capital, which counts acquisitions as well as capital spending. The template needs it positive in most recent years.</p>
+      <div class="table-wrap" id="fcff-table"></div>
+    </div>
+    <div id="valuation-body">
+    <div class="template-note" id="template-note" hidden></div>
+    <div class="implied" id="implied"></div>
+    <div class="grid-2" style="margin-top:18px">
+      <div><div class="small muted">Growth needed at each margin to match the price</div><div class="chart-box sm"><canvas id="implied-chart" aria-label="Implied growth by margin"></canvas></div>
+        <details class="tableview"><summary>Table</summary><div class="table-wrap" id="implied-table"></div></details></div>
+      <div><div class="small muted">Model range under three stated scenarios, against the price</div><div class="range" id="range-strip"></div>
+        <p class="small ink2">Values per share from the same model under the assumptions in the cards below. A range, not a forecast.</p></div>
+    </div>
+    <div class="grid-3 stagger" id="scenarios" style="margin-top:14px"></div>
+    <h3 style="margin:22px 0 6px;font-size:15px">Cost of capital</h3>
+    <div class="eq" id="wacc-eq"></div>
+    <p class="small ink2" id="wacc-note"></p>
+    <div id="ep-section" hidden>
+      <h3 style="margin:22px 0 6px;font-size:15px">Where the value comes from: capital in place and economic profit</h3>
+      <p class="small ink2">The base case's enterprise value, split two ways. Capital in place is the invested capital on the balance sheet. Economic profit is after-tax operating profit less a charge, at the cost of capital, for the capital in use. Free cash flow can be negative while economic profit is positive: the company is spending on growth that earns more than it costs.</p>
+      <div class="eq" id="ep-eq"></div>
+      <p class="small ink2" id="ep-first"></p>
+      <div class="chart-box md"><canvas id="ep-chart" aria-label="Economic profit and free cash flow by year, base case"></canvas></div>
+      <details class="tableview"><summary>Table</summary><div class="table-wrap" id="ep-table"></div></details>
+    </div>
+    <h3 style="margin:22px 0 6px;font-size:15px">Sensitivity: cost of capital × long-run growth</h3>
+    <p class="small ink2">Model value per share with everything else at base. The outlined cell is the base case. Long-run growth stops at the default-free rate, so higher rows are not shown.</p>
+    <div class="table-wrap" id="heat"></div>
+    <h3 style="margin:22px 0 6px;font-size:15px">What moves the value most</h3>
+    <p class="small ink2">Each bar moves one assumption by a stated amount, with the others at base. The vertical line marks the base case.</p>
+    <div class="chart-box md"><canvas id="tornado" aria-label="Driver ranking"></canvas></div>
+    <details class="tableview"><summary>Table</summary><div class="table-wrap" id="tornado-table"></div></details>
+    </div>
+  </section>
+
+  <section class="card section reveal" id="sources">
+    <h2>Sources and method</h2>
+    <p class="lede">Where every number comes from, what has been checked, and what this cannot do. The method behind every company page is on the <a href="method.html">method page</a>.</p>
+    <div class="kpis stagger" id="kpis"></div>
+    <h3 style="margin:18px 0 6px;font-size:15px">Labels</h3>
+    <p class="small ink2"><span class="label FACT">FACT</span> printed in a filing or exchange data · <span class="label CALCULATION">CALCULATION</span> computed by the engine from facts · <span class="label ASSUMPTION">ASSUMPTION</span> a chosen input, shown and editable · <span class="label UNCERTAIN">UNCERTAIN</span> what the data cannot settle · <span class="label INTERPRETATION">INTERPRETATION</span> a reading, never presented as fact</p>
+    <h3 style="margin:18px 0 6px;font-size:15px">Limitations</h3>
+    <ul class="tight small ink2" id="limitations"></ul>
+    <h3 style="margin:18px 0 6px;font-size:15px">Documents used</h3>
+    <div class="table-wrap" id="doc-table"></div>
+    <p class="small ink2" style="margin-top:12px" id="data-files"></p>
+    <!-- Required by the library's licence: its NOTICE text, verbatim (the letter in brackets is Cyrillic, as in the NOTICE), and a link. -->
+    <p class="small muted credits" data-third-party>Price chart: TradingView Lightweight Charts™. Copyright (&#x441;) 2023 TradingView, Inc. <a href="https://www.tradingview.com/" rel="noopener" target="_blank">https://www.tradingview.com/</a></p>
+  </section>
+
+  <footer class="footer" id="footer">Academic case study, not investment advice and not SEBI-registered research. No recommendation, no price target, no rating.</footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/lightweight-charts@4.1.3/dist/lightweight-charts.standalone.production.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<dialog class="zoom-dialog" id="zoom" aria-labelledby="zoom-title">
+  <div class="zoom-head">
+    <h2 id="zoom-title">Chart</h2>
+    <div class="chart-tools">
+      <div class="seg zoom-seg" id="zoom-steps" role="group" aria-label="Zoom the price chart" hidden><button type="button" data-zoom="out" aria-label="Zoom out">−</button><button type="button" data-zoom="in" aria-label="Zoom in">+</button><button type="button" data-zoom="fit">Fit</button></div>
+      <button class="icon-btn" type="button" id="zoom-close" aria-label="Close the enlarged chart">✕</button>
+    </div>
+  </div>
+  <div class="zoom-body" id="zoom-body"></div>
+  <p class="small muted" id="zoom-hint">Press Esc or click outside to return the chart to the page.</p>
+</dialog>
+<script src="assets/motion.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

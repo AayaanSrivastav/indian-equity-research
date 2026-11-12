@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compare Companies</title>
+<meta name="description" content="Companies side by side, in the order you choose: the same checked, sourced figures as their pages. Not ranked, not a screener, not investment advice.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Indian Equity Research Engine">
+<meta property="og:title" content="Compare Companies · Indian Equity Research Engine">
+<meta property="og:description" content="Companies side by side, in the order you choose: the same checked, sourced figures as their pages. Not ranked, not a screener, not investment advice.">
+<meta property="og:image" content="https://aayaansrivastav.github.io/indian-equity-research/assets/preview.png">
+<meta property="og:url" content="https://aayaansrivastav.github.io/indian-equity-research/compare.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#f4f4f1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d0d0d" media="(prefers-color-scheme: dark)">
+<noscript><style>.skeleton { display: none !important; }</style></noscript>
+<script>
+  try { var t = localStorage.getItem("theme"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
+</head>
+<body>
+<script src="assets/disclaimer.js"></script>
+<div class="wrap">
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="All companies"><div class="brand-mark" aria-hidden="true">₹</div><div>Indian Equity Research Engine<small>Academic case studies · listed Indian companies</small></div></a>
+    <div class="topbar-r">
+      <nav class="sitenav" aria-label="Site"><a href="index.html">Companies</a><a href="compare.html" aria-current="page">Compare</a><a href="method.html">Method</a></nav>
+      <button class="icon-btn" id="theme" type="button" aria-label="Switch between light and dark theme">◐</button>
+    </div>
+  </header>
+  <div class="disclaimer-bar" id="disclaimer">Academic case study, not investment advice and not SEBI-registered research.</div>
+  <noscript><div class="error">The comparison is built with JavaScript. Turn it on to compare companies.</div></noscript>
+
+  <section class="section reveal in" aria-label="Compare">
+    <h1 class="co-name" style="font-size:26px">Compare companies</h1>
+    <p class="lede">The same figures as each company's page, side by side. Columns follow the order you choose; nothing here is sorted, ranked or coloured by value, and a higher number is not a better company. Years and dates can differ between companies; each cell says which it is.</p>
+    <div class="card">
+      <div class="cmp-pickers" id="pickers"></div>
+    </div>
+    <div class="section">
+      <div class="table-wrap" id="cmp"><div class="card skeleton" style="height:240px"></div></div>
+      <p class="small muted" id="cmp-note"></p>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">Academic case study, not investment advice and not SEBI-registered research. No recommendation, no price target, no rating.</footer>
+</div>
+<script src="assets/motion.js"></script>
+<script src="assets/compare.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+{
+  "actual_source": "facts.csv (latest published value per item)",
+  "actual_uses_derived": false,
+  "draft_sha256": "41f709d31c24b0da306280fc0cf36002319be73fade3be3a3711587aeabc7f8a",
+  "eps": {
+    "illustrative_inr": {
+      "m1": 40.39,
+      "m2": 38.68
+    },
+    "reported_inr": 38.37,
+    "status": "not scored (illustrative only)"
+  },
+  "exceptional_items_in_actual": 0.0,
+  "label": "NOT PRE-REGISTERED: the forecast was committed locally on 2026-10-03 but never sealed or externally timestamped, so its date is self-asserted.",
+  "quarter": "2026-09-30",
+  "targets": {
+    "operating_margin_pp": {
+      "actual": 23.98,
+      "closest": "b1",
+      "error_unit": "pp",
+      "methods": {
+        "b1": {
+          "error": -0.02,
+          "forecast": 23.96
+        },
+        "b2": {
+          "error": 0.7,
+          "forecast": 24.68
+        },
+        "m1": {
+          "band": 1.5,
+          "band_unit": "pp",
+          "error": 1.49,
+          "forecast": 25.47,
+          "high": 26.97,
+          "low": 23.97,
+          "verdict": "inside band (in line)"
+        },
+        "m2": {
+          "band": 2.0,
+          "band_unit": "pp",
+          "error": 0.04,
+          "forecast": 24.02,
+          "high": 26.02,
+          "low": 22.02,
+          "verdict": "inside band (in line)"
+        }
+      }
+    },
+    "operating_profit": {
+      "actual": 17553.0,
+      "closest": "b1",
+      "error_unit": "%",
+      "methods": {
+        "b1": {
+          "error": -1.34,
+          "forecast": 17317.0
+        },
+        "b2": {
+          "error": 5.4,
+          "forecast": 18501.1
+        },
+        "m1": {
+          "band": 6.5,
+          "band_unit": "%",
+          "error": 6.72,
+          "forecast": 18733.0,
+          "high": 19950.6,
+          "low": 17515.3,
+          "verdict": "inside band (in line)"
+        },
+        "m2": {
+          "band": 6.5,
+          "band_unit": "%",
+          "error": 2.05,
+          "forecast": 17913.0,
+          "high": 19077.4,
+          "low": 16748.7,
+          "verdict": "inside band (in line)"
+        }
+      }
+    },
+    "pbeit": {
+      "actual": 18638.0,
+      "closest": "m2",
+      "error_unit": "%",
+      "methods": {
+        "b1": {
+          "error": -3.06,
+          "forecast": 18068.2
+        },
+        "b2": {
+          "error": 3.3,
+          "forecast": 19252.3
+        },
+        "m1": {
+          "band": 4.5,
+          "band_unit": "%",
+          "error": 4.54,
+          "forecast": 19484.2,
+          "high": 20361.0,
+          "low": 18607.4,
+          "verdict": "inside band (in line)"
+        },
+        "m2": {
+          "band": 4.5,
+          "band_unit": "%",
+          "error": 0.14,
+          "forecast": 18664.3,
+          "high": 19504.2,
+          "low": 17824.4,
+          "verdict": "inside band (in line)"
+        }
+      }
+    },
+    "revenue": {
+      "actual": 73188.0,
+      "closest": "m1",
+      "error_unit": "%",
+      "methods": {
+        "b1": {
+          "error": -1.25,
+          "forecast": 72275.0
+        },
+        "b2": {
+          "error": 2.43,
+          "forecast": 74966.1
+        },
+        "m1": {
+          "band": 6.0,
+          "band_unit": "%",
+          "error": 0.5,
+          "forecast": 73555.7,
+          "high": 77969.0,
+          "low": 69142.4,
+          "verdict": "inside band (in line)"
+        },
+        "m2": {
+          "band": 4.5,
+          "band_unit": "%",
+          "error": 1.89,
+          "forecast": 74570.5,
+          "high": 77926.2,
+          "low": 71214.9,
+          "verdict": "inside band (in line)"
+        }
+      }
+    }
+  }
+}

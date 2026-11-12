@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Equity Research Engine</title>
+<meta name="description" content="Academic case studies of listed Indian companies: provenance-tagged financials, a deterministic DCF read as 'what the price implies', and results-day event studies. Not investment advice.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Indian Equity Research Engine">
+<meta property="og:title" content="Equity Research Engine · Indian Equity Research Engine">
+<meta property="og:description" content="Academic case studies of listed Indian companies: provenance-tagged financials, a deterministic DCF read as 'what the price implies', and results-day event studies. Not investment advice.">
+<meta property="og:image" content="https://aayaansrivastav.github.io/indian-equity-research/assets/preview.png">
+<meta property="og:url" content="https://aayaansrivastav.github.io/indian-equity-research/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#f4f4f1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d0d0d" media="(prefers-color-scheme: dark)">
+<noscript><style>.skeleton { display: none !important; }</style></noscript>
+<script>
+  try { var t = localStorage.getItem("theme"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
+</head>
+<body>
+<script src="assets/disclaimer.js"></script>
+<div class="wrap">
+  <header class="topbar">
+    <div class="brand"><div class="brand-mark" aria-hidden="true">₹</div><div>Indian Equity Research Engine<small>Academic case studies · listed Indian companies</small></div></div>
+    <div class="topbar-r">
+      <nav class="sitenav" aria-label="Site"><a href="index.html" aria-current="page">Companies</a><a href="compare.html">Compare</a><a href="method.html">Method</a></nav>
+      <button class="icon-btn" id="theme" type="button" aria-label="Switch between light and dark theme">◐</button>
+    </div>
+  </header>
+  <div class="disclaimer-bar" id="disclaimer">Academic case study, not investment advice and not SEBI-registered research.</div>
+  <noscript><div class="error">The company list is loaded with JavaScript. Turn it on to see the companies.</div></noscript>
+
+  <section class="section reveal in" aria-label="Companies">
+    <h1 class="co-name" style="font-size:26px">Companies</h1>
+    <p class="lede">Each page reads a company's filings into checked, sourced numbers, then asks what today's price implies. Same method, same checks, for every company. This is a list to read, not a screener: it filters by sector and by which valuation template applies, and orders by name, sector or size only, never by a model result.</p>
+    <div class="filters" role="search">
+      <div class="wide"><label for="q">Search by name, symbol or sector</label><input class="search" id="q" type="search" autocomplete="off" placeholder="Type to filter"></div>
+      <div><label for="sector">Sector</label><select id="sector"><option value="">All sectors</option></select></div>
+      <div><label for="status">Valuation template</label><select id="status"><option value="">All companies</option><option value="A">Template A</option><option value="B">Template B</option><option value="refused">Does not apply</option></select></div>
+      <div><label for="sort">Order by</label><select id="sort"><option value="name">Name</option><option value="sector">Sector</option><option value="market_cap">Market cap, largest first</option></select></div>
+    </div>
+    <div class="index-bar">
+      <div class="seg" role="group" aria-label="View"><button type="button" id="view-cards" aria-pressed="true">Cards</button><button type="button" id="view-table" aria-pressed="false">Table</button></div>
+      <a class="btn" id="compare-go" href="compare.html" aria-disabled="true">Compare selected</a>
+    </div>
+    <p class="small muted" id="pick-note">Tick up to three companies to see them side by side.</p>
+    <div class="co-grid stagger" id="cards"><div class="card skeleton" style="height:180px"></div></div>
+    <div class="table-wrap" id="table" hidden></div>
+    <p class="small muted" id="count" aria-live="polite"></p>
+  </section>
+
+  <footer class="footer" id="footer">Academic case study, not investment advice and not SEBI-registered research. No recommendation, no price target, no rating.</footer>
+</div>
+<script src="assets/motion.js"></script>
+<script src="assets/index.js"></script>
+</body>
+</html>

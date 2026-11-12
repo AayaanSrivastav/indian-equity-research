@@ -1,0 +1,54 @@
+{
+  "note": "Market inputs shared by every company. The engine hard-codes none of these. Values are decimals unless stated. Raw files are listed in data/manifest/market_sources.csv.",
+  "indices": {
+    "NIFTY 50": "NIFTY 50-*.csv",
+    "NIFTY IT": "NIFTY IT-*.csv",
+    "NIFTY FMCG": "NIFTY FMCG-*.csv",
+    "NIFTY CONSUMER DURABLES": "NIFTY CONSUMER DURABLES-*.csv",
+    "NIFTY METAL": "NIFTY METAL-*.csv",
+    "NIFTY INDIA CONSUMPTION": "NIFTY INDIA CONSUMPTION-*.csv",
+    "NIFTY ENERGY": "NIFTY ENERGY-*.csv"
+  },
+  "market_index": "NIFTY 50",
+  "risk_free": {
+    "method": "mean of month-end FBIL 10-year par yields over the last 12 months",
+    "label": "CALCULATION from FACTs",
+    "tenor_years": 10,
+    "source": "FBIL 'GOI Prices including Par Yield' files, sheet 'Par Yield', column B (YTM % p.a., semi-annual); the engine reads each file and checks its printed date",
+    "files": [
+      "FBIL_2025-10-31_gsec-prices-par-yield.xlsx",
+      "FBIL_2025-11-28_gsec-prices-par-yield.xlsx",
+      "FBIL_2025-12-31_gsec-prices-par-yield.xlsx",
+      "FBIL_2026-01-30_gsec-prices-par-yield.xlsx",
+      "FBIL_2026-02-27_gsec-prices-par-yield.xlsx",
+      "FBIL_2026-03-30_gsec-prices-par-yield.xlsx",
+      "FBIL_2026-04-30_gsec-prices-par-yield.xlsx",
+      "FBIL_2026-05-29_gsec-prices-par-yield.xlsx",
+      "FBIL_2026-06-30_gsec-prices-par-yield.xlsx",
+      "FBIL_2026-07-31_gsec-prices-par-yield.xlsx",
+      "FBIL_2026-08-31_gsec-prices-par-yield.xlsx",
+      "FBIL_2026-09-30_gsec-prices-par-yield.xlsx"
+    ],
+    "spot_reference_file": "FBIL_2026-10-08_gsec-prices-par-yield.xlsx",
+    "note": "The last business day of each month on FBIL's archive (30 March 2026, not 31 March). Averaging smooths the rate, but it is a different date basis from the spot price and the July 2026 ERP; the spot yield is reported beside it. Par yield over a single bond, and the July ERP, confirmed by the author (2026-10-15)."
+  },
+  "default_spread": {
+    "value": 0.0175,
+    "date": "2026-07-01",
+    "label": "ASSUMPTION",
+    "source": "Damodaran, Country and Equity Risk Premiums, July 2026 update (market/erp/Damodaran_2026-07-01_country-risk-premiums.xlsx, sheet 'ERPs by country', row 73: India, Baa3, rating-based default spread 1.7499%)",
+    "note": "Removed from the G-sec yield to get a default-free INR rate, so India's default risk is not counted twice (Damodaran's convention). UNCERTAIN: the file's 'Date of update' cell reads 30 June 2022 (Excel serial 44742) while the same row says 'Default spreads corrected on July 9, 2026' and the file is named ctrypremJuly26: probably a stale cell."
+  },
+  "erp": {
+    "value": 0.0692,
+    "date": "2026-07-01",
+    "label": "ASSUMPTION",
+    "source": "Damodaran, same file and row: India total equity risk premium 6.9202% (mature market 4.20% + country risk premium 2.72%)",
+    "note": "July 2026 update chosen over the January 2026 page (7.08%)."
+  },
+  "beta": {
+    "method": "OLS of daily close-to-close stock returns on NIFTY 50 returns, sessions in the 2 years to the valuation date",
+    "label": "CALCULATION",
+    "years": 2
+  }
+}

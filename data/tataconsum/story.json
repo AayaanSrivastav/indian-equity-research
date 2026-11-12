@@ -1,0 +1,794 @@
+{
+  "company": "TATACONSUM",
+  "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
+  "claims": [
+    {
+      "id": "S1",
+      "line": "what the company does",
+      "label": "FACT",
+      "text": "Tata Consumer Products (NSE: TATACONSUM), part of the Tata Group, sells branded tea, coffee, water and food products in India and abroad; its consolidated revenue in FY26 was ₹20,290 crore.",
+      "evidence": [
+        {
+          "file": "valuation.json",
+          "path": "history.4.revenue",
+          "format": "inr_crore",
+          "display": "₹20,290 crore"
+        }
+      ],
+      "sources": [
+        "TATACONSUM_FY26Q4_integrated-filing-consolidated.xml (XBRL context FourD)",
+        "TATACONSUM_FY22Q4_results.pdf, page 22 (segment note)"
+      ]
+    },
+    {
+      "id": "S2",
+      "line": "what changed",
+      "label": "CALCULATION",
+      "text": "In the quarter to 30 Sep 2026, revenue was ₹5,661 crore, 14.0% more than a year earlier; the operating margin was 10.9% against 10.4%, and profit attributable to shareholders was ₹469 crore, 16.0% higher.",
+      "evidence": [
+        {
+          "file": "valuation.json",
+          "path": "latest_quarter.quarter.end",
+          "format": "date",
+          "display": "30 Sep 2026"
+        },
+        {
+          "file": "valuation.json",
+          "path": "latest_quarter.quarter.revenue",
+          "format": "inr_crore",
+          "display": "₹5,661 crore"
+        },
+        {
+          "file": "valuation.json",
+          "path": "latest_quarter.revenue_growth_yoy_pct",
+          "format": "pct1",
+          "display": "14.0%"
+        },
+        {
+          "file": "valuation.json",
+          "path": "latest_quarter.quarter.ebit_margin_pct",
+          "format": "pct1",
+          "display": "10.9%"
+        },
+        {
+          "file": "valuation.json",
+          "path": "latest_quarter.year_ago.ebit_margin_pct",
+          "format": "pct1",
+          "display": "10.4%"
+        },
+        {
+          "file": "valuation.json",
+          "path": "latest_quarter.quarter.profit_owners",
+          "format": "inr_crore",
+          "display": "₹469 crore"
+        },
+        {
+          "file": "valuation.json",
+          "path": "latest_quarter.profit_growth_yoy_pct",
+          "format": "pct1",
+          "display": "16.0%"
+        }
+      ],
+      "sources": [
+        "TATACONSUM_FY27Q2_integrated-filing-consolidated.xml (XBRL context OneD)"
+      ]
+    },
+    {
+      "id": "S3",
+      "line": "why the stock moved",
+      "label": "CALCULATION",
+      "text": "On 27 Oct 2026, the first session after the result, TATACONSUM shares rose 6.78% while the NIFTY 50 fell 0.02% and the NIFTY FMCG index rose 0.74%; allowing for the market's move, TATACONSUM's own move was +6.83%, about 4.95 times its usual daily variation.",
+      "evidence": [
+        {
+          "file": "event_study.json",
+          "path": "events.4.reaction_session",
+          "format": "date",
+          "display": "27 Oct 2026"
+        },
+        {
+          "file": "event_study.json",
+          "path": "events.4.stock_return_pct",
+          "format": "abs_pct2",
+          "display": "6.78%"
+        },
+        {
+          "file": "event_study.json",
+          "path": "events.4.nifty50_return_pct",
+          "format": "abs_pct2",
+          "display": "0.02%"
+        },
+        {
+          "file": "event_study.json",
+          "path": "events.4.sector_return_pct",
+          "format": "abs_pct2",
+          "display": "0.74%"
+        },
+        {
+          "file": "event_study.json",
+          "path": "events.4.abnormal_return_pct",
+          "format": "spct2",
+          "display": "+6.83%"
+        },
+        {
+          "file": "event_study.json",
+          "path": "events.4.z",
+          "format": "abs_num2",
+          "display": "4.95"
+        }
+      ],
+      "sources": [
+        "event_study.json (NSE and niftyindices data)"
+      ]
+    },
+    {
+      "id": "S3a",
+      "line": "why the stock moved",
+      "label": "UNCERTAIN",
+      "text": "These numbers measure the move, not its cause: the result, the FMCG sector's rise and any other news that day overlap, and nothing here separates them.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "id": "S4",
+      "line": "what the price implies",
+      "label": "CALCULATION",
+      "text": "Neither discounted cash flow template used on this site applies to TATACONSUM: Template A needs free cash flow to the firm to be positive in at least three of the last four years, and it was −₹1,628 crore in FY24 and −₹949 crore in FY25; Template B, for companies reinvesting at a return above their cost of capital, needs the median return on invested capital of the last three years to beat that cost, and it was 8.3% against 9.89%, so no model value is shown.",
+      "evidence": [
+        {
+          "file": "valuation.json",
+          "path": "history.2.fcff",
+          "format": "sinr_crore",
+          "display": "−₹1,628 crore"
+        },
+        {
+          "file": "valuation.json",
+          "path": "history.3.fcff",
+          "format": "sinr_crore",
+          "display": "−₹949 crore"
+        },
+        {
+          "file": "valuation.json",
+          "path": "gate_b.median_roic_recent",
+          "format": "pct1_frac",
+          "display": "8.3%"
+        },
+        {
+          "file": "valuation.json",
+          "path": "gate_b.wacc",
+          "format": "pct2_frac",
+          "display": "9.89%"
+        }
+      ],
+      "sources": [
+        "valuation.json (applicability gates; free cash flow = after-tax operating profit less the change in invested capital)"
+      ]
+    },
+    {
+      "id": "S4a",
+      "line": "what the price implies",
+      "label": "FACT",
+      "text": "Those two years include the acquisitions of Capital Foods (three-quarters of it in Q4 FY24, the rest to be bought within three years) and Organic India (completed in Q1 FY25); the template counts money spent on acquisitions as reinvestment, like capital spending.",
+      "evidence": [],
+      "sources": [
+        "TATACONSUM_FY24Q4_results.pdf, page 20 (notes 3 and 4)"
+      ]
+    },
+    {
+      "id": "S4b",
+      "line": "what the price implies",
+      "label": "CALCULATION",
+      "text": "At ₹1,085 (NSE close, 12 Nov 2026), the shares traded at 63.2× the profit attributable to shareholders over the last four reported quarters.",
+      "evidence": [
+        {
+          "file": "valuation.json",
+          "path": "market.price",
+          "format": "inr0",
+          "display": "₹1,085"
+        },
+        {
+          "file": "valuation.json",
+          "path": "valuation_date",
+          "format": "date",
+          "display": "12 Nov 2026"
+        },
+        {
+          "file": "valuation.json",
+          "path": "market.pe_ttm",
+          "format": "x1",
+          "display": "63.2×"
+        }
+      ],
+      "sources": [
+        "valuation.json (market)"
+      ]
+    },
+    {
+      "id": "S5",
+      "line": "what to watch",
+      "label": "CALCULATION",
+      "text": "Free cash flow to the firm was ₹483 crore in FY26; Template A would apply once it has been positive in three of the last four years, and the Q3 FY27 result will be the next reported quarter.",
+      "evidence": [
+        {
+          "file": "valuation.json",
+          "path": "history.4.fcff",
+          "format": "sinr_crore",
+          "display": "₹483 crore"
+        }
+      ],
+      "sources": [
+        "valuation.json (history)"
+      ]
+    }
+  ],
+  "validation": {
+    "claims": 8,
+    "pass": 94,
+    "fail": 0,
+    "results": [
+      {
+        "claim": "S1",
+        "check": "L1",
+        "status": "PASS",
+        "detail": "label 'FACT'"
+      },
+      {
+        "claim": "S1",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "valuation.json:history.4.revenue renders '₹20,290 crore', claim shows '₹20,290 crore'"
+      },
+      {
+        "claim": "S1",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'₹20,290 crore' appears in the text"
+      },
+      {
+        "claim": "S1",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '20,290' is covered by evidence"
+      },
+      {
+        "claim": "S1",
+        "check": "L2",
+        "status": "PASS",
+        "detail": "no causal wording"
+      },
+      {
+        "claim": "S1",
+        "check": "G1",
+        "status": "PASS",
+        "detail": "no advice wording"
+      },
+      {
+        "claim": "S2",
+        "check": "L1",
+        "status": "PASS",
+        "detail": "label 'CALCULATION'"
+      },
+      {
+        "claim": "S2",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "valuation.json:latest_quarter.quarter.end renders '30 Sep 2026', claim shows '30 Sep 2026'"
+      },
+      {
+        "claim": "S2",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'30 Sep 2026' appears in the text"
+      },
+      {
+        "claim": "S2",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "valuation.json:latest_quarter.quarter.revenue renders '₹5,661 crore', claim shows '₹5,661 crore'"
+      },
+      {
+        "claim": "S2",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'₹5,661 crore' appears in the text"
+      },
+      {
+        "claim": "S2",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "valuation.json:latest_quarter.revenue_growth_yoy_pct renders '14.0%', claim shows '14.0%'"
+      },
+      {
+        "claim": "S2",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'14.0%' appears in the text"
+      },
+      {
+        "claim": "S2",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "valuation.json:latest_quarter.quarter.ebit_margin_pct renders '10.9%', claim shows '10.9%'"
+      },
+      {
+        "claim": "S2",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'10.9%' appears in the text"
+      },
+      {
+        "claim": "S2",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "valuation.json:latest_quarter.year_ago.ebit_margin_pct renders '10.4%', claim shows '10.4%'"
+      },
+      {
+        "claim": "S2",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'10.4%' appears in the text"
+      },
+      {
+        "claim": "S2",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "valuation.json:latest_quarter.quarter.profit_owners renders '₹469 crore', claim shows '₹469 crore'"
+      },
+      {
+        "claim": "S2",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'₹469 crore' appears in the text"
+      },
+      {
+        "claim": "S2",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "valuation.json:latest_quarter.profit_growth_yoy_pct renders '16.0%', claim shows '16.0%'"
+      },
+      {
+        "claim": "S2",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'16.0%' appears in the text"
+      },
+      {
+        "claim": "S2",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '30' is covered by evidence"
+      },
+      {
+        "claim": "S2",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '2026' is covered by evidence"
+      },
+      {
+        "claim": "S2",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '5,661' is covered by evidence"
+      },
+      {
+        "claim": "S2",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '14.0' is covered by evidence"
+      },
+      {
+        "claim": "S2",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '10.9' is covered by evidence"
+      },
+      {
+        "claim": "S2",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '10.4' is covered by evidence"
+      },
+      {
+        "claim": "S2",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '469' is covered by evidence"
+      },
+      {
+        "claim": "S2",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '16.0' is covered by evidence"
+      },
+      {
+        "claim": "S2",
+        "check": "L2",
+        "status": "PASS",
+        "detail": "no causal wording"
+      },
+      {
+        "claim": "S2",
+        "check": "G1",
+        "status": "PASS",
+        "detail": "no advice wording"
+      },
+      {
+        "claim": "S3",
+        "check": "L1",
+        "status": "PASS",
+        "detail": "label 'CALCULATION'"
+      },
+      {
+        "claim": "S3",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "event_study.json:events.4.reaction_session renders '27 Oct 2026', claim shows '27 Oct 2026'"
+      },
+      {
+        "claim": "S3",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'27 Oct 2026' appears in the text"
+      },
+      {
+        "claim": "S3",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "event_study.json:events.4.stock_return_pct renders '6.78%', claim shows '6.78%'"
+      },
+      {
+        "claim": "S3",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'6.78%' appears in the text"
+      },
+      {
+        "claim": "S3",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "event_study.json:events.4.nifty50_return_pct renders '0.02%', claim shows '0.02%'"
+      },
+      {
+        "claim": "S3",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'0.02%' appears in the text"
+      },
+      {
+        "claim": "S3",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "event_study.json:events.4.sector_return_pct renders '0.74%', claim shows '0.74%'"
+      },
+      {
+        "claim": "S3",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'0.74%' appears in the text"
+      },
+      {
+        "claim": "S3",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "event_study.json:events.4.abnormal_return_pct renders '+6.83%', claim shows '+6.83%'"
+      },
+      {
+        "claim": "S3",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'+6.83%' appears in the text"
+      },
+      {
+        "claim": "S3",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "event_study.json:events.4.z renders '4.95', claim shows '4.95'"
+      },
+      {
+        "claim": "S3",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'4.95' appears in the text"
+      },
+      {
+        "claim": "S3",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '27' is covered by evidence"
+      },
+      {
+        "claim": "S3",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '2026' is covered by evidence"
+      },
+      {
+        "claim": "S3",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '6.78' is covered by evidence"
+      },
+      {
+        "claim": "S3",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '50' is covered by evidence"
+      },
+      {
+        "claim": "S3",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '0.02' is covered by evidence"
+      },
+      {
+        "claim": "S3",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '0.74' is covered by evidence"
+      },
+      {
+        "claim": "S3",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '6.83' is covered by evidence"
+      },
+      {
+        "claim": "S3",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '4.95' is covered by evidence"
+      },
+      {
+        "claim": "S3",
+        "check": "L2",
+        "status": "PASS",
+        "detail": "no causal wording"
+      },
+      {
+        "claim": "S3",
+        "check": "G1",
+        "status": "PASS",
+        "detail": "no advice wording"
+      },
+      {
+        "claim": "S3a",
+        "check": "L1",
+        "status": "PASS",
+        "detail": "label 'UNCERTAIN'"
+      },
+      {
+        "claim": "S3a",
+        "check": "L2",
+        "status": "PASS",
+        "detail": "no causal wording"
+      },
+      {
+        "claim": "S3a",
+        "check": "G1",
+        "status": "PASS",
+        "detail": "no advice wording"
+      },
+      {
+        "claim": "S4",
+        "check": "L1",
+        "status": "PASS",
+        "detail": "label 'CALCULATION'"
+      },
+      {
+        "claim": "S4",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "valuation.json:history.2.fcff renders '−₹1,628 crore', claim shows '−₹1,628 crore'"
+      },
+      {
+        "claim": "S4",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'−₹1,628 crore' appears in the text"
+      },
+      {
+        "claim": "S4",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "valuation.json:history.3.fcff renders '−₹949 crore', claim shows '−₹949 crore'"
+      },
+      {
+        "claim": "S4",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'−₹949 crore' appears in the text"
+      },
+      {
+        "claim": "S4",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "valuation.json:gate_b.median_roic_recent renders '8.3%', claim shows '8.3%'"
+      },
+      {
+        "claim": "S4",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'8.3%' appears in the text"
+      },
+      {
+        "claim": "S4",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "valuation.json:gate_b.wacc renders '9.89%', claim shows '9.89%'"
+      },
+      {
+        "claim": "S4",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'9.89%' appears in the text"
+      },
+      {
+        "claim": "S4",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '1,628' is covered by evidence"
+      },
+      {
+        "claim": "S4",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '949' is covered by evidence"
+      },
+      {
+        "claim": "S4",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '8.3' is covered by evidence"
+      },
+      {
+        "claim": "S4",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '9.89' is covered by evidence"
+      },
+      {
+        "claim": "S4",
+        "check": "L2",
+        "status": "PASS",
+        "detail": "no causal wording"
+      },
+      {
+        "claim": "S4",
+        "check": "G1",
+        "status": "PASS",
+        "detail": "no advice wording"
+      },
+      {
+        "claim": "S4a",
+        "check": "L1",
+        "status": "PASS",
+        "detail": "label 'FACT'"
+      },
+      {
+        "claim": "S4a",
+        "check": "L2",
+        "status": "PASS",
+        "detail": "no causal wording"
+      },
+      {
+        "claim": "S4a",
+        "check": "G1",
+        "status": "PASS",
+        "detail": "no advice wording"
+      },
+      {
+        "claim": "S4b",
+        "check": "L1",
+        "status": "PASS",
+        "detail": "label 'CALCULATION'"
+      },
+      {
+        "claim": "S4b",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "valuation.json:market.price renders '₹1,085', claim shows '₹1,085'"
+      },
+      {
+        "claim": "S4b",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'₹1,085' appears in the text"
+      },
+      {
+        "claim": "S4b",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "valuation.json:valuation_date renders '12 Nov 2026', claim shows '12 Nov 2026'"
+      },
+      {
+        "claim": "S4b",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'12 Nov 2026' appears in the text"
+      },
+      {
+        "claim": "S4b",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "valuation.json:market.pe_ttm renders '63.2×', claim shows '63.2×'"
+      },
+      {
+        "claim": "S4b",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'63.2×' appears in the text"
+      },
+      {
+        "claim": "S4b",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '1,085' is covered by evidence"
+      },
+      {
+        "claim": "S4b",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '12' is covered by evidence"
+      },
+      {
+        "claim": "S4b",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '2026' is covered by evidence"
+      },
+      {
+        "claim": "S4b",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '63.2' is covered by evidence"
+      },
+      {
+        "claim": "S4b",
+        "check": "L2",
+        "status": "PASS",
+        "detail": "no causal wording"
+      },
+      {
+        "claim": "S4b",
+        "check": "G1",
+        "status": "PASS",
+        "detail": "no advice wording"
+      },
+      {
+        "claim": "S5",
+        "check": "L1",
+        "status": "PASS",
+        "detail": "label 'CALCULATION'"
+      },
+      {
+        "claim": "S5",
+        "check": "N2",
+        "status": "PASS",
+        "detail": "valuation.json:history.4.fcff renders '₹483 crore', claim shows '₹483 crore'"
+      },
+      {
+        "claim": "S5",
+        "check": "N3",
+        "status": "PASS",
+        "detail": "'₹483 crore' appears in the text"
+      },
+      {
+        "claim": "S5",
+        "check": "N1",
+        "status": "PASS",
+        "detail": "number '483' is covered by evidence"
+      },
+      {
+        "claim": "S5",
+        "check": "L2",
+        "status": "PASS",
+        "detail": "no causal wording"
+      },
+      {
+        "claim": "S5",
+        "check": "G1",
+        "status": "PASS",
+        "detail": "no advice wording"
+      }
+    ]
+  }
+}

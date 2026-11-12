@@ -1,0 +1,204 @@
+{
+  "label": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
+  "company": {
+    "name": "Tata Power Company Ltd",
+    "nse": "TATAPOWER",
+    "bse": "500400",
+    "basis": "consolidated, Ind AS, INR crore",
+    "slug": "tatapower",
+    "group": "Tata Group",
+    "industry": "Power",
+    "sector_index": "NIFTY ENERGY"
+  },
+  "valuation_date": "2026-11-12",
+  "balance_sheet_date": "2026-09-30",
+  "inputs_verification": {
+    "facts_by_status": {
+      "unverified": 1680
+    },
+    "note": "None of the 1,680 facts in use has been checked by a person yet; they were read from the exchange XBRL filings (24 lines the XBRL lacks were transcribed from the results PDFs) and passed the reconciliation checks."
+  },
+  "inputs_by_rule": {
+    "filled": [
+      "prices",
+      "latest_quarter",
+      "balance_sheet_date",
+      "last_full_year",
+      "history_years",
+      "valuation_date",
+      "price",
+      "shares",
+      "kd_pre_tax",
+      "terminal_growth"
+    ],
+    "label": "ASSUMPTION (default rule, not reviewed by a person)",
+    "assumptions": [
+      "kd_pre_tax",
+      "terminal_growth"
+    ]
+  },
+  "market": {
+    "price": 357.0,
+    "price_label": "FACT",
+    "price_source": "NSE close (BhavCopy_NSE_CM_0_0_0_20261112_F_0000.csv.zip); checked against the raw file at build time",
+    "shares": 3195600000.0,
+    "shares_basis": "share capital ÷ ₹1 face value at 2026-09-30",
+    "market_cap": 114082.92,
+    "enterprise_value": 173708.39,
+    "pe_ttm": 26.469784892098016,
+    "ev_ebit_ttm": 20.929478173909907,
+    "ttm": {
+      "quarters": [
+        "2025-12-31",
+        "2026-03-31",
+        "2026-06-30",
+        "2026-09-30"
+      ],
+      "revenue": 67535.81,
+      "ebit": 8299.699999999999,
+      "profit_owners": 4309.93
+    },
+    "beta": {
+      "beta": 0.9201288382551592,
+      "std_error": 0.06668534428109879,
+      "n": 494,
+      "blume_adjusted": 0.9464863216309567,
+      "first_session": "2024-11-13",
+      "last_session": "2026-11-12"
+    }
+  },
+  "latest_quarter": {
+    "quarter": {
+      "end": "2026-09-30",
+      "revenue": 19635.94,
+      "ebit": 2380.2999999999993,
+      "ebit_margin_pct": 12.122159672518858,
+      "profit_owners": 1366.11,
+      "eps": 3.82
+    },
+    "year_ago": {
+      "end": "2025-09-30",
+      "revenue": 15544.91,
+      "ebit": 2139.8999999999996,
+      "ebit_margin_pct": 13.76592080623175,
+      "profit_owners": 919.44,
+      "eps": 2.88
+    },
+    "revenue_growth_yoy_pct": 26.31748913309886,
+    "profit_growth_yoy_pct": 48.58065779169927,
+    "label": "FACT (TATAPOWER filings) and CALCULATION"
+  },
+  "bridge": {
+    "cash_like": 13913.66,
+    "lease_liabilities": 5295.2300000000005,
+    "borrowings": 73846.47,
+    "equity_method_investments": 13485.22,
+    "class_b_ccps": 0.0,
+    "non_controlling_interests": 7882.65,
+    "net": -59625.47,
+    "as_of": "2026-09-30"
+  },
+  "history": [
+    {
+      "fy_end": "2023-03-31",
+      "revenue": 55109.08,
+      "ebit": 4267.120000000003,
+      "ebit_margin_pct": 7.743043433132983,
+      "tax_rate_pct": 123.53523460993333,
+      "nopat": null,
+      "invested_capital": 59250.9,
+      "cash_like": 13657.34,
+      "sales_to_capital": 0.9300969267977364,
+      "roe_pct": 11.138044188828713,
+      "cash_conversion": 1.8791995107187762,
+      "capex_to_revenue_pct": 13.892465633612463,
+      "cash_returned_to_profit": 0.20655069861694056
+    },
+    {
+      "fy_end": "2024-03-31",
+      "revenue": 61448.9,
+      "ebit": 6997.459999999999,
+      "ebit_margin_pct": 11.387445503499654,
+      "tax_rate_pct": 32.54681664731384,
+      "nopat": 4720.009523830872,
+      "invested_capital": 66554.32,
+      "cash_like": 12484.39,
+      "sales_to_capital": 0.9232894273429583,
+      "roe_pct": 11.165642347265802,
+      "cash_conversion": 2.942947594682367,
+      "capex_to_revenue_pct": 21.69729645282503,
+      "cash_returned_to_profit": 0.2071844115791687,
+      "revenue_growth_pct": 11.504129628003223,
+      "roic_pct": 7.966139795059438,
+      "fcff": -2583.4104761691333
+    },
+    {
+      "fy_end": "2025-03-31",
+      "revenue": 65478.24,
+      "ebit": 9813.010000000002,
+      "ebit_margin_pct": 14.986673435327527,
+      "tax_rate_pct": 23.748740859214603,
+      "nopat": 7482.543684611187,
+      "invested_capital": 77404.47,
+      "cash_like": 15173.150000000001,
+      "sales_to_capital": 0.8459232393167991,
+      "roe_pct": 11.20819958860293,
+      "cash_conversion": 2.655331419345517,
+      "capex_to_revenue_pct": 26.379511727865623,
+      "cash_returned_to_profit": 0.20197387846386772,
+      "revenue_growth_pct": 6.557220715098233,
+      "roic_pct": 11.242761829151265,
+      "fcff": -3367.606315388807
+    },
+    {
+      "fy_end": "2026-03-31",
+      "revenue": 62428.59,
+      "ebit": 8283.969999999994,
+      "ebit_margin_pct": 13.269513215018943,
+      "tax_rate_pct": 32.47228447759662,
+      "nopat": 5593.975695561235,
+      "invested_capital": 93460.8,
+      "cash_like": 16669.489999999998,
+      "sales_to_capital": 0.6679654999743208,
+      "roe_pct": 10.765182515823636,
+      "cash_conversion": 1.1711303824478851,
+      "capex_to_revenue_pct": 21.936792101183126,
+      "cash_returned_to_profit": 0.21758611525805266,
+      "revenue_growth_pct": -4.657501484462623,
+      "roic_pct": 7.226941409922754,
+      "fcff": -10462.354304438766
+    }
+  ],
+  "anchors": {
+    "revenue_cagr_history": 0.04244573080155889,
+    "history_span": "FY23-FY26",
+    "revenue_growth_last_year": -0.04657501484462623,
+    "last_year_label": "FY26"
+  },
+  "template": null,
+  "gate": {
+    "template": "A (non-financial, positive free cash flow)",
+    "applicable": false,
+    "reasons": [
+      "free cash flow not positive in at least 3 of the last 4 years"
+    ],
+    "failed": [
+      "fcff"
+    ]
+  },
+  "gate_b": {
+    "template": "B (reinvestment phase, return on capital above its cost)",
+    "applicable": false,
+    "reasons": [
+      "median return on invested capital over the last 3 years (8.0%) is not above the cost of capital (8.74%), so growth would not add value"
+    ],
+    "median_roic_recent": 0.07966139795059438,
+    "wacc": 0.08740092767844629,
+    "roic_years": [
+      "2024-03-31",
+      "2025-03-31",
+      "2026-03-31"
+    ]
+  },
+  "valuation_note": "Neither Template A nor Template B applies, so no DCF value, scenario, reverse DCF or sensitivity is computed."
+}

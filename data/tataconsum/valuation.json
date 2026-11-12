@@ -1,0 +1,222 @@
+{
+  "label": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
+  "company": {
+    "name": "Tata Consumer Products Ltd",
+    "nse": "TATACONSUM",
+    "bse": "500800",
+    "basis": "consolidated, Ind AS, INR crore",
+    "slug": "tataconsum",
+    "group": "Tata Group",
+    "industry": "Packaged foods and beverages",
+    "sector_index": "NIFTY FMCG"
+  },
+  "valuation_date": "2026-11-12",
+  "balance_sheet_date": "2026-09-30",
+  "inputs_verification": {
+    "facts_by_status": {
+      "unverified": 1591
+    },
+    "note": "None of the 1,591 facts in use has been checked by a person yet; they were read from the exchange XBRL filings (60 lines the XBRL lacks were transcribed from the results PDFs) and passed the reconciliation checks."
+  },
+  "inputs_by_rule": {
+    "filled": [
+      "prices",
+      "latest_quarter",
+      "balance_sheet_date",
+      "last_full_year",
+      "history_years",
+      "valuation_date",
+      "price",
+      "shares",
+      "kd_pre_tax",
+      "terminal_growth"
+    ],
+    "label": "ASSUMPTION (default rule, not reviewed by a person)",
+    "assumptions": [
+      "kd_pre_tax",
+      "terminal_growth"
+    ]
+  },
+  "market": {
+    "price": 1085.3,
+    "price_label": "FACT",
+    "price_source": "NSE close (BhavCopy_NSE_CM_0_0_0_20261112_F_0000.csv.zip); checked against the raw file at build time",
+    "shares": 989700000.0,
+    "shares_basis": "share capital ÷ ₹1 face value at 2026-09-30",
+    "market_cap": 107412.141,
+    "enterprise_value": 107408.10100000001,
+    "pe_ttm": 63.184727377541954,
+    "ev_ebit_ttm": 45.370029737515736,
+    "ttm": {
+      "quarters": [
+        "2025-12-31",
+        "2026-03-31",
+        "2026-06-30",
+        "2026-09-30"
+      ],
+      "revenue": 21555.63,
+      "ebit": 2367.38,
+      "profit_owners": 1699.97
+    },
+    "beta": {
+      "beta": 0.7082927458088188,
+      "std_error": 0.07252733779655322,
+      "n": 494,
+      "blume_adjusted": 0.8045561396919086,
+      "first_session": "2024-11-13",
+      "last_session": "2026-11-12"
+    }
+  },
+  "latest_quarter": {
+    "quarter": {
+      "end": "2026-09-30",
+      "revenue": 5661.13,
+      "ebit": 619.4099999999999,
+      "ebit_margin_pct": 10.941455151180062,
+      "profit_owners": 469.3,
+      "eps": 4.75
+    },
+    "year_ago": {
+      "end": "2025-09-30",
+      "revenue": 4965.9,
+      "ebit": 518.4999999999991,
+      "ebit_margin_pct": 10.441209045691599,
+      "profit_owners": 404.46,
+      "eps": 4.09
+    },
+    "revenue_growth_yoy_pct": 14.00008054934656,
+    "profit_growth_yoy_pct": 16.03125154527025,
+    "label": "FACT (TATACONSUM filings) and CALCULATION"
+  },
+  "bridge": {
+    "cash_like": 3386.4399999999996,
+    "lease_liabilities": 686.02,
+    "borrowings": 1818.1,
+    "equity_method_investments": 266.33,
+    "class_b_ccps": 0.0,
+    "non_controlling_interests": 1144.61,
+    "net": 4.039999999999736,
+    "as_of": "2026-09-30"
+  },
+  "history": [
+    {
+      "fy_end": "2022-03-31",
+      "revenue": 12425.37,
+      "ebit": 1440.7700000000023,
+      "ebit_margin_pct": 11.595389111149222,
+      "tax_rate_pct": 25.895782251251724,
+      "nopat": 1067.671338058642,
+      "invested_capital": 14308.4,
+      "cash_like": 3162.86,
+      "sales_to_capital": 0.8683968857454363,
+      "roe_pct": 6.230437056112968,
+      "cash_conversion": 1.4931734898932187,
+      "capex_to_revenue_pct": 2.1998540083715814,
+      "cash_returned_to_profit": 0.39224358721777847
+    },
+    {
+      "fy_end": "2023-03-31",
+      "revenue": 13783.16,
+      "ebit": 1552.3899999999994,
+      "ebit_margin_pct": 11.26294695846235,
+      "tax_rate_pct": 24.924730703182497,
+      "nopat": 1165.4609730368647,
+      "invested_capital": 14497.010000000002,
+      "cash_like": 3937.25,
+      "sales_to_capital": 0.950758811644608,
+      "roe_pct": 7.708000523154245,
+      "cash_conversion": 1.1069204781311073,
+      "capex_to_revenue_pct": 2.261818044628373,
+      "cash_returned_to_profit": 0.4343630221037162,
+      "revenue_growth_pct": 10.927561915661265,
+      "roic_pct": 8.145292087423226,
+      "fcff": 976.8509730368623
+    },
+    {
+      "fy_end": "2024-03-31",
+      "revenue": 15205.85,
+      "ebit": 1906.9500000000007,
+      "ebit_margin_pct": 12.540897088949324,
+      "tax_rate_pct": 23.27801759724483,
+      "nopat": 1463.0498434293404,
+      "invested_capital": 17588.31,
+      "cash_like": 3046.62,
+      "sales_to_capital": 0.8645429833793014,
+      "roe_pct": 6.970583495305438,
+      "cash_conversion": 1.5934507158137239,
+      "capex_to_revenue_pct": 2.2010607759513605,
+      "cash_returned_to_profit": 0.6655010696067138,
+      "revenue_growth_pct": 10.321943589133408,
+      "roic_pct": 10.092079976694093,
+      "fcff": -1628.2501565706589
+    },
+    {
+      "fy_end": "2025-03-31",
+      "revenue": 17618.3,
+      "ebit": 1878.6100000000006,
+      "ebit_margin_pct": 10.662833531044429,
+      "tax_rate_pct": 22.30390363344685,
+      "nopat": 1459.6066359517044,
+      "invested_capital": 19996.449999999997,
+      "cash_like": 3451.42,
+      "sales_to_capital": 0.8810713901717556,
+      "roe_pct": 6.017213409816599,
+      "cash_conversion": 1.5978944914925026,
+      "capex_to_revenue_pct": 2.6083106769665636,
+      "cash_returned_to_profit": 0.5760624660088572,
+      "revenue_growth_pct": 15.865275535402489,
+      "roic_pct": 8.298731577688272,
+      "fcff": -948.5333640482913
+    },
+    {
+      "fy_end": "2026-03-31",
+      "revenue": 20290.43,
+      "ebit": 2165.119999999999,
+      "ebit_margin_pct": 10.670646211046286,
+      "tax_rate_pct": 24.635720137335575,
+      "nopat": 1631.7270961625193,
+      "invested_capital": 21145.260000000002,
+      "cash_like": 4574.39,
+      "sales_to_capital": 0.9595734457746085,
+      "roe_pct": 6.670444342671438,
+      "cash_conversion": 1.5657163175588311,
+      "capex_to_revenue_pct": 2.210746642629062,
+      "cash_returned_to_profit": 0.5303206620118955,
+      "revenue_growth_pct": 15.166786806899646,
+      "roic_pct": 8.160083895704084,
+      "fcff": 482.9170961625143
+    }
+  ],
+  "anchors": {
+    "revenue_cagr_history": 0.1304347000129864,
+    "history_span": "FY22-FY26",
+    "revenue_growth_last_year": 0.15166786806899646,
+    "last_year_label": "FY26"
+  },
+  "template": null,
+  "gate": {
+    "template": "A (non-financial, positive free cash flow)",
+    "applicable": false,
+    "reasons": [
+      "free cash flow not positive in at least 3 of the last 4 years"
+    ],
+    "failed": [
+      "fcff"
+    ]
+  },
+  "gate_b": {
+    "template": "B (reinvestment phase, return on capital above its cost)",
+    "applicable": false,
+    "reasons": [
+      "median return on invested capital over the last 3 years (8.3%) is not above the cost of capital (9.89%), so growth would not add value"
+    ],
+    "median_roic_recent": 0.08298731577688273,
+    "wacc": 0.09886433032433432,
+    "roic_years": [
+      "2024-03-31",
+      "2025-03-31",
+      "2026-03-31"
+    ]
+  },
+  "valuation_note": "Neither Template A nor Template B applies, so no DCF value, scenario, reverse DCF or sensitivity is computed."
+}

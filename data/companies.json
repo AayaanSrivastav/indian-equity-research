@@ -1,0 +1,934 @@
+{
+ "built": "2026-11-12",
+ "companies": [
+  {
+   "slug": "tcs",
+   "name": "Tata Consultancy Services Ltd",
+   "symbol": "TCS",
+   "sector": "IT services",
+   "sector_label": "IT",
+   "price": "₹2,442.40",
+   "change_pct": "-1.20%",
+   "up": false,
+   "as_of": "12 Nov 2026",
+   "market_cap": "₹8.84 lakh crore",
+   "market_cap_crore": 883681.7,
+   "implied_growth": "4.2%",
+   "history_growth": "8.6%",
+   "history_span": "FY22–FY26",
+   "margin": "25.0%",
+   "last_fy": "FY26",
+   "applicable": true,
+   "template": "A",
+   "reasons": [],
+   "set_by_rule": false,
+   "compare": {
+    "market_cap": {
+     "display": "₹8.84 lakh crore",
+     "type": "CALCULATION",
+     "period": "12 Nov 2026"
+    },
+    "margin": {
+     "display": "25.0%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roic": {
+     "display": "85.9%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roe": {
+     "display": "45.6%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "cash_conversion": {
+     "display": "1.05×",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "pe_ttm": {
+     "display": "17.1×",
+     "type": "CALCULATION"
+    },
+    "ev_ebit_ttm": {
+     "display": "12.1×",
+     "type": "CALCULATION"
+    },
+    "beta": {
+     "display": "0.83",
+     "type": "CALCULATION"
+    },
+    "revenue_growth": {
+     "display": "8.6% a year",
+     "type": "CALCULATION",
+     "period": "FY22–FY26"
+    },
+    "revenue": {
+     "display": "₹2,67,021 crore",
+     "type": "FACT",
+     "period": "FY26"
+    },
+    "fcff": {
+     "display": "₹36,219 crore",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "implied_growth": {
+     "display": "4.2% a year",
+     "type": "CALCULATION",
+     "period": "years 1–5"
+    },
+    "template": {
+     "display": "Template A",
+     "type": "CALCULATION"
+    }
+   }
+  },
+  {
+   "slug": "tataconsum",
+   "name": "Tata Consumer Products Ltd",
+   "symbol": "TATACONSUM",
+   "sector": "Packaged foods and beverages",
+   "sector_label": "FMCG",
+   "price": "₹1,085.30",
+   "change_pct": "-0.70%",
+   "up": false,
+   "as_of": "12 Nov 2026",
+   "market_cap": "₹1.07 lakh crore",
+   "market_cap_crore": 107412.14,
+   "implied_growth": null,
+   "history_growth": "13.0%",
+   "history_span": "FY22–FY26",
+   "margin": "10.7%",
+   "last_fy": "FY26",
+   "applicable": false,
+   "template": null,
+   "reasons": [
+    "free cash flow not positive in at least 3 of the last 4 years",
+    "median return on invested capital over the last 3 years (8.3%) is not above the cost of capital (9.89%), so growth would not add value"
+   ],
+   "set_by_rule": false,
+   "compare": {
+    "market_cap": {
+     "display": "₹1.07 lakh crore",
+     "type": "CALCULATION",
+     "period": "12 Nov 2026"
+    },
+    "margin": {
+     "display": "10.7%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roic": {
+     "display": "8.2%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roe": {
+     "display": "6.7%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "cash_conversion": {
+     "display": "1.57×",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "pe_ttm": {
+     "display": "63.2×",
+     "type": "CALCULATION"
+    },
+    "ev_ebit_ttm": {
+     "display": "45.4×",
+     "type": "CALCULATION"
+    },
+    "beta": {
+     "display": "0.71",
+     "type": "CALCULATION"
+    },
+    "revenue_growth": {
+     "display": "13.0% a year",
+     "type": "CALCULATION",
+     "period": "FY22–FY26"
+    },
+    "revenue": {
+     "display": "₹20,290 crore",
+     "type": "FACT",
+     "period": "FY26"
+    },
+    "fcff": {
+     "display": "₹483 crore",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "implied_growth": {
+     "display": "Not applicable",
+     "type": "MISSING"
+    },
+    "template": {
+     "display": "Does not apply",
+     "type": "CALCULATION",
+     "note": "free cash flow not positive in at least 3 of the last 4 years; median return on invested capital over the last 3 years (8.3%) is not above the cost of capital (9.89%), so growth would not add value"
+    }
+   }
+  },
+  {
+   "slug": "titan",
+   "name": "Titan Company Ltd",
+   "symbol": "TITAN",
+   "sector": "Jewellery, watches and eyecare",
+   "sector_label": "consumer durables",
+   "price": "₹4,921.90",
+   "change_pct": "-0.97%",
+   "up": false,
+   "as_of": "12 Nov 2026",
+   "market_cap": "₹4.38 lakh crore",
+   "market_cap_crore": 438049.1,
+   "implied_growth": "44.6%",
+   "history_growth": "32.1%",
+   "history_span": "FY22–FY26",
+   "margin": "8.6%",
+   "last_fy": "FY26",
+   "applicable": true,
+   "template": "B",
+   "reasons": [],
+   "set_by_rule": true,
+   "compare": {
+    "market_cap": {
+     "display": "₹4.38 lakh crore",
+     "type": "CALCULATION",
+     "period": "12 Nov 2026"
+    },
+    "margin": {
+     "display": "8.6%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roic": {
+     "display": "26.7%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roe": {
+     "display": "32.3%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "cash_conversion": {
+     "display": "1.10×",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "pe_ttm": {
+     "display": "62.3×",
+     "type": "CALCULATION"
+    },
+    "ev_ebit_ttm": {
+     "display": "48.4×",
+     "type": "CALCULATION"
+    },
+    "beta": {
+     "display": "0.93",
+     "type": "CALCULATION"
+    },
+    "revenue_growth": {
+     "display": "32.1% a year",
+     "type": "CALCULATION",
+     "period": "FY22–FY26"
+    },
+    "revenue": {
+     "display": "₹87,584 crore",
+     "type": "FACT",
+     "period": "FY26"
+    },
+    "fcff": {
+     "display": "₹1,804 crore",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "implied_growth": {
+     "display": "44.6% a year",
+     "type": "CALCULATION",
+     "period": "years 1–5"
+    },
+    "template": {
+     "display": "Template B",
+     "type": "CALCULATION",
+     "note": "Template A: free cash flow not positive in at least 3 of the last 4 years"
+    }
+   }
+  },
+  {
+   "slug": "tatasteel",
+   "name": "Tata Steel Ltd",
+   "symbol": "TATASTEEL",
+   "sector": "Steel",
+   "sector_label": "metals",
+   "price": "₹188.00",
+   "change_pct": "-0.68%",
+   "up": false,
+   "as_of": "12 Nov 2026",
+   "market_cap": "₹2.35 lakh crore",
+   "market_cap_crore": 234518.72,
+   "implied_growth": null,
+   "history_growth": "-1.2%",
+   "history_span": "FY22–FY26",
+   "margin": "9.6%",
+   "last_fy": "FY26",
+   "applicable": false,
+   "template": null,
+   "reasons": [
+    "free cash flow not positive in at least 3 of the last 4 years",
+    "effective tax rate outside 0-50% in FY24 (-345.5%), FY25 (63.7%), so after-tax operating profit and the tax assumption are not meaningful"
+   ],
+   "set_by_rule": false,
+   "compare": {
+    "market_cap": {
+     "display": "₹2.35 lakh crore",
+     "type": "CALCULATION",
+     "period": "12 Nov 2026"
+    },
+    "margin": {
+     "display": "9.6%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roic": {
+     "display": "9.0%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roe": {
+     "display": "10.5%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "cash_conversion": {
+     "display": "3.22×",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "pe_ttm": {
+     "display": "20.2×",
+     "type": "CALCULATION"
+    },
+    "ev_ebit_ttm": {
+     "display": "12.9×",
+     "type": "CALCULATION"
+    },
+    "beta": {
+     "display": "1.20",
+     "type": "CALCULATION"
+    },
+    "revenue_growth": {
+     "display": "-1.2% a year",
+     "type": "CALCULATION",
+     "period": "FY22–FY26"
+    },
+    "revenue": {
+     "display": "₹2,32,140 crore",
+     "type": "FACT",
+     "period": "FY26"
+    },
+    "fcff": {
+     "display": "₹4,397 crore",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "implied_growth": {
+     "display": "Not applicable",
+     "type": "MISSING"
+    },
+    "template": {
+     "display": "Does not apply",
+     "type": "CALCULATION",
+     "note": "free cash flow not positive in at least 3 of the last 4 years; effective tax rate outside 0-50% in FY24 (-345.5%), FY25 (63.7%), so after-tax operating profit and the tax assumption are not meaningful"
+    }
+   }
+  },
+  {
+   "slug": "trent",
+   "name": "Trent Ltd",
+   "symbol": "TRENT",
+   "sector": "Retail",
+   "sector_label": "consumption (thematic)",
+   "price": "₹3,180.00",
+   "change_pct": "-1.32%",
+   "up": false,
+   "as_of": "12 Nov 2026",
+   "market_cap": "₹1.70 lakh crore",
+   "market_cap_crore": 169557.6,
+   "implied_growth": "more than 60.0%",
+   "history_growth": "34.5%",
+   "history_span": "FY23–FY26",
+   "margin": "11.5%",
+   "last_fy": "FY26",
+   "applicable": true,
+   "template": "B",
+   "reasons": [],
+   "set_by_rule": true,
+   "compare": {
+    "market_cap": {
+     "display": "₹1.70 lakh crore",
+     "type": "CALCULATION",
+     "period": "12 Nov 2026"
+    },
+    "margin": {
+     "display": "11.5%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roic": {
+     "display": "29.6%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roe": {
+     "display": "24.2%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "cash_conversion": {
+     "display": "1.55×",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "pe_ttm": {
+     "display": "89.4×",
+     "type": "CALCULATION"
+    },
+    "ev_ebit_ttm": {
+     "display": "64.5×",
+     "type": "CALCULATION"
+    },
+    "beta": {
+     "display": "1.30",
+     "type": "CALCULATION"
+    },
+    "revenue_growth": {
+     "display": "34.5% a year",
+     "type": "CALCULATION",
+     "period": "FY23–FY26"
+    },
+    "revenue": {
+     "display": "₹20,074 crore",
+     "type": "FACT",
+     "period": "FY26"
+    },
+    "fcff": {
+     "display": "−₹222 crore",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "implied_growth": {
+     "display": "more than 60.0% a year",
+     "type": "CALCULATION",
+     "period": "years 1–5"
+    },
+    "template": {
+     "display": "Template B",
+     "type": "CALCULATION",
+     "note": "Template A: free cash flow not positive in at least 3 of the last 4 years"
+    }
+   }
+  },
+  {
+   "slug": "tatapower",
+   "name": "Tata Power Company Ltd",
+   "symbol": "TATAPOWER",
+   "sector": "Power",
+   "sector_label": "energy",
+   "price": "₹357.00",
+   "change_pct": "-0.83%",
+   "up": false,
+   "as_of": "12 Nov 2026",
+   "market_cap": "₹1.14 lakh crore",
+   "market_cap_crore": 114082.92,
+   "implied_growth": null,
+   "history_growth": "4.2%",
+   "history_span": "FY23–FY26",
+   "margin": "13.3%",
+   "last_fy": "FY26",
+   "applicable": false,
+   "template": null,
+   "reasons": [
+    "free cash flow not positive in at least 3 of the last 4 years",
+    "median return on invested capital over the last 3 years (8.0%) is not above the cost of capital (8.74%), so growth would not add value"
+   ],
+   "set_by_rule": false,
+   "compare": {
+    "market_cap": {
+     "display": "₹1.14 lakh crore",
+     "type": "CALCULATION",
+     "period": "12 Nov 2026"
+    },
+    "margin": {
+     "display": "13.3%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roic": {
+     "display": "7.2%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roe": {
+     "display": "10.8%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "cash_conversion": {
+     "display": "1.17×",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "pe_ttm": {
+     "display": "26.5×",
+     "type": "CALCULATION"
+    },
+    "ev_ebit_ttm": {
+     "display": "20.9×",
+     "type": "CALCULATION"
+    },
+    "beta": {
+     "display": "0.92",
+     "type": "CALCULATION"
+    },
+    "revenue_growth": {
+     "display": "4.2% a year",
+     "type": "CALCULATION",
+     "period": "FY23–FY26"
+    },
+    "revenue": {
+     "display": "₹62,429 crore",
+     "type": "FACT",
+     "period": "FY26"
+    },
+    "fcff": {
+     "display": "−₹10,462 crore",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "implied_growth": {
+     "display": "Not applicable",
+     "type": "MISSING"
+    },
+    "template": {
+     "display": "Does not apply",
+     "type": "CALCULATION",
+     "note": "free cash flow not positive in at least 3 of the last 4 years; median return on invested capital over the last 3 years (8.0%) is not above the cost of capital (8.74%), so growth would not add value"
+    }
+   }
+  },
+  {
+   "slug": "infy",
+   "name": "Infosys Ltd",
+   "symbol": "INFY",
+   "sector": "IT services",
+   "sector_label": "IT",
+   "price": "₹1,151.20",
+   "change_pct": "-0.33%",
+   "up": false,
+   "as_of": "12 Nov 2026",
+   "market_cap": "₹4.66 lakh crore",
+   "market_cap_crore": 466466.24,
+   "implied_growth": "5.5%",
+   "history_growth": "10.1%",
+   "history_span": "FY22–FY26",
+   "margin": "20.9%",
+   "last_fy": "FY26",
+   "applicable": true,
+   "template": "A",
+   "reasons": [],
+   "set_by_rule": true,
+   "compare": {
+    "market_cap": {
+     "display": "₹4.66 lakh crore",
+     "type": "CALCULATION",
+     "period": "12 Nov 2026"
+    },
+    "margin": {
+     "display": "20.9%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roic": {
+     "display": "48.8%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roe": {
+     "display": "31.6%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "cash_conversion": {
+     "display": "1.15×",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "pe_ttm": {
+     "display": "15.2×",
+     "type": "CALCULATION"
+    },
+    "ev_ebit_ttm": {
+     "display": "10.8×",
+     "type": "CALCULATION"
+    },
+    "beta": {
+     "display": "0.90",
+     "type": "CALCULATION"
+    },
+    "revenue_growth": {
+     "display": "10.1% a year",
+     "type": "CALCULATION",
+     "period": "FY22–FY26"
+    },
+    "revenue": {
+     "display": "₹1,78,650 crore",
+     "type": "FACT",
+     "period": "FY26"
+    },
+    "fcff": {
+     "display": "₹25,587 crore",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "implied_growth": {
+     "display": "5.5% a year",
+     "type": "CALCULATION",
+     "period": "years 1–5"
+    },
+    "template": {
+     "display": "Template A",
+     "type": "CALCULATION"
+    }
+   }
+  },
+  {
+   "slug": "hcltech",
+   "name": "HCL Technologies Ltd",
+   "symbol": "HCLTECH",
+   "sector": "IT services",
+   "sector_label": "IT",
+   "price": "₹1,380.80",
+   "change_pct": "-1.02%",
+   "up": false,
+   "as_of": "12 Nov 2026",
+   "market_cap": "₹3.75 lakh crore",
+   "market_cap_crore": 374887.2,
+   "implied_growth": "13.0%",
+   "history_growth": "11.0%",
+   "history_span": "FY22–FY26",
+   "margin": "17.2%",
+   "last_fy": "FY26",
+   "applicable": true,
+   "template": "A",
+   "reasons": [],
+   "set_by_rule": true,
+   "compare": {
+    "market_cap": {
+     "display": "₹3.75 lakh crore",
+     "type": "CALCULATION",
+     "period": "12 Nov 2026"
+    },
+    "margin": {
+     "display": "17.2%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roic": {
+     "display": "35.8%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roe": {
+     "display": "22.1%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "cash_conversion": {
+     "display": "1.20×",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "pe_ttm": {
+     "display": "20.5×",
+     "type": "CALCULATION"
+    },
+    "ev_ebit_ttm": {
+     "display": "14.7×",
+     "type": "CALCULATION"
+    },
+    "beta": {
+     "display": "0.90",
+     "type": "CALCULATION"
+    },
+    "revenue_growth": {
+     "display": "11.0% a year",
+     "type": "CALCULATION",
+     "period": "FY22–FY26"
+    },
+    "revenue": {
+     "display": "₹1,30,144 crore",
+     "type": "FACT",
+     "period": "FY26"
+    },
+    "fcff": {
+     "display": "₹14,073 crore",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "implied_growth": {
+     "display": "13.0% a year",
+     "type": "CALCULATION",
+     "period": "years 1–5"
+    },
+    "template": {
+     "display": "Template A",
+     "type": "CALCULATION"
+    }
+   }
+  },
+  {
+   "slug": "wipro",
+   "name": "Wipro Ltd",
+   "symbol": "WIPRO",
+   "sector": "IT services",
+   "sector_label": "IT",
+   "price": "₹196.20",
+   "change_pct": "-0.90%",
+   "up": false,
+   "as_of": "12 Nov 2026",
+   "market_cap": "₹1.94 lakh crore",
+   "market_cap_crore": 194336.1,
+   "implied_growth": "3.8%",
+   "history_growth": "4.0%",
+   "history_span": "FY22–FY26",
+   "margin": "16.1%",
+   "last_fy": "FY26",
+   "applicable": true,
+   "template": "A",
+   "reasons": [],
+   "set_by_rule": true,
+   "compare": {
+    "market_cap": {
+     "display": "₹1.94 lakh crore",
+     "type": "CALCULATION",
+     "period": "12 Nov 2026"
+    },
+    "margin": {
+     "display": "16.1%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roic": {
+     "display": "25.0%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roe": {
+     "display": "15.0%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "cash_conversion": {
+     "display": "1.13×",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "pe_ttm": {
+     "display": "14.8×",
+     "type": "CALCULATION"
+    },
+    "ev_ebit_ttm": {
+     "display": "11.0×",
+     "type": "CALCULATION"
+    },
+    "beta": {
+     "display": "0.84",
+     "type": "CALCULATION"
+    },
+    "revenue_growth": {
+     "display": "4.0% a year",
+     "type": "CALCULATION",
+     "period": "FY22–FY26"
+    },
+    "revenue": {
+     "display": "₹92,624 crore",
+     "type": "FACT",
+     "period": "FY26"
+    },
+    "fcff": {
+     "display": "₹5,832 crore",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "implied_growth": {
+     "display": "3.8% a year",
+     "type": "CALCULATION",
+     "period": "years 1–5"
+    },
+    "template": {
+     "display": "Template A",
+     "type": "CALCULATION"
+    }
+   }
+  },
+  {
+   "slug": "techm",
+   "name": "Tech Mahindra Ltd",
+   "symbol": "TECHM",
+   "sector": "IT services",
+   "sector_label": "IT",
+   "price": "₹1,774.00",
+   "change_pct": "-0.81%",
+   "up": false,
+   "as_of": "12 Nov 2026",
+   "market_cap": "₹1.57 lakh crore",
+   "market_cap_crore": 157176.4,
+   "implied_growth": "20.0%",
+   "history_growth": "6.2%",
+   "history_span": "FY22–FY26",
+   "margin": "12.6%",
+   "last_fy": "FY26",
+   "applicable": true,
+   "template": "A",
+   "reasons": [],
+   "set_by_rule": true,
+   "compare": {
+    "market_cap": {
+     "display": "₹1.57 lakh crore",
+     "type": "CALCULATION",
+     "period": "12 Nov 2026"
+    },
+    "margin": {
+     "display": "12.6%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roic": {
+     "display": "23.7%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "roe": {
+     "display": "16.0%",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "cash_conversion": {
+     "display": "1.28×",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "pe_ttm": {
+     "display": "28.4×",
+     "type": "CALCULATION"
+    },
+    "ev_ebit_ttm": {
+     "display": "17.7×",
+     "type": "CALCULATION"
+    },
+    "beta": {
+     "display": "0.80",
+     "type": "CALCULATION"
+    },
+    "revenue_growth": {
+     "display": "6.2% a year",
+     "type": "CALCULATION",
+     "period": "FY22–FY26"
+    },
+    "revenue": {
+     "display": "₹56,815 crore",
+     "type": "FACT",
+     "period": "FY26"
+    },
+    "fcff": {
+     "display": "₹3,590 crore",
+     "type": "CALCULATION",
+     "period": "FY26"
+    },
+    "implied_growth": {
+     "display": "20.0% a year",
+     "type": "CALCULATION",
+     "period": "years 1–5"
+    },
+    "template": {
+     "display": "Template A",
+     "type": "CALCULATION"
+    }
+   }
+  }
+ ],
+ "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No recommendation, no price target, no rating.",
+ "compare_rows": [
+  {
+   "id": "market_cap",
+   "label": "Market cap",
+   "definition": "Price × shares outstanding on the price date."
+  },
+  {
+   "id": "revenue",
+   "label": "Revenue (last full year)",
+   "definition": "Revenue from operations, consolidated."
+  },
+  {
+   "id": "revenue_growth",
+   "label": "Revenue growth (compound, a year)",
+   "definition": "Compound annual growth of revenue over the years shown."
+  },
+  {
+   "id": "margin",
+   "label": "Operating margin",
+   "definition": "EBIT ÷ revenue, after depreciation, excluding other income."
+  },
+  {
+   "id": "roic",
+   "label": "Return on invested capital",
+   "definition": "After-tax EBIT ÷ invested capital at the start of the year."
+  },
+  {
+   "id": "roe",
+   "label": "Return on equity",
+   "definition": "Profit for the year ÷ total equity at year end."
+  },
+  {
+   "id": "cash_conversion",
+   "label": "Cash conversion",
+   "definition": "Operating cash flow ÷ profit for the year."
+  },
+  {
+   "id": "fcff",
+   "label": "Free cash flow to the firm",
+   "definition": "After-tax EBIT less the change in invested capital, last full year."
+  },
+  {
+   "id": "pe_ttm",
+   "label": "P/E (TTM)",
+   "definition": "Price ÷ earnings per share over the last four reported quarters."
+  },
+  {
+   "id": "ev_ebit_ttm",
+   "label": "EV / EBIT (TTM)",
+   "definition": "Enterprise value ÷ operating profit over the last four quarters."
+  },
+  {
+   "id": "beta",
+   "label": "Beta vs NIFTY 50",
+   "definition": "Sensitivity of the daily return to the NIFTY 50's."
+  },
+  {
+   "id": "implied_growth",
+   "label": "Growth the price implies",
+   "definition": "The reverse DCF: revenue growth for five years that the price is consistent with."
+  },
+  {
+   "id": "template",
+   "label": "DCF template",
+   "definition": "Which template applies (A: positive free cash flow; B: reinvestment earning above its cost), and why not when neither does."
+  }
+ ]
+}
