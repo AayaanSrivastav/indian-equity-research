@@ -2,7 +2,7 @@
    It computes nothing in the model: every number shown was rendered by the Python engine. */
 (function () {
   "use strict";
-  var slug = new URLSearchParams(window.location.search).get("c") || "";
+  var slug = (new URLSearchParams(window.location.search).get("c") || "").toLowerCase();  // capital letters in the address are accepted
   var dataDir = "data/" + slug + "/";
   var compareLink = document.getElementById("compare-link");  // absent from a cached older page: never fatal
   if (slug && compareLink) { compareLink.href = "compare.html?c=" + encodeURIComponent(slug); }
@@ -66,6 +66,8 @@
 
   // flags: cautions (the headline depends on it) first, then notes; the section stays hidden when there are none
   function renderFlags() {
+    // a returning visitor can briefly hold an older company.html (no flags box) next to this script: skip quietly, never stop the page
+    if (!$("flags")) { return; }
     var fl = page.flags || [], n = fl.filter(function (f) { return f.level === "caution"; }).length;
     $("flags").hidden = !fl.length;
     if (!fl.length) { return; }
@@ -280,7 +282,9 @@
     }).join("") + '<p class="small ink2" style="grid-column:1/-1;margin:0">' + esc(s.verification.note) + "</p>";
     $("doc-table").className = "table-wrap text";
     $("doc-table").innerHTML = table(["Document", "Kind", "Period", "Published by", "Date"], s.documents.map(function (d) {
-      var title = d.url ? '<a href="' + esc(d.url) + '" rel="noopener" target="_blank">' + esc(d.title) + "</a>" : esc(d.title);
+      // a "page" link leads to the publisher's page where the document can be found, not to the document itself: say so
+      var title = d.url ? '<a href="' + esc(d.url) + '" rel="noopener" target="_blank">' + esc(d.title) + "</a>" +
+        (d.link === "page" ? ' <span class="muted small">· publisher\'s page, not the file</span>' : "") : esc(d.title) + ' <span class="muted small">· no web address</span>';
       return '<tr><td style="white-space:normal;min-width:260px">' + title + "</td><td>" + esc(d.kind) + '</td><td style="white-space:normal">' + esc(d.period) +
         "</td><td>" + esc(d.publisher) + "</td><td>" + esc(d.published || "") + "</td></tr>";
     }));

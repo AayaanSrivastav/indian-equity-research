@@ -11184,7 +11184,7 @@
     "period": "Q4 FY22 (also FY22; the filing has no balance sheet)",
     "published": "2022-05-13",
     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_84436_654346_13052022064017_WEB.xml",
-    "file": "TECHM_FY22Q4_results-consolidated.xml"
+    "link": "file"
    },
    {
     "kind": "Financial statements (used for numbers)",
@@ -11193,7 +11193,7 @@
     "period": "Q4 FY23 (also FY23; BS at 2023-03-31)",
     "published": "2023-04-27",
     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_90931_834167_27042023091314.xml",
-    "file": "TECHM_FY23Q4_results-consolidated.xml"
+    "link": "file"
    },
    {
     "kind": "Financial statements (used for numbers)",
@@ -11202,7 +11202,7 @@
     "period": "Q4 FY24 (also FY24; BS at 2024-03-31)",
     "published": "2024-04-25",
     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_104717_1108423_25042024082515.xml",
-    "file": "TECHM_FY24Q4_results-consolidated.xml"
+    "link": "file"
    },
    {
     "kind": "Financial statements (used for numbers)",
@@ -11211,7 +11211,7 @@
     "period": "Q2 FY25 (also H1 FY25; BS at 2024-09-30)",
     "published": "2024-10-19",
     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_112909_1279319_19102024062523.xml",
-    "file": "TECHM_FY25Q2_results-consolidated.xml"
+    "link": "file"
    },
    {
     "kind": "Financial statements (used for numbers)",
@@ -11220,7 +11220,7 @@
     "period": "Q3 FY25 (also 9M FY25)",
     "published": "2025-01-17",
     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_117316_1349320_17012025041910.xml",
-    "file": "TECHM_FY25Q3_results-consolidated.xml"
+    "link": "file"
    },
    {
     "kind": "Financial statements (used for numbers)",
@@ -11229,7 +11229,7 @@
     "period": "Q4 FY25 (also FY25; BS at 2025-03-31)",
     "published": "2025-04-24",
     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1424350_24042025113829_WEB.xml",
-    "file": "TECHM_FY25Q4_integrated-filing-consolidated.xml"
+    "link": "file"
    },
    {
     "kind": "Financial statements (used for numbers)",
@@ -11238,7 +11238,7 @@
     "period": "Q1 FY26",
     "published": "2025-07-16",
     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1484394_16072025045335_WEB.xml",
-    "file": "TECHM_FY26Q1_integrated-filing-consolidated.xml"
+    "link": "file"
    },
    {
     "kind": "Financial statements (used for numbers)",
@@ -11247,7 +11247,7 @@
     "period": "Q2 FY26 (also H1 FY26; BS at 2025-09-30)",
     "published": "2025-10-14",
     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1548249_14102025093717_WEB.xml",
-    "file": "TECHM_FY26Q2_integrated-filing-consolidated.xml"
+    "link": "file"
    },
    {
     "kind": "Financial statements (used for numbers)",
@@ -11256,7 +11256,7 @@
     "period": "Q3 FY26 (also 9M FY26)",
     "published": "2026-01-16",
     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1602469_16012026045706_WEB.xml",
-    "file": "TECHM_FY26Q3_integrated-filing-consolidated.xml"
+    "link": "file"
    },
    {
     "kind": "Financial statements (used for numbers)",
@@ -11265,7 +11265,7 @@
     "period": "Q4 FY26 (also FY26; BS at 2026-03-31)",
     "published": "2026-04-22",
     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1657298_22042026060207_WEB.xml",
-    "file": "TECHM_FY26Q4_integrated-filing-consolidated.xml"
+    "link": "file"
    },
    {
     "kind": "Financial statements (used for numbers)",
@@ -11274,7 +11274,7 @@
     "period": "Q1 FY27",
     "published": "2026-07-16",
     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1694424_16072026054913_WEB.xml",
-    "file": "TECHM_FY27Q1_integrated-filing-consolidated.xml"
+    "link": "file"
    },
    {
     "kind": "Financial statements (used for numbers)",
@@ -11283,7 +11283,7 @@
     "period": "Q2 FY27 (also H1 FY27; BS at 2026-09-30)",
     "published": "2026-10-15",
     "url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1739120_15102026053428_WEB.xml",
-    "file": "TECHM_FY27Q2_integrated-filing-consolidated.xml"
+    "link": "file"
    },
    {
     "kind": "Market data",
@@ -11291,8 +11291,8 @@
     "publisher": "National Stock Exchange of India",
     "period": "2023-10-30 to 2024-10-28",
     "published": "",
-    "url": "https://www.nseindia.com/get-quote/equity/TECHM/Tech-Mahindra-Limited",
-    "file": "Quote-Equity-TECHM-EQ-29-10-2023-28-10-2024.csv"
+    "url": "https://www.nseindia.in/get-quotes/equity?symbol=TECHM",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11300,8 +11300,8 @@
     "publisher": "National Stock Exchange of India",
     "period": "2024-10-29 to 2025-10-28",
     "published": "",
-    "url": "https://www.nseindia.com/get-quote/equity/TECHM/Tech-Mahindra-Limited",
-    "file": "Quote-Equity-TECHM-EQ-29-10-2024-28-10-2025.csv"
+    "url": "https://www.nseindia.in/get-quotes/equity?symbol=TECHM",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11309,8 +11309,8 @@
     "publisher": "National Stock Exchange of India",
     "period": "2025-10-29 to 2026-10-28",
     "published": "",
-    "url": "https://www.nseindia.com/get-quote/equity/TECHM/Tech-Mahindra-Limited",
-    "file": "Quote-Equity-TECHM-EQ-29-10-2025-28-10-2026.csv"
+    "url": "https://www.nseindia.in/get-quotes/equity?symbol=TECHM",
+    "link": "page"
    },
    {
     "kind": "Corporate actions and announcements",
@@ -11318,8 +11318,8 @@
     "publisher": "National Stock Exchange of India",
     "period": "ex-dates 2016-07-28 to 2026-10-23",
     "published": "",
-    "url": "https://www.nseindia.com/companies-listing/corporate-filings-actions?symbol=TECHM&tabIndex=equity",
-    "file": "TECHM_2016-2026_corporate-actions-nse.csv"
+    "url": "https://www.nseindia.in/companies-listing/corporate-filings-actions?symbol=TECHM&tabIndex=equity",
+    "link": "page"
    },
    {
     "kind": "Corporate actions and announcements",
@@ -11327,8 +11327,8 @@
     "publisher": "National Stock Exchange of India",
     "period": "Q2 FY26 to Q2 FY27 results",
     "published": "",
-    "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements?symbol=TECHM&tabIndex=equity",
-    "file": "TECHM_FY26Q2-FY27Q2_results-release-times-nse.csv"
+    "url": "https://www.nseindia.in/companies-listing/corporate-filings-announcements?symbol=TECHM&tabIndex=equity",
+    "link": "page"
    },
    {
     "kind": "Financial statements (used for numbers)",
@@ -11337,7 +11337,7 @@
     "period": "Q4 FY23 and FY23; BS at 2023-03-31 and 2022-03-31",
     "published": "2023-04-27",
     "url": "https://nsearchives.nseindia.com/corporate/SEINTIMATION2704_27042023155529.pdf",
-    "file": "TECHM_FY23Q4_results.pdf"
+    "link": "file"
    },
    {
     "kind": "Financial statements (used for numbers)",
@@ -11346,7 +11346,7 @@
     "period": "Q2 FY25, Q1 FY25 and H1 FY25",
     "published": "2024-10-19",
     "url": "https://nsearchives.nseindia.com/corporate/FINALRESULTSF_19102024043730.pdf",
-    "file": "TECHM_FY25Q2_results.pdf"
+    "link": "file"
    },
    {
     "kind": "Financial statements (used for numbers)",
@@ -11355,7 +11355,7 @@
     "period": "Q4 FY25 and FY25; BS at 2025-03-31 and 2024-03-31",
     "published": "2025-04-24",
     "url": "https://nsearchives.nseindia.com/corporate/TECHM_24042025165507_SEintimationOutcomeofBMQ4FY25.pdf",
-    "file": "TECHM_FY25Q4_results.pdf"
+    "link": "file"
    },
    {
     "kind": "Financial statements (used for numbers)",
@@ -11364,7 +11364,7 @@
     "period": "Q4 FY26 and FY26; Q3 FY26 and Q4 FY25 comparatives",
     "published": "2026-04-22",
     "url": "https://nsearchives.nseindia.com/corporate/TECHM_22042026135019_SEOutcomeF_S.pdf",
-    "file": "TECHM_FY26Q4_results.pdf"
+    "link": "file"
    },
    {
     "kind": "Financial statements (used for numbers)",
@@ -11373,7 +11373,7 @@
     "period": "Q2 FY27 and H1 FY27; BS at 2026-09-30 and 2026-03-31",
     "published": "2026-10-15",
     "url": "https://nsearchives.nseindia.com/corporate/TECHM_15102026165627_Outcome_FINAL_Signed.pdf",
-    "file": "TECHM_FY27Q2_results.pdf"
+    "link": "file"
    },
    {
     "kind": "Market data",
@@ -11381,8 +11381,8 @@
     "publisher": "NSE Indices Ltd (niftyindices.com)",
     "period": "2023-10-16 to 2024-10-14",
     "published": "",
-    "url": "",
-    "file": "NIFTY 50-14-10-2023-to-14-10-2024.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11390,8 +11390,8 @@
     "publisher": "NSE Indices Ltd (niftyindices.com)",
     "period": "2024-10-14 to 2025-10-14",
     "published": "",
-    "url": "",
-    "file": "NIFTY 50-14-10-2024-to-14-10-2025.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11399,8 +11399,8 @@
     "publisher": "NSE Indices Ltd (niftyindices.com)",
     "period": "2025-10-14 to 2026-10-14",
     "published": "",
-    "url": "",
-    "file": "NIFTY 50-14-10-2025-to-14-10-2026.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11408,8 +11408,8 @@
     "publisher": "NSE Indices Ltd (niftyindices.com)",
     "period": "2023-10-16 to 2024-10-14",
     "published": "",
-    "url": "",
-    "file": "NIFTY IT-14-10-2023-to-14-10-2024.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11417,8 +11417,8 @@
     "publisher": "NSE Indices Ltd (niftyindices.com)",
     "period": "2024-10-14 to 2025-10-14",
     "published": "",
-    "url": "",
-    "file": "NIFTY IT-14-10-2024-to-14-10-2025.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11426,8 +11426,8 @@
     "publisher": "NSE Indices Ltd (niftyindices.com)",
     "period": "2025-10-14 to 2026-10-14",
     "published": "",
-    "url": "",
-    "file": "NIFTY IT-14-10-2025-to-14-10-2026.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Rates and risk premium",
@@ -11436,7 +11436,7 @@
     "period": "2026-10-08",
     "published": "2026-10-08",
     "url": "https://www.fbil.org.in/#/home",
-    "file": "FBIL_2026-10-08_gsec-prices-par-yield.xlsx"
+    "link": "page"
    },
    {
     "kind": "Rates and risk premium",
@@ -11445,7 +11445,7 @@
     "period": "July 1 2026 update (default spreads corrected July 9 2026)",
     "published": "2026-07-01",
     "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/ctrypremJuly26.xlsx",
-    "file": "Damodaran_2026-07-01_country-risk-premiums.xlsx"
+    "link": "file"
    },
    {
     "kind": "Rates and risk premium",
@@ -11454,7 +11454,7 @@
     "period": "2025-10-31",
     "published": "2025-10-31",
     "url": "https://www.fbil.org.in/#/home",
-    "file": "FBIL_2025-10-31_gsec-prices-par-yield.xlsx"
+    "link": "page"
    },
    {
     "kind": "Rates and risk premium",
@@ -11463,7 +11463,7 @@
     "period": "2025-11-28",
     "published": "2025-11-28",
     "url": "https://www.fbil.org.in/#/home",
-    "file": "FBIL_2025-11-28_gsec-prices-par-yield.xlsx"
+    "link": "page"
    },
    {
     "kind": "Rates and risk premium",
@@ -11472,7 +11472,7 @@
     "period": "2025-12-31",
     "published": "2025-12-31",
     "url": "https://www.fbil.org.in/#/home",
-    "file": "FBIL_2025-12-31_gsec-prices-par-yield.xlsx"
+    "link": "page"
    },
    {
     "kind": "Rates and risk premium",
@@ -11481,7 +11481,7 @@
     "period": "2026-01-30",
     "published": "2026-01-30",
     "url": "https://www.fbil.org.in/#/home",
-    "file": "FBIL_2026-01-30_gsec-prices-par-yield.xlsx"
+    "link": "page"
    },
    {
     "kind": "Rates and risk premium",
@@ -11490,7 +11490,7 @@
     "period": "2026-02-27",
     "published": "2026-02-27",
     "url": "https://www.fbil.org.in/#/home",
-    "file": "FBIL_2026-02-27_gsec-prices-par-yield.xlsx"
+    "link": "page"
    },
    {
     "kind": "Rates and risk premium",
@@ -11499,7 +11499,7 @@
     "period": "2026-03-30",
     "published": "2026-03-30",
     "url": "https://www.fbil.org.in/#/home",
-    "file": "FBIL_2026-03-30_gsec-prices-par-yield.xlsx"
+    "link": "page"
    },
    {
     "kind": "Rates and risk premium",
@@ -11508,7 +11508,7 @@
     "period": "2026-04-30",
     "published": "2026-04-30",
     "url": "https://www.fbil.org.in/#/home",
-    "file": "FBIL_2026-04-30_gsec-prices-par-yield.xlsx"
+    "link": "page"
    },
    {
     "kind": "Rates and risk premium",
@@ -11517,7 +11517,7 @@
     "period": "2026-05-29",
     "published": "2026-05-29",
     "url": "https://www.fbil.org.in/#/home",
-    "file": "FBIL_2026-05-29_gsec-prices-par-yield.xlsx"
+    "link": "page"
    },
    {
     "kind": "Rates and risk premium",
@@ -11526,7 +11526,7 @@
     "period": "2026-06-30",
     "published": "2026-06-30",
     "url": "https://www.fbil.org.in/#/home",
-    "file": "FBIL_2026-06-30_gsec-prices-par-yield.xlsx"
+    "link": "page"
    },
    {
     "kind": "Rates and risk premium",
@@ -11535,7 +11535,7 @@
     "period": "2026-07-31",
     "published": "2026-07-31",
     "url": "https://www.fbil.org.in/#/home",
-    "file": "FBIL_2026-07-31_gsec-prices-par-yield.xlsx"
+    "link": "page"
    },
    {
     "kind": "Rates and risk premium",
@@ -11544,7 +11544,7 @@
     "period": "2026-08-31",
     "published": "2026-08-31",
     "url": "https://www.fbil.org.in/#/home",
-    "file": "FBIL_2026-08-31_gsec-prices-par-yield.xlsx"
+    "link": "page"
    },
    {
     "kind": "Rates and risk premium",
@@ -11553,7 +11553,7 @@
     "period": "2026-09-30",
     "published": "2026-09-30",
     "url": "https://www.fbil.org.in/#/home",
-    "file": "FBIL_2026-09-30_gsec-prices-par-yield.xlsx"
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11561,8 +11561,8 @@
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-10-15 to 2026-10-22",
     "published": "",
-    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
-    "file": "NIFTY 50-15-10-2026-to-22-10-2026.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11570,8 +11570,8 @@
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-10-23 to 2026-10-27",
     "published": "",
-    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
-    "file": "NIFTY 50-23-10-2026-to-27-10-2026.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11579,8 +11579,8 @@
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-10-15 to 2026-10-27",
     "published": "",
-    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
-    "file": "NIFTY IT-15-10-2026-to-27-10-2026.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11588,8 +11588,8 @@
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-10-28 to 2026-11-06",
     "published": "",
-    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
-    "file": "NIFTY 50-28-10-2026-to-06-11-2026.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11597,8 +11597,8 @@
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-10-28 to 2026-11-06",
     "published": "",
-    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
-    "file": "NIFTY IT-28-10-2026-to-06-11-2026.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11606,8 +11606,8 @@
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-09",
     "published": "",
-    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
-    "file": "NIFTY 50-09-11-2026-to-11-11-2026.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11615,8 +11615,8 @@
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-09",
     "published": "",
-    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
-    "file": "NIFTY IT-09-11-2026-to-11-11-2026.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11624,8 +11624,8 @@
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-11",
     "published": "",
-    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
-    "file": "NIFTY 50-10-11-2026-to-11-11-2026.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11633,8 +11633,8 @@
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-11",
     "published": "",
-    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
-    "file": "NIFTY IT-10-11-2026-to-11-11-2026.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11642,8 +11642,8 @@
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-12",
     "published": "",
-    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
-    "file": "NIFTY 50-12-11-2026-to-12-11-2026.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11651,8 +11651,8 @@
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-12",
     "published": "",
-    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
-    "file": "NIFTY IT-12-11-2026-to-12-11-2026.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11660,8 +11660,8 @@
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-13",
     "published": "",
-    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
-    "file": "NIFTY 50-13-11-2026-to-13-11-2026.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11669,8 +11669,8 @@
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-13",
     "published": "",
-    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
-    "file": "NIFTY IT-13-11-2026-to-13-11-2026.csv"
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11679,7 +11679,7 @@
     "period": "2026-11-16",
     "published": "",
     "url": "https://www.nseindia.in/reports-indices-historical-index-data",
-    "file": "NIFTY 50-14-11-2026-to-16-11-2026.csv"
+    "link": "page"
    },
    {
     "kind": "Market data",
@@ -11688,7 +11688,7 @@
     "period": "2026-11-16",
     "published": "",
     "url": "https://www.nseindia.in/reports-indices-historical-index-data",
-    "file": "NIFTY IT-14-11-2026-to-16-11-2026.csv"
+    "link": "page"
    }
   ],
   "verification": {
