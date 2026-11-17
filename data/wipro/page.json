@@ -1,5 +1,5 @@
 {
- "built": "2026-11-12",
+ "built": "2026-11-17",
  "slug": "wipro",
  "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
  "header": {
@@ -10,12 +10,12 @@
   "sector": "IT services",
   "sector_label": "IT",
   "sector_index": "NIFTY IT",
-  "price": "₹196.20",
-  "change": "−₹1.79",
-  "change_pct": "-0.90%",
+  "price": "₹193.54",
+  "change": "−₹1.06",
+  "change_pct": "-0.54%",
   "up": false,
-  "as_of": "12 Nov 2026",
-  "market_cap": "₹1.94 lakh crore",
+  "as_of": "16 Nov 2026",
+  "market_cap": "₹1.92 lakh crore",
   "high_52w": "₹273.10",
   "low_52w": "₹156.79",
   "source": "NSE closing price (end of day, not live); 52-week range computed from daily highs and lows (NSE bhavcopy)"
@@ -58,7 +58,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "At ₹196 (NSE close, 12 Nov 2026), a discounted cash flow model with a 10.32% cost of capital matches the price if revenue grows about 3.8% a year for five years at the FY26 operating margin of 16.1%; WIPRO's revenue grew 4.0% a year over FY22–FY26."
+      "text": "At ₹194 (NSE close, 16 Nov 2026), a discounted cash flow model with a 10.33% cost of capital matches the price if revenue grows about 3.5% a year for five years at the FY26 operating margin of 16.1%; WIPRO's revenue grew 4.0% a year over FY22–FY26."
      }
     ]
    },
@@ -67,7 +67,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹170 to ₹236 a share) and to the operating margin (two percentage points either way: a model value of ₹176 to ₹219 a share); the Q3 FY27 result will be the next reported quarter."
+      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹170 to ₹236 a share) and to the operating margin (two percentage points either way: a model value of ₹176 to ₹218 a share); the Q3 FY27 result will be the next reported quarter."
      }
     ]
    }
@@ -78,7 +78,7 @@
  "prices": {
   "base_date": "2023-10-30",
   "base_display": "30 Oct 2023",
-  "end_display": "12 Nov 2026",
+  "end_display": "16 Nov 2026",
   "series": {
    "WIPRO": [
     {
@@ -3092,6 +3092,14 @@
     {
      "time": "2026-11-12",
      "value": 102.72
+    },
+    {
+     "time": "2026-11-13",
+     "value": 101.88
+    },
+    {
+     "time": "2026-11-16",
+     "value": 101.33
     }
    ],
    "NIFTY 50": [
@@ -6106,6 +6114,14 @@
     {
      "time": "2026-11-12",
      "value": 132.17
+    },
+    {
+     "time": "2026-11-13",
+     "value": 131.36
+    },
+    {
+     "time": "2026-11-16",
+     "value": 132.13
     }
    ],
    "NIFTY IT": [
@@ -9120,6 +9136,14 @@
     {
      "time": "2026-11-12",
      "value": 104.97
+    },
+    {
+     "time": "2026-11-13",
+     "value": 104.21
+    },
+    {
+     "time": "2026-11-16",
+     "value": 104.24
     }
    ]
   },
@@ -9171,7 +9195,7 @@
   {
    "id": "market_cap",
    "label": "Market cap",
-   "display": "₹1.94 lakh crore",
+   "display": "₹1.92 lakh crore",
    "type": "CALCULATION",
    "definition": "Price × shares outstanding (share capital ÷ ₹2 face value at 2026-09-30).",
    "source": "NSE close; WIPRO FY26 statements"
@@ -9179,7 +9203,7 @@
   {
    "id": "pe_ttm",
    "label": "P/E (TTM)",
-   "display": "14.8×",
+   "display": "14.6×",
    "type": "CALCULATION",
    "definition": "Price ÷ earnings per share over the last four reported quarters (Q3 FY26 – Q2 FY27).",
    "source": "WIPRO quarterly filings"
@@ -9187,7 +9211,7 @@
   {
    "id": "ev_ebit_ttm",
    "label": "EV / EBIT (TTM)",
-   "display": "11.0×",
+   "display": "10.8×",
    "type": "CALCULATION",
    "definition": "Enterprise value (market cap − the net cash and treasury figure below) ÷ operating profit over the last four quarters.",
    "source": "WIPRO filings; NSE close"
@@ -10739,17 +10763,17 @@
   "applicable": true,
   "template": "A",
   "headline": {
-   "price": "₹196",
-   "as_of": "12 Nov 2026",
-   "implied_growth": "3.8%",
+   "price": "₹194",
+   "as_of": "16 Nov 2026",
+   "implied_growth": "3.5%",
    "margin": "16.1%",
    "last_fy": "FY26",
    "history_span": "FY22–FY26",
    "history_growth": "4.0%",
    "last_year_growth": "4.0%",
    "alts": [
-    "margin falling to 16.0%",
-    "long-run growth of 4.9%"
+    "margin falling to 15.8%",
+    "long-run growth of 4.8%"
    ],
    "beyond": false
   },
@@ -10757,65 +10781,65 @@
    {
     "margin": 12.09,
     "margin_display": "12.1%",
-    "growth": 10.893,
-    "growth_display": "10.9%"
+    "growth": 10.553,
+    "growth_display": "10.6%"
    },
    {
     "margin": 13.09,
     "margin_display": "13.1%",
-    "growth": 8.778,
-    "growth_display": "8.8%"
+    "growth": 8.442,
+    "growth_display": "8.4%"
    },
    {
     "margin": 14.09,
     "margin_display": "14.1%",
-    "growth": 6.928,
-    "growth_display": "6.9%"
+    "growth": 6.596,
+    "growth_display": "6.6%"
    },
    {
     "margin": 15.09,
     "margin_display": "15.1%",
-    "growth": 5.286,
-    "growth_display": "5.3%"
+    "growth": 4.957,
+    "growth_display": "5.0%"
    },
    {
     "margin": 16.09,
     "margin_display": "16.1%",
-    "growth": 3.811,
-    "growth_display": "3.8%"
+    "growth": 3.485,
+    "growth_display": "3.5%"
    },
    {
     "margin": 17.09,
     "margin_display": "17.1%",
-    "growth": 2.473,
-    "growth_display": "2.5%"
+    "growth": 2.15,
+    "growth_display": "2.2%"
    },
    {
     "margin": 18.09,
     "margin_display": "18.1%",
-    "growth": 1.25,
-    "growth_display": "1.3%"
+    "growth": 0.93,
+    "growth_display": "0.9%"
    },
    {
     "margin": 19.09,
     "margin_display": "19.1%",
-    "growth": 0.124,
-    "growth_display": "0.1%"
+    "growth": -0.194,
+    "growth_display": "-0.2%"
    },
    {
     "margin": 20.09,
     "margin_display": "20.1%",
-    "growth": -0.919,
-    "growth_display": "-0.9%"
+    "growth": -1.235,
+    "growth_display": "-1.2%"
    }
   ],
-  "price_value": 196.2,
-  "price_display": "₹196",
+  "price_value": 193.54,
+  "price_display": "₹194",
   "scenarios": [
    {
     "key": "bear",
     "name": "Bear",
-    "value": 142.85,
+    "value": 142.75,
     "display": "₹143",
     "what": "Revenue grows only at FY26's pace for five years, the operating margin slips 2 points, and growth after year 10 earns no more than its cost of capital.",
     "assumptions": [
@@ -10837,14 +10861,14 @@
      ],
      [
       "Terminal value share of EV",
-      "49.5%"
+      "49.4%"
      ]
     ]
    },
    {
     "key": "base",
     "name": "Base",
-    "value": 197.26,
+    "value": 197.02,
     "display": "₹197",
     "what": "Revenue keeps its FY22-FY26 growth rate for five years, the FY26 margin holds, and WIPRO keeps its historical return on capital indefinitely.",
     "assumptions": [
@@ -10873,8 +10897,8 @@
    {
     "key": "bull",
     "name": "Bull",
-    "value": 266.88,
-    "display": "₹267",
+    "value": 266.5,
+    "display": "₹266",
     "what": "Revenue grows at H1 FY27's year-on-year pace for five years and the margin rises 1 point.",
     "assumptions": [
      [
@@ -10900,11 +10924,11 @@
     ]
    }
   ],
-  "base_value": 197.26,
+  "base_value": 197.02,
   "base_display": "₹197",
   "wacc": {
-   "wacc": "10.32%",
-   "ke": "10.90%",
+   "wacc": "10.33%",
+   "ke": "10.92%",
    "rf": "6.84%",
    "rf_n": "12",
    "rf_spot": "7.34%",
@@ -10915,18 +10939,18 @@
    "beta": "0.84",
    "erp": "6.92%",
    "kd": "5.19%",
-   "we": "89.8%",
-   "wd": "10.2%",
+   "we": "89.7%",
+   "wd": "10.3%",
    "debt_label": "debt",
    "beta_years": "two"
   },
   "heatmap": {
    "wacc": [
-    "9.32%",
-    "9.82%",
-    "10.32%",
-    "10.82%",
-    "11.32%"
+    "9.33%",
+    "9.83%",
+    "10.33%",
+    "10.83%",
+    "11.33%"
    ],
    "g": [
     "3.50%",
@@ -10973,10 +10997,10 @@
      {
       "display": "₹196",
       "step": 3,
-      "above_price": false
+      "above_price": true
      },
      {
-      "display": "₹183",
+      "display": "₹182",
       "step": 2,
       "above_price": false
      },
@@ -10998,7 +11022,7 @@
       "above_price": true
      },
      {
-      "display": "₹205",
+      "display": "₹204",
       "step": 4,
       "above_price": true
      },
@@ -11025,7 +11049,7 @@
       "above_price": true
      },
      {
-      "display": "₹215",
+      "display": "₹214",
       "step": 4,
       "above_price": true
      },
@@ -11050,8 +11074,8 @@
   "tornado": [
    {
     "driver": "Cost of capital (WACC)",
-    "low": 170.5,
-    "high": 236.36,
+    "low": 170.33,
+    "high": 236.0,
     "low_display": "₹170",
     "high_display": "₹236",
     "low_input": "11.3%",
@@ -11059,17 +11083,17 @@
    },
    {
     "driver": "Operating margin from year 5",
-    "low": 175.99,
-    "high": 218.52,
+    "low": 175.78,
+    "high": 218.25,
     "low_display": "₹176",
-    "high_display": "₹219",
+    "high_display": "₹218",
     "low_input": "14.1%",
     "high_input": "18.1%"
    },
    {
     "driver": "Long-run return on new capital",
-    "low": 161.3,
-    "high": 203.1,
+    "low": 161.18,
+    "high": 202.85,
     "low_display": "₹161",
     "high_display": "₹203",
     "low_input": "10.3%",
@@ -11077,8 +11101,8 @@
    },
    {
     "driver": "Revenue growth, years 1–5",
-    "low": 182.89,
-    "high": 213.23,
+    "low": 182.68,
+    "high": 212.96,
     "low_display": "₹183",
     "high_display": "₹213",
     "low_input": "2.0%",
@@ -11086,8 +11110,8 @@
    },
    {
     "driver": "Tax rate",
-    "low": 192.3,
-    "high": 202.21,
+    "low": 192.07,
+    "high": 201.96,
     "low_display": "₹192",
     "high_display": "₹202",
     "low_input": "26.2%",
@@ -11095,8 +11119,8 @@
    },
    {
     "driver": "Long-run growth",
-    "low": 189.27,
-    "high": 198.91,
+    "low": 189.06,
+    "high": 198.67,
     "low_display": "₹189",
     "high_display": "₹199",
     "low_input": "4.5%",
@@ -11104,8 +11128,8 @@
    },
    {
     "driver": "Capital needed per ₹ of sales",
-    "low": 192.19,
-    "high": 200.29,
+    "low": 191.96,
+    "high": 200.05,
     "low_display": "₹192",
     "high_display": "₹200",
     "low_input": "1.36×",
@@ -11114,8 +11138,10 @@
   ],
   "rule_note": "The cost of debt and long-run growth are set by fixed rules and not reviewed by a person."
  },
+ "flags": [],
  "limitations": [
   "Template A (non-financial, positive free cash flow). Single-stage fade model; no currency driver.",
+  "Cash flows are discounted to the balance-sheet date, 30 Sep 2026, two months before the price date; the model does not roll that gap forward, so its values are slightly low against the price.",
   "Debt is borrowings plus lease liabilities; earmarked bank balances are counted as cash, which overstates cash slightly.",
   "The risk-free rate is a twelve-month average while the price and equity risk premium are point-in-time.",
   "The event study measures the size of a move, not its cause; five results days are too few for statistical claims.",
@@ -11603,6 +11629,42 @@
     "published": "",
     "url": "https://www.nseindia.com/reports-indices-historical-index-data",
     "file": "NIFTY IT-12-11-2026-to-12-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-13",
+    "published": "",
+    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
+    "file": "NIFTY 50-13-11-2026-to-13-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY IT historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-13",
+    "published": "",
+    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
+    "file": "NIFTY IT-13-11-2026-to-13-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "file": "NIFTY 50-14-11-2026-to-16-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY IT historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "file": "NIFTY IT-14-11-2026-to-16-11-2026.csv"
    }
   ],
   "verification": {

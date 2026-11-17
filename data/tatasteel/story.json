@@ -142,25 +142,25 @@
       "id": "S4b",
       "line": "what the price implies",
       "label": "CALCULATION",
-      "text": "At ₹188 (NSE close, 12 Nov 2026), the shares traded at 20.2× the profit attributable to shareholders over the last four reported quarters.",
+      "text": "At ₹182 (NSE close, 16 Nov 2026), the shares traded at 19.6× the profit attributable to shareholders over the last four reported quarters.",
       "evidence": [
         {
           "file": "valuation.json",
           "path": "market.price",
           "format": "inr0",
-          "display": "₹188"
+          "display": "₹182"
         },
         {
           "file": "valuation.json",
           "path": "valuation_date",
           "format": "date",
-          "display": "12 Nov 2026"
+          "display": "16 Nov 2026"
         },
         {
           "file": "valuation.json",
           "path": "market.pe_ttm",
           "format": "x1",
-          "display": "20.2×"
+          "display": "19.6×"
         }
       ],
       "sources": [
@@ -560,49 +560,49 @@
         "claim": "S4b",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:market.price renders '₹188', claim shows '₹188'"
+        "detail": "valuation.json:market.price renders '₹182', claim shows '₹182'"
       },
       {
         "claim": "S4b",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹188' appears in the text"
+        "detail": "'₹182' appears in the text"
       },
       {
         "claim": "S4b",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:valuation_date renders '12 Nov 2026', claim shows '12 Nov 2026'"
+        "detail": "valuation.json:valuation_date renders '16 Nov 2026', claim shows '16 Nov 2026'"
       },
       {
         "claim": "S4b",
         "check": "N3",
         "status": "PASS",
-        "detail": "'12 Nov 2026' appears in the text"
+        "detail": "'16 Nov 2026' appears in the text"
       },
       {
         "claim": "S4b",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:market.pe_ttm renders '20.2×', claim shows '20.2×'"
+        "detail": "valuation.json:market.pe_ttm renders '19.6×', claim shows '19.6×'"
       },
       {
         "claim": "S4b",
         "check": "N3",
         "status": "PASS",
-        "detail": "'20.2×' appears in the text"
+        "detail": "'19.6×' appears in the text"
       },
       {
         "claim": "S4b",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '188' is covered by evidence"
+        "detail": "number '182' is covered by evidence"
       },
       {
         "claim": "S4b",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '12' is covered by evidence"
+        "detail": "number '16' is covered by evidence"
       },
       {
         "claim": "S4b",
@@ -614,7 +614,7 @@
         "claim": "S4b",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '20.2' is covered by evidence"
+        "detail": "number '19.6' is covered by evidence"
       },
       {
         "claim": "S4b",

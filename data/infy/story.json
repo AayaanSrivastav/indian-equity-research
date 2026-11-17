@@ -132,25 +132,25 @@
       "id": "S4",
       "line": "what the price implies",
       "label": "CALCULATION",
-      "text": "At ₹1,151 (NSE close, 12 Nov 2026), a discounted cash flow model with a 11.22% cost of capital matches the price if revenue grows about 5.5% a year for five years at the FY26 operating margin of 20.9%; INFY's revenue grew 10.1% a year over FY22–FY26.",
+      "text": "At ₹1,145 (NSE close, 16 Nov 2026), a discounted cash flow model with a 11.25% cost of capital matches the price if revenue grows about 5.5% a year for five years at the FY26 operating margin of 20.9%; INFY's revenue grew 10.1% a year over FY22–FY26.",
       "evidence": [
         {
           "file": "valuation.json",
           "path": "market.price",
           "format": "inr0",
-          "display": "₹1,151"
+          "display": "₹1,145"
         },
         {
           "file": "valuation.json",
           "path": "valuation_date",
           "format": "date",
-          "display": "12 Nov 2026"
+          "display": "16 Nov 2026"
         },
         {
           "file": "valuation.json",
           "path": "wacc.wacc",
           "format": "pct2_frac",
-          "display": "11.22%"
+          "display": "11.25%"
         },
         {
           "file": "valuation.json",
@@ -214,31 +214,31 @@
       "id": "S5",
       "line": "what to watch",
       "label": "CALCULATION",
-      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹1,229 to ₹1,699 a share) and to how long INFY keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹1,110 to ₹1,446 a share); the Q3 FY27 result will be the next reported quarter.",
+      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹1,224 to ₹1,688 a share) and to how long INFY keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹1,106 to ₹1,438 a share); the Q3 FY27 result will be the next reported quarter.",
       "evidence": [
         {
           "file": "valuation.json",
           "path": "driver_ranking.0.value_at_low",
           "format": "inr0",
-          "display": "₹1,229"
+          "display": "₹1,224"
         },
         {
           "file": "valuation.json",
           "path": "driver_ranking.0.value_at_high",
           "format": "inr0",
-          "display": "₹1,699"
+          "display": "₹1,688"
         },
         {
           "file": "valuation.json",
           "path": "driver_ranking.1.value_at_low",
           "format": "inr0",
-          "display": "₹1,110"
+          "display": "₹1,106"
         },
         {
           "file": "valuation.json",
           "path": "driver_ranking.1.value_at_high",
           "format": "inr0",
-          "display": "₹1,446"
+          "display": "₹1,438"
         }
       ],
       "sources": [
@@ -603,37 +603,37 @@
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:market.price renders '₹1,151', claim shows '₹1,151'"
+        "detail": "valuation.json:market.price renders '₹1,145', claim shows '₹1,145'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹1,151' appears in the text"
+        "detail": "'₹1,145' appears in the text"
       },
       {
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:valuation_date renders '12 Nov 2026', claim shows '12 Nov 2026'"
+        "detail": "valuation.json:valuation_date renders '16 Nov 2026', claim shows '16 Nov 2026'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'12 Nov 2026' appears in the text"
+        "detail": "'16 Nov 2026' appears in the text"
       },
       {
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:wacc.wacc renders '11.22%', claim shows '11.22%'"
+        "detail": "valuation.json:wacc.wacc renders '11.25%', claim shows '11.25%'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'11.22%' appears in the text"
+        "detail": "'11.25%' appears in the text"
       },
       {
         "claim": "S4",
@@ -675,13 +675,13 @@
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '1,151' is covered by evidence"
+        "detail": "number '1,145' is covered by evidence"
       },
       {
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '12' is covered by evidence"
+        "detail": "number '16' is covered by evidence"
       },
       {
         "claim": "S4",
@@ -693,7 +693,7 @@
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '11.22' is covered by evidence"
+        "detail": "number '11.25' is covered by evidence"
       },
       {
         "claim": "S4",
@@ -825,73 +825,73 @@
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.0.value_at_low renders '₹1,229', claim shows '₹1,229'"
+        "detail": "valuation.json:driver_ranking.0.value_at_low renders '₹1,224', claim shows '₹1,224'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹1,229' appears in the text"
+        "detail": "'₹1,224' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.0.value_at_high renders '₹1,699', claim shows '₹1,699'"
+        "detail": "valuation.json:driver_ranking.0.value_at_high renders '₹1,688', claim shows '₹1,688'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹1,699' appears in the text"
+        "detail": "'₹1,688' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.1.value_at_low renders '₹1,110', claim shows '₹1,110'"
+        "detail": "valuation.json:driver_ranking.1.value_at_low renders '₹1,106', claim shows '₹1,106'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹1,110' appears in the text"
+        "detail": "'₹1,106' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.1.value_at_high renders '₹1,446', claim shows '₹1,446'"
+        "detail": "valuation.json:driver_ranking.1.value_at_high renders '₹1,438', claim shows '₹1,438'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹1,446' appears in the text"
+        "detail": "'₹1,438' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '1,229' is covered by evidence"
+        "detail": "number '1,224' is covered by evidence"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '1,699' is covered by evidence"
+        "detail": "number '1,688' is covered by evidence"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '1,110' is covered by evidence"
+        "detail": "number '1,106' is covered by evidence"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '1,446' is covered by evidence"
+        "detail": "number '1,438' is covered by evidence"
       },
       {
         "claim": "S5",

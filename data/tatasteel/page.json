@@ -1,5 +1,5 @@
 {
- "built": "2026-11-12",
+ "built": "2026-11-17",
  "slug": "tatasteel",
  "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
  "header": {
@@ -10,12 +10,12 @@
   "sector": "Steel",
   "sector_label": "metals",
   "sector_index": "NIFTY METAL",
-  "price": "₹188.00",
-  "change": "−₹1.28",
-  "change_pct": "-0.68%",
+  "price": "₹182.26",
+  "change": "−₹4.42",
+  "change_pct": "-2.37%",
   "up": false,
-  "as_of": "12 Nov 2026",
-  "market_cap": "₹2.35 lakh crore",
+  "as_of": "16 Nov 2026",
+  "market_cap": "₹2.27 lakh crore",
   "high_52w": "₹224.40",
   "low_52w": "₹160.06",
   "source": "NSE closing price (end of day, not live); 52-week range computed from daily highs and lows (NSE bhavcopy)"
@@ -62,7 +62,7 @@
      },
      {
       "label": "CALCULATION",
-      "text": "At ₹188 (NSE close, 12 Nov 2026), the shares traded at 20.2× the profit attributable to shareholders over the last four reported quarters."
+      "text": "At ₹182 (NSE close, 16 Nov 2026), the shares traded at 19.6× the profit attributable to shareholders over the last four reported quarters."
      }
     ]
    },
@@ -82,7 +82,7 @@
  "prices": {
   "base_date": "2023-10-23",
   "base_display": "23 Oct 2023",
-  "end_display": "12 Nov 2026",
+  "end_display": "16 Nov 2026",
   "series": {
    "TATASTEEL": [
     {
@@ -3112,6 +3112,14 @@
     {
      "time": "2026-11-12",
      "value": 156.67
+    },
+    {
+     "time": "2026-11-13",
+     "value": 155.57
+    },
+    {
+     "time": "2026-11-16",
+     "value": 151.88
     }
    ],
    "NIFTY 50": [
@@ -6142,6 +6150,14 @@
     {
      "time": "2026-11-12",
      "value": 131.21
+    },
+    {
+     "time": "2026-11-13",
+     "value": 130.4
+    },
+    {
+     "time": "2026-11-16",
+     "value": 131.17
     }
    ],
    "NIFTY METAL": [
@@ -9172,6 +9188,14 @@
     {
      "time": "2026-11-12",
      "value": 196.68
+    },
+    {
+     "time": "2026-11-13",
+     "value": 194.76
+    },
+    {
+     "time": "2026-11-16",
+     "value": 191.84
     }
    ]
   },
@@ -9223,7 +9247,7 @@
   {
    "id": "market_cap",
    "label": "Market cap",
-   "display": "₹2.35 lakh crore",
+   "display": "₹2.27 lakh crore",
    "type": "CALCULATION",
    "definition": "Price × shares outstanding (share capital ÷ ₹1 face value at 2026-03-31).",
    "source": "NSE close; TATASTEEL FY26 statements"
@@ -9231,7 +9255,7 @@
   {
    "id": "pe_ttm",
    "label": "P/E (TTM)",
-   "display": "20.2×",
+   "display": "19.6×",
    "type": "CALCULATION",
    "definition": "Price ÷ earnings per share over the last four reported quarters (Q3 FY26 – Q2 FY27).",
    "source": "TATASTEEL quarterly filings"
@@ -9239,7 +9263,7 @@
   {
    "id": "ev_ebit_ttm",
    "label": "EV / EBIT (TTM)",
-   "display": "12.9×",
+   "display": "12.6×",
    "type": "CALCULATION",
    "definition": "Enterprise value (market cap − the net cash and treasury figure below) ÷ operating profit over the last four quarters.",
    "source": "TATASTEEL filings; NSE close"
@@ -9295,7 +9319,7 @@
   {
    "id": "beta",
    "label": "Beta vs NIFTY 50",
-   "display": "1.20",
+   "display": "1.19",
    "type": "CALCULATION",
    "definition": "Sensitivity of TATASTEEL's daily return to the NIFTY 50's, over the two years to the price date.",
    "source": "NSE and niftyindices daily closes"
@@ -10796,10 +10820,10 @@
   ],
   "b_untried": "Template B is tried only when free cash flow is Template A's only objection.",
   "note": "No template applies, so no DCF value, scenario, reverse DCF or sensitivity is computed.",
-  "price_display": "₹188",
-  "as_of": "12 Nov 2026",
-  "pe": "20.2×",
-  "ev_ebit": "12.9×",
+  "price_display": "₹182",
+  "as_of": "16 Nov 2026",
+  "pe": "19.6×",
+  "ev_ebit": "12.6×",
   "fcff": [
    {
     "fy": "FY23",
@@ -10823,6 +10847,13 @@
    }
   ]
  },
+ "flags": [
+  {
+   "level": "caution",
+   "title": "No valuation: the model does not apply",
+   "text": "The model gives no value for this company, so there is no growth figure to read. Reasons: free cash flow not positive in at least 3 of the last 4 years; effective tax rate outside 0-50% in FY24 (-345.5%), FY25 (63.7%), so after-tax operating profit and the tax assumption are not meaningful."
+  }
+ ],
  "limitations": [
   "Two templates (A: positive free cash flow; B: reinvestment earning above its cost), and neither applies here. Banks, insurers and holding companies have no template yet.",
   "Debt is borrowings plus lease liabilities; earmarked bank balances are counted as cash, which overstates cash slightly.",
@@ -11311,6 +11342,42 @@
     "published": "",
     "url": "https://www.nseindia.com/reports-indices-historical-index-data",
     "file": "NIFTY METAL-12-11-2026-to-12-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-13",
+    "published": "",
+    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
+    "file": "NIFTY 50-13-11-2026-to-13-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY METAL historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-13",
+    "published": "",
+    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
+    "file": "NIFTY METAL-13-11-2026-to-13-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "file": "NIFTY 50-14-11-2026-to-16-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY METAL historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "file": "NIFTY METAL-14-11-2026-to-16-11-2026.csv"
    }
   ],
   "verification": {

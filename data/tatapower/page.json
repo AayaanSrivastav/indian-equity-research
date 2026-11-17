@@ -1,5 +1,5 @@
 {
- "built": "2026-11-12",
+ "built": "2026-11-17",
  "slug": "tatapower",
  "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
  "header": {
@@ -10,12 +10,12 @@
   "sector": "Power",
   "sector_label": "energy",
   "sector_index": "NIFTY ENERGY",
-  "price": "₹357.00",
-  "change": "−₹3.00",
-  "change_pct": "-0.83%",
+  "price": "₹345.50",
+  "change": "−₹2.50",
+  "change_pct": "-0.72%",
   "up": false,
-  "as_of": "12 Nov 2026",
-  "market_cap": "₹1.14 lakh crore",
+  "as_of": "16 Nov 2026",
+  "market_cap": "₹1.10 lakh crore",
   "high_52w": "₹464.90",
   "low_52w": "₹333.20",
   "source": "NSE closing price (end of day, not live); 52-week range computed from daily highs and lows (NSE bhavcopy)"
@@ -58,11 +58,11 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "Neither discounted cash flow template used on this site applies to TATAPOWER: Template A needs free cash flow to the firm to be positive in at least three of the last four years, and it was −₹2,583 crore in FY24, −₹3,368 crore in FY25 and −₹10,462 crore in FY26; Template B, for companies reinvesting at a return above their cost of capital, needs the median return on invested capital of the last three years to beat that cost, and it was 8.0% against 8.74%, so no model value is shown."
+      "text": "Neither discounted cash flow template used on this site applies to TATAPOWER: Template A needs free cash flow to the firm to be positive in at least three of the last four years, and it was −₹2,583 crore in FY24, −₹3,368 crore in FY25 and −₹10,462 crore in FY26; Template B, for companies reinvesting at a return above their cost of capital, needs the median return on invested capital of the last three years to beat that cost, and it was 8.0% against 8.66%, so no model value is shown."
      },
      {
       "label": "CALCULATION",
-      "text": "At ₹357 (NSE close, 12 Nov 2026), the shares traded at 26.5× the profit attributable to shareholders over the last four reported quarters."
+      "text": "At ₹346 (NSE close, 16 Nov 2026), the shares traded at 25.6× the profit attributable to shareholders over the last four reported quarters."
      }
     ]
    },
@@ -82,7 +82,7 @@
  "prices": {
   "base_date": "2023-10-23",
   "base_display": "23 Oct 2023",
-  "end_display": "12 Nov 2026",
+  "end_display": "16 Nov 2026",
   "series": {
    "TATAPOWER": [
     {
@@ -3112,6 +3112,14 @@
     {
      "time": "2026-11-12",
      "value": 149.84
+    },
+    {
+     "time": "2026-11-13",
+     "value": 146.07
+    },
+    {
+     "time": "2026-11-16",
+     "value": 145.02
     }
    ],
    "NIFTY 50": [
@@ -6142,6 +6150,14 @@
     {
      "time": "2026-11-12",
      "value": 131.21
+    },
+    {
+     "time": "2026-11-13",
+     "value": 130.4
+    },
+    {
+     "time": "2026-11-16",
+     "value": 131.17
     }
    ],
    "NIFTY ENERGY": [
@@ -9172,6 +9188,14 @@
     {
      "time": "2026-11-12",
      "value": 141.36
+    },
+    {
+     "time": "2026-11-13",
+     "value": 141.4
+    },
+    {
+     "time": "2026-11-16",
+     "value": 140.93
     }
    ]
   },
@@ -9223,7 +9247,7 @@
   {
    "id": "market_cap",
    "label": "Market cap",
-   "display": "₹1.14 lakh crore",
+   "display": "₹1.10 lakh crore",
    "type": "CALCULATION",
    "definition": "Price × shares outstanding (share capital ÷ ₹1 face value at 2026-09-30).",
    "source": "NSE close; TATAPOWER FY26 statements"
@@ -9231,7 +9255,7 @@
   {
    "id": "pe_ttm",
    "label": "P/E (TTM)",
-   "display": "26.5×",
+   "display": "25.6×",
    "type": "CALCULATION",
    "definition": "Price ÷ earnings per share over the last four reported quarters (Q3 FY26 – Q2 FY27).",
    "source": "TATAPOWER quarterly filings"
@@ -9239,7 +9263,7 @@
   {
    "id": "ev_ebit_ttm",
    "label": "EV / EBIT (TTM)",
-   "display": "20.9×",
+   "display": "20.5×",
    "type": "CALCULATION",
    "definition": "Enterprise value (market cap − the net cash and treasury figure below) ÷ operating profit over the last four quarters.",
    "source": "TATAPOWER filings; NSE close"
@@ -9295,7 +9319,7 @@
   {
    "id": "beta",
    "label": "Beta vs NIFTY 50",
-   "display": "0.92",
+   "display": "0.91",
    "type": "CALCULATION",
    "definition": "Sensitivity of TATAPOWER's daily return to the NIFTY 50's, over the two years to the price date.",
    "source": "NSE and niftyindices daily closes"
@@ -10662,13 +10686,13 @@
   ],
   "b_template": "B (reinvestment phase, return on capital above its cost)",
   "b_reasons": [
-   "median return on invested capital over the last 3 years (8.0%) is not above the cost of capital (8.74%), so growth would not add value"
+   "median return on invested capital over the last 3 years (8.0%) is not above the cost of capital (8.66%), so growth would not add value"
   ],
   "note": "Neither Template A nor Template B applies, so no DCF value, scenario, reverse DCF or sensitivity is computed.",
-  "price_display": "₹357",
-  "as_of": "12 Nov 2026",
-  "pe": "26.5×",
-  "ev_ebit": "20.9×",
+  "price_display": "₹346",
+  "as_of": "16 Nov 2026",
+  "pe": "25.6×",
+  "ev_ebit": "20.5×",
   "fcff": [
    {
     "fy": "FY24",
@@ -10687,6 +10711,23 @@
    }
   ]
  },
+ "flags": [
+  {
+   "level": "caution",
+   "title": "No valuation: the model does not apply",
+   "text": "The model gives no value for this company, so there is no growth figure to read. Reasons: free cash flow not positive in at least 3 of the last 4 years; median return on invested capital over the last 3 years (8.0%) is not above the cost of capital (8.66%), so growth would not add value."
+  },
+  {
+   "level": "caution",
+   "title": "A regulated utility: the model does not fit its accounts",
+   "text": "Tata Power's regulatory deferral balances are reported below tax, so they are not in the operating profit used here, and in FY23 they push the effective tax rate far above 50%, so after-tax operating profit is not computed for that year. A template for regulated utilities is not built."
+  },
+  {
+   "level": "note",
+   "title": "No FY22 balance sheet",
+   "text": "FY22 has no balance sheet in its exchange file and is not transcribed, so the history starts in FY23."
+  }
+ ],
  "limitations": [
   "Two templates (A: positive free cash flow; B: reinvestment earning above its cost), and neither applies here. Banks, insurers and holding companies have no template yet.",
   "Debt is borrowings plus lease liabilities; earmarked bank balances are counted as cash, which overstates cash slightly.",
@@ -11170,6 +11211,42 @@
     "published": "",
     "url": "https://www.nseindia.com/reports-indices-historical-index-data",
     "file": "NIFTY ENERGY-12-11-2026-to-12-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-13",
+    "published": "",
+    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
+    "file": "NIFTY 50-13-11-2026-to-13-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY ENERGY historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-13",
+    "published": "",
+    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
+    "file": "NIFTY ENERGY-13-11-2026-to-13-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "file": "NIFTY 50-14-11-2026-to-16-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY ENERGY historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "file": "NIFTY ENERGY-14-11-2026-to-16-11-2026.csv"
    }
   ],
   "verification": {

@@ -1,5 +1,5 @@
 {
- "built": "2026-11-12",
+ "built": "2026-11-17",
  "slug": "tataconsum",
  "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
  "header": {
@@ -10,12 +10,12 @@
   "sector": "Packaged foods and beverages",
   "sector_label": "FMCG",
   "sector_index": "NIFTY FMCG",
-  "price": "₹1,085.30",
-  "change": "−₹7.70",
-  "change_pct": "-0.70%",
-  "up": false,
-  "as_of": "12 Nov 2026",
-  "market_cap": "₹1.07 lakh crore",
+  "price": "₹1,117.50",
+  "change": "+₹38.50",
+  "change_pct": "+3.57%",
+  "up": true,
+  "as_of": "16 Nov 2026",
+  "market_cap": "₹1.11 lakh crore",
   "high_52w": "₹1,282.70",
   "low_52w": "₹916.00",
   "source": "NSE closing price (end of day, not live); 52-week range computed from daily highs and lows (NSE bhavcopy)"
@@ -58,7 +58,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "Neither discounted cash flow template used on this site applies to TATACONSUM: Template A needs free cash flow to the firm to be positive in at least three of the last four years, and it was −₹1,628 crore in FY24 and −₹949 crore in FY25; Template B, for companies reinvesting at a return above their cost of capital, needs the median return on invested capital of the last three years to beat that cost, and it was 8.3% against 9.89%, so no model value is shown."
+      "text": "Neither discounted cash flow template used on this site applies to TATACONSUM: Template A needs free cash flow to the firm to be positive in at least three of the last four years, and it was −₹1,628 crore in FY24 and −₹949 crore in FY25; Template B, for companies reinvesting at a return above their cost of capital, needs the median return on invested capital of the last three years to beat that cost, and it was 8.3% against 9.90%, so no model value is shown."
      },
      {
       "label": "FACT",
@@ -66,7 +66,7 @@
      },
      {
       "label": "CALCULATION",
-      "text": "At ₹1,085 (NSE close, 12 Nov 2026), the shares traded at 63.2× the profit attributable to shareholders over the last four reported quarters."
+      "text": "At ₹1,118 (NSE close, 16 Nov 2026), the shares traded at 65.1× the profit attributable to shareholders over the last four reported quarters."
      }
     ]
    },
@@ -86,7 +86,7 @@
  "prices": {
   "base_date": "2023-10-23",
   "base_display": "23 Oct 2023",
-  "end_display": "12 Nov 2026",
+  "end_display": "16 Nov 2026",
   "series": {
    "TATACONSUM": [
     {
@@ -3116,6 +3116,14 @@
     {
      "time": "2026-11-12",
      "value": 122.9
+    },
+    {
+     "time": "2026-11-13",
+     "value": 122.18
+    },
+    {
+     "time": "2026-11-16",
+     "value": 126.54
     }
    ],
    "NIFTY 50": [
@@ -6146,6 +6154,14 @@
     {
      "time": "2026-11-12",
      "value": 131.21
+    },
+    {
+     "time": "2026-11-13",
+     "value": 130.4
+    },
+    {
+     "time": "2026-11-16",
+     "value": 131.17
     }
    ],
    "NIFTY FMCG": [
@@ -9176,6 +9192,14 @@
     {
      "time": "2026-11-12",
      "value": 91.09
+    },
+    {
+     "time": "2026-11-13",
+     "value": 91.08
+    },
+    {
+     "time": "2026-11-16",
+     "value": 92.78
     }
    ]
   },
@@ -9227,7 +9251,7 @@
   {
    "id": "market_cap",
    "label": "Market cap",
-   "display": "₹1.07 lakh crore",
+   "display": "₹1.11 lakh crore",
    "type": "CALCULATION",
    "definition": "Price × shares outstanding (share capital ÷ ₹1 face value at 2026-09-30).",
    "source": "NSE close; TATACONSUM FY26 statements"
@@ -9235,7 +9259,7 @@
   {
    "id": "pe_ttm",
    "label": "P/E (TTM)",
-   "display": "63.2×",
+   "display": "65.1×",
    "type": "CALCULATION",
    "definition": "Price ÷ earnings per share over the last four reported quarters (Q3 FY26 – Q2 FY27).",
    "source": "TATACONSUM quarterly filings"
@@ -9243,7 +9267,7 @@
   {
    "id": "ev_ebit_ttm",
    "label": "EV / EBIT (TTM)",
-   "display": "45.4×",
+   "display": "46.7×",
    "type": "CALCULATION",
    "definition": "Enterprise value (market cap − the net cash and treasury figure below) ÷ operating profit over the last four quarters.",
    "source": "TATACONSUM filings; NSE close"
@@ -10799,13 +10823,13 @@
   ],
   "b_template": "B (reinvestment phase, return on capital above its cost)",
   "b_reasons": [
-   "median return on invested capital over the last 3 years (8.3%) is not above the cost of capital (9.89%), so growth would not add value"
+   "median return on invested capital over the last 3 years (8.3%) is not above the cost of capital (9.90%), so growth would not add value"
   ],
   "note": "Neither Template A nor Template B applies, so no DCF value, scenario, reverse DCF or sensitivity is computed.",
-  "price_display": "₹1,085",
-  "as_of": "12 Nov 2026",
-  "pe": "63.2×",
-  "ev_ebit": "45.4×",
+  "price_display": "₹1,118",
+  "as_of": "16 Nov 2026",
+  "pe": "65.1×",
+  "ev_ebit": "46.7×",
   "fcff": [
    {
     "fy": "FY23",
@@ -10829,6 +10853,23 @@
    }
   ]
  },
+ "flags": [
+  {
+   "level": "caution",
+   "title": "No valuation: the model does not apply",
+   "text": "The model gives no value for this company, so there is no growth figure to read. Reasons: free cash flow not positive in at least 3 of the last 4 years; median return on invested capital over the last 3 years (8.3%) is not above the cost of capital (9.90%), so growth would not add value."
+  },
+  {
+   "level": "note",
+   "title": "The exchange's files contain errors",
+   "text": "8 reconciliation checks fail on the exchange's own files, each with a recorded reason. They are marked as explained, not passed, and the figure as filed is used, never a corrected one."
+  },
+  {
+   "level": "note",
+   "title": "A future payment is not counted as debt",
+   "text": "Other financial liabilities include the obligation to acquire the remaining part of Capital Foods; it is not counted as debt here."
+  }
+ ],
  "limitations": [
   "Two templates (A: positive free cash flow; B: reinvestment earning above its cost), and neither applies here. Banks, insurers and holding companies have no template yet.",
   "Debt is borrowings plus lease liabilities; earmarked bank balances are counted as cash, which overstates cash slightly.",
@@ -11333,6 +11374,42 @@
     "published": "",
     "url": "https://www.nseindia.com/reports-indices-historical-index-data",
     "file": "NIFTY FMCG-12-11-2026-to-12-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-13",
+    "published": "",
+    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
+    "file": "NIFTY 50-13-11-2026-to-13-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY FMCG historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-13",
+    "published": "",
+    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
+    "file": "NIFTY FMCG-13-11-2026-to-13-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "file": "NIFTY 50-14-11-2026-to-16-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY FMCG historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "file": "NIFTY FMCG-14-11-2026-to-16-11-2026.csv"
    }
   ],
   "verification": {

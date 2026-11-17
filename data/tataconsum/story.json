@@ -132,7 +132,7 @@
       "id": "S4",
       "line": "what the price implies",
       "label": "CALCULATION",
-      "text": "Neither discounted cash flow template used on this site applies to TATACONSUM: Template A needs free cash flow to the firm to be positive in at least three of the last four years, and it was −₹1,628 crore in FY24 and −₹949 crore in FY25; Template B, for companies reinvesting at a return above their cost of capital, needs the median return on invested capital of the last three years to beat that cost, and it was 8.3% against 9.89%, so no model value is shown.",
+      "text": "Neither discounted cash flow template used on this site applies to TATACONSUM: Template A needs free cash flow to the firm to be positive in at least three of the last four years, and it was −₹1,628 crore in FY24 and −₹949 crore in FY25; Template B, for companies reinvesting at a return above their cost of capital, needs the median return on invested capital of the last three years to beat that cost, and it was 8.3% against 9.90%, so no model value is shown.",
       "evidence": [
         {
           "file": "valuation.json",
@@ -156,7 +156,7 @@
           "file": "valuation.json",
           "path": "gate_b.wacc",
           "format": "pct2_frac",
-          "display": "9.89%"
+          "display": "9.90%"
         }
       ],
       "sources": [
@@ -177,25 +177,25 @@
       "id": "S4b",
       "line": "what the price implies",
       "label": "CALCULATION",
-      "text": "At ₹1,085 (NSE close, 12 Nov 2026), the shares traded at 63.2× the profit attributable to shareholders over the last four reported quarters.",
+      "text": "At ₹1,118 (NSE close, 16 Nov 2026), the shares traded at 65.1× the profit attributable to shareholders over the last four reported quarters.",
       "evidence": [
         {
           "file": "valuation.json",
           "path": "market.price",
           "format": "inr0",
-          "display": "₹1,085"
+          "display": "₹1,118"
         },
         {
           "file": "valuation.json",
           "path": "valuation_date",
           "format": "date",
-          "display": "12 Nov 2026"
+          "display": "16 Nov 2026"
         },
         {
           "file": "valuation.json",
           "path": "market.pe_ttm",
           "format": "x1",
-          "display": "63.2×"
+          "display": "65.1×"
         }
       ],
       "sources": [
@@ -613,13 +613,13 @@
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:gate_b.wacc renders '9.89%', claim shows '9.89%'"
+        "detail": "valuation.json:gate_b.wacc renders '9.90%', claim shows '9.90%'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'9.89%' appears in the text"
+        "detail": "'9.90%' appears in the text"
       },
       {
         "claim": "S4",
@@ -643,7 +643,7 @@
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '9.89' is covered by evidence"
+        "detail": "number '9.90' is covered by evidence"
       },
       {
         "claim": "S4",
@@ -685,49 +685,49 @@
         "claim": "S4b",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:market.price renders '₹1,085', claim shows '₹1,085'"
+        "detail": "valuation.json:market.price renders '₹1,118', claim shows '₹1,118'"
       },
       {
         "claim": "S4b",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹1,085' appears in the text"
+        "detail": "'₹1,118' appears in the text"
       },
       {
         "claim": "S4b",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:valuation_date renders '12 Nov 2026', claim shows '12 Nov 2026'"
+        "detail": "valuation.json:valuation_date renders '16 Nov 2026', claim shows '16 Nov 2026'"
       },
       {
         "claim": "S4b",
         "check": "N3",
         "status": "PASS",
-        "detail": "'12 Nov 2026' appears in the text"
+        "detail": "'16 Nov 2026' appears in the text"
       },
       {
         "claim": "S4b",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:market.pe_ttm renders '63.2×', claim shows '63.2×'"
+        "detail": "valuation.json:market.pe_ttm renders '65.1×', claim shows '65.1×'"
       },
       {
         "claim": "S4b",
         "check": "N3",
         "status": "PASS",
-        "detail": "'63.2×' appears in the text"
+        "detail": "'65.1×' appears in the text"
       },
       {
         "claim": "S4b",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '1,085' is covered by evidence"
+        "detail": "number '1,118' is covered by evidence"
       },
       {
         "claim": "S4b",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '12' is covered by evidence"
+        "detail": "number '16' is covered by evidence"
       },
       {
         "claim": "S4b",
@@ -739,7 +739,7 @@
         "claim": "S4b",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '63.2' is covered by evidence"
+        "detail": "number '65.1' is covered by evidence"
       },
       {
         "claim": "S4b",

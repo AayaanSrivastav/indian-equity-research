@@ -1,5 +1,5 @@
 {
- "built": "2026-11-12",
+ "built": "2026-11-17",
  "slug": "techm",
  "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
  "header": {
@@ -10,11 +10,11 @@
   "sector": "IT services",
   "sector_label": "IT",
   "sector_index": "NIFTY IT",
-  "price": "₹1,774.00",
-  "change": "−₹14.50",
-  "change_pct": "-0.81%",
-  "up": false,
-  "as_of": "12 Nov 2026",
+  "price": "₹1,776.40",
+  "change": "+₹12.40",
+  "change_pct": "+0.70%",
+  "up": true,
+  "as_of": "16 Nov 2026",
   "market_cap": "₹1.57 lakh crore",
   "high_52w": "₹1,860.00",
   "low_52w": "₹1,304.10",
@@ -58,7 +58,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "At ₹1,774 (NSE close, 12 Nov 2026), a discounted cash flow model with a 10.58% cost of capital matches the price if revenue grows about 20.0% a year for five years at the FY26 operating margin of 12.6%; TECHM's revenue grew 6.2% a year over FY22–FY26."
+      "text": "At ₹1,776 (NSE close, 16 Nov 2026), a discounted cash flow model with a 10.60% cost of capital matches the price if revenue grows about 20.1% a year for five years at the FY26 operating margin of 12.6%; TECHM's revenue grew 6.2% a year over FY22–FY26."
      }
     ]
    },
@@ -67,7 +67,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹837 to ₹1,180 a share) and to the operating margin (two percentage points either way: a model value of ₹827 to ₹1,128 a share); the Q3 FY27 result will be the next reported quarter."
+      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹835 to ₹1,176 a share) and to the operating margin (two percentage points either way: a model value of ₹825 to ₹1,125 a share); the Q3 FY27 result will be the next reported quarter."
      }
     ]
    }
@@ -78,7 +78,7 @@
  "prices": {
   "base_date": "2023-10-30",
   "base_display": "30 Oct 2023",
-  "end_display": "12 Nov 2026",
+  "end_display": "16 Nov 2026",
   "series": {
    "TECHM": [
     {
@@ -3092,6 +3092,14 @@
     {
      "time": "2026-11-12",
      "value": 157.42
+    },
+    {
+     "time": "2026-11-13",
+     "value": 156.54
+    },
+    {
+     "time": "2026-11-16",
+     "value": 157.64
     }
    ],
    "NIFTY 50": [
@@ -6106,6 +6114,14 @@
     {
      "time": "2026-11-12",
      "value": 132.17
+    },
+    {
+     "time": "2026-11-13",
+     "value": 131.36
+    },
+    {
+     "time": "2026-11-16",
+     "value": 132.13
     }
    ],
    "NIFTY IT": [
@@ -9120,6 +9136,14 @@
     {
      "time": "2026-11-12",
      "value": 104.97
+    },
+    {
+     "time": "2026-11-13",
+     "value": 104.21
+    },
+    {
+     "time": "2026-11-16",
+     "value": 104.24
     }
    ]
   },
@@ -9179,7 +9203,7 @@
   {
    "id": "pe_ttm",
    "label": "P/E (TTM)",
-   "display": "28.4×",
+   "display": "28.5×",
    "type": "CALCULATION",
    "definition": "Price ÷ earnings per share over the last four reported quarters (Q3 FY26 – Q2 FY27).",
    "source": "TECHM quarterly filings"
@@ -9243,7 +9267,7 @@
   {
    "id": "beta",
    "label": "Beta vs NIFTY 50",
-   "display": "0.80",
+   "display": "0.81",
    "type": "CALCULATION",
    "definition": "Sensitivity of TECHM's daily return to the NIFTY 50's, over the two years to the price date.",
    "source": "NSE and niftyindices daily closes"
@@ -10739,16 +10763,16 @@
   "applicable": true,
   "template": "A",
   "headline": {
-   "price": "₹1,774",
-   "as_of": "12 Nov 2026",
-   "implied_growth": "20.0%",
+   "price": "₹1,776",
+   "as_of": "16 Nov 2026",
+   "implied_growth": "20.1%",
    "margin": "12.6%",
    "last_fy": "FY26",
    "history_span": "FY22–FY26",
    "history_growth": "6.2%",
    "last_year_growth": "7.2%",
    "alts": [
-    "margin rising to 23.1%",
+    "margin rising to 23.2%",
     "no long-run growth up to the default-free rate of 5.09%"
    ],
    "beyond": false
@@ -10763,60 +10787,60 @@
    {
     "margin": 9.59,
     "margin_display": "9.6%",
-    "growth": 27.92,
-    "growth_display": "27.9%"
+    "growth": 28.046,
+    "growth_display": "28.0%"
    },
    {
     "margin": 10.59,
     "margin_display": "10.6%",
-    "growth": 24.839,
-    "growth_display": "24.8%"
+    "growth": 24.956,
+    "growth_display": "25.0%"
    },
    {
     "margin": 11.59,
     "margin_display": "11.6%",
-    "growth": 22.242,
-    "growth_display": "22.2%"
+    "growth": 22.353,
+    "growth_display": "22.4%"
    },
    {
     "margin": 12.59,
     "margin_display": "12.6%",
-    "growth": 20.001,
-    "growth_display": "20.0%"
+    "growth": 20.108,
+    "growth_display": "20.1%"
    },
    {
     "margin": 13.59,
     "margin_display": "13.6%",
-    "growth": 18.035,
-    "growth_display": "18.0%"
+    "growth": 18.138,
+    "growth_display": "18.1%"
    },
    {
     "margin": 14.59,
     "margin_display": "14.6%",
-    "growth": 16.284,
-    "growth_display": "16.3%"
+    "growth": 16.384,
+    "growth_display": "16.4%"
    },
    {
     "margin": 15.59,
     "margin_display": "15.6%",
-    "growth": 14.708,
-    "growth_display": "14.7%"
+    "growth": 14.805,
+    "growth_display": "14.8%"
    },
    {
     "margin": 16.59,
     "margin_display": "16.6%",
-    "growth": 13.276,
-    "growth_display": "13.3%"
+    "growth": 13.371,
+    "growth_display": "13.4%"
    }
   ],
-  "price_value": 1774.0,
-  "price_display": "₹1,774",
+  "price_value": 1776.4,
+  "price_display": "₹1,776",
   "scenarios": [
    {
     "key": "bear",
     "name": "Bear",
-    "value": 702.38,
-    "display": "₹702",
+    "value": 701.14,
+    "display": "₹701",
     "what": "Revenue grows only at FY26's pace for five years, the operating margin slips 2 points, and growth after year 10 earns no more than its cost of capital.",
     "assumptions": [
      [
@@ -10837,15 +10861,15 @@
      ],
      [
       "Terminal value share of EV",
-      "53.9%"
+      "53.8%"
      ]
     ]
    },
    {
     "key": "base",
     "name": "Base",
-    "value": 977.62,
-    "display": "₹978",
+    "value": 974.94,
+    "display": "₹975",
     "what": "Revenue keeps its FY22-FY26 growth rate for five years, the FY26 margin holds, and TECHM keeps its historical return on capital indefinitely.",
     "assumptions": [
      [
@@ -10866,15 +10890,15 @@
      ],
      [
       "Terminal value share of EV",
-      "61.4%"
+      "61.3%"
      ]
     ]
    },
    {
     "key": "bull",
     "name": "Bull",
-    "value": 1679.77,
-    "display": "₹1,680",
+    "value": 1674.22,
+    "display": "₹1,674",
     "what": "Revenue grows at H1 FY27's year-on-year pace for five years and the margin rises 1 point.",
     "assumptions": [
      [
@@ -10895,16 +10919,16 @@
      ],
      [
       "Terminal value share of EV",
-      "73.8%"
+      "73.7%"
      ]
     ]
    }
   ],
-  "base_value": 977.62,
-  "base_display": "₹978",
+  "base_value": 974.94,
+  "base_display": "₹975",
   "wacc": {
-   "wacc": "10.58%",
-   "ke": "10.66%",
+   "wacc": "10.60%",
+   "ke": "10.67%",
    "rf": "6.84%",
    "rf_n": "12",
    "rf_spot": "7.34%",
@@ -10912,7 +10936,7 @@
    "rf_max": "7.19%",
    "spread": "1.75%",
    "rf_local": "5.09%",
-   "beta": "0.80",
+   "beta": "0.81",
    "erp": "6.92%",
    "kd": "5.08%",
    "we": "98.6%",
@@ -10922,11 +10946,11 @@
   },
   "heatmap": {
    "wacc": [
-    "9.58%",
-    "10.08%",
-    "10.58%",
-    "11.08%",
-    "11.58%"
+    "9.59%",
+    "10.10%",
+    "10.60%",
+    "11.09%",
+    "11.59%"
    ],
    "g": [
     "3.50%",
@@ -10939,108 +10963,108 @@
    "cells": [
     [
      {
-      "display": "₹1,024",
-      "step": 4,
-      "above_price": false
-     },
-     {
-      "display": "₹947",
-      "step": 3,
-      "above_price": false
-     },
-     {
-      "display": "₹881",
-      "step": 2,
-      "above_price": false
-     },
-     {
-      "display": "₹824",
-      "step": 1,
-      "above_price": false
-     },
-     {
-      "display": "₹774",
-      "step": 0,
-      "above_price": false
-     }
-    ],
-    [
-     {
-      "display": "₹1,067",
-      "step": 4,
-      "above_price": false
-     },
-     {
-      "display": "₹981",
-      "step": 3,
-      "above_price": false
-     },
-     {
-      "display": "₹909",
-      "step": 2,
-      "above_price": false
-     },
-     {
-      "display": "₹847",
-      "step": 1,
-      "above_price": false
-     },
-     {
-      "display": "₹793",
-      "step": 0,
-      "above_price": false
-     }
-    ],
-    [
-     {
-      "display": "₹1,118",
-      "step": 5,
-      "above_price": false
-     },
-     {
       "display": "₹1,021",
       "step": 4,
       "above_price": false
      },
      {
-      "display": "₹941",
+      "display": "₹945",
+      "step": 3,
+      "above_price": false
+     },
+     {
+      "display": "₹880",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹872",
+      "display": "₹823",
       "step": 1,
       "above_price": false
      },
      {
-      "display": "₹813",
+      "display": "₹773",
+      "step": 0,
+      "above_price": false
+     }
+    ],
+    [
+     {
+      "display": "₹1,064",
+      "step": 4,
+      "above_price": false
+     },
+     {
+      "display": "₹979",
+      "step": 3,
+      "above_price": false
+     },
+     {
+      "display": "₹907",
+      "step": 2,
+      "above_price": false
+     },
+     {
+      "display": "₹845",
+      "step": 1,
+      "above_price": false
+     },
+     {
+      "display": "₹791",
+      "step": 0,
+      "above_price": false
+     }
+    ],
+    [
+     {
+      "display": "₹1,115",
+      "step": 5,
+      "above_price": false
+     },
+     {
+      "display": "₹1,019",
+      "step": 4,
+      "above_price": false
+     },
+     {
+      "display": "₹938",
+      "step": 2,
+      "above_price": false
+     },
+     {
+      "display": "₹870",
+      "step": 1,
+      "above_price": false
+     },
+     {
+      "display": "₹811",
       "step": 1,
       "above_price": false
      }
     ],
     [
      {
-      "display": "₹1,180",
+      "display": "₹1,176",
       "step": 6,
       "above_price": false
      },
      {
-      "display": "₹1,069",
+      "display": "₹1,066",
       "step": 4,
       "above_price": false
      },
      {
-      "display": "₹978",
+      "display": "₹975",
       "step": 3,
       "above_price": false
      },
      {
-      "display": "₹901",
+      "display": "₹899",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹837",
+      "display": "₹835",
       "step": 1,
       "above_price": false
      }
@@ -11050,72 +11074,80 @@
   "tornado": [
    {
     "driver": "Cost of capital (WACC)",
-    "low": 836.54,
-    "high": 1180.27,
-    "low_display": "₹837",
-    "high_display": "₹1,180",
+    "low": 834.61,
+    "high": 1176.3,
+    "low_display": "₹835",
+    "high_display": "₹1,176",
     "low_input": "11.6%",
     "high_input": "9.6%"
    },
    {
     "driver": "Operating margin from year 5",
-    "low": 826.79,
-    "high": 1128.44,
-    "low_display": "₹827",
-    "high_display": "₹1,128",
+    "low": 824.55,
+    "high": 1125.33,
+    "low_display": "₹825",
+    "high_display": "₹1,125",
     "low_input": "10.6%",
     "high_input": "14.6%"
    },
    {
     "driver": "Long-run return on new capital",
-    "low": 814.52,
-    "high": 1017.39,
-    "low_display": "₹815",
-    "high_display": "₹1,017",
+    "low": 813.08,
+    "high": 1014.55,
+    "low_display": "₹813",
+    "high_display": "₹1,015",
     "low_input": "10.6%",
     "high_input": "24.1%"
    },
    {
     "driver": "Revenue growth, years 1–5",
-    "low": 901.76,
-    "high": 1061.75,
-    "low_display": "₹902",
-    "high_display": "₹1,062",
+    "low": 899.39,
+    "high": 1058.72,
+    "low_display": "₹899",
+    "high_display": "₹1,059",
     "low_input": "4.2%",
     "high_input": "8.2%"
    },
    {
     "driver": "Capital needed per ₹ of sales",
-    "low": 938.38,
-    "high": 1001.16,
-    "low_display": "₹938",
-    "high_display": "₹1,001",
+    "low": 935.73,
+    "high": 998.46,
+    "low_display": "₹936",
+    "high_display": "₹998",
     "low_input": "1.80×",
     "high_input": "2.99×"
    },
    {
     "driver": "Tax rate",
-    "low": 949.55,
-    "high": 1005.68,
-    "low_display": "₹950",
-    "high_display": "₹1,006",
+    "low": 946.95,
+    "high": 1002.93,
+    "low_display": "₹947",
+    "high_display": "₹1,003",
     "low_input": "27.8%",
     "high_input": "23.8%"
    },
    {
     "driver": "Long-run growth",
-    "low": 940.59,
-    "high": 985.24,
-    "low_display": "₹941",
-    "high_display": "₹985",
+    "low": 938.2,
+    "high": 982.5,
+    "low_display": "₹938",
+    "high_display": "₹982",
     "low_input": "4.5%",
     "high_input": "5.1%"
    }
   ],
   "rule_note": "The cost of debt and long-run growth are set by fixed rules and not reviewed by a person."
  },
+ "flags": [
+  {
+   "level": "note",
+   "title": "The exchange's files contain errors",
+   "text": "63 reconciliation checks fail on the exchange's own files, each with a recorded reason. They are marked as explained, not passed, and the figure as filed is used, never a corrected one."
+  }
+ ],
  "limitations": [
   "Template A (non-financial, positive free cash flow). Single-stage fade model; no currency driver.",
+  "Cash flows are discounted to the balance-sheet date, 30 Sep 2026, two months before the price date; the model does not roll that gap forward, so its values are slightly low against the price.",
   "Debt is borrowings plus lease liabilities; earmarked bank balances are counted as cash, which overstates cash slightly.",
   "The risk-free rate is a twelve-month average while the price and equity risk premium are point-in-time.",
   "The event study measures the size of a move, not its cause; five results days are too few for statistical claims.",
@@ -11621,6 +11653,42 @@
     "published": "",
     "url": "https://www.nseindia.com/reports-indices-historical-index-data",
     "file": "NIFTY IT-12-11-2026-to-12-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-13",
+    "published": "",
+    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
+    "file": "NIFTY 50-13-11-2026-to-13-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY IT historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-13",
+    "published": "",
+    "url": "https://www.nseindia.com/reports-indices-historical-index-data",
+    "file": "NIFTY IT-13-11-2026-to-13-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "file": "NIFTY 50-14-11-2026-to-16-11-2026.csv"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY IT historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "file": "NIFTY IT-14-11-2026-to-16-11-2026.csv"
    }
   ],
   "verification": {

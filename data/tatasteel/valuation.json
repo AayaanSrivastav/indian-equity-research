@@ -10,7 +10,7 @@
     "industry": "Steel",
     "sector_index": "NIFTY METAL"
   },
-  "valuation_date": "2026-11-12",
+  "valuation_date": "2026-11-16",
   "balance_sheet_date": "2026-03-31",
   "inputs_verification": {
     "facts_by_status": {
@@ -38,15 +38,15 @@
     ]
   },
   "market": {
-    "price": 188.0,
+    "price": 182.26,
     "price_label": "FACT",
-    "price_source": "NSE close (BhavCopy_NSE_CM_0_0_0_20261112_F_0000.csv.zip); checked against the raw file at build time",
+    "price_source": "NSE close (BhavCopy_NSE_CM_0_0_0_20261116_F_0000.csv.zip); checked against the raw file at build time",
     "shares": 12474400000.0,
     "shares_basis": "share capital ÷ ₹1 face value at 2026-03-31",
-    "market_cap": 234518.72,
-    "enterprise_value": 311366.82,
-    "pe_ttm": 20.218525415545905,
-    "ev_ebit_ttm": 12.926715068825283,
+    "market_cap": 227358.4144,
+    "enterprise_value": 304206.5144,
+    "pe_ttm": 19.601215118284024,
+    "ev_ebit_ttm": 12.629447587669409,
     "ttm": {
       "quarters": [
         "2025-12-31",
@@ -59,12 +59,12 @@
       "profit_owners": 11599.199999999999
     },
     "beta": {
-      "beta": 1.19861324791249,
-      "std_error": 0.07320645953149785,
+      "beta": 1.1860780567563023,
+      "std_error": 0.073542871273722,
       "n": 494,
-      "blume_adjusted": 1.1330708761013684,
-      "first_session": "2024-11-13",
-      "last_session": "2026-11-12"
+      "blume_adjusted": 1.1246722980267225,
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-16"
     }
   },
   "latest_quarter": {
