@@ -64,6 +64,20 @@
     $("disclaimer").textContent = page.disclaimer;
   }
 
+  // flags: cautions (the headline depends on it) first, then notes; the section stays hidden when there are none
+  function renderFlags() {
+    var fl = page.flags || [], n = fl.filter(function (f) { return f.level === "caution"; }).length;
+    $("flags").hidden = !fl.length;
+    if (!fl.length) { return; }
+    $("flags-count").textContent = n ? n + (n === 1 ? " caution" : " cautions") + " · " + (fl.length - n) + (fl.length - n === 1 ? " note" : " notes")
+      : fl.length + (fl.length === 1 ? " note" : " notes");
+    $("flag-list").innerHTML = fl.map(function (f) {
+      return '<li class="flag ' + esc(f.level) + '"><div class="flag-h"><span class="flag-mark" aria-hidden="true">' +
+        (f.level === "caution" ? "⚠" : "ℹ") + '</span><span class="flag-tag">' + (f.level === "caution" ? "Caution" : "Note") + "</span> " +
+        esc(f.title) + "</div><p>" + esc(f.text) + "</p></li>";
+    }).join("");
+  }
+
   function renderStory() {
     $("story-badge").textContent = page.story.checks + " checks passed";
     $("story-lines").innerHTML = page.story.lines.map(function (l) {
@@ -577,7 +591,7 @@
     return r.json();
   }).then(function (data) {
     page = data;
-    renderHeader(); renderStory(); renderMetrics(); renderFinToggle(); renderFinTable(); renderResults(); renderValuation(); renderSources();
+    renderHeader(); renderFlags(); renderStory(); renderMetrics(); renderFinToggle(); renderFinTable(); renderResults(); renderValuation(); renderSources();
     renderRangeToggle(); drawCharts(); wireMagnifiers(); wireNav();
   }).catch(function (err) {
     $("story-lines").innerHTML = '<div class="error">The page data could not be loaded (' + esc(err.message) + "). If you opened this file directly, serve the folder over HTTP instead.</div>";

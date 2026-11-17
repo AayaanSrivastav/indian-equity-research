@@ -27,9 +27,17 @@
     store("theme", t);
   });
 
+  // the flags on a company's page: a warning badge when it has a caution, a plain one when it has only notes; it links to the flags
+  function flagBadge(c) {
+    var f = c.flags || { caution: [], note: [] }, n = f.caution.length + f.note.length;
+    if (!n) { return ""; }
+    var label = f.caution.length ? "⚠ " + f.caution.length + (f.caution.length === 1 ? " caution" : " cautions") : "ℹ " + n + (n === 1 ? " note" : " notes");
+    return '<a class="badge' + (f.caution.length ? " warn" : "") + '" href="company.html?c=' + encodeURIComponent(c.slug) + '#flags" title="' +
+      esc(f.caution.concat(f.note).join("; ")) + '">' + label + "</a>";
+  }
   function badges(c) {
     return (c.applicable ? '<span class="badge">Template ' + esc(c.template) + "</span>" : '<span class="badge warn">Template does not apply</span>') +
-      (c.set_by_rule ? '<span class="badge">Assumptions set by rule</span>' : "");
+      (c.set_by_rule ? '<span class="badge">Assumptions set by rule</span>' : "") + flagBadge(c);
   }
   function pick(c) {
     var on = picked.indexOf(c.slug) >= 0, full = picked.length >= MAX_PICK && !on;
@@ -64,7 +72,7 @@
         return '<tr><td><a href="company.html?c=' + encodeURIComponent(c.slug) + '">' + esc(c.name) + '</a> <span class="small muted">' + esc(c.symbol) + "</span></td>" +
           "<td>" + esc(c.sector_label) + '</td><td class="num">' + esc(c.price) + ' <span class="small muted">' + esc(c.as_of) + "</span></td>" +
           '<td class="num ' + (c.up ? "yes" : "no") + '">' + esc(c.change_pct) + '</td><td class="num">' + esc(c.market_cap) + "</td>" +
-          "<td>" + (c.applicable ? "Template " + esc(c.template) : "Does not apply") + "</td><td>" + pick(c) + "</td></tr>";
+          "<td>" + (c.applicable ? "Template " + esc(c.template) : "Does not apply") + " " + flagBadge(c) + "</td><td>" + pick(c) + "</td></tr>";
       }).join("") + "</tbody></table>";
   }
 

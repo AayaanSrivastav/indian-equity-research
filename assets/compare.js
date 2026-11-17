@@ -45,6 +45,17 @@
       (x.note ? '<span class="why">' + esc(x.note) + "</span>" : "") + "</td>";
   }
 
+  // the flags found on each company's page, in the order they appear there (cautions first); each links to the page's flags box
+  function flagRow(cos) {
+    return '<tr class="flag-row"><td>Flags<span class="def">Things found while building each page that change how far its numbers can be trusted. Read them before comparing figures.</span></td>' +
+      cos.map(function (c) {
+        var f = c.flags || { caution: [], note: [] };
+        var items = f.caution.map(function (t) { return "⚠ " + t; }).concat(f.note.map(function (t) { return "ℹ " + t; }));
+        return "<td>" + (items.length ? "<ul class=\"flag-mini\">" + items.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ul>" +
+          '<a class="small" href="company.html?c=' + encodeURIComponent(c.slug) + '#flags">Read them</a>' : '<span class="muted">none</span>') + "</td>";
+      }).join("") + "</tr>";
+  }
+
   function render() {
     var sel = chosen();
     pickers(sel);
@@ -61,7 +72,7 @@
       rows.map(function (r) {
         return "<tr><td>" + esc(r.label) + '<span class="def">' + esc(r.definition) + "</span></td>" +
           cos.map(function (c) { return cell(c, r.id); }).join("") + "</tr>";
-      }).join("") + "</tbody></table>";
+      }).join("") + flagRow(cos) + "</tbody></table>";
     $("cmp-note").textContent = "Hover a figure to see its label (fact, calculation or missing). Every figure links back to its company page, where its sources and checks are shown.";
   }
 

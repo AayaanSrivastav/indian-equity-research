@@ -18,15 +18,16 @@ Academic case studies of listed Indian companies. Each page turns a company's pu
 
 | Outcome | Companies |
 |---|---|
-| Template A (steady cash generators) | TCS, Infosys, HCLTech, Wipro, Tech Mahindra |
-| Template B (reinvesting at high returns) | Titan, Trent |
+| Template A (steady cash generators) | TCS, Infosys, HCLTech, Wipro, Tech Mahindra, Persistent Systems, Dabur, Britannia, Eicher Motors, Hero MotoCorp, Sun Pharma, Divi's Laboratories, Asian Paints |
+| Template B (reinvesting at high returns) | Titan, Trent, Mahindra & Mahindra, Dr Reddy's, Havells, Mphasis |
 | Neither applies (reasons shown) | Tata Consumer, Tata Steel, Tata Power |
 
 Prices are the latest NSE close loaded; each page shows its date.
 
 ## Limitations
 
-- Ten large companies. Banks and other financials need a different model and are not included.
+- Twenty-two large companies. Banks and other financials need a different model and are not included. Mahindra & Mahindra consolidates a lending business, which distorts its figure; its page says so.
+- The model's price-implied growth is far above history for several companies. That is a statement about the model's assumptions, not a view on the shares.
 - A DCF is a set of assumptions. The implied growth rate moves with the discount rate and margin rules; the site shows how much.
 - Apart from TCS, the figures are machine-read and reconciled but not yet checked line by line by a person.
 - The site is a snapshot. It updates when new exchange files are loaded and the engine is re-run.
