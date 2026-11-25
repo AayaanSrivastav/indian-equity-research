@@ -132,31 +132,31 @@
       "id": "S4",
       "line": "what the price implies",
       "label": "CALCULATION",
-      "text": "At ₹1,868 (NSE close, 16 Nov 2026), a discounted cash flow model with a 8.84% cost of capital matches the price if revenue grows about 14.0% a year for five years at the FY26 operating margin of 25.3%; SUNPHARMA's revenue grew 10.0% a year over FY23–FY26.",
+      "text": "At ₹1,860 (NSE close, 23 Nov 2026), a discounted cash flow model with a 8.83% cost of capital matches the price if revenue grows about 13.9% a year for five years at the FY26 operating margin of 25.3%; SUNPHARMA's revenue grew 10.0% a year over FY23–FY26.",
       "evidence": [
         {
           "file": "valuation.json",
           "path": "market.price",
           "format": "inr0",
-          "display": "₹1,868"
+          "display": "₹1,860"
         },
         {
           "file": "valuation.json",
           "path": "valuation_date",
           "format": "date",
-          "display": "16 Nov 2026"
+          "display": "23 Nov 2026"
         },
         {
           "file": "valuation.json",
           "path": "wacc.wacc",
           "format": "pct2_frac",
-          "display": "8.84%"
+          "display": "8.83%"
         },
         {
           "file": "valuation.json",
           "path": "reverse_dcf.implied_one_at_a_time.g_high",
           "format": "pct1_frac",
-          "display": "14.0%"
+          "display": "13.9%"
         },
         {
           "file": "valuation.json",
@@ -179,19 +179,19 @@
       "id": "S5",
       "line": "what to watch",
       "label": "CALCULATION",
-      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹1,241 to ₹2,083 a share) and to how long SUNPHARMA keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹1,075 to ₹1,613 a share); the Q3 FY27 result will be the next reported quarter.",
+      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹1,243 to ₹2,087 a share) and to how long SUNPHARMA keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹1,075 to ₹1,616 a share); the Q3 FY27 result will be the next reported quarter.",
       "evidence": [
         {
           "file": "valuation.json",
           "path": "driver_ranking.0.value_at_low",
           "format": "inr0",
-          "display": "₹1,241"
+          "display": "₹1,243"
         },
         {
           "file": "valuation.json",
           "path": "driver_ranking.0.value_at_high",
           "format": "inr0",
-          "display": "₹2,083"
+          "display": "₹2,087"
         },
         {
           "file": "valuation.json",
@@ -203,7 +203,7 @@
           "file": "valuation.json",
           "path": "driver_ranking.1.value_at_high",
           "format": "inr0",
-          "display": "₹1,613"
+          "display": "₹1,616"
         }
       ],
       "sources": [
@@ -568,49 +568,49 @@
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:market.price renders '₹1,868', claim shows '₹1,868'"
+        "detail": "valuation.json:market.price renders '₹1,860', claim shows '₹1,860'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹1,868' appears in the text"
+        "detail": "'₹1,860' appears in the text"
       },
       {
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:valuation_date renders '16 Nov 2026', claim shows '16 Nov 2026'"
+        "detail": "valuation.json:valuation_date renders '23 Nov 2026', claim shows '23 Nov 2026'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'16 Nov 2026' appears in the text"
+        "detail": "'23 Nov 2026' appears in the text"
       },
       {
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:wacc.wacc renders '8.84%', claim shows '8.84%'"
+        "detail": "valuation.json:wacc.wacc renders '8.83%', claim shows '8.83%'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'8.84%' appears in the text"
+        "detail": "'8.83%' appears in the text"
       },
       {
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:reverse_dcf.implied_one_at_a_time.g_high renders '14.0%', claim shows '14.0%'"
+        "detail": "valuation.json:reverse_dcf.implied_one_at_a_time.g_high renders '13.9%', claim shows '13.9%'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'14.0%' appears in the text"
+        "detail": "'13.9%' appears in the text"
       },
       {
         "claim": "S4",
@@ -640,13 +640,13 @@
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '1,868' is covered by evidence"
+        "detail": "number '1,860' is covered by evidence"
       },
       {
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '16' is covered by evidence"
+        "detail": "number '23' is covered by evidence"
       },
       {
         "claim": "S4",
@@ -658,13 +658,13 @@
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '8.84' is covered by evidence"
+        "detail": "number '8.83' is covered by evidence"
       },
       {
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '14.0' is covered by evidence"
+        "detail": "number '13.9' is covered by evidence"
       },
       {
         "claim": "S4",
@@ -700,25 +700,25 @@
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.0.value_at_low renders '₹1,241', claim shows '₹1,241'"
+        "detail": "valuation.json:driver_ranking.0.value_at_low renders '₹1,243', claim shows '₹1,243'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹1,241' appears in the text"
+        "detail": "'₹1,243' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.0.value_at_high renders '₹2,083', claim shows '₹2,083'"
+        "detail": "valuation.json:driver_ranking.0.value_at_high renders '₹2,087', claim shows '₹2,087'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹2,083' appears in the text"
+        "detail": "'₹2,087' appears in the text"
       },
       {
         "claim": "S5",
@@ -736,25 +736,25 @@
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.1.value_at_high renders '₹1,613', claim shows '₹1,613'"
+        "detail": "valuation.json:driver_ranking.1.value_at_high renders '₹1,616', claim shows '₹1,616'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹1,613' appears in the text"
+        "detail": "'₹1,616' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '1,241' is covered by evidence"
+        "detail": "number '1,243' is covered by evidence"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '2,083' is covered by evidence"
+        "detail": "number '2,087' is covered by evidence"
       },
       {
         "claim": "S5",
@@ -766,7 +766,7 @@
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '1,613' is covered by evidence"
+        "detail": "number '1,616' is covered by evidence"
       },
       {
         "claim": "S5",

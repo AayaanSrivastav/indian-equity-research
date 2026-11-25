@@ -1,5 +1,5 @@
 {
- "built": "2026-11-17",
+ "built": "2026-11-25",
  "slug": "tatasteel",
  "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
  "header": {
@@ -10,12 +10,12 @@
   "sector": "Steel",
   "sector_label": "metals",
   "sector_index": "NIFTY METAL",
-  "price": "₹182.26",
-  "change": "−₹4.42",
-  "change_pct": "-2.37%",
+  "price": "₹163.00",
+  "change": "−₹15.00",
+  "change_pct": "-8.43%",
   "up": false,
-  "as_of": "16 Nov 2026",
-  "market_cap": "₹2.27 lakh crore",
+  "as_of": "23 Nov 2026",
+  "market_cap": "₹2.03 lakh crore",
   "high_52w": "₹224.40",
   "low_52w": "₹160.06",
   "source": "NSE closing price (end of day, not live); 52-week range computed from daily highs and lows (NSE bhavcopy)"
@@ -45,11 +45,11 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "On 9 Nov 2026, the first session after the result, TATASTEEL shares fell 0.78% while the NIFTY 50 rose 0.06% and the NIFTY METAL index fell 0.11%; allowing for the market's move, TATASTEEL's own move was -0.87%, about 0.64 times its usual daily variation."
+      "text": "On 8 Nov 2026, a Sunday special session and the first session after the result, TATASTEEL shares rose 2.09% while the NIFTY 50 fell 0.18% and the NIFTY METAL index rose 0.35%; allowing for the market's move, TATASTEEL's own move was +2.25%, about 1.65 times its usual daily variation."
      },
      {
       "label": "UNCERTAIN",
-      "text": "These numbers measure the move, not its cause: the result, the metals sector's fall and any other news that day overlap, and nothing here separates them."
+      "text": "These numbers measure the move, not its cause: the result, the metals sector's rise and any other news that day overlap, and nothing here separates them."
      }
     ]
    },
@@ -62,7 +62,7 @@
      },
      {
       "label": "CALCULATION",
-      "text": "At ₹182 (NSE close, 16 Nov 2026), the shares traded at 19.6× the profit attributable to shareholders over the last four reported quarters."
+      "text": "At ₹163 (NSE close, 23 Nov 2026), the shares traded at 17.5× the profit attributable to shareholders over the last four reported quarters."
      }
     ]
    },
@@ -82,7 +82,7 @@
  "prices": {
   "base_date": "2023-10-23",
   "base_display": "23 Oct 2023",
-  "end_display": "16 Nov 2026",
+  "end_display": "23 Nov 2026",
   "series": {
    "TATASTEEL": [
     {
@@ -3102,6 +3102,10 @@
      "value": 155.25
     },
     {
+     "time": "2026-11-08",
+     "value": 158.5
+    },
+    {
      "time": "2026-11-09",
      "value": 154.04
     },
@@ -3120,6 +3124,26 @@
     {
      "time": "2026-11-16",
      "value": 151.88
+    },
+    {
+     "time": "2026-11-17",
+     "value": 151.25
+    },
+    {
+     "time": "2026-11-18",
+     "value": 149.17
+    },
+    {
+     "time": "2026-11-19",
+     "value": 150.74
+    },
+    {
+     "time": "2026-11-20",
+     "value": 148.33
+    },
+    {
+     "time": "2026-11-23",
+     "value": 135.83
     }
    ],
    "NIFTY 50": [
@@ -6140,6 +6164,10 @@
      "value": 129.81
     },
     {
+     "time": "2026-11-08",
+     "value": 129.59
+    },
+    {
      "time": "2026-11-09",
      "value": 129.89
     },
@@ -6158,6 +6186,26 @@
     {
      "time": "2026-11-16",
      "value": 131.17
+    },
+    {
+     "time": "2026-11-17",
+     "value": 131.67
+    },
+    {
+     "time": "2026-11-18",
+     "value": 130.84
+    },
+    {
+     "time": "2026-11-19",
+     "value": 132.32
+    },
+    {
+     "time": "2026-11-20",
+     "value": 133.81
+    },
+    {
+     "time": "2026-11-23",
+     "value": 131.47
     }
    ],
    "NIFTY METAL": [
@@ -9178,6 +9226,10 @@
      "value": 195.23
     },
     {
+     "time": "2026-11-08",
+     "value": 195.92
+    },
+    {
      "time": "2026-11-09",
      "value": 195.02
     },
@@ -9196,6 +9248,26 @@
     {
      "time": "2026-11-16",
      "value": 191.84
+    },
+    {
+     "time": "2026-11-17",
+     "value": 192.95
+    },
+    {
+     "time": "2026-11-18",
+     "value": 188.21
+    },
+    {
+     "time": "2026-11-19",
+     "value": 189.4
+    },
+    {
+     "time": "2026-11-20",
+     "value": 188.96
+    },
+    {
+     "time": "2026-11-23",
+     "value": 182.0
     }
    ]
   },
@@ -9236,18 +9308,18 @@
    "stock": "+1.48%"
   },
   {
-   "time": "2026-11-09",
+   "time": "2026-11-08",
    "event": "Q2 FY27",
-   "ar": "-0.87%",
-   "z": "-0.64",
-   "stock": "-0.78%"
+   "ar": "+2.25%",
+   "z": "+1.65",
+   "stock": "+2.09%"
   }
  ],
  "metrics": [
   {
    "id": "market_cap",
    "label": "Market cap",
-   "display": "₹2.27 lakh crore",
+   "display": "₹2.03 lakh crore",
    "type": "CALCULATION",
    "definition": "Price × shares outstanding (share capital ÷ ₹1 face value at 2026-03-31).",
    "source": "NSE close; TATASTEEL FY26 statements"
@@ -9255,7 +9327,7 @@
   {
    "id": "pe_ttm",
    "label": "P/E (TTM)",
-   "display": "19.6×",
+   "display": "17.5×",
    "type": "CALCULATION",
    "definition": "Price ÷ earnings per share over the last four reported quarters (Q3 FY26 – Q2 FY27).",
    "source": "TATASTEEL quarterly filings"
@@ -9263,7 +9335,7 @@
   {
    "id": "ev_ebit_ttm",
    "label": "EV / EBIT (TTM)",
-   "display": "12.6×",
+   "display": "11.6×",
    "type": "CALCULATION",
    "definition": "Enterprise value (market cap − the net cash and treasury figure below) ÷ operating profit over the last four quarters.",
    "source": "TATASTEEL filings; NSE close"
@@ -9319,7 +9391,7 @@
   {
    "id": "beta",
    "label": "Beta vs NIFTY 50",
-   "display": "1.19",
+   "display": "1.22",
    "type": "CALCULATION",
    "definition": "Sensitivity of TATASTEEL's daily return to the NIFTY 50's, over the two years to the price date.",
    "source": "NSE and niftyindices daily closes"
@@ -10798,14 +10870,14 @@
    },
    {
     "event": "Q2 FY27",
-    "session": "9 Nov 2026",
-    "time": "2026-11-09",
-    "stock": "-0.78%",
-    "n50": "+0.06%",
-    "sector": "-0.11%",
-    "ar": "-0.87%",
-    "ar_value": -0.87,
-    "z": "-0.64",
+    "session": "8 Nov 2026",
+    "time": "2026-11-08",
+    "stock": "+2.09%",
+    "n50": "-0.18%",
+    "sector": "+0.35%",
+    "ar": "+2.25%",
+    "ar_value": 2.25,
+    "z": "+1.65",
     "beta": "1.08",
     "large": false
    }
@@ -10820,10 +10892,10 @@
   ],
   "b_untried": "Template B is tried only when free cash flow is Template A's only objection.",
   "note": "No template applies, so no DCF value, scenario, reverse DCF or sensitivity is computed.",
-  "price_display": "₹182",
-  "as_of": "16 Nov 2026",
-  "pe": "19.6×",
-  "ev_ebit": "12.6×",
+  "price_display": "₹163",
+  "as_of": "23 Nov 2026",
+  "pe": "17.5×",
+  "ev_ebit": "11.6×",
   "fcff": [
    {
     "fy": "FY23",
@@ -11375,6 +11447,78 @@
     "title": "NIFTY METAL historical data",
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-19",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY METAL historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-19",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY METAL historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY METAL historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-08",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY METAL historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-08",
     "published": "",
     "url": "https://www.nseindia.in/reports-indices-historical-index-data",
     "link": "page"

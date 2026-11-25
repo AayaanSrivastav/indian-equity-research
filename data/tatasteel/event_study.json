@@ -78,20 +78,20 @@
     {
       "event": "Q2 FY27",
       "announced": "2026-11-07",
-      "reaction_session": "2026-11-09",
+      "reaction_session": "2026-11-08",
       "release_after_hours": "confirmed (NSE broadcast time; released on a weekend, when the market was shut)",
       "estimation_n": 240,
       "status": "ok",
-      "stock_return_pct": -0.78,
-      "nifty50_return_pct": 0.06,
-      "sector_return_pct": -0.11,
+      "stock_return_pct": 2.09,
+      "nifty50_return_pct": -0.18,
+      "sector_return_pct": 0.35,
       "alpha_pct": 0.033,
       "beta": 1.081,
-      "expected_pct": 0.09,
-      "abnormal_return_pct": -0.87,
+      "expected_pct": -0.16,
+      "abnormal_return_pct": 2.25,
       "residual_sd_pct": 1.36,
-      "z": -0.64,
-      "stock_minus_sector_pct": -0.67
+      "z": 1.65,
+      "stock_minus_sector_pct": 1.74
     }
   ]
 }

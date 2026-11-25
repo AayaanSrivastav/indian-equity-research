@@ -1,5 +1,5 @@
 {
- "built": "2026-11-17",
+ "built": "2026-11-25",
  "slug": "tcs",
  "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
  "header": {
@@ -10,12 +10,12 @@
   "sector": "IT services",
   "sector_label": "IT",
   "sector_index": "NIFTY IT",
-  "price": "₹2,405.00",
-  "change": "−₹2.50",
-  "change_pct": "-0.10%",
-  "up": false,
-  "as_of": "16 Nov 2026",
-  "market_cap": "₹8.70 lakh crore",
+  "price": "₹2,460.00",
+  "change": "+₹83.80",
+  "change_pct": "+3.53%",
+  "up": true,
+  "as_of": "23 Nov 2026",
+  "market_cap": "₹8.90 lakh crore",
   "high_52w": "₹3,350.00",
   "low_52w": "₹1,976.80",
   "source": "NSE closing price (end of day, not live); 52-week range computed from daily highs and lows (NSE bhavcopy)"
@@ -66,7 +66,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "At ₹2,405 (NSE close, 16 Nov 2026), a discounted cash flow model with a 10.76% cost of capital matches the price if revenue grows about 3.9% a year for five years at the FY26 operating margin of 25.0%; TCS's revenue grew 8.6% a year over FY22–FY26."
+      "text": "At ₹2,460 (NSE close, 23 Nov 2026), a discounted cash flow model with a 10.45% cost of capital matches the price if revenue grows about 3.3% a year for five years at the FY26 operating margin of 25.0%; TCS's revenue grew 8.6% a year over FY22–FY26."
      },
      {
       "label": "CALCULATION",
@@ -79,7 +79,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹2,626 to ₹3,723 a share) and to how long TCS keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹2,278 to ₹3,102 a share); the Q3 FY27 result will be the next test of the mechanical forecast."
+      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹2,753 to ₹3,985 a share) and to how long TCS keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹2,355 to ₹3,280 a share); the Q3 FY27 result will be the next test of the mechanical forecast."
      }
     ]
    }
@@ -90,7 +90,7 @@
  "prices": {
   "base_date": "2023-10-16",
   "base_display": "16 Oct 2023",
-  "end_display": "16 Nov 2026",
+  "end_display": "23 Nov 2026",
   "series": {
    "TCS": [
     {
@@ -3130,6 +3130,10 @@
      "value": 70.9
     },
     {
+     "time": "2026-11-08",
+     "value": 70.91
+    },
+    {
      "time": "2026-11-09",
      "value": 70.24
     },
@@ -3148,6 +3152,26 @@
     {
      "time": "2026-11-16",
      "value": 68.25
+    },
+    {
+     "time": "2026-11-17",
+     "value": 68.29
+    },
+    {
+     "time": "2026-11-18",
+     "value": 67.52
+    },
+    {
+     "time": "2026-11-19",
+     "value": 66.48
+    },
+    {
+     "time": "2026-11-20",
+     "value": 67.43
+    },
+    {
+     "time": "2026-11-23",
+     "value": 69.81
     }
    ],
    "NIFTY 50": [
@@ -6188,6 +6212,10 @@
      "value": 126.85
     },
     {
+     "time": "2026-11-08",
+     "value": 126.63
+    },
+    {
      "time": "2026-11-09",
      "value": 126.93
     },
@@ -6206,6 +6234,26 @@
     {
      "time": "2026-11-16",
      "value": 128.17
+    },
+    {
+     "time": "2026-11-17",
+     "value": 128.66
+    },
+    {
+     "time": "2026-11-18",
+     "value": 127.85
+    },
+    {
+     "time": "2026-11-19",
+     "value": 129.31
+    },
+    {
+     "time": "2026-11-20",
+     "value": 130.76
+    },
+    {
+     "time": "2026-11-23",
+     "value": 128.47
     }
    ],
    "NIFTY IT": [
@@ -9246,6 +9294,10 @@
      "value": 103.87
     },
     {
+     "time": "2026-11-08",
+     "value": 103.53
+    },
+    {
      "time": "2026-11-09",
      "value": 102.26
     },
@@ -9264,6 +9316,26 @@
     {
      "time": "2026-11-16",
      "value": 100.6
+    },
+    {
+     "time": "2026-11-17",
+     "value": 99.7
+    },
+    {
+     "time": "2026-11-18",
+     "value": 98.46
+    },
+    {
+     "time": "2026-11-19",
+     "value": 97.38
+    },
+    {
+     "time": "2026-11-20",
+     "value": 98.65
+    },
+    {
+     "time": "2026-11-23",
+     "value": 100.32
     }
    ]
   },
@@ -9315,7 +9387,7 @@
   {
    "id": "market_cap",
    "label": "Market cap",
-   "display": "₹8.70 lakh crore",
+   "display": "₹8.90 lakh crore",
    "type": "CALCULATION",
    "definition": "Price × shares outstanding (FY26 weighted-average count).",
    "source": "NSE close; TCS FY26 statements"
@@ -9323,7 +9395,7 @@
   {
    "id": "pe_ttm",
    "label": "P/E (TTM)",
-   "display": "16.9×",
+   "display": "17.2×",
    "type": "CALCULATION",
    "definition": "Price ÷ earnings per share over the last four reported quarters (Q3 FY26 – Q2 FY27).",
    "source": "TCS quarterly filings"
@@ -9331,7 +9403,7 @@
   {
    "id": "ev_ebit_ttm",
    "label": "EV / EBIT (TTM)",
-   "display": "11.9×",
+   "display": "12.2×",
    "type": "CALCULATION",
    "definition": "Enterprise value (market cap − the net cash and treasury figure below) ÷ operating profit over the last four quarters.",
    "source": "TCS filings; NSE close"
@@ -9387,7 +9459,7 @@
   {
    "id": "beta",
    "label": "Beta vs NIFTY 50",
-   "display": "0.83",
+   "display": "0.78",
    "type": "CALCULATION",
    "definition": "Sensitivity of TCS's daily return to the NIFTY 50's, over the two years to the price date.",
    "source": "NSE and niftyindices daily closes"
@@ -10803,17 +10875,17 @@
   "applicable": true,
   "template": "A",
   "headline": {
-   "price": "₹2,405",
-   "as_of": "16 Nov 2026",
-   "implied_growth": "3.9%",
+   "price": "₹2,460",
+   "as_of": "23 Nov 2026",
+   "implied_growth": "3.3%",
    "margin": "25.0%",
    "last_fy": "FY26",
    "history_span": "FY22–FY26",
    "history_growth": "8.6%",
    "last_year_growth": "4.6%",
    "alts": [
-    "margin falling to 19.1%",
-    "long-run growth of 2.4%"
+    "margin falling to 18.4%",
+    "long-run growth of 2.2%"
    ],
    "beyond": false
   },
@@ -10821,66 +10893,66 @@
    {
     "margin": 21.03,
     "margin_display": "21.0%",
-    "growth": 6.917,
-    "growth_display": "6.9%"
+    "growth": 6.311,
+    "growth_display": "6.3%"
    },
    {
     "margin": 22.03,
     "margin_display": "22.0%",
-    "growth": 6.101,
-    "growth_display": "6.1%"
+    "growth": 5.504,
+    "growth_display": "5.5%"
    },
    {
     "margin": 23.03,
     "margin_display": "23.0%",
-    "growth": 5.328,
-    "growth_display": "5.3%"
+    "growth": 4.74,
+    "growth_display": "4.7%"
    },
    {
     "margin": 24.03,
     "margin_display": "24.0%",
-    "growth": 4.594,
-    "growth_display": "4.6%"
+    "growth": 4.015,
+    "growth_display": "4.0%"
    },
    {
     "margin": 25.03,
     "margin_display": "25.0%",
-    "growth": 3.895,
-    "growth_display": "3.9%"
+    "growth": 3.324,
+    "growth_display": "3.3%"
    },
    {
     "margin": 26.03,
     "margin_display": "26.0%",
-    "growth": 3.228,
-    "growth_display": "3.2%"
+    "growth": 2.664,
+    "growth_display": "2.7%"
    },
    {
     "margin": 27.03,
     "margin_display": "27.0%",
-    "growth": 2.591,
-    "growth_display": "2.6%"
+    "growth": 2.034,
+    "growth_display": "2.0%"
    },
    {
     "margin": 28.03,
     "margin_display": "28.0%",
-    "growth": 1.981,
-    "growth_display": "2.0%"
+    "growth": 1.431,
+    "growth_display": "1.4%"
    },
    {
     "margin": 29.03,
     "margin_display": "29.0%",
-    "growth": 1.395,
-    "growth_display": "1.4%"
+    "growth": 0.852,
+    "growth_display": "0.9%"
    }
   ],
-  "price_value": 2405.0,
-  "price_display": "₹2,405",
+  "price_value": 2460.0,
+  "price_display": "₹2,460",
   "scenarios": [
    {
     "key": "bear",
     "name": "Bear",
-    "value": 1719.88,
-    "display": "₹1,720",
+    "value": 1773.59,
+    "display": "₹1,774",
     "what": "Revenue grows only at FY26's pace for five years, the operating margin slips 2 points, and growth after year 10 earns no more than its cost of capital.",
     "assumptions": [
      [
@@ -10897,19 +10969,19 @@
      ],
      [
       "Long-run return on new capital",
-      "10.8%"
+      "10.5%"
      ],
      [
       "Terminal value share of EV",
-      "44.7%"
+      "45.7%"
      ]
     ]
    },
    {
     "key": "base",
     "name": "Base",
-    "value": 3078.76,
-    "display": "₹3,079",
+    "value": 3255.27,
+    "display": "₹3,255",
     "what": "Revenue keeps its FY22-FY26 growth rate for five years, the FY26 margin holds, and TCS keeps its historical return on capital indefinitely.",
     "assumptions": [
      [
@@ -10930,15 +11002,15 @@
      ],
      [
       "Terminal value share of EV",
-      "62.7%"
+      "64.3%"
      ]
     ]
    },
    {
     "key": "bull",
     "name": "Bull",
-    "value": 3969.54,
-    "display": "₹3,970",
+    "value": 4210.67,
+    "display": "₹4,211",
     "what": "Revenue grows at H1 FY27's year-on-year pace (which includes an acquisition) for five years and the margin rises 1 point.",
     "assumptions": [
      [
@@ -10959,16 +11031,16 @@
      ],
      [
       "Terminal value share of EV",
-      "65.6%"
+      "67.1%"
      ]
     ]
    }
   ],
-  "base_value": 3078.76,
-  "base_display": "₹3,079",
+  "base_value": 3255.27,
+  "base_display": "₹3,255",
   "wacc": {
-   "wacc": "10.76%",
-   "ke": "10.84%",
+   "wacc": "10.45%",
+   "ke": "10.52%",
    "rf": "6.84%",
    "rf_n": "12",
    "rf_spot": "7.34%",
@@ -10976,7 +11048,7 @@
    "rf_max": "7.19%",
    "spread": "1.75%",
    "rf_local": "5.09%",
-   "beta": "0.83",
+   "beta": "0.78",
    "erp": "6.92%",
    "kd": "5.12%",
    "we": "98.7%",
@@ -10986,11 +11058,11 @@
   },
   "heatmap": {
    "wacc": [
-    "9.76%",
-    "10.26%",
-    "10.76%",
-    "11.26%",
-    "11.76%"
+    "9.45%",
+    "9.95%",
+    "10.45%",
+    "10.95%",
+    "11.45%"
    ],
    "g": [
     "3.50%",
@@ -11003,108 +11075,108 @@
    "cells": [
     [
      {
-      "display": "₹3,061",
+      "display": "₹3,224",
       "step": 3,
       "above_price": true
      },
      {
-      "display": "₹2,832",
+      "display": "₹2,971",
       "step": 2,
       "above_price": true
      },
      {
-      "display": "₹2,635",
+      "display": "₹2,755",
       "step": 1,
       "above_price": true
      },
      {
-      "display": "₹2,463",
+      "display": "₹2,568",
       "step": 1,
       "above_price": true
      },
      {
-      "display": "₹2,313",
+      "display": "₹2,405",
       "step": 0,
       "above_price": false
      }
     ],
     [
      {
-      "display": "₹3,243",
+      "display": "₹3,432",
       "step": 4,
       "above_price": true
      },
      {
-      "display": "₹2,983",
+      "display": "₹3,141",
       "step": 3,
       "above_price": true
      },
      {
-      "display": "₹2,761",
+      "display": "₹2,896",
       "step": 2,
       "above_price": true
      },
      {
-      "display": "₹2,570",
+      "display": "₹2,687",
       "step": 1,
       "above_price": true
      },
      {
-      "display": "₹2,404",
+      "display": "₹2,506",
       "step": 0,
-      "above_price": false
+      "above_price": true
      }
     ],
     [
      {
-      "display": "₹3,460",
+      "display": "₹3,681",
       "step": 5,
       "above_price": true
      },
      {
-      "display": "₹3,160",
+      "display": "₹3,342",
       "step": 4,
       "above_price": true
      },
      {
-      "display": "₹2,907",
-      "step": 3,
-      "above_price": true
-     },
-     {
-      "display": "₹2,692",
+      "display": "₹3,061",
       "step": 2,
       "above_price": true
      },
      {
-      "display": "₹2,507",
+      "display": "₹2,823",
+      "step": 2,
+      "above_price": true
+     },
+     {
+      "display": "₹2,620",
       "step": 1,
       "above_price": true
      }
     ],
     [
      {
-      "display": "₹3,723",
+      "display": "₹3,985",
       "step": 6,
       "above_price": true
      },
      {
-      "display": "₹3,370",
+      "display": "₹3,583",
       "step": 4,
       "above_price": true
      },
      {
-      "display": "₹3,079",
+      "display": "₹3,255",
       "step": 3,
       "above_price": true
      },
      {
-      "display": "₹2,834",
+      "display": "₹2,983",
       "step": 2,
       "above_price": true
      },
      {
-      "display": "₹2,626",
+      "display": "₹2,753",
       "step": 1,
       "above_price": true
      }
@@ -11114,64 +11186,64 @@
   "tornado": [
    {
     "driver": "Cost of capital (WACC)",
-    "low": 2626.0,
-    "high": 3722.84,
-    "low_display": "₹2,626",
-    "high_display": "₹3,723",
-    "low_input": "11.8%",
-    "high_input": "9.8%"
+    "low": 2752.84,
+    "high": 3984.86,
+    "low_display": "₹2,753",
+    "high_display": "₹3,985",
+    "low_input": "11.5%",
+    "high_input": "9.5%"
    },
    {
     "driver": "Long-run return on new capital",
-    "low": 2277.77,
-    "high": 3101.76,
-    "low_display": "₹2,278",
-    "high_display": "₹3,102",
-    "low_input": "10.8%",
+    "low": 2355.16,
+    "high": 3280.26,
+    "low_display": "₹2,355",
+    "high_display": "₹3,280",
+    "low_input": "10.5%",
     "high_input": "107.2%"
    },
    {
     "driver": "Revenue growth, years 1–5",
-    "low": 2773.46,
-    "high": 3417.78,
-    "low_display": "₹2,773",
-    "high_display": "₹3,418",
+    "low": 2928.86,
+    "high": 3617.89,
+    "low_display": "₹2,929",
+    "high_display": "₹3,618",
     "low_input": "6.6%",
     "high_input": "10.6%"
    },
    {
     "driver": "Operating margin from year 5",
-    "low": 2851.47,
-    "high": 3306.05,
-    "low_display": "₹2,851",
-    "high_display": "₹3,306",
+    "low": 3013.86,
+    "high": 3496.69,
+    "low_display": "₹3,014",
+    "high_display": "₹3,497",
     "low_input": "23.0%",
     "high_input": "27.0%"
    },
    {
     "driver": "Long-run growth",
-    "low": 2907.24,
-    "high": 3114.1,
-    "low_display": "₹2,907",
-    "high_display": "₹3,114",
+    "low": 3060.64,
+    "high": 3295.61,
+    "low_display": "₹3,061",
+    "high_display": "₹3,296",
     "low_input": "4.5%",
     "high_input": "5.1%"
    },
    {
     "driver": "Tax rate",
-    "low": 2996.8,
-    "high": 3160.71,
-    "low_display": "₹2,997",
-    "high_display": "₹3,161",
+    "low": 3168.56,
+    "high": 3341.98,
+    "low_display": "₹3,169",
+    "high_display": "₹3,342",
     "low_input": "27.1%",
     "high_input": "23.1%"
    },
    {
     "driver": "Capital needed per ₹ of sales",
-    "low": 3043.88,
-    "high": 3099.68,
-    "low_display": "₹3,044",
-    "high_display": "₹3,100",
+    "low": 3219.93,
+    "high": 3276.48,
+    "low_display": "₹3,220",
+    "high_display": "₹3,276",
     "low_input": "3.26×",
     "high_input": "5.43×"
    }
@@ -11667,6 +11739,78 @@
     "title": "NIFTY IT historical data",
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-19",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY IT historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-18",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY IT historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-19 to 2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY IT historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-08",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY IT historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-08",
     "published": "",
     "url": "https://www.nseindia.in/reports-indices-historical-index-data",
     "link": "page"

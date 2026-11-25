@@ -10,7 +10,7 @@
     "industry": "Packaged foods and beverages",
     "sector_index": "NIFTY FMCG"
   },
-  "valuation_date": "2026-11-16",
+  "valuation_date": "2026-11-23",
   "balance_sheet_date": "2026-09-30",
   "inputs_verification": {
     "facts_by_status": {
@@ -38,15 +38,15 @@
     ]
   },
   "market": {
-    "price": 1117.5,
+    "price": 1133.0,
     "price_label": "FACT",
-    "price_source": "NSE close (BhavCopy_NSE_CM_0_0_0_20261116_F_0000.csv.zip); checked against the raw file at build time",
+    "price_source": "NSE close (BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip); checked against the raw file at build time",
     "shares": 989700000.0,
     "shares_basis": "share capital ÷ ₹1 face value at 2026-09-30",
-    "market_cap": 110598.975,
-    "enterprise_value": 110594.93500000001,
-    "pe_ttm": 65.05936869474168,
-    "ev_ebit_ttm": 46.71617357585179,
+    "market_cap": 112133.01,
+    "enterprise_value": 112128.97,
+    "pe_ttm": 65.96175814867321,
+    "ev_ebit_ttm": 47.364162069460754,
     "ttm": {
       "quarters": [
         "2025-12-31",
@@ -59,12 +59,12 @@
       "profit_owners": 1699.97
     },
     "beta": {
-      "beta": 0.7102434942081882,
-      "std_error": 0.07269725160745182,
-      "n": 494,
-      "blume_adjusted": 0.8058631411194861,
-      "first_session": "2024-11-18",
-      "last_session": "2026-11-16"
+      "beta": 0.7004274229181261,
+      "std_error": 0.07250169312203111,
+      "n": 496,
+      "blume_adjusted": 0.7992863733551445,
+      "first_session": "2024-11-25",
+      "last_session": "2026-11-23"
     }
   },
   "latest_quarter": {
@@ -208,10 +208,10 @@
     "template": "B (reinvestment phase, return on capital above its cost)",
     "applicable": false,
     "reasons": [
-      "median return on invested capital over the last 3 years (8.3%) is not above the cost of capital (9.90%), so growth would not add value"
+      "median return on invested capital over the last 3 years (8.3%) is not above the cost of capital (9.84%), so growth would not add value"
     ],
     "median_roic_recent": 0.08298731577688273,
-    "wacc": 0.0990268444609765,
+    "wacc": 0.09837653245077603,
     "roic_years": [
       "2024-03-31",
       "2025-03-31",

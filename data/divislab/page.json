@@ -1,5 +1,5 @@
 {
- "built": "2026-11-17",
+ "built": "2026-11-25",
  "slug": "divislab",
  "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
  "header": {
@@ -10,12 +10,12 @@
   "sector": "Pharmaceuticals",
   "sector_label": "pharma",
   "sector_index": "NIFTY PHARMA",
-  "price": "₹11,080.00",
-  "change": "−₹362.00",
-  "change_pct": "-3.16%",
-  "up": false,
-  "as_of": "16 Nov 2026",
-  "market_cap": "₹2.94 lakh crore",
+  "price": "₹11,203.00",
+  "change": "+₹22.50",
+  "change_pct": "+0.20%",
+  "up": true,
+  "as_of": "23 Nov 2026",
+  "market_cap": "₹2.97 lakh crore",
   "high_52w": "₹11,824.00",
   "low_52w": "₹5,647.50",
   "source": "NSE closing price (end of day, not live); 52-week range computed from daily highs and lows (NSE bhavcopy)"
@@ -45,7 +45,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "On 9 Nov 2026, the first session after the result, DIVISLAB shares rose 12.06% while the NIFTY 50 rose 0.06% and the NIFTY PHARMA index rose 1.65%; allowing for the market's move, DIVISLAB's own move was +11.87%, about 8.41 times its usual daily variation."
+      "text": "On 8 Nov 2026, a Sunday special session and the first session after the result, DIVISLAB shares rose 7.52% while the NIFTY 50 fell 0.18% and the NIFTY PHARMA index rose 1.74%; allowing for the market's move, DIVISLAB's own move was +7.47%, about 5.29 times its usual daily variation."
      },
      {
       "label": "UNCERTAIN",
@@ -58,7 +58,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "At ₹11,080 (NSE close, 16 Nov 2026), a discounted cash flow model with a 9.64% cost of capital does not reach the price at any revenue growth up to 30% a year for five years at the FY26 operating margin of 28.2%; nor, with revenue growing at its FY23–FY26 rate of 10.8%, at any operating margin up to 60%."
+      "text": "At ₹11,203 (NSE close, 23 Nov 2026), a discounted cash flow model with a 9.65% cost of capital does not reach the price at any revenue growth up to 30% a year for five years at the FY26 operating margin of 28.2%; nor, with revenue growing at its FY23–FY26 rate of 10.8%, at any operating margin up to 60%."
      },
      {
       "label": "CALCULATION",
@@ -71,7 +71,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹1,591 to ₹2,543 a share) and to how long DIVISLAB keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹1,451 to ₹2,056 a share); the Q3 FY27 result will be the next reported quarter."
+      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹1,587 to ₹2,533 a share) and to how long DIVISLAB keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹1,448 to ₹2,050 a share); the Q3 FY27 result will be the next reported quarter."
      }
     ]
    }
@@ -82,7 +82,7 @@
  "prices": {
   "base_date": "2023-10-23",
   "base_display": "23 Oct 2023",
-  "end_display": "16 Nov 2026",
+  "end_display": "23 Nov 2026",
   "series": {
    "DIVISLAB": [
     {
@@ -3102,6 +3102,10 @@
      "value": 294.79
     },
     {
+     "time": "2026-11-08",
+     "value": 316.97
+    },
+    {
      "time": "2026-11-09",
      "value": 330.35
     },
@@ -3120,6 +3124,26 @@
     {
      "time": "2026-11-16",
      "value": 316.49
+    },
+    {
+     "time": "2026-11-17",
+     "value": 318.48
+    },
+    {
+     "time": "2026-11-18",
+     "value": 315.6
+    },
+    {
+     "time": "2026-11-19",
+     "value": 319.28
+    },
+    {
+     "time": "2026-11-20",
+     "value": 319.36
+    },
+    {
+     "time": "2026-11-23",
+     "value": 320.0
     }
    ],
    "NIFTY 50": [
@@ -6140,6 +6164,10 @@
      "value": 129.81
     },
     {
+     "time": "2026-11-08",
+     "value": 129.59
+    },
+    {
      "time": "2026-11-09",
      "value": 129.89
     },
@@ -6158,6 +6186,26 @@
     {
      "time": "2026-11-16",
      "value": 131.17
+    },
+    {
+     "time": "2026-11-17",
+     "value": 131.67
+    },
+    {
+     "time": "2026-11-18",
+     "value": 130.84
+    },
+    {
+     "time": "2026-11-19",
+     "value": 132.32
+    },
+    {
+     "time": "2026-11-20",
+     "value": 133.81
+    },
+    {
+     "time": "2026-11-23",
+     "value": 131.47
     }
    ],
    "NIFTY PHARMA": [
@@ -9178,6 +9226,10 @@
      "value": 187.37
     },
     {
+     "time": "2026-11-08",
+     "value": 190.64
+    },
+    {
      "time": "2026-11-09",
      "value": 193.78
     },
@@ -9196,6 +9248,26 @@
     {
      "time": "2026-11-16",
      "value": 188.43
+    },
+    {
+     "time": "2026-11-17",
+     "value": 188.83
+    },
+    {
+     "time": "2026-11-18",
+     "value": 189.12
+    },
+    {
+     "time": "2026-11-19",
+     "value": 190.27
+    },
+    {
+     "time": "2026-11-20",
+     "value": 190.37
+    },
+    {
+     "time": "2026-11-23",
+     "value": 189.71
     }
    ]
   },
@@ -9236,18 +9308,18 @@
    "stock": "+6.57%"
   },
   {
-   "time": "2026-11-09",
+   "time": "2026-11-08",
    "event": "Q2 FY27",
-   "ar": "+11.87%",
-   "z": "+8.41",
-   "stock": "+12.06%"
+   "ar": "+7.47%",
+   "z": "+5.29",
+   "stock": "+7.52%"
   }
  ],
  "metrics": [
   {
    "id": "market_cap",
    "label": "Market cap",
-   "display": "₹2.94 lakh crore",
+   "display": "₹2.97 lakh crore",
    "type": "CALCULATION",
    "definition": "Price × shares outstanding (share capital ÷ ₹2 face value at 2026-09-30).",
    "source": "NSE close; DIVISLAB FY26 statements"
@@ -9255,7 +9327,7 @@
   {
    "id": "pe_ttm",
    "label": "P/E (TTM)",
-   "display": "87.3×",
+   "display": "88.3×",
    "type": "CALCULATION",
    "definition": "Price ÷ earnings per share over the last four reported quarters (Q3 FY26 – Q2 FY27).",
    "source": "DIVISLAB quarterly filings"
@@ -9263,7 +9335,7 @@
   {
    "id": "ev_ebit_ttm",
    "label": "EV / EBIT (TTM)",
-   "display": "70.5×",
+   "display": "71.3×",
    "type": "CALCULATION",
    "definition": "Enterprise value (market cap − the net cash and treasury figure below) ÷ operating profit over the last four quarters.",
    "source": "DIVISLAB filings; NSE close"
@@ -10483,14 +10555,14 @@
    },
    {
     "event": "Q2 FY27",
-    "session": "9 Nov 2026",
-    "time": "2026-11-09",
-    "stock": "+12.06%",
-    "n50": "+0.06%",
-    "sector": "+1.65%",
-    "ar": "+11.87%",
-    "ar_value": 11.87,
-    "z": "+8.41",
+    "session": "8 Nov 2026",
+    "time": "2026-11-08",
+    "stock": "+7.52%",
+    "n50": "-0.18%",
+    "sector": "+1.74%",
+    "ar": "+7.47%",
+    "ar_value": 7.47,
+    "z": "+5.29",
     "beta": "0.59",
     "large": true
    }
@@ -10500,8 +10572,8 @@
   "applicable": true,
   "template": "A",
   "headline": {
-   "price": "₹11,080",
-   "as_of": "16 Nov 2026",
+   "price": "₹11,203",
+   "as_of": "23 Nov 2026",
    "implied_growth": "more than 30.0%",
    "margin": "28.2%",
    "last_fy": "FY26",
@@ -10570,14 +10642,14 @@
     "growth_display": "more than 30.0%"
    }
   ],
-  "price_value": 11080.0,
-  "price_display": "₹11,080",
+  "price_value": 11203.0,
+  "price_display": "₹11,203",
   "scenarios": [
    {
     "key": "bear",
     "name": "Bear",
-    "value": 1407.62,
-    "display": "₹1,408",
+    "value": 1405.09,
+    "display": "₹1,405",
     "what": "Revenue grows only at FY26's pace for five years, the operating margin slips 2 points, and growth after year 10 earns no more than its cost of capital.",
     "assumptions": [
      [
@@ -10605,8 +10677,8 @@
    {
     "key": "base",
     "name": "Base",
-    "value": 1962.62,
-    "display": "₹1,963",
+    "value": 1956.84,
+    "display": "₹1,957",
     "what": "Revenue keeps its FY23-FY26 growth rate for five years, the FY26 margin holds, and DIVISLAB keeps its historical return on capital indefinitely.",
     "assumptions": [
      [
@@ -10627,15 +10699,15 @@
      ],
      [
       "Terminal value share of EV",
-      "75.8%"
+      "75.7%"
      ]
     ]
    },
    {
     "key": "bull",
     "name": "Bull",
-    "value": 5404.8,
-    "display": "₹5,405",
+    "value": 5384.27,
+    "display": "₹5,384",
     "what": "Revenue grows at H1 FY27's year-on-year pace for five years and the margin rises 1 point.",
     "assumptions": [
      [
@@ -10661,11 +10733,11 @@
     ]
    }
   ],
-  "base_value": 1962.62,
-  "base_display": "₹1,963",
+  "base_value": 1956.84,
+  "base_display": "₹1,957",
   "wacc": {
-   "wacc": "9.64%",
-   "ke": "9.64%",
+   "wacc": "9.65%",
+   "ke": "9.65%",
    "rf": "6.84%",
    "rf_n": "12",
    "rf_spot": "7.34%",
@@ -10683,11 +10755,11 @@
   },
   "heatmap": {
    "wacc": [
-    "8.64%",
-    "9.14%",
-    "9.64%",
-    "10.14%",
-    "10.64%"
+    "8.65%",
+    "9.15%",
+    "9.65%",
+    "10.15%",
+    "10.65%"
    ],
    "g": [
     "3.50%",
@@ -10700,108 +10772,108 @@
    "cells": [
     [
      {
-      "display": "₹2,034",
+      "display": "₹2,028",
       "step": 3,
       "above_price": false
      },
      {
-      "display": "₹1,835",
+      "display": "₹1,831",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹1,670",
+      "display": "₹1,666",
       "step": 1,
       "above_price": false
      },
      {
-      "display": "₹1,530",
+      "display": "₹1,527",
       "step": 1,
       "above_price": false
      },
      {
-      "display": "₹1,411",
+      "display": "₹1,408",
       "step": 0,
       "above_price": false
      }
     ],
     [
      {
-      "display": "₹2,167",
+      "display": "₹2,161",
       "step": 4,
       "above_price": false
      },
      {
-      "display": "₹1,938",
+      "display": "₹1,933",
       "step": 3,
       "above_price": false
      },
      {
-      "display": "₹1,751",
-      "step": 2,
-      "above_price": false
-     },
-     {
-      "display": "₹1,594",
-      "step": 1,
-      "above_price": false
-     },
-     {
-      "display": "₹1,462",
-      "step": 0,
-      "above_price": false
-     }
-    ],
-    [
-     {
-      "display": "₹2,332",
-      "step": 5,
-      "above_price": false
-     },
-     {
-      "display": "₹2,063",
-      "step": 3,
-      "above_price": false
-     },
-     {
-      "display": "₹1,847",
-      "step": 2,
-      "above_price": false
-     },
-     {
-      "display": "₹1,669",
-      "step": 1,
-      "above_price": false
-     },
-     {
-      "display": "₹1,522",
-      "step": 1,
-      "above_price": false
-     }
-    ],
-    [
-     {
-      "display": "₹2,543",
-      "step": 6,
-      "above_price": false
-     },
-     {
-      "display": "₹2,217",
-      "step": 4,
-      "above_price": false
-     },
-     {
-      "display": "₹1,963",
-      "step": 3,
-      "above_price": false
-     },
-     {
-      "display": "₹1,759",
+      "display": "₹1,746",
       "step": 2,
       "above_price": false
      },
      {
       "display": "₹1,591",
+      "step": 1,
+      "above_price": false
+     },
+     {
+      "display": "₹1,459",
+      "step": 0,
+      "above_price": false
+     }
+    ],
+    [
+     {
+      "display": "₹2,325",
+      "step": 5,
+      "above_price": false
+     },
+     {
+      "display": "₹2,057",
+      "step": 3,
+      "above_price": false
+     },
+     {
+      "display": "₹1,841",
+      "step": 2,
+      "above_price": false
+     },
+     {
+      "display": "₹1,665",
+      "step": 1,
+      "above_price": false
+     },
+     {
+      "display": "₹1,518",
+      "step": 1,
+      "above_price": false
+     }
+    ],
+    [
+     {
+      "display": "₹2,533",
+      "step": 6,
+      "above_price": false
+     },
+     {
+      "display": "₹2,210",
+      "step": 4,
+      "above_price": false
+     },
+     {
+      "display": "₹1,957",
+      "step": 3,
+      "above_price": false
+     },
+     {
+      "display": "₹1,754",
+      "step": 2,
+      "above_price": false
+     },
+     {
+      "display": "₹1,587",
       "step": 1,
       "above_price": false
      }
@@ -10811,64 +10883,64 @@
   "tornado": [
    {
     "driver": "Cost of capital (WACC)",
-    "low": 1591.23,
-    "high": 2542.58,
-    "low_display": "₹1,591",
-    "high_display": "₹2,543",
+    "low": 1587.35,
+    "high": 2533.13,
+    "low_display": "₹1,587",
+    "high_display": "₹2,533",
     "low_input": "10.6%",
     "high_input": "8.6%"
    },
    {
     "driver": "Long-run return on new capital",
-    "low": 1450.64,
-    "high": 2056.32,
-    "low_display": "₹1,451",
-    "high_display": "₹2,056",
+    "low": 1448.13,
+    "high": 2050.18,
+    "low_display": "₹1,448",
+    "high_display": "₹2,050",
     "low_input": "9.6%",
     "high_input": "25.2%"
    },
    {
     "driver": "Revenue growth, years 1–5",
-    "low": 1802.68,
-    "high": 2139.87,
-    "low_display": "₹1,803",
-    "high_display": "₹2,140",
+    "low": 1797.57,
+    "high": 2133.35,
+    "low_display": "₹1,798",
+    "high_display": "₹2,133",
     "low_input": "8.8%",
     "high_input": "12.8%"
    },
    {
     "driver": "Operating margin from year 5",
-    "low": 1811.38,
-    "high": 2113.85,
-    "low_display": "₹1,811",
-    "high_display": "₹2,114",
+    "low": 1806.03,
+    "high": 2107.65,
+    "low_display": "₹1,806",
+    "high_display": "₹2,108",
     "low_input": "26.2%",
     "high_input": "30.2%"
    },
    {
     "driver": "Capital needed per ₹ of sales",
-    "low": 1828.91,
-    "high": 2042.84,
-    "low_display": "₹1,829",
-    "high_display": "₹2,043",
+    "low": 1823.21,
+    "high": 2037.02,
+    "low_display": "₹1,823",
+    "high_display": "₹2,037",
     "low_input": "0.62×",
     "high_input": "1.04×"
    },
    {
     "driver": "Long-run growth",
-    "low": 1846.45,
-    "high": 1987.09,
-    "low_display": "₹1,846",
-    "high_display": "₹1,987",
+    "low": 1841.48,
+    "high": 1981.13,
+    "low_display": "₹1,841",
+    "high_display": "₹1,981",
     "low_input": "4.5%",
     "high_input": "5.1%"
    },
    {
     "driver": "Tax rate",
-    "low": 1901.87,
-    "high": 2023.36,
-    "low_display": "₹1,902",
-    "high_display": "₹2,023",
+    "low": 1896.26,
+    "high": 2017.42,
+    "low_display": "₹1,896",
+    "high_display": "₹2,017",
     "low_input": "27.0%",
     "high_input": "23.0%"
    }
@@ -11389,6 +11461,69 @@
     "title": "NIFTY PHARMA historical data",
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-19",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY PHARMA historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-18",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY PHARMA historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-19 to 2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY PHARMA historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-08",
     "published": "",
     "url": "https://www.nseindia.in/reports-indices-historical-index-data",
     "link": "page"

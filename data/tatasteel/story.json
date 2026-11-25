@@ -77,43 +77,43 @@
       "id": "S3",
       "line": "why the stock moved",
       "label": "CALCULATION",
-      "text": "On 9 Nov 2026, the first session after the result, TATASTEEL shares fell 0.78% while the NIFTY 50 rose 0.06% and the NIFTY METAL index fell 0.11%; allowing for the market's move, TATASTEEL's own move was -0.87%, about 0.64 times its usual daily variation.",
+      "text": "On 8 Nov 2026, a Sunday special session and the first session after the result, TATASTEEL shares rose 2.09% while the NIFTY 50 fell 0.18% and the NIFTY METAL index rose 0.35%; allowing for the market's move, TATASTEEL's own move was +2.25%, about 1.65 times its usual daily variation.",
       "evidence": [
         {
           "file": "event_study.json",
           "path": "events.4.reaction_session",
           "format": "date",
-          "display": "9 Nov 2026"
+          "display": "8 Nov 2026"
         },
         {
           "file": "event_study.json",
           "path": "events.4.stock_return_pct",
           "format": "abs_pct2",
-          "display": "0.78%"
+          "display": "2.09%"
         },
         {
           "file": "event_study.json",
           "path": "events.4.nifty50_return_pct",
           "format": "abs_pct2",
-          "display": "0.06%"
+          "display": "0.18%"
         },
         {
           "file": "event_study.json",
           "path": "events.4.sector_return_pct",
           "format": "abs_pct2",
-          "display": "0.11%"
+          "display": "0.35%"
         },
         {
           "file": "event_study.json",
           "path": "events.4.abnormal_return_pct",
           "format": "spct2",
-          "display": "-0.87%"
+          "display": "+2.25%"
         },
         {
           "file": "event_study.json",
           "path": "events.4.z",
           "format": "abs_num2",
-          "display": "0.64"
+          "display": "1.65"
         }
       ],
       "sources": [
@@ -124,7 +124,7 @@
       "id": "S3a",
       "line": "why the stock moved",
       "label": "UNCERTAIN",
-      "text": "These numbers measure the move, not its cause: the result, the metals sector's fall and any other news that day overlap, and nothing here separates them.",
+      "text": "These numbers measure the move, not its cause: the result, the metals sector's rise and any other news that day overlap, and nothing here separates them.",
       "evidence": [],
       "sources": []
     },
@@ -142,25 +142,25 @@
       "id": "S4b",
       "line": "what the price implies",
       "label": "CALCULATION",
-      "text": "At ₹182 (NSE close, 16 Nov 2026), the shares traded at 19.6× the profit attributable to shareholders over the last four reported quarters.",
+      "text": "At ₹163 (NSE close, 23 Nov 2026), the shares traded at 17.5× the profit attributable to shareholders over the last four reported quarters.",
       "evidence": [
         {
           "file": "valuation.json",
           "path": "market.price",
           "format": "inr0",
-          "display": "₹182"
+          "display": "₹163"
         },
         {
           "file": "valuation.json",
           "path": "valuation_date",
           "format": "date",
-          "display": "16 Nov 2026"
+          "display": "23 Nov 2026"
         },
         {
           "file": "valuation.json",
           "path": "market.pe_ttm",
           "format": "x1",
-          "display": "19.6×"
+          "display": "17.5×"
         }
       ],
       "sources": [
@@ -386,79 +386,79 @@
         "claim": "S3",
         "check": "N2",
         "status": "PASS",
-        "detail": "event_study.json:events.4.reaction_session renders '9 Nov 2026', claim shows '9 Nov 2026'"
+        "detail": "event_study.json:events.4.reaction_session renders '8 Nov 2026', claim shows '8 Nov 2026'"
       },
       {
         "claim": "S3",
         "check": "N3",
         "status": "PASS",
-        "detail": "'9 Nov 2026' appears in the text"
+        "detail": "'8 Nov 2026' appears in the text"
       },
       {
         "claim": "S3",
         "check": "N2",
         "status": "PASS",
-        "detail": "event_study.json:events.4.stock_return_pct renders '0.78%', claim shows '0.78%'"
+        "detail": "event_study.json:events.4.stock_return_pct renders '2.09%', claim shows '2.09%'"
       },
       {
         "claim": "S3",
         "check": "N3",
         "status": "PASS",
-        "detail": "'0.78%' appears in the text"
+        "detail": "'2.09%' appears in the text"
       },
       {
         "claim": "S3",
         "check": "N2",
         "status": "PASS",
-        "detail": "event_study.json:events.4.nifty50_return_pct renders '0.06%', claim shows '0.06%'"
+        "detail": "event_study.json:events.4.nifty50_return_pct renders '0.18%', claim shows '0.18%'"
       },
       {
         "claim": "S3",
         "check": "N3",
         "status": "PASS",
-        "detail": "'0.06%' appears in the text"
+        "detail": "'0.18%' appears in the text"
       },
       {
         "claim": "S3",
         "check": "N2",
         "status": "PASS",
-        "detail": "event_study.json:events.4.sector_return_pct renders '0.11%', claim shows '0.11%'"
+        "detail": "event_study.json:events.4.sector_return_pct renders '0.35%', claim shows '0.35%'"
       },
       {
         "claim": "S3",
         "check": "N3",
         "status": "PASS",
-        "detail": "'0.11%' appears in the text"
+        "detail": "'0.35%' appears in the text"
       },
       {
         "claim": "S3",
         "check": "N2",
         "status": "PASS",
-        "detail": "event_study.json:events.4.abnormal_return_pct renders '-0.87%', claim shows '-0.87%'"
+        "detail": "event_study.json:events.4.abnormal_return_pct renders '+2.25%', claim shows '+2.25%'"
       },
       {
         "claim": "S3",
         "check": "N3",
         "status": "PASS",
-        "detail": "'-0.87%' appears in the text"
+        "detail": "'+2.25%' appears in the text"
       },
       {
         "claim": "S3",
         "check": "N2",
         "status": "PASS",
-        "detail": "event_study.json:events.4.z renders '0.64', claim shows '0.64'"
+        "detail": "event_study.json:events.4.z renders '1.65', claim shows '1.65'"
       },
       {
         "claim": "S3",
         "check": "N3",
         "status": "PASS",
-        "detail": "'0.64' appears in the text"
+        "detail": "'1.65' appears in the text"
       },
       {
         "claim": "S3",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '9' is covered by evidence"
+        "detail": "number '8' is covered by evidence"
       },
       {
         "claim": "S3",
@@ -470,7 +470,7 @@
         "claim": "S3",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '0.78' is covered by evidence"
+        "detail": "number '2.09' is covered by evidence"
       },
       {
         "claim": "S3",
@@ -482,25 +482,25 @@
         "claim": "S3",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '0.06' is covered by evidence"
+        "detail": "number '0.18' is covered by evidence"
       },
       {
         "claim": "S3",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '0.11' is covered by evidence"
+        "detail": "number '0.35' is covered by evidence"
       },
       {
         "claim": "S3",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '0.87' is covered by evidence"
+        "detail": "number '2.25' is covered by evidence"
       },
       {
         "claim": "S3",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '0.64' is covered by evidence"
+        "detail": "number '1.65' is covered by evidence"
       },
       {
         "claim": "S3",
@@ -560,49 +560,49 @@
         "claim": "S4b",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:market.price renders '₹182', claim shows '₹182'"
+        "detail": "valuation.json:market.price renders '₹163', claim shows '₹163'"
       },
       {
         "claim": "S4b",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹182' appears in the text"
+        "detail": "'₹163' appears in the text"
       },
       {
         "claim": "S4b",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:valuation_date renders '16 Nov 2026', claim shows '16 Nov 2026'"
+        "detail": "valuation.json:valuation_date renders '23 Nov 2026', claim shows '23 Nov 2026'"
       },
       {
         "claim": "S4b",
         "check": "N3",
         "status": "PASS",
-        "detail": "'16 Nov 2026' appears in the text"
+        "detail": "'23 Nov 2026' appears in the text"
       },
       {
         "claim": "S4b",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:market.pe_ttm renders '19.6×', claim shows '19.6×'"
+        "detail": "valuation.json:market.pe_ttm renders '17.5×', claim shows '17.5×'"
       },
       {
         "claim": "S4b",
         "check": "N3",
         "status": "PASS",
-        "detail": "'19.6×' appears in the text"
+        "detail": "'17.5×' appears in the text"
       },
       {
         "claim": "S4b",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '182' is covered by evidence"
+        "detail": "number '163' is covered by evidence"
       },
       {
         "claim": "S4b",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '16' is covered by evidence"
+        "detail": "number '23' is covered by evidence"
       },
       {
         "claim": "S4b",
@@ -614,7 +614,7 @@
         "claim": "S4b",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '19.6' is covered by evidence"
+        "detail": "number '17.5' is covered by evidence"
       },
       {
         "claim": "S4b",

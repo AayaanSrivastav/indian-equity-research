@@ -164,31 +164,31 @@
       "id": "S4",
       "line": "what the price implies",
       "label": "CALCULATION",
-      "text": "At ₹2,405 (NSE close, 16 Nov 2026), a discounted cash flow model with a 10.76% cost of capital matches the price if revenue grows about 3.9% a year for five years at the FY26 operating margin of 25.0%; TCS's revenue grew 8.6% a year over FY22–FY26.",
+      "text": "At ₹2,460 (NSE close, 23 Nov 2026), a discounted cash flow model with a 10.45% cost of capital matches the price if revenue grows about 3.3% a year for five years at the FY26 operating margin of 25.0%; TCS's revenue grew 8.6% a year over FY22–FY26.",
       "evidence": [
         {
           "file": "valuation.json",
           "path": "market.price",
           "format": "inr0",
-          "display": "₹2,405"
+          "display": "₹2,460"
         },
         {
           "file": "valuation.json",
           "path": "valuation_date",
           "format": "date",
-          "display": "16 Nov 2026"
+          "display": "23 Nov 2026"
         },
         {
           "file": "valuation.json",
           "path": "wacc.wacc",
           "format": "pct2_frac",
-          "display": "10.76%"
+          "display": "10.45%"
         },
         {
           "file": "valuation.json",
           "path": "reverse_dcf.implied_one_at_a_time.g_high",
           "format": "pct1_frac",
-          "display": "3.9%"
+          "display": "3.3%"
         },
         {
           "file": "valuation.json",
@@ -246,31 +246,31 @@
       "id": "S5",
       "line": "what to watch",
       "label": "CALCULATION",
-      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹2,626 to ₹3,723 a share) and to how long TCS keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹2,278 to ₹3,102 a share); the Q3 FY27 result will be the next test of the mechanical forecast.",
+      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹2,753 to ₹3,985 a share) and to how long TCS keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹2,355 to ₹3,280 a share); the Q3 FY27 result will be the next test of the mechanical forecast.",
       "evidence": [
         {
           "file": "valuation.json",
           "path": "driver_ranking.0.value_at_low",
           "format": "inr0",
-          "display": "₹2,626"
+          "display": "₹2,753"
         },
         {
           "file": "valuation.json",
           "path": "driver_ranking.0.value_at_high",
           "format": "inr0",
-          "display": "₹3,723"
+          "display": "₹3,985"
         },
         {
           "file": "valuation.json",
           "path": "driver_ranking.1.value_at_low",
           "format": "inr0",
-          "display": "₹2,278"
+          "display": "₹2,355"
         },
         {
           "file": "valuation.json",
           "path": "driver_ranking.1.value_at_high",
           "format": "inr0",
-          "display": "₹3,102"
+          "display": "₹3,280"
         }
       ],
       "sources": [
@@ -707,49 +707,49 @@
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:market.price renders '₹2,405', claim shows '₹2,405'"
+        "detail": "valuation.json:market.price renders '₹2,460', claim shows '₹2,460'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹2,405' appears in the text"
+        "detail": "'₹2,460' appears in the text"
       },
       {
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:valuation_date renders '16 Nov 2026', claim shows '16 Nov 2026'"
+        "detail": "valuation.json:valuation_date renders '23 Nov 2026', claim shows '23 Nov 2026'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'16 Nov 2026' appears in the text"
+        "detail": "'23 Nov 2026' appears in the text"
       },
       {
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:wacc.wacc renders '10.76%', claim shows '10.76%'"
+        "detail": "valuation.json:wacc.wacc renders '10.45%', claim shows '10.45%'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'10.76%' appears in the text"
+        "detail": "'10.45%' appears in the text"
       },
       {
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:reverse_dcf.implied_one_at_a_time.g_high renders '3.9%', claim shows '3.9%'"
+        "detail": "valuation.json:reverse_dcf.implied_one_at_a_time.g_high renders '3.3%', claim shows '3.3%'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'3.9%' appears in the text"
+        "detail": "'3.3%' appears in the text"
       },
       {
         "claim": "S4",
@@ -779,13 +779,13 @@
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '2,405' is covered by evidence"
+        "detail": "number '2,460' is covered by evidence"
       },
       {
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '16' is covered by evidence"
+        "detail": "number '23' is covered by evidence"
       },
       {
         "claim": "S4",
@@ -797,13 +797,13 @@
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '10.76' is covered by evidence"
+        "detail": "number '10.45' is covered by evidence"
       },
       {
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '3.9' is covered by evidence"
+        "detail": "number '3.3' is covered by evidence"
       },
       {
         "claim": "S4",
@@ -929,73 +929,73 @@
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.0.value_at_low renders '₹2,626', claim shows '₹2,626'"
+        "detail": "valuation.json:driver_ranking.0.value_at_low renders '₹2,753', claim shows '₹2,753'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹2,626' appears in the text"
+        "detail": "'₹2,753' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.0.value_at_high renders '₹3,723', claim shows '₹3,723'"
+        "detail": "valuation.json:driver_ranking.0.value_at_high renders '₹3,985', claim shows '₹3,985'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹3,723' appears in the text"
+        "detail": "'₹3,985' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.1.value_at_low renders '₹2,278', claim shows '₹2,278'"
+        "detail": "valuation.json:driver_ranking.1.value_at_low renders '₹2,355', claim shows '₹2,355'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹2,278' appears in the text"
+        "detail": "'₹2,355' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.1.value_at_high renders '₹3,102', claim shows '₹3,102'"
+        "detail": "valuation.json:driver_ranking.1.value_at_high renders '₹3,280', claim shows '₹3,280'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹3,102' appears in the text"
+        "detail": "'₹3,280' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '2,626' is covered by evidence"
+        "detail": "number '2,753' is covered by evidence"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '3,723' is covered by evidence"
+        "detail": "number '3,985' is covered by evidence"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '2,278' is covered by evidence"
+        "detail": "number '2,355' is covered by evidence"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '3,102' is covered by evidence"
+        "detail": "number '3,280' is covered by evidence"
       },
       {
         "claim": "S5",

@@ -1,5 +1,5 @@
 {
- "built": "2026-11-17",
+ "built": "2026-11-25",
  "slug": "eichermot",
  "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
  "header": {
@@ -10,13 +10,13 @@
   "sector": "Motorcycles and commercial vehicles",
   "sector_label": "autos",
   "sector_index": "NIFTY AUTO",
-  "price": "₹7,599.00",
-  "change": "−₹51.00",
-  "change_pct": "-0.67%",
-  "up": false,
-  "as_of": "16 Nov 2026",
-  "market_cap": "₹2.09 lakh crore",
-  "high_52w": "₹8,230.00",
+  "price": "₹8,172.50",
+  "change": "+₹59.50",
+  "change_pct": "+0.73%",
+  "up": true,
+  "as_of": "23 Nov 2026",
+  "market_cap": "₹2.24 lakh crore",
+  "high_52w": "₹8,275.00",
   "low_52w": "₹6,442.00",
   "source": "NSE closing price (end of day, not live); 52-week range computed from daily highs and lows (NSE bhavcopy)"
  },
@@ -58,7 +58,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "At ₹7,599 (NSE close, 16 Nov 2026), a discounted cash flow model with a 13.06% cost of capital does not reach the price at any revenue growth up to 30% a year for five years at the FY26 operating margin of 21.1%; with revenue growing at its FY23–FY26 rate of 17.5%, it does at an operating margin of 47.6%."
+      "text": "At ₹8,172 (NSE close, 23 Nov 2026), a discounted cash flow model with a 13.07% cost of capital does not reach the price at any revenue growth up to 30% a year for five years at the FY26 operating margin of 21.1%; with revenue growing at its FY23–FY26 rate of 17.5%, it does at an operating margin of 51.5%."
      }
     ]
    },
@@ -67,7 +67,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹3,245 to ₹4,139 a share) and to how long EICHERMOT keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹3,029 to ₹3,665 a share); the Q3 FY27 result will be the next reported quarter."
+      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹3,242 to ₹4,134 a share) and to how long EICHERMOT keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹3,028 to ₹3,662 a share); the Q3 FY27 result will be the next reported quarter."
      }
     ]
    }
@@ -78,7 +78,7 @@
  "prices": {
   "base_date": "2023-10-23",
   "base_display": "23 Oct 2023",
-  "end_display": "16 Nov 2026",
+  "end_display": "23 Nov 2026",
   "series": {
    "EICHERMOT": [
     {
@@ -3098,6 +3098,10 @@
      "value": 222.54
     },
     {
+     "time": "2026-11-08",
+     "value": 222.0
+    },
+    {
      "time": "2026-11-09",
      "value": 221.36
     },
@@ -3116,6 +3120,26 @@
     {
      "time": "2026-11-16",
      "value": 220.49
+    },
+    {
+     "time": "2026-11-17",
+     "value": 227.14
+    },
+    {
+     "time": "2026-11-18",
+     "value": 223.42
+    },
+    {
+     "time": "2026-11-19",
+     "value": 233.83
+    },
+    {
+     "time": "2026-11-20",
+     "value": 235.41
+    },
+    {
+     "time": "2026-11-23",
+     "value": 237.13
     }
    ],
    "NIFTY 50": [
@@ -6136,6 +6160,10 @@
      "value": 129.81
     },
     {
+     "time": "2026-11-08",
+     "value": 129.59
+    },
+    {
      "time": "2026-11-09",
      "value": 129.89
     },
@@ -6154,6 +6182,26 @@
     {
      "time": "2026-11-16",
      "value": 131.17
+    },
+    {
+     "time": "2026-11-17",
+     "value": 131.67
+    },
+    {
+     "time": "2026-11-18",
+     "value": 130.84
+    },
+    {
+     "time": "2026-11-19",
+     "value": 132.32
+    },
+    {
+     "time": "2026-11-20",
+     "value": 133.81
+    },
+    {
+     "time": "2026-11-23",
+     "value": 131.47
     }
    ],
    "NIFTY AUTO": [
@@ -9174,6 +9222,10 @@
      "value": 170.86
     },
     {
+     "time": "2026-11-08",
+     "value": 171.05
+    },
+    {
      "time": "2026-11-09",
      "value": 171.56
     },
@@ -9192,6 +9244,26 @@
     {
      "time": "2026-11-16",
      "value": 169.37
+    },
+    {
+     "time": "2026-11-17",
+     "value": 170.59
+    },
+    {
+     "time": "2026-11-18",
+     "value": 168.3
+    },
+    {
+     "time": "2026-11-19",
+     "value": 175.71
+    },
+    {
+     "time": "2026-11-20",
+     "value": 176.85
+    },
+    {
+     "time": "2026-11-23",
+     "value": 175.03
     }
    ]
   },
@@ -9243,7 +9315,7 @@
   {
    "id": "market_cap",
    "label": "Market cap",
-   "display": "₹2.09 lakh crore",
+   "display": "₹2.24 lakh crore",
    "type": "CALCULATION",
    "definition": "Price × shares outstanding (share capital ÷ ₹1 face value at 2026-09-30).",
    "source": "NSE close; EICHERMOT FY26 statements"
@@ -9251,7 +9323,7 @@
   {
    "id": "pe_ttm",
    "label": "P/E (TTM)",
-   "display": "34.9×",
+   "display": "37.5×",
    "type": "CALCULATION",
    "definition": "Price ÷ earnings per share over the last four reported quarters (Q3 FY26 – Q2 FY27).",
    "source": "EICHERMOT quarterly filings"
@@ -9259,7 +9331,7 @@
   {
    "id": "ev_ebit_ttm",
    "label": "EV / EBIT (TTM)",
-   "display": "35.4×",
+   "display": "38.3×",
    "type": "CALCULATION",
    "definition": "Enterprise value (market cap − the net cash and treasury figure below) ÷ operating profit over the last four quarters.",
    "source": "EICHERMOT filings; NSE close"
@@ -10531,8 +10603,8 @@
   "applicable": true,
   "template": "A",
   "headline": {
-   "price": "₹7,599",
-   "as_of": "16 Nov 2026",
+   "price": "₹8,172",
+   "as_of": "23 Nov 2026",
    "implied_growth": "more than 30.0%",
    "margin": "21.1%",
    "last_fy": "FY26",
@@ -10540,7 +10612,7 @@
    "history_growth": "17.5%",
    "last_year_growth": "24.0%",
    "alts": [
-    "margin rising to 47.6%",
+    "margin rising to 51.5%",
     "no long-run growth up to the default-free rate of 5.09%"
    ],
    "beyond": true
@@ -10601,14 +10673,14 @@
     "growth_display": "more than 30.0%"
    }
   ],
-  "price_value": 7599.0,
-  "price_display": "₹7,599",
+  "price_value": 8172.5,
+  "price_display": "₹8,172",
   "scenarios": [
    {
     "key": "bear",
     "name": "Bear",
-    "value": 3491.1,
-    "display": "₹3,491",
+    "value": 3488.82,
+    "display": "₹3,489",
     "what": "Revenue grows only at FY26's pace for five years, the operating margin slips 2 points, and growth after year 10 earns no more than its cost of capital.",
     "assumptions": [
      [
@@ -10636,8 +10708,8 @@
    {
     "key": "base",
     "name": "Base",
-    "value": 3634.28,
-    "display": "₹3,634",
+    "value": 3631.16,
+    "display": "₹3,631",
     "what": "Revenue keeps its FY23-FY26 growth rate for five years, the FY26 margin holds, and EICHERMOT keeps its historical return on capital indefinitely.",
     "assumptions": [
      [
@@ -10665,8 +10737,8 @@
    {
     "key": "bull",
     "name": "Bull",
-    "value": 5323.35,
-    "display": "₹5,323",
+    "value": 5318.16,
+    "display": "₹5,318",
     "what": "Revenue grows at H1 FY27's year-on-year pace for five years and the margin rises 1 point.",
     "assumptions": [
      [
@@ -10692,10 +10764,10 @@
     ]
    }
   ],
-  "base_value": 3634.28,
-  "base_display": "₹3,634",
+  "base_value": 3631.16,
+  "base_display": "₹3,631",
   "wacc": {
-   "wacc": "13.06%",
+   "wacc": "13.07%",
    "ke": "13.08%",
    "rf": "6.84%",
    "rf_n": "12",
@@ -10714,11 +10786,11 @@
   },
   "heatmap": {
    "wacc": [
-    "12.06%",
-    "12.56%",
-    "13.06%",
-    "13.56%",
-    "14.06%"
+    "12.07%",
+    "12.57%",
+    "13.07%",
+    "13.57%",
+    "14.07%"
    ],
    "g": [
     "3.50%",
@@ -10731,108 +10803,108 @@
    "cells": [
     [
      {
-      "display": "₹3,682",
+      "display": "₹3,678",
       "step": 4,
       "above_price": false
      },
      {
-      "display": "₹3,479",
+      "display": "₹3,476",
       "step": 3,
       "above_price": false
      },
      {
-      "display": "₹3,299",
+      "display": "₹3,296",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹3,137",
+      "display": "₹3,135",
       "step": 1,
       "above_price": false
      },
      {
-      "display": "₹2,992",
+      "display": "₹2,990",
       "step": 0,
       "above_price": false
      }
     ],
     [
      {
-      "display": "₹3,815",
+      "display": "₹3,812",
       "step": 4,
       "above_price": false
      },
      {
-      "display": "₹3,594",
+      "display": "₹3,591",
       "step": 3,
       "above_price": false
      },
      {
-      "display": "₹3,399",
+      "display": "₹3,396",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹3,224",
+      "display": "₹3,222",
       "step": 1,
       "above_price": false
      },
      {
-      "display": "₹3,068",
+      "display": "₹3,065",
       "step": 0,
       "above_price": false
      }
     ],
     [
      {
-      "display": "₹3,966",
+      "display": "₹3,962",
       "step": 5,
       "above_price": false
      },
      {
-      "display": "₹3,723",
+      "display": "₹3,720",
       "step": 4,
       "above_price": false
      },
      {
-      "display": "₹3,510",
+      "display": "₹3,506",
       "step": 3,
       "above_price": false
      },
      {
-      "display": "₹3,320",
+      "display": "₹3,318",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹3,152",
+      "display": "₹3,149",
       "step": 1,
       "above_price": false
      }
     ],
     [
      {
-      "display": "₹4,139",
+      "display": "₹4,134",
       "step": 6,
       "above_price": false
      },
      {
-      "display": "₹3,869",
+      "display": "₹3,865",
       "step": 5,
       "above_price": false
      },
      {
-      "display": "₹3,634",
+      "display": "₹3,631",
       "step": 3,
       "above_price": false
      },
      {
-      "display": "₹3,428",
+      "display": "₹3,425",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹3,245",
+      "display": "₹3,242",
       "step": 1,
       "above_price": false
      }
@@ -10842,64 +10914,64 @@
   "tornado": [
    {
     "driver": "Cost of capital (WACC)",
-    "low": 3244.68,
-    "high": 4138.51,
-    "low_display": "₹3,245",
-    "high_display": "₹4,139",
+    "low": 3242.23,
+    "high": 4134.41,
+    "low_display": "₹3,242",
+    "high_display": "₹4,134",
     "low_input": "14.1%",
     "high_input": "12.1%"
    },
    {
     "driver": "Long-run return on new capital",
-    "low": 3029.35,
-    "high": 3665.25,
-    "low_display": "₹3,029",
-    "high_display": "₹3,665",
+    "low": 3027.54,
+    "high": 3662.08,
+    "low_display": "₹3,028",
+    "high_display": "₹3,662",
     "low_input": "13.1%",
     "high_input": "80.1%"
    },
    {
     "driver": "Operating margin from year 5",
-    "low": 3335.23,
-    "high": 3933.34,
-    "low_display": "₹3,335",
-    "high_display": "₹3,933",
+    "low": 3332.41,
+    "high": 3929.91,
+    "low_display": "₹3,332",
+    "high_display": "₹3,930",
     "low_input": "19.1%",
     "high_input": "23.1%"
    },
    {
     "driver": "Revenue growth, years 1–5",
-    "low": 3350.95,
-    "high": 3946.39,
-    "low_display": "₹3,351",
-    "high_display": "₹3,946",
+    "low": 3348.17,
+    "high": 3942.89,
+    "low_display": "₹3,348",
+    "high_display": "₹3,943",
     "low_input": "15.5%",
     "high_input": "19.5%"
    },
    {
     "driver": "Capital needed per ₹ of sales",
-    "low": 3512.86,
-    "high": 3707.13,
-    "low_display": "₹3,513",
-    "high_display": "₹3,707",
+    "low": 3509.78,
+    "high": 3703.99,
+    "low_display": "₹3,510",
+    "high_display": "₹3,704",
     "low_input": "2.41×",
     "high_input": "4.02×"
    },
    {
     "driver": "Tax rate",
-    "low": 3543.99,
-    "high": 3724.58,
-    "low_display": "₹3,544",
-    "high_display": "₹3,725",
+    "low": 3540.95,
+    "high": 3721.37,
+    "low_display": "₹3,541",
+    "high_display": "₹3,721",
     "low_input": "26.4%",
     "high_input": "22.4%"
    },
    {
     "driver": "Long-run growth",
-    "low": 3509.51,
-    "high": 3659.29,
-    "low_display": "₹3,510",
-    "high_display": "₹3,659",
+    "low": 3506.67,
+    "high": 3656.12,
+    "low_display": "₹3,507",
+    "high_display": "₹3,656",
     "low_input": "4.5%",
     "high_input": "5.1%"
    }
@@ -11397,6 +11469,69 @@
     "title": "NIFTY AUTO historical data",
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-19",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY AUTO historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-19",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY AUTO historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY AUTO historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-08",
     "published": "",
     "url": "https://www.nseindia.in/reports-indices-historical-index-data",
     "link": "page"

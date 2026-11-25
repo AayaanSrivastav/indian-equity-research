@@ -1,5 +1,5 @@
 {
- "built": "2026-11-17",
+ "built": "2026-11-25",
  "companies": [
   {
    "slug": "tcs",
@@ -7,26 +7,45 @@
    "symbol": "TCS",
    "sector": "IT services",
    "sector_label": "IT",
-   "price": "₹2,405.00",
-   "change_pct": "-0.10%",
-   "up": false,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹8.70 lakh crore",
-   "market_cap_crore": 870150.05,
-   "implied_growth": "3.9%",
+   "price": "₹2,460.00",
+   "change_pct": "+3.53%",
+   "up": true,
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹8.90 lakh crore",
+   "market_cap_crore": 890049.53,
+   "implied_growth": "3.3%",
    "history_growth": "8.6%",
    "history_span": "FY22–FY26",
    "margin": "25.0%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "3.3% a year",
+      "width": 5.5,
+      "open": false
+     },
+     {
+      "key": "history",
+      "label": "Grew FY22–FY26",
+      "display": "8.6% a year",
+      "width": 14.4,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies 0.4× its FY22–FY26 growth."
+   },
    "applicable": true,
    "template": "A",
    "reasons": [],
    "set_by_rule": false,
    "compare": {
     "market_cap": {
-     "display": "₹8.70 lakh crore",
+     "display": "₹8.90 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "25.0%",
@@ -49,15 +68,15 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "16.9×",
+     "display": "17.2×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "11.9×",
+     "display": "12.2×",
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "0.83",
+     "display": "0.78",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -76,7 +95,7 @@
      "period": "FY26"
     },
     "implied_growth": {
-     "display": "3.9% a year",
+     "display": "3.3% a year",
      "type": "CALCULATION",
      "period": "years 1–5"
     },
@@ -96,29 +115,41 @@
    "symbol": "TATACONSUM",
    "sector": "Packaged foods and beverages",
    "sector_label": "FMCG",
-   "price": "₹1,117.50",
-   "change_pct": "+3.57%",
-   "up": true,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹1.11 lakh crore",
-   "market_cap_crore": 110598.98,
+   "price": "₹1,133.00",
+   "change_pct": "-1.98%",
+   "up": false,
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹1.12 lakh crore",
+   "market_cap_crore": 112133.01,
    "implied_growth": null,
    "history_growth": "13.0%",
    "history_span": "FY22–FY26",
    "margin": "10.7%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "history",
+      "label": "Grew FY22–FY26",
+      "display": "13.0% a year",
+      "width": 21.7,
+      "open": false
+     }
+    ],
+    "sentence": "No implied growth: the model does not apply to this company."
+   },
    "applicable": false,
    "template": null,
    "reasons": [
     "free cash flow not positive in at least 3 of the last 4 years",
-    "median return on invested capital over the last 3 years (8.3%) is not above the cost of capital (9.90%), so growth would not add value"
+    "median return on invested capital over the last 3 years (8.3%) is not above the cost of capital (9.84%), so growth would not add value"
    ],
    "set_by_rule": false,
    "compare": {
     "market_cap": {
-     "display": "₹1.11 lakh crore",
+     "display": "₹1.12 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "10.7%",
@@ -141,15 +172,15 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "65.1×",
+     "display": "66.0×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "46.7×",
+     "display": "47.4×",
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "0.71",
+     "display": "0.70",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -174,7 +205,7 @@
     "template": {
      "display": "Does not apply",
      "type": "CALCULATION",
-     "note": "free cash flow not positive in at least 3 of the last 4 years; median return on invested capital over the last 3 years (8.3%) is not above the cost of capital (9.90%), so growth would not add value"
+     "note": "free cash flow not positive in at least 3 of the last 4 years; median return on invested capital over the last 3 years (8.3%) is not above the cost of capital (9.84%), so growth would not add value"
     }
    },
    "flags": {
@@ -193,26 +224,45 @@
    "symbol": "TITAN",
    "sector": "Jewellery, watches and eyecare",
    "sector_label": "consumer durables",
-   "price": "₹4,910.00",
-   "change_pct": "+1.34%",
+   "price": "₹4,680.00",
+   "change_pct": "+1.30%",
    "up": true,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹4.37 lakh crore",
-   "market_cap_crore": 436990.0,
-   "implied_growth": "44.7%",
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹4.17 lakh crore",
+   "market_cap_crore": 416520.0,
+   "implied_growth": "42.6%",
    "history_growth": "32.1%",
    "history_span": "FY22–FY26",
    "margin": "8.6%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "42.6% a year",
+      "width": 70.9,
+      "open": false
+     },
+     {
+      "key": "history",
+      "label": "Grew FY22–FY26",
+      "display": "32.1% a year",
+      "width": 53.4,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies 1.3× its FY22–FY26 growth."
+   },
    "applicable": true,
    "template": "B",
    "reasons": [],
    "set_by_rule": true,
    "compare": {
     "market_cap": {
-     "display": "₹4.37 lakh crore",
+     "display": "₹4.17 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "8.6%",
@@ -235,15 +285,15 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "62.1×",
+     "display": "59.2×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "48.3×",
+     "display": "46.1×",
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "0.94",
+     "display": "0.91",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -262,7 +312,7 @@
      "period": "FY26"
     },
     "implied_growth": {
-     "display": "44.7% a year",
+     "display": "42.6% a year",
      "type": "CALCULATION",
      "period": "years 1–5"
     },
@@ -288,17 +338,29 @@
    "symbol": "TATASTEEL",
    "sector": "Steel",
    "sector_label": "metals",
-   "price": "₹182.26",
-   "change_pct": "-2.37%",
+   "price": "₹163.00",
+   "change_pct": "-8.43%",
    "up": false,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹2.27 lakh crore",
-   "market_cap_crore": 227358.41,
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹2.03 lakh crore",
+   "market_cap_crore": 203332.72,
    "implied_growth": null,
    "history_growth": "-1.2%",
    "history_span": "FY22–FY26",
    "margin": "9.6%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "history",
+      "label": "Grew FY22–FY26",
+      "display": "-1.2% a year",
+      "width": 0.0,
+      "open": false
+     }
+    ],
+    "sentence": "No implied growth: the model does not apply to this company."
+   },
    "applicable": false,
    "template": null,
    "reasons": [
@@ -308,9 +370,9 @@
    "set_by_rule": false,
    "compare": {
     "market_cap": {
-     "display": "₹2.27 lakh crore",
+     "display": "₹2.03 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "9.6%",
@@ -333,15 +395,15 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "19.6×",
+     "display": "17.5×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "12.6×",
+     "display": "11.6×",
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "1.19",
+     "display": "1.22",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -382,17 +444,36 @@
    "symbol": "TRENT",
    "sector": "Retail",
    "sector_label": "consumption (thematic)",
-   "price": "₹3,203.70",
-   "change_pct": "+1.22%",
-   "up": true,
-   "as_of": "16 Nov 2026",
+   "price": "₹3,208.00",
+   "change_pct": "-1.48%",
+   "up": false,
+   "as_of": "23 Nov 2026",
    "market_cap": "₹1.71 lakh crore",
-   "market_cap_crore": 170821.28,
+   "market_cap_crore": 171050.56,
    "implied_growth": "more than 60.0%",
    "history_growth": "34.5%",
    "history_span": "FY23–FY26",
    "margin": "11.5%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "more than 60.0% a year",
+      "width": 100.0,
+      "open": true
+     },
+     {
+      "key": "history",
+      "label": "Grew FY23–FY26",
+      "display": "34.5% a year",
+      "width": 57.6,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies more than 60.0% a year, beyond the range the model searches."
+   },
    "applicable": true,
    "template": "B",
    "reasons": [],
@@ -401,7 +482,7 @@
     "market_cap": {
      "display": "₹1.71 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "11.5%",
@@ -424,11 +505,11 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "90.1×",
+     "display": "90.2×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "64.9×",
+     "display": "65.0×",
      "type": "CALCULATION"
     },
     "beta": {
@@ -480,29 +561,41 @@
    "symbol": "TATAPOWER",
    "sector": "Power",
    "sector_label": "energy",
-   "price": "₹345.50",
-   "change_pct": "-0.72%",
+   "price": "₹328.00",
+   "change_pct": "-3.44%",
    "up": false,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹1.10 lakh crore",
-   "market_cap_crore": 110407.98,
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹1.05 lakh crore",
+   "market_cap_crore": 104815.68,
    "implied_growth": null,
    "history_growth": "4.2%",
    "history_span": "FY23–FY26",
    "margin": "13.3%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "history",
+      "label": "Grew FY23–FY26",
+      "display": "4.2% a year",
+      "width": 7.1,
+      "open": false
+     }
+    ],
+    "sentence": "No implied growth: the model does not apply to this company."
+   },
    "applicable": false,
    "template": null,
    "reasons": [
     "free cash flow not positive in at least 3 of the last 4 years",
-    "median return on invested capital over the last 3 years (8.0%) is not above the cost of capital (8.66%), so growth would not add value"
+    "median return on invested capital over the last 3 years (8.0%) is not above the cost of capital (8.63%), so growth would not add value"
    ],
    "set_by_rule": false,
    "compare": {
     "market_cap": {
-     "display": "₹1.10 lakh crore",
+     "display": "₹1.05 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "13.3%",
@@ -525,15 +618,15 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "25.6×",
+     "display": "24.3×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "20.5×",
+     "display": "19.8×",
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "0.91",
+     "display": "0.93",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -558,7 +651,7 @@
     "template": {
      "display": "Does not apply",
      "type": "CALCULATION",
-     "note": "free cash flow not positive in at least 3 of the last 4 years; median return on invested capital over the last 3 years (8.0%) is not above the cost of capital (8.66%), so growth would not add value"
+     "note": "free cash flow not positive in at least 3 of the last 4 years; median return on invested capital over the last 3 years (8.0%) is not above the cost of capital (8.63%), so growth would not add value"
     }
    },
    "flags": {
@@ -577,26 +670,45 @@
    "symbol": "INFY",
    "sector": "IT services",
    "sector_label": "IT",
-   "price": "₹1,145.10",
-   "change_pct": "+0.32%",
+   "price": "₹1,103.40",
+   "change_pct": "+0.49%",
    "up": true,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹4.64 lakh crore",
-   "market_cap_crore": 463994.52,
-   "implied_growth": "5.5%",
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹4.47 lakh crore",
+   "market_cap_crore": 447097.68,
+   "implied_growth": "4.0%",
    "history_growth": "10.1%",
    "history_span": "FY22–FY26",
    "margin": "20.9%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "4.0% a year",
+      "width": 6.7,
+      "open": false
+     },
+     {
+      "key": "history",
+      "label": "Grew FY22–FY26",
+      "display": "10.1% a year",
+      "width": 16.8,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies 0.4× its FY22–FY26 growth."
+   },
    "applicable": true,
    "template": "A",
    "reasons": [],
    "set_by_rule": true,
    "compare": {
     "market_cap": {
-     "display": "₹4.64 lakh crore",
+     "display": "₹4.47 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "20.9%",
@@ -619,15 +731,15 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "15.1×",
+     "display": "14.5×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "10.7×",
+     "display": "10.3×",
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "0.91",
+     "display": "0.88",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -646,7 +758,7 @@
      "period": "FY26"
     },
     "implied_growth": {
-     "display": "5.5% a year",
+     "display": "4.0% a year",
      "type": "CALCULATION",
      "period": "years 1–5"
     },
@@ -668,26 +780,45 @@
    "symbol": "HCLTECH",
    "sector": "IT services",
    "sector_label": "IT",
-   "price": "₹1,384.60",
-   "change_pct": "+0.48%",
+   "price": "₹1,364.30",
+   "change_pct": "+1.48%",
    "up": true,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹3.76 lakh crore",
-   "market_cap_crore": 375918.9,
-   "implied_growth": "13.1%",
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹3.70 lakh crore",
+   "market_cap_crore": 370407.45,
+   "implied_growth": "12.0%",
    "history_growth": "11.0%",
    "history_span": "FY22–FY26",
    "margin": "17.2%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "12.0% a year",
+      "width": 20.0,
+      "open": false
+     },
+     {
+      "key": "history",
+      "label": "Grew FY22–FY26",
+      "display": "11.0% a year",
+      "width": 18.4,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies 1.1× its FY22–FY26 growth."
+   },
    "applicable": true,
    "template": "A",
    "reasons": [],
    "set_by_rule": true,
    "compare": {
     "market_cap": {
-     "display": "₹3.76 lakh crore",
+     "display": "₹3.70 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "17.2%",
@@ -710,15 +841,15 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "20.5×",
+     "display": "20.2×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "14.8×",
+     "display": "14.5×",
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "0.91",
+     "display": "0.88",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -737,7 +868,7 @@
      "period": "FY26"
     },
     "implied_growth": {
-     "display": "13.1% a year",
+     "display": "12.0% a year",
      "type": "CALCULATION",
      "period": "years 1–5"
     },
@@ -759,26 +890,45 @@
    "symbol": "WIPRO",
    "sector": "IT services",
    "sector_label": "IT",
-   "price": "₹193.54",
-   "change_pct": "-0.54%",
-   "up": false,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹1.92 lakh crore",
-   "market_cap_crore": 191701.37,
-   "implied_growth": "3.5%",
+   "price": "₹187.29",
+   "change_pct": "+0.86%",
+   "up": true,
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹1.86 lakh crore",
+   "market_cap_crore": 185510.74,
+   "implied_growth": "2.0%",
    "history_growth": "4.0%",
    "history_span": "FY22–FY26",
    "margin": "16.1%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "2.0% a year",
+      "width": 3.3,
+      "open": false
+     },
+     {
+      "key": "history",
+      "label": "Grew FY22–FY26",
+      "display": "4.0% a year",
+      "width": 6.6,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies 0.5× its FY22–FY26 growth."
+   },
    "applicable": true,
    "template": "A",
    "reasons": [],
    "set_by_rule": true,
    "compare": {
     "market_cap": {
-     "display": "₹1.92 lakh crore",
+     "display": "₹1.86 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "16.1%",
@@ -801,15 +951,15 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "14.6×",
+     "display": "14.1×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "10.8×",
+     "display": "10.4×",
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "0.84",
+     "display": "0.82",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -828,7 +978,7 @@
      "period": "FY26"
     },
     "implied_growth": {
-     "display": "3.5% a year",
+     "display": "2.0% a year",
      "type": "CALCULATION",
      "period": "years 1–5"
     },
@@ -848,17 +998,36 @@
    "symbol": "TECHM",
    "sector": "IT services",
    "sector_label": "IT",
-   "price": "₹1,776.40",
-   "change_pct": "+0.70%",
+   "price": "₹1,777.50",
+   "change_pct": "+1.79%",
    "up": true,
-   "as_of": "16 Nov 2026",
+   "as_of": "23 Nov 2026",
    "market_cap": "₹1.57 lakh crore",
-   "market_cap_crore": 157389.04,
-   "implied_growth": "20.1%",
+   "market_cap_crore": 157486.5,
+   "implied_growth": "19.1%",
    "history_growth": "6.2%",
    "history_span": "FY22–FY26",
    "margin": "12.6%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "19.1% a year",
+      "width": 31.9,
+      "open": false
+     },
+     {
+      "key": "history",
+      "label": "Grew FY22–FY26",
+      "display": "6.2% a year",
+      "width": 10.4,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies 3.1× its FY22–FY26 growth."
+   },
    "applicable": true,
    "template": "A",
    "reasons": [],
@@ -867,7 +1036,7 @@
     "market_cap": {
      "display": "₹1.57 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "12.6%",
@@ -898,7 +1067,7 @@
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "0.81",
+     "display": "0.78",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -917,7 +1086,7 @@
      "period": "FY26"
     },
     "implied_growth": {
-     "display": "20.1% a year",
+     "display": "19.1% a year",
      "type": "CALCULATION",
      "period": "years 1–5"
     },
@@ -939,26 +1108,45 @@
    "symbol": "DABUR",
    "sector": "Personal care and ayurvedic products",
    "sector_label": "FMCG",
-   "price": "₹381.90",
-   "change_pct": "+0.37%",
+   "price": "₹399.00",
+   "change_pct": "+1.50%",
    "up": true,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹0.68 lakh crore",
-   "market_cap_crore": 67749.06,
-   "implied_growth": "19.9%",
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹0.71 lakh crore",
+   "market_cap_crore": 70782.6,
+   "implied_growth": "20.8%",
    "history_growth": "4.9%",
    "history_span": "FY22–FY26",
    "margin": "15.0%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "20.8% a year",
+      "width": 34.6,
+      "open": false
+     },
+     {
+      "key": "history",
+      "label": "Grew FY22–FY26",
+      "display": "4.9% a year",
+      "width": 8.2,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies 4.2× its FY22–FY26 growth."
+   },
    "applicable": true,
    "template": "A",
    "reasons": [],
    "set_by_rule": true,
    "compare": {
     "market_cap": {
-     "display": "₹0.68 lakh crore",
+     "display": "₹0.71 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "15.0%",
@@ -981,15 +1169,15 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "33.5×",
+     "display": "35.0×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "28.8×",
+     "display": "30.2×",
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "0.74",
+     "display": "0.73",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -1008,7 +1196,7 @@
      "period": "FY26"
     },
     "implied_growth": {
-     "display": "19.9% a year",
+     "display": "20.8% a year",
      "type": "CALCULATION",
      "period": "years 1–5"
     },
@@ -1030,26 +1218,45 @@
    "symbol": "BRITANNIA",
    "sector": "Biscuits and bakery",
    "sector_label": "FMCG",
-   "price": "₹4,754.00",
-   "change_pct": "+0.07%",
-   "up": true,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹1.15 lakh crore",
-   "market_cap_crore": 114523.86,
-   "implied_growth": "16.0%",
+   "price": "₹4,830.70",
+   "change_pct": "-1.41%",
+   "up": false,
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹1.16 lakh crore",
+   "market_cap_crore": 116371.56,
+   "implied_growth": "16.7%",
    "history_growth": "7.9%",
    "history_span": "FY22–FY26",
    "margin": "16.7%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "16.7% a year",
+      "width": 27.8,
+      "open": false
+     },
+     {
+      "key": "history",
+      "label": "Grew FY22–FY26",
+      "display": "7.9% a year",
+      "width": 13.1,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies 2.1× its FY22–FY26 growth."
+   },
    "applicable": true,
    "template": "A",
    "reasons": [],
    "set_by_rule": true,
    "compare": {
     "market_cap": {
-     "display": "₹1.15 lakh crore",
+     "display": "₹1.16 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "16.7%",
@@ -1072,15 +1279,15 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "42.9×",
+     "display": "43.6×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "33.6×",
+     "display": "34.2×",
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "0.57",
+     "display": "0.59",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -1099,7 +1306,7 @@
      "period": "FY26"
     },
     "implied_growth": {
-     "display": "16.0% a year",
+     "display": "16.7% a year",
      "type": "CALCULATION",
      "period": "years 1–5"
     },
@@ -1122,26 +1329,45 @@
    "symbol": "EICHERMOT",
    "sector": "Motorcycles and commercial vehicles",
    "sector_label": "autos",
-   "price": "₹7,599.00",
-   "change_pct": "-0.67%",
-   "up": false,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹2.09 lakh crore",
-   "market_cap_crore": 208592.55,
+   "price": "₹8,172.50",
+   "change_pct": "+0.73%",
+   "up": true,
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹2.24 lakh crore",
+   "market_cap_crore": 224335.12,
    "implied_growth": "more than 30.0%",
    "history_growth": "17.5%",
    "history_span": "FY23–FY26",
    "margin": "21.1%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "more than 30.0% a year",
+      "width": 50.0,
+      "open": true
+     },
+     {
+      "key": "history",
+      "label": "Grew FY23–FY26",
+      "display": "17.5% a year",
+      "width": 29.1,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies more than 30.0% a year, beyond the range the model searches."
+   },
    "applicable": true,
    "template": "A",
    "reasons": [],
    "set_by_rule": true,
    "compare": {
     "market_cap": {
-     "display": "₹2.09 lakh crore",
+     "display": "₹2.24 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "21.1%",
@@ -1164,11 +1390,11 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "34.9×",
+     "display": "37.5×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "35.4×",
+     "display": "38.3×",
      "type": "CALCULATION"
     },
     "beta": {
@@ -1216,26 +1442,45 @@
    "symbol": "HEROMOTOCO",
    "sector": "Motorcycles and scooters",
    "sector_label": "autos",
-   "price": "₹5,359.50",
-   "change_pct": "-0.47%",
+   "price": "₹5,535.00",
+   "change_pct": "-0.02%",
    "up": false,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹1.07 lakh crore",
-   "market_cap_crore": 107270.39,
-   "implied_growth": "11.1%",
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹1.11 lakh crore",
+   "market_cap_crore": 110783.02,
+   "implied_growth": "12.2%",
    "history_growth": "11.5%",
    "history_span": "FY23–FY26",
    "margin": "13.1%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "12.2% a year",
+      "width": 20.3,
+      "open": false
+     },
+     {
+      "key": "history",
+      "label": "Grew FY23–FY26",
+      "display": "11.5% a year",
+      "width": 19.2,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies 1.1× its FY23–FY26 growth."
+   },
    "applicable": true,
    "template": "A",
    "reasons": [],
    "set_by_rule": true,
    "compare": {
     "market_cap": {
-     "display": "₹1.07 lakh crore",
+     "display": "₹1.11 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "13.1%",
@@ -1258,15 +1503,15 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "17.9×",
+     "display": "18.5×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "13.1×",
+     "display": "13.6×",
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "1.06",
+     "display": "1.08",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -1285,7 +1530,7 @@
      "period": "FY26"
     },
     "implied_growth": {
-     "display": "11.1% a year",
+     "display": "12.2% a year",
      "type": "CALCULATION",
      "period": "years 1–5"
     },
@@ -1308,26 +1553,45 @@
    "symbol": "M&M",
    "sector": "Automobiles and farm equipment",
    "sector_label": "autos",
-   "price": "₹3,339.00",
-   "change_pct": "+0.18%",
-   "up": true,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹3.73 lakh crore",
-   "market_cap_crore": 373380.34,
-   "implied_growth": "49.8%",
+   "price": "₹3,487.40",
+   "change_pct": "-1.62%",
+   "up": false,
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹3.90 lakh crore",
+   "market_cap_crore": 389975.02,
+   "implied_growth": "54.7%",
    "history_growth": "17.9%",
    "history_span": "FY23–FY26",
    "margin": "14.9%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "54.7% a year",
+      "width": 91.2,
+      "open": false
+     },
+     {
+      "key": "history",
+      "label": "Grew FY23–FY26",
+      "display": "17.9% a year",
+      "width": 29.8,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies 3.1× its FY23–FY26 growth."
+   },
    "applicable": true,
    "template": "B",
    "reasons": [],
    "set_by_rule": true,
    "compare": {
     "market_cap": {
-     "display": "₹3.73 lakh crore",
+     "display": "₹3.90 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "14.9%",
@@ -1350,15 +1614,15 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "19.3×",
+     "display": "20.1×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "14.0×",
+     "display": "14.5×",
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "1.41",
+     "display": "1.42",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -1377,7 +1641,7 @@
      "period": "FY26"
     },
     "implied_growth": {
-     "display": "49.8% a year",
+     "display": "54.7% a year",
      "type": "CALCULATION",
      "period": "years 1–5"
     },
@@ -1405,26 +1669,45 @@
    "symbol": "SUNPHARMA",
    "sector": "Pharmaceuticals",
    "sector_label": "pharma",
-   "price": "₹1,867.50",
-   "change_pct": "-0.66%",
+   "price": "₹1,860.00",
+   "change_pct": "-1.32%",
    "up": false,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹4.48 lakh crore",
-   "market_cap_crore": 448069.28,
-   "implied_growth": "14.0%",
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹4.46 lakh crore",
+   "market_cap_crore": 446269.8,
+   "implied_growth": "13.9%",
    "history_growth": "10.0%",
    "history_span": "FY23–FY26",
    "margin": "25.3%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "13.9% a year",
+      "width": 23.1,
+      "open": false
+     },
+     {
+      "key": "history",
+      "label": "Grew FY23–FY26",
+      "display": "10.0% a year",
+      "width": 16.7,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies 1.4× its FY23–FY26 growth."
+   },
    "applicable": true,
    "template": "A",
    "reasons": [],
    "set_by_rule": true,
    "compare": {
     "market_cap": {
-     "display": "₹4.48 lakh crore",
+     "display": "₹4.46 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "25.3%",
@@ -1447,11 +1730,11 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "40.9×",
+     "display": "40.7×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "27.5×",
+     "display": "27.4×",
      "type": "CALCULATION"
     },
     "beta": {
@@ -1474,7 +1757,7 @@
      "period": "FY26"
     },
     "implied_growth": {
-     "display": "14.0% a year",
+     "display": "13.9% a year",
      "type": "CALCULATION",
      "period": "years 1–5"
     },
@@ -1494,17 +1777,36 @@
    "symbol": "DRREDDY",
    "sector": "Pharmaceuticals",
    "sector_label": "pharma",
-   "price": "₹1,377.90",
-   "change_pct": "-0.15%",
+   "price": "₹1,380.10",
+   "change_pct": "-0.73%",
    "up": false,
-   "as_of": "16 Nov 2026",
+   "as_of": "23 Nov 2026",
    "market_cap": "₹1.15 lakh crore",
-   "market_cap_crore": 115054.65,
-   "implied_growth": "17.6%",
+   "market_cap_crore": 115238.35,
+   "implied_growth": "16.8%",
    "history_growth": "11.0%",
    "history_span": "FY23–FY26",
    "margin": "13.0%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "16.8% a year",
+      "width": 28.0,
+      "open": false
+     },
+     {
+      "key": "history",
+      "label": "Grew FY23–FY26",
+      "display": "11.0% a year",
+      "width": 18.3,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies 1.5× its FY23–FY26 growth."
+   },
    "applicable": true,
    "template": "B",
    "reasons": [],
@@ -1513,7 +1815,7 @@
     "market_cap": {
      "display": "₹1.15 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "13.0%",
@@ -1536,15 +1838,15 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "41.1×",
+     "display": "41.2×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "42.1×",
+     "display": "42.2×",
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "0.56",
+     "display": "0.55",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -1563,7 +1865,7 @@
      "period": "FY26"
     },
     "implied_growth": {
-     "display": "17.6% a year",
+     "display": "16.8% a year",
      "type": "CALCULATION",
      "period": "years 1–5"
     },
@@ -1588,26 +1890,45 @@
    "symbol": "DIVISLAB",
    "sector": "Pharmaceuticals",
    "sector_label": "pharma",
-   "price": "₹11,080.00",
-   "change_pct": "-3.16%",
-   "up": false,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹2.94 lakh crore",
-   "market_cap_crore": 293620.0,
+   "price": "₹11,203.00",
+   "change_pct": "+0.20%",
+   "up": true,
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹2.97 lakh crore",
+   "market_cap_crore": 296879.5,
    "implied_growth": "more than 30.0%",
    "history_growth": "10.8%",
    "history_span": "FY23–FY26",
    "margin": "28.2%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "more than 30.0% a year",
+      "width": 50.0,
+      "open": true
+     },
+     {
+      "key": "history",
+      "label": "Grew FY23–FY26",
+      "display": "10.8% a year",
+      "width": 18.0,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies more than 30.0% a year, beyond the range the model searches."
+   },
    "applicable": true,
    "template": "A",
    "reasons": [],
    "set_by_rule": true,
    "compare": {
     "market_cap": {
-     "display": "₹2.94 lakh crore",
+     "display": "₹2.97 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "28.2%",
@@ -1630,11 +1951,11 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "87.3×",
+     "display": "88.3×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "70.5×",
+     "display": "71.3×",
      "type": "CALCULATION"
     },
     "beta": {
@@ -1683,26 +2004,45 @@
    "symbol": "PERSISTENT",
    "sector": "IT services",
    "sector_label": "IT",
-   "price": "₹5,978.50",
-   "change_pct": "-0.41%",
-   "up": false,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹0.94 lakh crore",
-   "market_cap_crore": 94310.84,
+   "price": "₹6,282.50",
+   "change_pct": "+2.59%",
+   "up": true,
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹0.99 lakh crore",
+   "market_cap_crore": 99106.44,
    "implied_growth": "more than 30.0%",
    "history_growth": "20.9%",
    "history_span": "FY23–FY26",
    "margin": "16.2%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "more than 30.0% a year",
+      "width": 50.0,
+      "open": true
+     },
+     {
+      "key": "history",
+      "label": "Grew FY23–FY26",
+      "display": "20.9% a year",
+      "width": 34.8,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies more than 30.0% a year, beyond the range the model searches."
+   },
    "applicable": true,
    "template": "A",
    "reasons": [],
    "set_by_rule": true,
    "compare": {
     "market_cap": {
-     "display": "₹0.94 lakh crore",
+     "display": "₹0.99 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "16.2%",
@@ -1725,11 +2065,11 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "52.3×",
+     "display": "55.0×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "39.2×",
+     "display": "41.3×",
      "type": "CALCULATION"
     },
     "beta": {
@@ -1778,26 +2118,45 @@
    "symbol": "ASIANPAINT",
    "sector": "Paints and coatings",
    "sector_label": "consumption (thematic)",
-   "price": "₹2,572.90",
-   "change_pct": "+0.90%",
-   "up": true,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹2.47 lakh crore",
-   "market_cap_crore": 246792.57,
+   "price": "₹2,580.40",
+   "change_pct": "-1.07%",
+   "up": false,
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹2.48 lakh crore",
+   "market_cap_crore": 247511.97,
    "implied_growth": "more than 30.0%",
    "history_growth": "1.0%",
    "history_span": "FY23–FY26",
    "margin": "15.4%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "more than 30.0% a year",
+      "width": 50.0,
+      "open": true
+     },
+     {
+      "key": "history",
+      "label": "Grew FY23–FY26",
+      "display": "1.0% a year",
+      "width": 2.0,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies more than 30.0% a year, beyond the range the model searches."
+   },
    "applicable": true,
    "template": "A",
    "reasons": [],
    "set_by_rule": true,
    "compare": {
     "market_cap": {
-     "display": "₹2.47 lakh crore",
+     "display": "₹2.48 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "15.4%",
@@ -1820,15 +2179,15 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "51.0×",
+     "display": "51.2×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "40.5×",
+     "display": "40.6×",
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "0.90",
+     "display": "0.89",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -1873,17 +2232,36 @@
    "symbol": "HAVELLS",
    "sector": "Electrical equipment and consumer durables",
    "sector_label": "consumer durables",
-   "price": "₹1,172.00",
-   "change_pct": "+0.95%",
-   "up": true,
-   "as_of": "16 Nov 2026",
+   "price": "₹1,184.00",
+   "change_pct": "-2.23%",
+   "up": false,
+   "as_of": "23 Nov 2026",
    "market_cap": "₹0.74 lakh crore",
-   "market_cap_crore": 73554.72,
-   "implied_growth": "37.9%",
+   "market_cap_crore": 74307.84,
+   "implied_growth": "39.0%",
    "history_growth": "10.0%",
    "history_span": "FY23–FY26",
    "margin": "7.8%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "39.0% a year",
+      "width": 65.0,
+      "open": false
+     },
+     {
+      "key": "history",
+      "label": "Grew FY23–FY26",
+      "display": "10.0% a year",
+      "width": 16.7,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies 3.9× its FY23–FY26 growth."
+   },
    "applicable": true,
    "template": "B",
    "reasons": [],
@@ -1892,7 +2270,7 @@
     "market_cap": {
      "display": "₹0.74 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "7.8%",
@@ -1915,15 +2293,15 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "44.2×",
+     "display": "44.7×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "40.0×",
+     "display": "40.4×",
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "0.95",
+     "display": "0.97",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -1942,7 +2320,7 @@
      "period": "FY26"
     },
     "implied_growth": {
-     "display": "37.9% a year",
+     "display": "39.0% a year",
      "type": "CALCULATION",
      "period": "years 1–5"
     },
@@ -1970,26 +2348,45 @@
    "symbol": "MPHASIS",
    "sector": "IT services",
    "sector_label": "IT",
-   "price": "₹2,432.90",
-   "change_pct": "-0.90%",
-   "up": false,
-   "as_of": "16 Nov 2026",
-   "market_cap": "₹0.46 lakh crore",
-   "market_cap_crore": 46457.93,
-   "implied_growth": "24.4%",
+   "price": "₹2,468.40",
+   "change_pct": "+2.00%",
+   "up": true,
+   "as_of": "23 Nov 2026",
+   "market_cap": "₹0.47 lakh crore",
+   "market_cap_crore": 47135.83,
+   "implied_growth": "23.9%",
    "history_growth": "4.8%",
    "history_span": "FY23–FY26",
    "margin": "15.3%",
    "last_fy": "FY26",
+   "growth_box": {
+    "rows": [
+     {
+      "key": "implied",
+      "label": "Price implies",
+      "display": "23.9% a year",
+      "width": 39.8,
+      "open": false
+     },
+     {
+      "key": "history",
+      "label": "Grew FY23–FY26",
+      "display": "4.8% a year",
+      "width": 8.0,
+      "open": false
+     }
+    ],
+    "sentence": "The price implies 5.0× its FY23–FY26 growth."
+   },
    "applicable": true,
    "template": "B",
    "reasons": [],
    "set_by_rule": true,
    "compare": {
     "market_cap": {
-     "display": "₹0.46 lakh crore",
+     "display": "₹0.47 lakh crore",
      "type": "CALCULATION",
-     "period": "16 Nov 2026"
+     "period": "23 Nov 2026"
     },
     "margin": {
      "display": "15.3%",
@@ -2012,15 +2409,15 @@
      "period": "FY26"
     },
     "pe_ttm": {
-     "display": "23.2×",
+     "display": "23.5×",
      "type": "CALCULATION"
     },
     "ev_ebit_ttm": {
-     "display": "18.4×",
+     "display": "18.6×",
      "type": "CALCULATION"
     },
     "beta": {
-     "display": "1.08",
+     "display": "1.05",
      "type": "CALCULATION"
     },
     "revenue_growth": {
@@ -2039,7 +2436,7 @@
      "period": "FY26"
     },
     "implied_growth": {
-     "display": "24.4% a year",
+     "display": "23.9% a year",
      "type": "CALCULATION",
      "period": "years 1–5"
     },
@@ -2126,5 +2523,6 @@
    "label": "DCF template",
    "definition": "Which template applies (A: positive free cash flow; B: reinvestment earning above its cost), and why not when neither does."
   }
- ]
+ ],
+ "bar_scale_note": "Bars share one scale for every company, 0 to 60% a year. An open-ended bar means the price lies beyond the range the model searches."
 }

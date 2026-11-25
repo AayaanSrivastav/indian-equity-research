@@ -77,43 +77,43 @@
       "id": "S3",
       "line": "why the stock moved",
       "label": "CALCULATION",
-      "text": "On 9 Nov 2026, the first session after the result, DIVISLAB shares rose 12.06% while the NIFTY 50 rose 0.06% and the NIFTY PHARMA index rose 1.65%; allowing for the market's move, DIVISLAB's own move was +11.87%, about 8.41 times its usual daily variation.",
+      "text": "On 8 Nov 2026, a Sunday special session and the first session after the result, DIVISLAB shares rose 7.52% while the NIFTY 50 fell 0.18% and the NIFTY PHARMA index rose 1.74%; allowing for the market's move, DIVISLAB's own move was +7.47%, about 5.29 times its usual daily variation.",
       "evidence": [
         {
           "file": "event_study.json",
           "path": "events.4.reaction_session",
           "format": "date",
-          "display": "9 Nov 2026"
+          "display": "8 Nov 2026"
         },
         {
           "file": "event_study.json",
           "path": "events.4.stock_return_pct",
           "format": "abs_pct2",
-          "display": "12.06%"
+          "display": "7.52%"
         },
         {
           "file": "event_study.json",
           "path": "events.4.nifty50_return_pct",
           "format": "abs_pct2",
-          "display": "0.06%"
+          "display": "0.18%"
         },
         {
           "file": "event_study.json",
           "path": "events.4.sector_return_pct",
           "format": "abs_pct2",
-          "display": "1.65%"
+          "display": "1.74%"
         },
         {
           "file": "event_study.json",
           "path": "events.4.abnormal_return_pct",
           "format": "spct2",
-          "display": "+11.87%"
+          "display": "+7.47%"
         },
         {
           "file": "event_study.json",
           "path": "events.4.z",
           "format": "abs_num2",
-          "display": "8.41"
+          "display": "5.29"
         }
       ],
       "sources": [
@@ -132,25 +132,25 @@
       "id": "S4",
       "line": "what the price implies",
       "label": "CALCULATION",
-      "text": "At ₹11,080 (NSE close, 16 Nov 2026), a discounted cash flow model with a 9.64% cost of capital does not reach the price at any revenue growth up to 30% a year for five years at the FY26 operating margin of 28.2%; nor, with revenue growing at its FY23–FY26 rate of 10.8%, at any operating margin up to 60%.",
+      "text": "At ₹11,203 (NSE close, 23 Nov 2026), a discounted cash flow model with a 9.65% cost of capital does not reach the price at any revenue growth up to 30% a year for five years at the FY26 operating margin of 28.2%; nor, with revenue growing at its FY23–FY26 rate of 10.8%, at any operating margin up to 60%.",
       "evidence": [
         {
           "file": "valuation.json",
           "path": "market.price",
           "format": "inr0",
-          "display": "₹11,080"
+          "display": "₹11,203"
         },
         {
           "file": "valuation.json",
           "path": "valuation_date",
           "format": "date",
-          "display": "16 Nov 2026"
+          "display": "23 Nov 2026"
         },
         {
           "file": "valuation.json",
           "path": "wacc.wacc",
           "format": "pct2_frac",
-          "display": "9.64%"
+          "display": "9.65%"
         },
         {
           "file": "valuation.json",
@@ -214,31 +214,31 @@
       "id": "S5",
       "line": "what to watch",
       "label": "CALCULATION",
-      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹1,591 to ₹2,543 a share) and to how long DIVISLAB keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹1,451 to ₹2,056 a share); the Q3 FY27 result will be the next reported quarter.",
+      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹1,587 to ₹2,533 a share) and to how long DIVISLAB keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹1,448 to ₹2,050 a share); the Q3 FY27 result will be the next reported quarter.",
       "evidence": [
         {
           "file": "valuation.json",
           "path": "driver_ranking.0.value_at_low",
           "format": "inr0",
-          "display": "₹1,591"
+          "display": "₹1,587"
         },
         {
           "file": "valuation.json",
           "path": "driver_ranking.0.value_at_high",
           "format": "inr0",
-          "display": "₹2,543"
+          "display": "₹2,533"
         },
         {
           "file": "valuation.json",
           "path": "driver_ranking.1.value_at_low",
           "format": "inr0",
-          "display": "₹1,451"
+          "display": "₹1,448"
         },
         {
           "file": "valuation.json",
           "path": "driver_ranking.1.value_at_high",
           "format": "inr0",
-          "display": "₹2,056"
+          "display": "₹2,050"
         }
       ],
       "sources": [
@@ -447,79 +447,79 @@
         "claim": "S3",
         "check": "N2",
         "status": "PASS",
-        "detail": "event_study.json:events.4.reaction_session renders '9 Nov 2026', claim shows '9 Nov 2026'"
+        "detail": "event_study.json:events.4.reaction_session renders '8 Nov 2026', claim shows '8 Nov 2026'"
       },
       {
         "claim": "S3",
         "check": "N3",
         "status": "PASS",
-        "detail": "'9 Nov 2026' appears in the text"
+        "detail": "'8 Nov 2026' appears in the text"
       },
       {
         "claim": "S3",
         "check": "N2",
         "status": "PASS",
-        "detail": "event_study.json:events.4.stock_return_pct renders '12.06%', claim shows '12.06%'"
+        "detail": "event_study.json:events.4.stock_return_pct renders '7.52%', claim shows '7.52%'"
       },
       {
         "claim": "S3",
         "check": "N3",
         "status": "PASS",
-        "detail": "'12.06%' appears in the text"
+        "detail": "'7.52%' appears in the text"
       },
       {
         "claim": "S3",
         "check": "N2",
         "status": "PASS",
-        "detail": "event_study.json:events.4.nifty50_return_pct renders '0.06%', claim shows '0.06%'"
+        "detail": "event_study.json:events.4.nifty50_return_pct renders '0.18%', claim shows '0.18%'"
       },
       {
         "claim": "S3",
         "check": "N3",
         "status": "PASS",
-        "detail": "'0.06%' appears in the text"
+        "detail": "'0.18%' appears in the text"
       },
       {
         "claim": "S3",
         "check": "N2",
         "status": "PASS",
-        "detail": "event_study.json:events.4.sector_return_pct renders '1.65%', claim shows '1.65%'"
+        "detail": "event_study.json:events.4.sector_return_pct renders '1.74%', claim shows '1.74%'"
       },
       {
         "claim": "S3",
         "check": "N3",
         "status": "PASS",
-        "detail": "'1.65%' appears in the text"
+        "detail": "'1.74%' appears in the text"
       },
       {
         "claim": "S3",
         "check": "N2",
         "status": "PASS",
-        "detail": "event_study.json:events.4.abnormal_return_pct renders '+11.87%', claim shows '+11.87%'"
+        "detail": "event_study.json:events.4.abnormal_return_pct renders '+7.47%', claim shows '+7.47%'"
       },
       {
         "claim": "S3",
         "check": "N3",
         "status": "PASS",
-        "detail": "'+11.87%' appears in the text"
+        "detail": "'+7.47%' appears in the text"
       },
       {
         "claim": "S3",
         "check": "N2",
         "status": "PASS",
-        "detail": "event_study.json:events.4.z renders '8.41', claim shows '8.41'"
+        "detail": "event_study.json:events.4.z renders '5.29', claim shows '5.29'"
       },
       {
         "claim": "S3",
         "check": "N3",
         "status": "PASS",
-        "detail": "'8.41' appears in the text"
+        "detail": "'5.29' appears in the text"
       },
       {
         "claim": "S3",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '9' is covered by evidence"
+        "detail": "number '8' is covered by evidence"
       },
       {
         "claim": "S3",
@@ -531,7 +531,7 @@
         "claim": "S3",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '12.06' is covered by evidence"
+        "detail": "number '7.52' is covered by evidence"
       },
       {
         "claim": "S3",
@@ -543,25 +543,25 @@
         "claim": "S3",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '0.06' is covered by evidence"
+        "detail": "number '0.18' is covered by evidence"
       },
       {
         "claim": "S3",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '1.65' is covered by evidence"
+        "detail": "number '1.74' is covered by evidence"
       },
       {
         "claim": "S3",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '11.87' is covered by evidence"
+        "detail": "number '7.47' is covered by evidence"
       },
       {
         "claim": "S3",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '8.41' is covered by evidence"
+        "detail": "number '5.29' is covered by evidence"
       },
       {
         "claim": "S3",
@@ -603,37 +603,37 @@
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:market.price renders '₹11,080', claim shows '₹11,080'"
+        "detail": "valuation.json:market.price renders '₹11,203', claim shows '₹11,203'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹11,080' appears in the text"
+        "detail": "'₹11,203' appears in the text"
       },
       {
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:valuation_date renders '16 Nov 2026', claim shows '16 Nov 2026'"
+        "detail": "valuation.json:valuation_date renders '23 Nov 2026', claim shows '23 Nov 2026'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'16 Nov 2026' appears in the text"
+        "detail": "'23 Nov 2026' appears in the text"
       },
       {
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:wacc.wacc renders '9.64%', claim shows '9.64%'"
+        "detail": "valuation.json:wacc.wacc renders '9.65%', claim shows '9.65%'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'9.64%' appears in the text"
+        "detail": "'9.65%' appears in the text"
       },
       {
         "claim": "S4",
@@ -687,13 +687,13 @@
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '11,080' is covered by evidence"
+        "detail": "number '11,203' is covered by evidence"
       },
       {
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '16' is covered by evidence"
+        "detail": "number '23' is covered by evidence"
       },
       {
         "claim": "S4",
@@ -705,7 +705,7 @@
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '9.64' is covered by evidence"
+        "detail": "number '9.65' is covered by evidence"
       },
       {
         "claim": "S4",
@@ -825,73 +825,73 @@
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.0.value_at_low renders '₹1,591', claim shows '₹1,591'"
+        "detail": "valuation.json:driver_ranking.0.value_at_low renders '₹1,587', claim shows '₹1,587'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹1,591' appears in the text"
+        "detail": "'₹1,587' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.0.value_at_high renders '₹2,543', claim shows '₹2,543'"
+        "detail": "valuation.json:driver_ranking.0.value_at_high renders '₹2,533', claim shows '₹2,533'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹2,543' appears in the text"
+        "detail": "'₹2,533' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.1.value_at_low renders '₹1,451', claim shows '₹1,451'"
+        "detail": "valuation.json:driver_ranking.1.value_at_low renders '₹1,448', claim shows '₹1,448'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹1,451' appears in the text"
+        "detail": "'₹1,448' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.1.value_at_high renders '₹2,056', claim shows '₹2,056'"
+        "detail": "valuation.json:driver_ranking.1.value_at_high renders '₹2,050', claim shows '₹2,050'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹2,056' appears in the text"
+        "detail": "'₹2,050' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '1,591' is covered by evidence"
+        "detail": "number '1,587' is covered by evidence"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '2,543' is covered by evidence"
+        "detail": "number '2,533' is covered by evidence"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '1,451' is covered by evidence"
+        "detail": "number '1,448' is covered by evidence"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '2,056' is covered by evidence"
+        "detail": "number '2,050' is covered by evidence"
       },
       {
         "claim": "S5",

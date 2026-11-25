@@ -132,31 +132,31 @@
       "id": "S4",
       "line": "what the price implies",
       "label": "CALCULATION",
-      "text": "At ₹194 (NSE close, 16 Nov 2026), a discounted cash flow model with a 10.33% cost of capital matches the price if revenue grows about 3.5% a year for five years at the FY26 operating margin of 16.1%; WIPRO's revenue grew 4.0% a year over FY22–FY26.",
+      "text": "At ₹187 (NSE close, 23 Nov 2026), a discounted cash flow model with a 10.17% cost of capital matches the price if revenue grows about 2.0% a year for five years at the FY26 operating margin of 16.1%; WIPRO's revenue grew 4.0% a year over FY22–FY26.",
       "evidence": [
         {
           "file": "valuation.json",
           "path": "market.price",
           "format": "inr0",
-          "display": "₹194"
+          "display": "₹187"
         },
         {
           "file": "valuation.json",
           "path": "valuation_date",
           "format": "date",
-          "display": "16 Nov 2026"
+          "display": "23 Nov 2026"
         },
         {
           "file": "valuation.json",
           "path": "wacc.wacc",
           "format": "pct2_frac",
-          "display": "10.33%"
+          "display": "10.17%"
         },
         {
           "file": "valuation.json",
           "path": "reverse_dcf.implied_one_at_a_time.g_high",
           "format": "pct1_frac",
-          "display": "3.5%"
+          "display": "2.0%"
         },
         {
           "file": "valuation.json",
@@ -179,31 +179,31 @@
       "id": "S5",
       "line": "what to watch",
       "label": "CALCULATION",
-      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹170 to ₹236 a share) and to the operating margin (two percentage points either way: a model value of ₹176 to ₹218 a share); the Q3 FY27 result will be the next reported quarter.",
+      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹174 to ₹244 a share) and to how long WIPRO keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹164 to ₹208 a share); the Q3 FY27 result will be the next reported quarter.",
       "evidence": [
         {
           "file": "valuation.json",
           "path": "driver_ranking.0.value_at_low",
           "format": "inr0",
-          "display": "₹170"
+          "display": "₹174"
         },
         {
           "file": "valuation.json",
           "path": "driver_ranking.0.value_at_high",
           "format": "inr0",
-          "display": "₹236"
+          "display": "₹244"
         },
         {
           "file": "valuation.json",
           "path": "driver_ranking.1.value_at_low",
           "format": "inr0",
-          "display": "₹176"
+          "display": "₹164"
         },
         {
           "file": "valuation.json",
           "path": "driver_ranking.1.value_at_high",
           "format": "inr0",
-          "display": "₹218"
+          "display": "₹208"
         }
       ],
       "sources": [
@@ -568,49 +568,49 @@
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:market.price renders '₹194', claim shows '₹194'"
+        "detail": "valuation.json:market.price renders '₹187', claim shows '₹187'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹194' appears in the text"
+        "detail": "'₹187' appears in the text"
       },
       {
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:valuation_date renders '16 Nov 2026', claim shows '16 Nov 2026'"
+        "detail": "valuation.json:valuation_date renders '23 Nov 2026', claim shows '23 Nov 2026'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'16 Nov 2026' appears in the text"
+        "detail": "'23 Nov 2026' appears in the text"
       },
       {
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:wacc.wacc renders '10.33%', claim shows '10.33%'"
+        "detail": "valuation.json:wacc.wacc renders '10.17%', claim shows '10.17%'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'10.33%' appears in the text"
+        "detail": "'10.17%' appears in the text"
       },
       {
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:reverse_dcf.implied_one_at_a_time.g_high renders '3.5%', claim shows '3.5%'"
+        "detail": "valuation.json:reverse_dcf.implied_one_at_a_time.g_high renders '2.0%', claim shows '2.0%'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'3.5%' appears in the text"
+        "detail": "'2.0%' appears in the text"
       },
       {
         "claim": "S4",
@@ -640,13 +640,13 @@
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '194' is covered by evidence"
+        "detail": "number '187' is covered by evidence"
       },
       {
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '16' is covered by evidence"
+        "detail": "number '23' is covered by evidence"
       },
       {
         "claim": "S4",
@@ -658,13 +658,13 @@
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '10.33' is covered by evidence"
+        "detail": "number '10.17' is covered by evidence"
       },
       {
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '3.5' is covered by evidence"
+        "detail": "number '2.0' is covered by evidence"
       },
       {
         "claim": "S4",
@@ -700,73 +700,73 @@
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.0.value_at_low renders '₹170', claim shows '₹170'"
+        "detail": "valuation.json:driver_ranking.0.value_at_low renders '₹174', claim shows '₹174'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹170' appears in the text"
+        "detail": "'₹174' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.0.value_at_high renders '₹236', claim shows '₹236'"
+        "detail": "valuation.json:driver_ranking.0.value_at_high renders '₹244', claim shows '₹244'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹236' appears in the text"
+        "detail": "'₹244' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.1.value_at_low renders '₹176', claim shows '₹176'"
+        "detail": "valuation.json:driver_ranking.1.value_at_low renders '₹164', claim shows '₹164'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹176' appears in the text"
+        "detail": "'₹164' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.1.value_at_high renders '₹218', claim shows '₹218'"
+        "detail": "valuation.json:driver_ranking.1.value_at_high renders '₹208', claim shows '₹208'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹218' appears in the text"
+        "detail": "'₹208' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '170' is covered by evidence"
+        "detail": "number '174' is covered by evidence"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '236' is covered by evidence"
+        "detail": "number '244' is covered by evidence"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '176' is covered by evidence"
+        "detail": "number '164' is covered by evidence"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '218' is covered by evidence"
+        "detail": "number '208' is covered by evidence"
       },
       {
         "claim": "S5",

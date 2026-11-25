@@ -132,19 +132,19 @@
       "id": "S4",
       "line": "what the price implies",
       "label": "CALCULATION",
-      "text": "At ₹1,172 (NSE close, 16 Nov 2026), the reinvestment-phase discounted cash flow model (Template B, since HAVELLS's median return on invested capital of 25.5% is above its 11.63% cost of capital) matches the price if revenue grows about 37.9% a year for five years at the FY26 operating margin of 7.8%; HAVELLS's revenue grew 10.0% a year over FY23–FY26.",
+      "text": "At ₹1,184 (NSE close, 23 Nov 2026), the reinvestment-phase discounted cash flow model (Template B, since HAVELLS's median return on invested capital of 25.5% is above its 11.81% cost of capital) matches the price if revenue grows about 39.0% a year for five years at the FY26 operating margin of 7.8%; HAVELLS's revenue grew 10.0% a year over FY23–FY26.",
       "evidence": [
         {
           "file": "valuation.json",
           "path": "market.price",
           "format": "inr0",
-          "display": "₹1,172"
+          "display": "₹1,184"
         },
         {
           "file": "valuation.json",
           "path": "valuation_date",
           "format": "date",
-          "display": "16 Nov 2026"
+          "display": "23 Nov 2026"
         },
         {
           "file": "valuation.json",
@@ -156,13 +156,13 @@
           "file": "valuation.json",
           "path": "wacc.wacc",
           "format": "pct2_frac",
-          "display": "11.63%"
+          "display": "11.81%"
         },
         {
           "file": "valuation.json",
           "path": "reverse_dcf.implied_one_at_a_time.g_high",
           "format": "pct1_frac",
-          "display": "37.9%"
+          "display": "39.0%"
         },
         {
           "file": "valuation.json",
@@ -185,31 +185,31 @@
       "id": "S5",
       "line": "what to watch",
       "label": "CALCULATION",
-      "text": "With the other assumptions at base, the valuation is most sensitive to the operating margin (two percentage points either way: a model value of ₹256 to ₹444 a share) and to the cost of capital (one percentage point either way: a model value of ₹301 to ₹416 a share); the Q3 FY27 result will be the next reported quarter.",
+      "text": "With the other assumptions at base, the valuation is most sensitive to the operating margin (two percentage points either way: a model value of ₹249 to ₹431 a share) and to the cost of capital (one percentage point either way: a model value of ₹294 to ₹403 a share); the Q3 FY27 result will be the next reported quarter.",
       "evidence": [
         {
           "file": "valuation.json",
           "path": "driver_ranking.0.value_at_low",
           "format": "inr0",
-          "display": "₹256"
+          "display": "₹249"
         },
         {
           "file": "valuation.json",
           "path": "driver_ranking.0.value_at_high",
           "format": "inr0",
-          "display": "₹444"
+          "display": "₹431"
         },
         {
           "file": "valuation.json",
           "path": "driver_ranking.1.value_at_low",
           "format": "inr0",
-          "display": "₹301"
+          "display": "₹294"
         },
         {
           "file": "valuation.json",
           "path": "driver_ranking.1.value_at_high",
           "format": "inr0",
-          "display": "₹416"
+          "display": "₹403"
         }
       ],
       "sources": [
@@ -574,25 +574,25 @@
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:market.price renders '₹1,172', claim shows '₹1,172'"
+        "detail": "valuation.json:market.price renders '₹1,184', claim shows '₹1,184'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹1,172' appears in the text"
+        "detail": "'₹1,184' appears in the text"
       },
       {
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:valuation_date renders '16 Nov 2026', claim shows '16 Nov 2026'"
+        "detail": "valuation.json:valuation_date renders '23 Nov 2026', claim shows '23 Nov 2026'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'16 Nov 2026' appears in the text"
+        "detail": "'23 Nov 2026' appears in the text"
       },
       {
         "claim": "S4",
@@ -610,25 +610,25 @@
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:wacc.wacc renders '11.63%', claim shows '11.63%'"
+        "detail": "valuation.json:wacc.wacc renders '11.81%', claim shows '11.81%'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'11.63%' appears in the text"
+        "detail": "'11.81%' appears in the text"
       },
       {
         "claim": "S4",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:reverse_dcf.implied_one_at_a_time.g_high renders '37.9%', claim shows '37.9%'"
+        "detail": "valuation.json:reverse_dcf.implied_one_at_a_time.g_high renders '39.0%', claim shows '39.0%'"
       },
       {
         "claim": "S4",
         "check": "N3",
         "status": "PASS",
-        "detail": "'37.9%' appears in the text"
+        "detail": "'39.0%' appears in the text"
       },
       {
         "claim": "S4",
@@ -658,13 +658,13 @@
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '1,172' is covered by evidence"
+        "detail": "number '1,184' is covered by evidence"
       },
       {
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '16' is covered by evidence"
+        "detail": "number '23' is covered by evidence"
       },
       {
         "claim": "S4",
@@ -682,13 +682,13 @@
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '11.63' is covered by evidence"
+        "detail": "number '11.81' is covered by evidence"
       },
       {
         "claim": "S4",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '37.9' is covered by evidence"
+        "detail": "number '39.0' is covered by evidence"
       },
       {
         "claim": "S4",
@@ -724,73 +724,73 @@
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.0.value_at_low renders '₹256', claim shows '₹256'"
+        "detail": "valuation.json:driver_ranking.0.value_at_low renders '₹249', claim shows '₹249'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹256' appears in the text"
+        "detail": "'₹249' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.0.value_at_high renders '₹444', claim shows '₹444'"
+        "detail": "valuation.json:driver_ranking.0.value_at_high renders '₹431', claim shows '₹431'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹444' appears in the text"
+        "detail": "'₹431' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.1.value_at_low renders '₹301', claim shows '₹301'"
+        "detail": "valuation.json:driver_ranking.1.value_at_low renders '₹294', claim shows '₹294'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹301' appears in the text"
+        "detail": "'₹294' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N2",
         "status": "PASS",
-        "detail": "valuation.json:driver_ranking.1.value_at_high renders '₹416', claim shows '₹416'"
+        "detail": "valuation.json:driver_ranking.1.value_at_high renders '₹403', claim shows '₹403'"
       },
       {
         "claim": "S5",
         "check": "N3",
         "status": "PASS",
-        "detail": "'₹416' appears in the text"
+        "detail": "'₹403' appears in the text"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '256' is covered by evidence"
+        "detail": "number '249' is covered by evidence"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '444' is covered by evidence"
+        "detail": "number '431' is covered by evidence"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '301' is covered by evidence"
+        "detail": "number '294' is covered by evidence"
       },
       {
         "claim": "S5",
         "check": "N1",
         "status": "PASS",
-        "detail": "number '416' is covered by evidence"
+        "detail": "number '403' is covered by evidence"
       },
       {
         "claim": "S5",

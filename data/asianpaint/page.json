@@ -1,5 +1,5 @@
 {
- "built": "2026-11-17",
+ "built": "2026-11-25",
  "slug": "asianpaint",
  "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
  "header": {
@@ -10,12 +10,12 @@
   "sector": "Paints and coatings",
   "sector_label": "consumption (thematic)",
   "sector_index": "NIFTY INDIA CONSUMPTION",
-  "price": "₹2,572.90",
-  "change": "+₹22.90",
-  "change_pct": "+0.90%",
-  "up": true,
-  "as_of": "16 Nov 2026",
-  "market_cap": "₹2.47 lakh crore",
+  "price": "₹2,580.40",
+  "change": "−₹27.90",
+  "change_pct": "-1.07%",
+  "up": false,
+  "as_of": "23 Nov 2026",
+  "market_cap": "₹2.48 lakh crore",
   "high_52w": "₹2,985.70",
   "low_52w": "₹2,115.00",
   "source": "NSE closing price (end of day, not live); 52-week range computed from daily highs and lows (NSE bhavcopy)"
@@ -58,7 +58,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "At ₹2,573 (NSE close, 16 Nov 2026), a discounted cash flow model with a 11.18% cost of capital does not reach the price at any revenue growth up to 30% a year for five years at the FY26 operating margin of 15.4%; nor, with revenue growing at its FY23–FY26 rate of 1.0%, at any operating margin up to 60%."
+      "text": "At ₹2,580 (NSE close, 23 Nov 2026), a discounted cash flow model with a 11.17% cost of capital does not reach the price at any revenue growth up to 30% a year for five years at the FY26 operating margin of 15.4%; nor, with revenue growing at its FY23–FY26 rate of 1.0%, at any operating margin up to 60%."
      }
     ]
    },
@@ -67,7 +67,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹444 to ₹592 a share) and to the operating margin (two percentage points either way: a model value of ₹447 to ₹565 a share); the Q3 FY27 result will be the next reported quarter."
+      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹445 to ₹594 a share) and to the operating margin (two percentage points either way: a model value of ₹448 to ₹566 a share); the Q3 FY27 result will be the next reported quarter."
      }
     ]
    }
@@ -78,7 +78,7 @@
  "prices": {
   "base_date": "2023-10-23",
   "base_display": "23 Oct 2023",
-  "end_display": "16 Nov 2026",
+  "end_display": "23 Nov 2026",
   "series": {
    "ASIANPAINT": [
     {
@@ -3098,6 +3098,10 @@
      "value": 82.88
     },
     {
+     "time": "2026-11-08",
+     "value": 82.32
+    },
+    {
      "time": "2026-11-09",
      "value": 81.68
     },
@@ -3116,6 +3120,26 @@
     {
      "time": "2026-11-16",
      "value": 83.75
+    },
+    {
+     "time": "2026-11-17",
+     "value": 85.45
+    },
+    {
+     "time": "2026-11-18",
+     "value": 83.99
+    },
+    {
+     "time": "2026-11-19",
+     "value": 84.47
+    },
+    {
+     "time": "2026-11-20",
+     "value": 84.91
+    },
+    {
+     "time": "2026-11-23",
+     "value": 84.0
     }
    ],
    "NIFTY 50": [
@@ -6136,6 +6160,10 @@
      "value": 129.81
     },
     {
+     "time": "2026-11-08",
+     "value": 129.59
+    },
+    {
      "time": "2026-11-09",
      "value": 129.89
     },
@@ -6154,6 +6182,26 @@
     {
      "time": "2026-11-16",
      "value": 131.17
+    },
+    {
+     "time": "2026-11-17",
+     "value": 131.67
+    },
+    {
+     "time": "2026-11-18",
+     "value": 130.84
+    },
+    {
+     "time": "2026-11-19",
+     "value": 132.32
+    },
+    {
+     "time": "2026-11-20",
+     "value": 133.81
+    },
+    {
+     "time": "2026-11-23",
+     "value": 131.47
     }
    ],
    "NIFTY INDIA CONSUMPTION": [
@@ -9174,6 +9222,10 @@
      "value": 141.78
     },
     {
+     "time": "2026-11-08",
+     "value": 141.39
+    },
+    {
      "time": "2026-11-09",
      "value": 141.53
     },
@@ -9192,6 +9244,26 @@
     {
      "time": "2026-11-16",
      "value": 143.44
+    },
+    {
+     "time": "2026-11-17",
+     "value": 143.98
+    },
+    {
+     "time": "2026-11-18",
+     "value": 142.36
+    },
+    {
+     "time": "2026-11-19",
+     "value": 145.31
+    },
+    {
+     "time": "2026-11-20",
+     "value": 146.28
+    },
+    {
+     "time": "2026-11-23",
+     "value": 145.4
     }
    ]
   },
@@ -9243,7 +9315,7 @@
   {
    "id": "market_cap",
    "label": "Market cap",
-   "display": "₹2.47 lakh crore",
+   "display": "₹2.48 lakh crore",
    "type": "CALCULATION",
    "definition": "Price × shares outstanding (share capital ÷ ₹1 face value at 2026-09-30).",
    "source": "NSE close; ASIANPAINT FY26 statements"
@@ -9251,7 +9323,7 @@
   {
    "id": "pe_ttm",
    "label": "P/E (TTM)",
-   "display": "51.0×",
+   "display": "51.2×",
    "type": "CALCULATION",
    "definition": "Price ÷ earnings per share over the last four reported quarters (Q3 FY26 – Q2 FY27).",
    "source": "ASIANPAINT quarterly filings"
@@ -9259,7 +9331,7 @@
   {
    "id": "ev_ebit_ttm",
    "label": "EV / EBIT (TTM)",
-   "display": "40.5×",
+   "display": "40.6×",
    "type": "CALCULATION",
    "definition": "Enterprise value (market cap − the net cash and treasury figure below) ÷ operating profit over the last four quarters.",
    "source": "ASIANPAINT filings; NSE close"
@@ -9315,7 +9387,7 @@
   {
    "id": "beta",
    "label": "Beta vs NIFTY 50",
-   "display": "0.90",
+   "display": "0.89",
    "type": "CALCULATION",
    "definition": "Sensitivity of ASIANPAINT's daily return to the NIFTY 50's, over the two years to the price date.",
    "source": "NSE and niftyindices daily closes"
@@ -10531,8 +10603,8 @@
   "applicable": true,
   "template": "A",
   "headline": {
-   "price": "₹2,573",
-   "as_of": "16 Nov 2026",
+   "price": "₹2,580",
+   "as_of": "23 Nov 2026",
    "implied_growth": "more than 30.0%",
    "margin": "15.4%",
    "last_fy": "FY26",
@@ -10601,14 +10673,14 @@
     "growth_display": "more than 30.0%"
    }
   ],
-  "price_value": 2572.9,
-  "price_display": "₹2,573",
+  "price_value": 2580.4,
+  "price_display": "₹2,580",
   "scenarios": [
    {
     "key": "bear",
     "name": "Bear",
-    "value": 426.05,
-    "display": "₹426",
+    "value": 426.73,
+    "display": "₹427",
     "what": "Revenue grows only at FY26's pace for five years, the operating margin slips 2 points, and growth after year 10 earns no more than its cost of capital.",
     "assumptions": [
      [
@@ -10636,8 +10708,8 @@
    {
     "key": "base",
     "name": "Base",
-    "value": 506.08,
-    "display": "₹506",
+    "value": 507.22,
+    "display": "₹507",
     "what": "Revenue keeps its FY23-FY26 growth rate for five years, the FY26 margin holds, and ASIANPAINT keeps its historical return on capital indefinitely.",
     "assumptions": [
      [
@@ -10658,15 +10730,15 @@
      ],
      [
       "Terminal value share of EV",
-      "52.0%"
+      "52.1%"
      ]
     ]
    },
    {
     "key": "bull",
     "name": "Bull",
-    "value": 1104.54,
-    "display": "₹1,105",
+    "value": 1107.94,
+    "display": "₹1,108",
     "what": "Revenue grows at H1 FY27's year-on-year pace for five years and the margin rises 1 point.",
     "assumptions": [
      [
@@ -10692,11 +10764,11 @@
     ]
    }
   ],
-  "base_value": 506.08,
-  "base_display": "₹506",
+  "base_value": 507.22,
+  "base_display": "₹507",
   "wacc": {
-   "wacc": "11.18%",
-   "ke": "11.30%",
+   "wacc": "11.17%",
+   "ke": "11.28%",
    "rf": "6.84%",
    "rf_n": "12",
    "rf_spot": "7.34%",
@@ -10704,7 +10776,7 @@
    "rf_max": "7.19%",
    "spread": "1.75%",
    "rf_local": "5.09%",
-   "beta": "0.90",
+   "beta": "0.89",
    "erp": "6.92%",
    "kd": "5.01%",
    "we": "98.2%",
@@ -10714,11 +10786,11 @@
   },
   "heatmap": {
    "wacc": [
-    "10.18%",
-    "10.68%",
-    "11.18%",
-    "11.68%",
-    "12.18%"
+    "10.17%",
+    "10.67%",
+    "11.17%",
+    "11.67%",
+    "12.17%"
    ],
    "g": [
     "3.50%",
@@ -10731,12 +10803,12 @@
    "cells": [
     [
      {
-      "display": "₹525",
+      "display": "₹526",
       "step": 4,
       "above_price": false
      },
      {
-      "display": "₹492",
+      "display": "₹493",
       "step": 3,
       "above_price": false
      },
@@ -10746,19 +10818,78 @@
       "above_price": false
      },
      {
-      "display": "₹437",
+      "display": "₹438",
       "step": 1,
       "above_price": false
      },
      {
-      "display": "₹414",
+      "display": "₹415",
       "step": 0,
       "above_price": false
      }
     ],
     [
      {
-      "display": "₹544",
+      "display": "₹545",
+      "step": 4,
+      "above_price": false
+     },
+     {
+      "display": "₹508",
+      "step": 3,
+      "above_price": false
+     },
+     {
+      "display": "₹476",
+      "step": 2,
+      "above_price": false
+     },
+     {
+      "display": "₹448",
+      "step": 1,
+      "above_price": false
+     },
+     {
+      "display": "₹424",
+      "step": 0,
+      "above_price": false
+     }
+    ],
+    [
+     {
+      "display": "₹567",
+      "step": 5,
+      "above_price": false
+     },
+     {
+      "display": "₹526",
+      "step": 4,
+      "above_price": false
+     },
+     {
+      "display": "₹490",
+      "step": 3,
+      "above_price": false
+     },
+     {
+      "display": "₹460",
+      "step": 2,
+      "above_price": false
+     },
+     {
+      "display": "₹434",
+      "step": 1,
+      "above_price": false
+     }
+    ],
+    [
+     {
+      "display": "₹594",
+      "step": 6,
+      "above_price": false
+     },
+     {
+      "display": "₹547",
       "step": 4,
       "above_price": false
      },
@@ -10768,71 +10899,12 @@
       "above_price": false
      },
      {
-      "display": "₹475",
+      "display": "₹474",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹447",
-      "step": 1,
-      "above_price": false
-     },
-     {
-      "display": "₹423",
-      "step": 0,
-      "above_price": false
-     }
-    ],
-    [
-     {
-      "display": "₹566",
-      "step": 5,
-      "above_price": false
-     },
-     {
-      "display": "₹525",
-      "step": 4,
-      "above_price": false
-     },
-     {
-      "display": "₹489",
-      "step": 3,
-      "above_price": false
-     },
-     {
-      "display": "₹459",
-      "step": 2,
-      "above_price": false
-     },
-     {
-      "display": "₹433",
-      "step": 1,
-      "above_price": false
-     }
-    ],
-    [
-     {
-      "display": "₹592",
-      "step": 6,
-      "above_price": false
-     },
-     {
-      "display": "₹545",
-      "step": 4,
-      "above_price": false
-     },
-     {
-      "display": "₹506",
-      "step": 3,
-      "above_price": false
-     },
-     {
-      "display": "₹473",
-      "step": 2,
-      "above_price": false
-     },
-     {
-      "display": "₹444",
+      "display": "₹445",
       "step": 1,
       "above_price": false
      }
@@ -10842,64 +10914,64 @@
   "tornado": [
    {
     "driver": "Cost of capital (WACC)",
-    "low": 443.8,
-    "high": 591.92,
-    "low_display": "₹444",
-    "high_display": "₹592",
+    "low": 444.66,
+    "high": 593.55,
+    "low_display": "₹445",
+    "high_display": "₹594",
     "low_input": "12.2%",
     "high_input": "10.2%"
    },
    {
     "driver": "Operating margin from year 5",
-    "low": 447.21,
-    "high": 564.94,
-    "low_display": "₹447",
-    "high_display": "₹565",
+    "low": 448.21,
+    "high": 566.24,
+    "low_display": "₹448",
+    "high_display": "₹566",
     "low_input": "13.4%",
     "high_input": "17.4%"
    },
    {
     "driver": "Long-run return on new capital",
-    "low": 430.43,
-    "high": 519.79,
-    "low_display": "₹430",
-    "high_display": "₹520",
+    "low": 431.08,
+    "high": 520.99,
+    "low_display": "₹431",
+    "high_display": "₹521",
     "low_input": "11.2%",
     "high_input": "29.4%"
    },
    {
     "driver": "Revenue growth, years 1–5",
-    "low": 468.38,
-    "high": 547.96,
-    "low_display": "₹468",
-    "high_display": "₹548",
+    "low": 469.39,
+    "high": 549.27,
+    "low_display": "₹469",
+    "high_display": "₹549",
     "low_input": "-1.0%",
     "high_input": "3.0%"
    },
    {
     "driver": "Tax rate",
-    "low": 492.16,
-    "high": 519.99,
-    "low_display": "₹492",
-    "high_display": "₹520",
+    "low": 493.28,
+    "high": 521.17,
+    "low_display": "₹493",
+    "high_display": "₹521",
     "low_input": "28.8%",
     "high_input": "24.8%"
    },
    {
     "driver": "Long-run growth",
-    "low": 489.47,
-    "high": 509.47,
-    "low_display": "₹489",
-    "high_display": "₹509",
+    "low": 490.5,
+    "high": 510.64,
+    "low_display": "₹491",
+    "high_display": "₹511",
     "low_input": "4.5%",
     "high_input": "5.1%"
    },
    {
     "driver": "Capital needed per ₹ of sales",
-    "low": 499.04,
-    "high": 510.3,
-    "low_display": "₹499",
-    "high_display": "₹510",
+    "low": 500.18,
+    "high": 511.45,
+    "low_display": "₹500",
+    "high_display": "₹511",
     "low_input": "1.58×",
     "high_input": "2.63×"
    }
@@ -11473,6 +11545,78 @@
     "title": "NIFTY INDIA CONSUMPTION historical data",
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-19",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY INDIA CONSUMPTION historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-18",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY INDIA CONSUMPTION historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-19 to 2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY INDIA CONSUMPTION historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-08",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY INDIA CONSUMPTION historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-08",
     "published": "",
     "url": "https://www.nseindia.in/reports-indices-historical-index-data",
     "link": "page"

@@ -1,5 +1,5 @@
 {
- "built": "2026-11-17",
+ "built": "2026-11-25",
  "slug": "titan",
  "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
  "header": {
@@ -10,12 +10,12 @@
   "sector": "Jewellery, watches and eyecare",
   "sector_label": "consumer durables",
   "sector_index": "NIFTY CONSUMER DURABLES",
-  "price": "₹4,910.00",
-  "change": "+₹65.10",
-  "change_pct": "+1.34%",
+  "price": "₹4,680.00",
+  "change": "+₹60.00",
+  "change_pct": "+1.30%",
   "up": true,
-  "as_of": "16 Nov 2026",
-  "market_cap": "₹4.37 lakh crore",
+  "as_of": "23 Nov 2026",
+  "market_cap": "₹4.17 lakh crore",
   "high_52w": "₹5,186.70",
   "low_52w": "₹3,751.00",
   "source": "NSE closing price (end of day, not live); 52-week range computed from daily highs and lows (NSE bhavcopy)"
@@ -58,7 +58,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "At ₹4,910 (NSE close, 16 Nov 2026), the reinvestment-phase discounted cash flow model (Template B, since TITAN's median return on invested capital of 26.7% is above its 11.21% cost of capital) matches the price if revenue grows about 44.7% a year for five years at the FY26 operating margin of 8.6%; TITAN's revenue grew 32.1% a year over FY22–FY26."
+      "text": "At ₹4,680 (NSE close, 23 Nov 2026), the reinvestment-phase discounted cash flow model (Template B, since TITAN's median return on invested capital of 26.7% is above its 11.01% cost of capital) matches the price if revenue grows about 42.6% a year for five years at the FY26 operating margin of 8.6%; TITAN's revenue grew 32.1% a year over FY22–FY26."
      },
      {
       "label": "FACT",
@@ -71,7 +71,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "With the other assumptions at base, the valuation is most sensitive to the operating margin (two percentage points either way: a model value of ₹1,716 to ₹3,572 a share) and to the cost of capital (one percentage point either way: a model value of ₹2,068 to ₹3,459 a share); the Q3 FY27 result will be the next reported quarter."
+      "text": "With the other assumptions at base, the valuation is most sensitive to the operating margin (two percentage points either way: a model value of ₹1,826 to ₹3,755 a share) and to the cost of capital (one percentage point either way: a model value of ₹2,174 to ₹3,674 a share); the Q3 FY27 result will be the next reported quarter."
      }
     ]
    }
@@ -82,7 +82,7 @@
  "prices": {
   "base_date": "2023-10-23",
   "base_display": "23 Oct 2023",
-  "end_display": "16 Nov 2026",
+  "end_display": "23 Nov 2026",
   "series": {
    "TITAN": [
     {
@@ -3102,6 +3102,10 @@
      "value": 155.29
     },
     {
+     "time": "2026-11-08",
+     "value": 155.0
+    },
+    {
      "time": "2026-11-09",
      "value": 155.45
     },
@@ -3120,6 +3124,26 @@
     {
      "time": "2026-11-16",
      "value": 152.5
+    },
+    {
+     "time": "2026-11-17",
+     "value": 152.43
+    },
+    {
+     "time": "2026-11-18",
+     "value": 144.36
+    },
+    {
+     "time": "2026-11-19",
+     "value": 145.97
+    },
+    {
+     "time": "2026-11-20",
+     "value": 143.49
+    },
+    {
+     "time": "2026-11-23",
+     "value": 145.35
     }
    ],
    "NIFTY 50": [
@@ -6140,6 +6164,10 @@
      "value": 129.81
     },
     {
+     "time": "2026-11-08",
+     "value": 129.59
+    },
+    {
      "time": "2026-11-09",
      "value": 129.89
     },
@@ -6158,6 +6186,26 @@
     {
      "time": "2026-11-16",
      "value": 131.17
+    },
+    {
+     "time": "2026-11-17",
+     "value": 131.67
+    },
+    {
+     "time": "2026-11-18",
+     "value": 130.84
+    },
+    {
+     "time": "2026-11-19",
+     "value": 132.32
+    },
+    {
+     "time": "2026-11-20",
+     "value": 133.81
+    },
+    {
+     "time": "2026-11-23",
+     "value": 131.47
     }
    ],
    "NIFTY CONSUMER DURABLES": [
@@ -9178,6 +9226,10 @@
      "value": 134.6
     },
     {
+     "time": "2026-11-08",
+     "value": 134.26
+    },
+    {
      "time": "2026-11-09",
      "value": 135.49
     },
@@ -9196,6 +9248,26 @@
     {
      "time": "2026-11-16",
      "value": 136.66
+    },
+    {
+     "time": "2026-11-17",
+     "value": 136.34
+    },
+    {
+     "time": "2026-11-18",
+     "value": 132.07
+    },
+    {
+     "time": "2026-11-19",
+     "value": 136.87
+    },
+    {
+     "time": "2026-11-20",
+     "value": 136.32
+    },
+    {
+     "time": "2026-11-23",
+     "value": 137.12
     }
    ]
   },
@@ -9247,7 +9319,7 @@
   {
    "id": "market_cap",
    "label": "Market cap",
-   "display": "₹4.37 lakh crore",
+   "display": "₹4.17 lakh crore",
    "type": "CALCULATION",
    "definition": "Price × shares outstanding (share capital ÷ ₹1 face value at 2026-09-30).",
    "source": "NSE close; TITAN FY26 statements"
@@ -9255,7 +9327,7 @@
   {
    "id": "pe_ttm",
    "label": "P/E (TTM)",
-   "display": "62.1×",
+   "display": "59.2×",
    "type": "CALCULATION",
    "definition": "Price ÷ earnings per share over the last four reported quarters (Q3 FY26 – Q2 FY27).",
    "source": "TITAN quarterly filings"
@@ -9263,7 +9335,7 @@
   {
    "id": "ev_ebit_ttm",
    "label": "EV / EBIT (TTM)",
-   "display": "48.3×",
+   "display": "46.1×",
    "type": "CALCULATION",
    "definition": "Enterprise value (market cap − the net cash and treasury figure below) ÷ operating profit over the last four quarters.",
    "source": "TITAN filings; NSE close"
@@ -9319,7 +9391,7 @@
   {
    "id": "beta",
    "label": "Beta vs NIFTY 50",
-   "display": "0.94",
+   "display": "0.91",
    "type": "CALCULATION",
    "definition": "Sensitivity of TITAN's daily return to the NIFTY 50's, over the two years to the price date.",
    "source": "NSE and niftyindices daily closes"
@@ -10815,16 +10887,16 @@
   "applicable": true,
   "template": "B",
   "headline": {
-   "price": "₹4,910",
-   "as_of": "16 Nov 2026",
-   "implied_growth": "44.7%",
+   "price": "₹4,680",
+   "as_of": "23 Nov 2026",
+   "implied_growth": "42.6%",
    "margin": "8.6%",
    "last_fy": "FY26",
    "history_span": "FY22–FY26",
    "history_growth": "32.1%",
    "last_year_growth": "44.9%",
    "alts": [
-    "margin rising to 13.5%",
+    "margin rising to 12.5%",
     "no long-run growth up to the default-free rate of 5.09%"
    ],
    "beyond": false
@@ -10839,60 +10911,60 @@
    {
     "margin": 5.6,
     "margin_display": "5.6%",
-    "growth": null,
-    "growth_display": "more than 60.0%"
+    "growth": 58.768,
+    "growth_display": "58.8%"
    },
    {
     "margin": 6.6,
     "margin_display": "6.6%",
-    "growth": 54.243,
-    "growth_display": "54.2%"
+    "growth": 51.746,
+    "growth_display": "51.7%"
    },
    {
     "margin": 7.6,
     "margin_display": "7.6%",
-    "growth": 48.901,
-    "growth_display": "48.9%"
+    "growth": 46.597,
+    "growth_display": "46.6%"
    },
    {
     "margin": 8.6,
     "margin_display": "8.6%",
-    "growth": 44.727,
-    "growth_display": "44.7%"
+    "growth": 42.553,
+    "growth_display": "42.6%"
    },
    {
     "margin": 9.6,
     "margin_display": "9.6%",
-    "growth": 41.316,
-    "growth_display": "41.3%"
+    "growth": 39.238,
+    "growth_display": "39.2%"
    },
    {
     "margin": 10.6,
     "margin_display": "10.6%",
-    "growth": 38.439,
-    "growth_display": "38.4%"
+    "growth": 36.435,
+    "growth_display": "36.4%"
    },
    {
     "margin": 11.6,
     "margin_display": "11.6%",
-    "growth": 35.957,
-    "growth_display": "36.0%"
+    "growth": 34.013,
+    "growth_display": "34.0%"
    },
    {
     "margin": 12.6,
     "margin_display": "12.6%",
-    "growth": 33.778,
-    "growth_display": "33.8%"
+    "growth": 31.883,
+    "growth_display": "31.9%"
    }
   ],
-  "price_value": 4910.0,
-  "price_display": "₹4,910",
+  "price_value": 4680.0,
+  "price_display": "₹4,680",
   "scenarios": [
    {
     "key": "bear",
     "name": "Bear",
-    "value": 469.96,
-    "display": "₹470",
+    "value": 492.15,
+    "display": "₹492",
     "what": "Revenue grows at 50% of its FY22-FY26 rate for five years, the operating margin slips 2 points, and growth after year 10 earns no more than its cost of capital.",
     "assumptions": [
      [
@@ -10909,19 +10981,19 @@
      ],
      [
       "Long-run return on new capital",
-      "11.2%"
+      "11.0%"
      ],
      [
       "Terminal value share of EV",
-      "70.9%"
+      "71.4%"
      ]
     ]
    },
    {
     "key": "base",
     "name": "Base",
-    "value": 2643.84,
-    "display": "₹2,644",
+    "value": 2790.9,
+    "display": "₹2,791",
     "what": "Revenue keeps its FY22-FY26 growth rate for five years, the FY26 margin holds, and TITAN keeps its historical return on capital indefinitely.",
     "assumptions": [
      [
@@ -10942,15 +11014,15 @@
      ],
      [
       "Terminal value share of EV",
-      "90.8%"
+      "91.0%"
      ]
     ]
    },
    {
     "key": "bull",
     "name": "Bull",
-    "value": 3482.85,
-    "display": "₹3,483",
+    "value": 3671.07,
+    "display": "₹3,671",
     "what": "Revenue grows 2 points a year faster than its FY22-FY26 rate for five years and the margin rises 1 point.",
     "assumptions": [
      [
@@ -10971,16 +11043,16 @@
      ],
      [
       "Terminal value share of EV",
-      "88.9%"
+      "89.2%"
      ]
     ]
    }
   ],
-  "base_value": 2643.84,
-  "base_display": "₹2,644",
+  "base_value": 2790.9,
+  "base_display": "₹2,791",
   "wacc": {
-   "wacc": "11.21%",
-   "ke": "11.60%",
+   "wacc": "11.01%",
+   "ke": "11.40%",
    "rf": "6.84%",
    "rf_n": "12",
    "rf_spot": "7.34%",
@@ -10988,21 +11060,21 @@
    "rf_max": "7.19%",
    "spread": "1.75%",
    "rf_local": "5.09%",
-   "beta": "0.94",
+   "beta": "0.91",
    "erp": "6.92%",
    "kd": "5.10%",
-   "we": "94.1%",
-   "wd": "5.9%",
+   "we": "93.8%",
+   "wd": "6.2%",
    "debt_label": "debt",
    "beta_years": "two"
   },
   "heatmap": {
    "wacc": [
-    "10.21%",
-    "10.71%",
-    "11.21%",
-    "11.71%",
-    "12.21%"
+    "10.01%",
+    "10.51%",
+    "11.00%",
+    "11.51%",
+    "12.01%"
    ],
    "g": [
     "3.50%",
@@ -11015,108 +11087,108 @@
    "cells": [
     [
      {
-      "display": "₹2,739",
+      "display": "₹2,883",
       "step": 3,
       "above_price": false
      },
      {
-      "display": "₹2,434",
+      "display": "₹2,556",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹2,171",
+      "display": "₹2,276",
       "step": 1,
       "above_price": false
      },
      {
-      "display": "₹1,943",
+      "display": "₹2,035",
       "step": 1,
       "above_price": false
      },
      {
-      "display": "₹1,744",
+      "display": "₹1,824",
       "step": 0,
       "above_price": false
      }
     ],
     [
      {
-      "display": "₹2,941",
+      "display": "₹3,103",
       "step": 4,
       "above_price": false
      },
      {
-      "display": "₹2,598",
+      "display": "₹2,735",
       "step": 3,
       "above_price": false
      },
      {
-      "display": "₹2,307",
+      "display": "₹2,424",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹2,056",
+      "display": "₹2,157",
       "step": 1,
       "above_price": false
      },
      {
-      "display": "₹1,839",
+      "display": "₹1,926",
       "step": 0,
       "above_price": false
      }
     ],
     [
      {
-      "display": "₹3,177",
+      "display": "₹3,363",
       "step": 5,
       "above_price": false
      },
      {
-      "display": "₹2,789",
+      "display": "₹2,944",
       "step": 4,
       "above_price": false
      },
      {
-      "display": "₹2,463",
-      "step": 3,
-      "above_price": false
-     },
-     {
-      "display": "₹2,185",
+      "display": "₹2,593",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹1,946",
+      "display": "₹2,296",
+      "step": 2,
+      "above_price": false
+     },
+     {
+      "display": "₹2,042",
       "step": 1,
       "above_price": false
      }
     ],
     [
      {
-      "display": "₹3,459",
+      "display": "₹3,674",
       "step": 6,
       "above_price": false
      },
      {
-      "display": "₹3,013",
+      "display": "₹3,190",
       "step": 4,
       "above_price": false
      },
      {
-      "display": "₹2,644",
+      "display": "₹2,791",
       "step": 3,
       "above_price": false
      },
      {
-      "display": "₹2,333",
+      "display": "₹2,457",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹2,068",
+      "display": "₹2,174",
       "step": 1,
       "above_price": false
      }
@@ -11126,88 +11198,88 @@
   "tornado": [
    {
     "driver": "Operating margin from year 5",
-    "low": 1716.14,
-    "high": 3571.54,
-    "low_display": "₹1,716",
-    "high_display": "₹3,572",
+    "low": 1826.42,
+    "high": 3755.38,
+    "low_display": "₹1,826",
+    "high_display": "₹3,755",
     "low_input": "6.6%",
     "high_input": "10.6%"
    },
    {
     "driver": "Cost of capital (WACC)",
-    "low": 2067.93,
-    "high": 3459.14,
-    "low_display": "₹2,068",
-    "high_display": "₹3,459",
-    "low_input": "12.2%",
-    "high_input": "10.2%"
+    "low": 2173.97,
+    "high": 3673.99,
+    "low_display": "₹2,174",
+    "high_display": "₹3,674",
+    "low_input": "12.0%",
+    "high_input": "10.0%"
    },
    {
     "driver": "Long-run return on new capital",
-    "low": 1783.11,
-    "high": 2758.49,
-    "low_display": "₹1,783",
-    "high_display": "₹2,758",
-    "low_input": "11.2%",
+    "low": 1855.23,
+    "high": 2911.71,
+    "low_display": "₹1,855",
+    "high_display": "₹2,912",
+    "low_input": "11.0%",
     "high_input": "35.1%"
    },
    {
     "driver": "Capital needed per ₹ of sales",
-    "low": 2232.56,
-    "high": 2890.6,
-    "low_display": "₹2,233",
-    "high_display": "₹2,891",
+    "low": 2375.76,
+    "high": 3039.99,
+    "low_display": "₹2,376",
+    "high_display": "₹3,040",
     "low_input": "2.44×",
     "high_input": "4.06×"
    },
    {
     "driver": "Revenue growth, years 1–5",
-    "low": 2388.97,
-    "high": 2922.82,
-    "low_display": "₹2,389",
-    "high_display": "₹2,923",
+    "low": 2521.21,
+    "high": 3086.16,
+    "low_display": "₹2,521",
+    "high_display": "₹3,086",
     "low_input": "30.1%",
     "high_input": "34.1%"
    },
    {
-    "driver": "Tax rate",
-    "low": 2532.67,
-    "high": 2755.01,
-    "low_display": "₹2,533",
-    "high_display": "₹2,755",
-    "low_input": "27.4%",
-    "high_input": "23.4%"
-   },
-   {
     "driver": "Long-run growth",
-    "low": 2462.88,
-    "high": 2680.87,
-    "low_display": "₹2,463",
-    "high_display": "₹2,681",
+    "low": 2593.23,
+    "high": 2831.48,
+    "low_display": "₹2,593",
+    "high_display": "₹2,831",
     "low_input": "4.5%",
     "high_input": "5.1%"
+   },
+   {
+    "driver": "Tax rate",
+    "low": 2675.48,
+    "high": 2906.33,
+    "low_display": "₹2,675",
+    "high_display": "₹2,906",
+    "low_input": "27.4%",
+    "high_input": "23.4%"
    }
   ],
   "rule_note": "The cost of debt and long-run growth are set by fixed rules and not reviewed by a person.",
   "template_b": {
    "name": "Template B · reinvestment phase",
    "why": "Template A needs free cash flow to the firm to be positive in at least three of the last four years, and here it was ₹496 crore in FY23, −₹35 crore in FY24, −₹1,630 crore in FY25 and ₹1,804 crore in FY26.",
-   "test": "Template B runs the same model but asks a different question of the past: does the capital being reinvested earn more than it costs? The median return on invested capital over FY24–FY26 was 26.7%, against a cost of capital of 11.21%. Its bear and bull cases are set around the history growth rate, because the latest years are the reinvestment itself.",
+   "test": "Template B runs the same model but asks a different question of the past: does the capital being reinvested earn more than it costs? The median return on invested capital over FY24–FY26 was 26.7%, against a cost of capital of 11.01%. Its bear and bull cases are set around the history growth rate, because the latest years are the reinvestment itself.",
    "tiles": [
     [
      "₹42,168 crore",
      "capital in place, 30 Sep 2026"
     ],
     [
-     "₹67,028 crore",
+     "₹69,042 crore",
      "economic profit, years 1–10, today's value"
     ],
     [
-     "₹1,50,011 crore",
+     "₹1,61,085 crore",
      "economic profit after year 10, today's value"
     ],
     [
-     "₹2,59,207 crore",
+     "₹2,72,295 crore",
      "enterprise value, base case"
     ]
    ],
@@ -11225,16 +11297,16 @@
     "FY36"
    ],
    "ep": [
-    1402.91,
-    4582.32,
-    6443.38,
-    8901.04,
-    12146.57,
-    15211.94,
-    18045.37,
-    20262.83,
-    21491.91,
-    21460.25
+    1444.73,
+    4679.75,
+    6564.72,
+    9053.96,
+    12341.18,
+    15461.6,
+    18355.46,
+    20633.91,
+    21918.08,
+    21928.42
    ],
    "fcff": [
     -607.09,
@@ -11249,16 +11321,16 @@
     35882.68
    ],
    "ep_display": [
-    "₹1,403 crore",
-    "₹4,582 crore",
-    "₹6,443 crore",
-    "₹8,901 crore",
-    "₹12,147 crore",
-    "₹15,212 crore",
-    "₹18,045 crore",
-    "₹20,263 crore",
-    "₹21,492 crore",
-    "₹21,460 crore"
+    "₹1,445 crore",
+    "₹4,680 crore",
+    "₹6,565 crore",
+    "₹9,054 crore",
+    "₹12,341 crore",
+    "₹15,462 crore",
+    "₹18,355 crore",
+    "₹20,634 crore",
+    "₹21,918 crore",
+    "₹21,928 crore"
    ],
    "fcff_display": [
     "−₹607 crore",
@@ -11277,80 +11349,80 @@
      "FY27 (rest of year)",
      "₹42,168 crore",
      "₹3,698 crore",
-     "₹2,295 crore",
-     "₹1,403 crore",
+     "₹2,253 crore",
+     "₹1,445 crore",
      "−₹607 crore"
     ],
     [
      "FY28",
      "₹46,473 crore",
      "₹9,794 crore",
-     "₹5,212 crore",
-     "₹4,582 crore",
+     "₹5,114 crore",
+     "₹4,680 crore",
      "−₹1,608 crore"
     ],
     [
      "FY29",
      "₹57,875 crore",
      "₹12,934 crore",
-     "₹6,491 crore",
-     "₹6,443 crore",
+     "₹6,369 crore",
+     "₹6,565 crore",
      "−₹2,123 crore"
     ],
     [
      "FY30",
      "₹72,932 crore",
      "₹17,080 crore",
-     "₹8,179 crore",
-     "₹8,901 crore",
+     "₹8,026 crore",
+     "₹9,054 crore",
      "−₹2,804 crore"
     ],
     [
      "FY31",
      "₹92,817 crore",
      "₹22,556 crore",
-     "₹10,409 crore",
-     "₹12,147 crore",
+     "₹10,215 crore",
+     "₹12,341 crore",
      "−₹3,703 crore"
     ],
     [
      "FY32",
      "₹1,19,075 crore",
      "₹28,566 crore",
-     "₹13,354 crore",
-     "₹15,212 crore",
+     "₹13,104 crore",
+     "₹15,462 crore",
      "−₹257 crore"
     ],
     [
      "FY33",
      "₹1,47,898 crore",
      "₹34,632 crore",
-     "₹16,586 crore",
-     "₹18,045 crore",
+     "₹16,276 crore",
+     "₹18,355 crore",
      "₹5,542 crore"
     ],
     [
      "FY34",
      "₹1,76,987 crore",
      "₹40,111 crore",
-     "₹19,849 crore",
-     "₹20,263 crore",
+     "₹19,478 crore",
+     "₹20,634 crore",
      "₹13,832 crore"
     ],
     [
      "FY35",
      "₹2,03,266 crore",
      "₹44,288 crore",
-     "₹22,796 crore",
-     "₹21,492 crore",
+     "₹22,370 crore",
+     "₹21,918 crore",
      "₹24,260 crore"
     ],
     [
      "FY36",
      "₹2,23,294 crore",
      "₹46,502 crore",
-     "₹25,042 crore",
-     "₹21,460 crore",
+     "₹24,574 crore",
+     "₹21,928 crore",
      "₹35,883 crore"
     ]
    ]
@@ -11926,6 +11998,78 @@
     "title": "NIFTY CONSUMER DURABLES historical data",
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-19",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY CONSUMER DURABLES historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-18",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY CONSUMER DURABLES historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-19 to 2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY CONSUMER DURABLES historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-08",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY CONSUMER DURABLES historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-08",
     "published": "",
     "url": "https://www.nseindia.in/reports-indices-historical-index-data",
     "link": "page"

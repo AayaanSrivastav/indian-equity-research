@@ -45,18 +45,24 @@
       (full ? " disabled" : "") + "> Compare</label>";
   }
 
+  // two bars on one scale and one sentence, all precomputed by the engine (widths, ratio): this only places them. The colours name
+  // the two series (implied, achieved); they never signal good or bad.
+  function growthBox(c) {
+    var g = c.growth_box;
+    if (!g) { return ""; }  // older data without the box (a cached file): show the rest of the tile, never break the list
+    return '<div class="gbox" role="group" aria-label="Growth the price implies against growth achieved">' + g.rows.map(function (r) {
+      return '<div class="grow g-' + esc(r.key) + '"><div class="gl"><span>' + esc(r.label) + "</span><b>" + esc(r.display) + "</b></div>" +
+        '<div class="bar" aria-hidden="true"><i class="' + (r.open ? "open" : "") + '" style="width:' + esc(r.width) + '%"></i></div></div>';
+    }).join("") + '<p class="gsent">' + esc(g.sentence) + "</p></div>";
+  }
+
   function card(c) {
-    var stat = function (k, v, sub) {
-      return '<div class="stat"><div class="k">' + esc(k) + '</div><div class="v">' + esc(v) + "</div>" + (sub ? '<div class="sub">' + esc(sub) + "</div>" : "") + "</div>";
-    };
     return '<article class="card co-card">' +
       '<div class="top"><h3><a href="company.html?c=' + encodeURIComponent(c.slug) + '">' + esc(c.name) + '</a></h3><span class="chip">' + esc(c.symbol) + "</span></div>" +
       '<div class="small muted">' + esc(c.sector) + "</div>" +
       '<div class="px">' + esc(c.price) + ' <span class="pill ' + (c.up ? "up" : "down") + '" style="font-size:13px">' + (c.up ? "▲ " : "▼ ") + esc(c.change_pct) + "</span></div>" +
       '<div class="small muted">NSE close, ' + esc(c.as_of) + "</div>" +
-      '<div class="facts">' + stat("Market cap", c.market_cap) +
-      (c.applicable ? stat("Growth the price implies", c.implied_growth + " a year") : stat("Model value", "Not applicable")) +
-      stat("Grew " + c.history_span, c.history_growth + " a year") + "</div>" +
+      growthBox(c) + '<div class="small muted mcap">Market cap ' + esc(c.market_cap) + "</div>" +
       '<div class="badges">' + badges(c) + "</div>" + pick(c) + "</article>";
   }
 
@@ -128,6 +134,7 @@
     return r.json();
   }).then(function (data) {
     cards = data.companies;
+    $("bars-note").textContent = data.bar_scale_note || "";
     var sectors = cards.map(function (c) { return c.sector_label; }).filter(function (s, i, all) { return all.indexOf(s) === i; })
       .sort(function (a, b) { return a.localeCompare(b, undefined, { sensitivity: "base" }); });
     $("sector").insertAdjacentHTML("beforeend", sectors.map(function (s) { return '<option value="' + esc(s) + '">' + esc(s) + "</option>"; }).join(""));

@@ -1,5 +1,5 @@
 {
- "built": "2026-11-17",
+ "built": "2026-11-25",
  "slug": "tataconsum",
  "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
  "header": {
@@ -10,12 +10,12 @@
   "sector": "Packaged foods and beverages",
   "sector_label": "FMCG",
   "sector_index": "NIFTY FMCG",
-  "price": "₹1,117.50",
-  "change": "+₹38.50",
-  "change_pct": "+3.57%",
-  "up": true,
-  "as_of": "16 Nov 2026",
-  "market_cap": "₹1.11 lakh crore",
+  "price": "₹1,133.00",
+  "change": "−₹22.90",
+  "change_pct": "-1.98%",
+  "up": false,
+  "as_of": "23 Nov 2026",
+  "market_cap": "₹1.12 lakh crore",
   "high_52w": "₹1,282.70",
   "low_52w": "₹916.00",
   "source": "NSE closing price (end of day, not live); 52-week range computed from daily highs and lows (NSE bhavcopy)"
@@ -58,7 +58,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "Neither discounted cash flow template used on this site applies to TATACONSUM: Template A needs free cash flow to the firm to be positive in at least three of the last four years, and it was −₹1,628 crore in FY24 and −₹949 crore in FY25; Template B, for companies reinvesting at a return above their cost of capital, needs the median return on invested capital of the last three years to beat that cost, and it was 8.3% against 9.90%, so no model value is shown."
+      "text": "Neither discounted cash flow template used on this site applies to TATACONSUM: Template A needs free cash flow to the firm to be positive in at least three of the last four years, and it was −₹1,628 crore in FY24 and −₹949 crore in FY25; Template B, for companies reinvesting at a return above their cost of capital, needs the median return on invested capital of the last three years to beat that cost, and it was 8.3% against 9.84%, so no model value is shown."
      },
      {
       "label": "FACT",
@@ -66,7 +66,7 @@
      },
      {
       "label": "CALCULATION",
-      "text": "At ₹1,118 (NSE close, 16 Nov 2026), the shares traded at 65.1× the profit attributable to shareholders over the last four reported quarters."
+      "text": "At ₹1,133 (NSE close, 23 Nov 2026), the shares traded at 66.0× the profit attributable to shareholders over the last four reported quarters."
      }
     ]
    },
@@ -86,7 +86,7 @@
  "prices": {
   "base_date": "2023-10-23",
   "base_display": "23 Oct 2023",
-  "end_display": "16 Nov 2026",
+  "end_display": "23 Nov 2026",
   "series": {
    "TATACONSUM": [
     {
@@ -3106,6 +3106,10 @@
      "value": 123.01
     },
     {
+     "time": "2026-11-08",
+     "value": 122.3
+    },
+    {
      "time": "2026-11-09",
      "value": 122.74
     },
@@ -3124,6 +3128,26 @@
     {
      "time": "2026-11-16",
      "value": 126.54
+    },
+    {
+     "time": "2026-11-17",
+     "value": 125.97
+    },
+    {
+     "time": "2026-11-18",
+     "value": 128.06
+    },
+    {
+     "time": "2026-11-19",
+     "value": 129.54
+    },
+    {
+     "time": "2026-11-20",
+     "value": 130.89
+    },
+    {
+     "time": "2026-11-23",
+     "value": 128.3
     }
    ],
    "NIFTY 50": [
@@ -6144,6 +6168,10 @@
      "value": 129.81
     },
     {
+     "time": "2026-11-08",
+     "value": 129.59
+    },
+    {
      "time": "2026-11-09",
      "value": 129.89
     },
@@ -6162,6 +6190,26 @@
     {
      "time": "2026-11-16",
      "value": 131.17
+    },
+    {
+     "time": "2026-11-17",
+     "value": 131.67
+    },
+    {
+     "time": "2026-11-18",
+     "value": 130.84
+    },
+    {
+     "time": "2026-11-19",
+     "value": 132.32
+    },
+    {
+     "time": "2026-11-20",
+     "value": 133.81
+    },
+    {
+     "time": "2026-11-23",
+     "value": 131.47
     }
    ],
    "NIFTY FMCG": [
@@ -9182,6 +9230,10 @@
      "value": 90.98
     },
     {
+     "time": "2026-11-08",
+     "value": 90.88
+    },
+    {
      "time": "2026-11-09",
      "value": 90.74
     },
@@ -9200,6 +9252,26 @@
     {
      "time": "2026-11-16",
      "value": 92.78
+    },
+    {
+     "time": "2026-11-17",
+     "value": 92.59
+    },
+    {
+     "time": "2026-11-18",
+     "value": 92.51
+    },
+    {
+     "time": "2026-11-19",
+     "value": 94.44
+    },
+    {
+     "time": "2026-11-20",
+     "value": 94.39
+    },
+    {
+     "time": "2026-11-23",
+     "value": 93.95
     }
    ]
   },
@@ -9251,7 +9323,7 @@
   {
    "id": "market_cap",
    "label": "Market cap",
-   "display": "₹1.11 lakh crore",
+   "display": "₹1.12 lakh crore",
    "type": "CALCULATION",
    "definition": "Price × shares outstanding (share capital ÷ ₹1 face value at 2026-09-30).",
    "source": "NSE close; TATACONSUM FY26 statements"
@@ -9259,7 +9331,7 @@
   {
    "id": "pe_ttm",
    "label": "P/E (TTM)",
-   "display": "65.1×",
+   "display": "66.0×",
    "type": "CALCULATION",
    "definition": "Price ÷ earnings per share over the last four reported quarters (Q3 FY26 – Q2 FY27).",
    "source": "TATACONSUM quarterly filings"
@@ -9267,7 +9339,7 @@
   {
    "id": "ev_ebit_ttm",
    "label": "EV / EBIT (TTM)",
-   "display": "46.7×",
+   "display": "47.4×",
    "type": "CALCULATION",
    "definition": "Enterprise value (market cap − the net cash and treasury figure below) ÷ operating profit over the last four quarters.",
    "source": "TATACONSUM filings; NSE close"
@@ -9323,7 +9395,7 @@
   {
    "id": "beta",
    "label": "Beta vs NIFTY 50",
-   "display": "0.71",
+   "display": "0.70",
    "type": "CALCULATION",
    "definition": "Sensitivity of TATACONSUM's daily return to the NIFTY 50's, over the two years to the price date.",
    "source": "NSE and niftyindices daily closes"
@@ -10823,13 +10895,13 @@
   ],
   "b_template": "B (reinvestment phase, return on capital above its cost)",
   "b_reasons": [
-   "median return on invested capital over the last 3 years (8.3%) is not above the cost of capital (9.90%), so growth would not add value"
+   "median return on invested capital over the last 3 years (8.3%) is not above the cost of capital (9.84%), so growth would not add value"
   ],
   "note": "Neither Template A nor Template B applies, so no DCF value, scenario, reverse DCF or sensitivity is computed.",
-  "price_display": "₹1,118",
-  "as_of": "16 Nov 2026",
-  "pe": "65.1×",
-  "ev_ebit": "46.7×",
+  "price_display": "₹1,133",
+  "as_of": "23 Nov 2026",
+  "pe": "66.0×",
+  "ev_ebit": "47.4×",
   "fcff": [
    {
     "fy": "FY23",
@@ -10857,7 +10929,7 @@
   {
    "level": "caution",
    "title": "No valuation: the model does not apply",
-   "text": "The model gives no value for this company, so there is no growth figure to read. Reasons: free cash flow not positive in at least 3 of the last 4 years; median return on invested capital over the last 3 years (8.3%) is not above the cost of capital (9.90%), so growth would not add value."
+   "text": "The model gives no value for this company, so there is no growth figure to read. Reasons: free cash flow not positive in at least 3 of the last 4 years; median return on invested capital over the last 3 years (8.3%) is not above the cost of capital (9.84%), so growth would not add value."
   },
   {
    "level": "note",
@@ -11407,6 +11479,78 @@
     "title": "NIFTY FMCG historical data",
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-19",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY FMCG historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-18",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY FMCG historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-19 to 2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY FMCG historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-08",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY FMCG historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-08",
     "published": "",
     "url": "https://www.nseindia.in/reports-indices-historical-index-data",
     "link": "page"

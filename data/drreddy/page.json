@@ -1,5 +1,5 @@
 {
- "built": "2026-11-17",
+ "built": "2026-11-25",
  "slug": "drreddy",
  "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
  "header": {
@@ -10,11 +10,11 @@
   "sector": "Pharmaceuticals",
   "sector_label": "pharma",
   "sector_index": "NIFTY PHARMA",
-  "price": "₹1,377.90",
-  "change": "−₹2.10",
-  "change_pct": "-0.15%",
+  "price": "₹1,380.10",
+  "change": "−₹10.10",
+  "change_pct": "-0.73%",
   "up": false,
-  "as_of": "16 Nov 2026",
+  "as_of": "23 Nov 2026",
   "market_cap": "₹1.15 lakh crore",
   "high_52w": "₹1,414.90",
   "low_52w": "₹1,101.00",
@@ -58,7 +58,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "At ₹1,378 (NSE close, 16 Nov 2026), the reinvestment-phase discounted cash flow model (Template B, since DRREDDY's median return on invested capital of 21.6% is above its 8.77% cost of capital) matches the price if revenue grows about 17.6% a year for five years at the FY26 operating margin of 13.0%; DRREDDY's revenue grew 11.0% a year over FY23–FY26."
+      "text": "At ₹1,380 (NSE close, 23 Nov 2026), the reinvestment-phase discounted cash flow model (Template B, since DRREDDY's median return on invested capital of 21.6% is above its 8.67% cost of capital) matches the price if revenue grows about 16.8% a year for five years at the FY26 operating margin of 13.0%; DRREDDY's revenue grew 11.0% a year over FY23–FY26."
      }
     ]
    },
@@ -67,7 +67,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹778 to ₹1,500 a share) and to how long DRREDDY keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹631 to ₹1,097 a share); the Q3 FY27 result will be the next reported quarter."
+      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹799 to ₹1,565 a share) and to how long DRREDDY keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹642 to ₹1,133 a share); the Q3 FY27 result will be the next reported quarter."
      }
     ]
    }
@@ -78,7 +78,7 @@
  "prices": {
   "base_date": "2023-10-23",
   "base_display": "23 Oct 2023",
-  "end_display": "16 Nov 2026",
+  "end_display": "23 Nov 2026",
   "series": {
    "DRREDDY": [
     {
@@ -3098,6 +3098,10 @@
      "value": 123.65
     },
     {
+     "time": "2026-11-08",
+     "value": 123.38
+    },
+    {
      "time": "2026-11-09",
      "value": 124.73
     },
@@ -3116,6 +3120,26 @@
     {
      "time": "2026-11-16",
      "value": 124.09
+    },
+    {
+     "time": "2026-11-17",
+     "value": 125.0
+    },
+    {
+     "time": "2026-11-18",
+     "value": 125.92
+    },
+    {
+     "time": "2026-11-19",
+     "value": 126.16
+    },
+    {
+     "time": "2026-11-20",
+     "value": 125.2
+    },
+    {
+     "time": "2026-11-23",
+     "value": 124.29
     }
    ],
    "NIFTY 50": [
@@ -6136,6 +6160,10 @@
      "value": 129.81
     },
     {
+     "time": "2026-11-08",
+     "value": 129.59
+    },
+    {
      "time": "2026-11-09",
      "value": 129.89
     },
@@ -6154,6 +6182,26 @@
     {
      "time": "2026-11-16",
      "value": 131.17
+    },
+    {
+     "time": "2026-11-17",
+     "value": 131.67
+    },
+    {
+     "time": "2026-11-18",
+     "value": 130.84
+    },
+    {
+     "time": "2026-11-19",
+     "value": 132.32
+    },
+    {
+     "time": "2026-11-20",
+     "value": 133.81
+    },
+    {
+     "time": "2026-11-23",
+     "value": 131.47
     }
    ],
    "NIFTY PHARMA": [
@@ -9174,6 +9222,10 @@
      "value": 187.37
     },
     {
+     "time": "2026-11-08",
+     "value": 190.64
+    },
+    {
      "time": "2026-11-09",
      "value": 193.78
     },
@@ -9192,6 +9244,26 @@
     {
      "time": "2026-11-16",
      "value": 188.43
+    },
+    {
+     "time": "2026-11-17",
+     "value": 188.83
+    },
+    {
+     "time": "2026-11-18",
+     "value": 189.12
+    },
+    {
+     "time": "2026-11-19",
+     "value": 190.27
+    },
+    {
+     "time": "2026-11-20",
+     "value": 190.37
+    },
+    {
+     "time": "2026-11-23",
+     "value": 189.71
     }
    ]
   },
@@ -9251,7 +9323,7 @@
   {
    "id": "pe_ttm",
    "label": "P/E (TTM)",
-   "display": "41.1×",
+   "display": "41.2×",
    "type": "CALCULATION",
    "definition": "Price ÷ earnings per share over the last four reported quarters (Q3 FY26 – Q2 FY27).",
    "source": "DRREDDY quarterly filings"
@@ -9259,7 +9331,7 @@
   {
    "id": "ev_ebit_ttm",
    "label": "EV / EBIT (TTM)",
-   "display": "42.1×",
+   "display": "42.2×",
    "type": "CALCULATION",
    "definition": "Enterprise value (market cap − the net cash and treasury figure below) ÷ operating profit over the last four quarters.",
    "source": "DRREDDY filings; NSE close"
@@ -9315,7 +9387,7 @@
   {
    "id": "beta",
    "label": "Beta vs NIFTY 50",
-   "display": "0.56",
+   "display": "0.55",
    "type": "CALCULATION",
    "definition": "Sensitivity of DRREDDY's daily return to the NIFTY 50's, over the two years to the price date.",
    "source": "NSE and niftyindices daily closes"
@@ -10531,16 +10603,16 @@
   "applicable": true,
   "template": "B",
   "headline": {
-   "price": "₹1,378",
-   "as_of": "16 Nov 2026",
-   "implied_growth": "17.6%",
+   "price": "₹1,380",
+   "as_of": "23 Nov 2026",
+   "implied_growth": "16.8%",
    "margin": "13.0%",
    "last_fy": "FY26",
    "history_span": "FY23–FY26",
    "history_growth": "11.0%",
    "last_year_growth": "3.2%",
    "alts": [
-    "margin rising to 16.4%",
+    "margin rising to 16.0%",
     "no long-run growth up to the default-free rate of 5.09%"
    ],
    "beyond": false
@@ -10549,66 +10621,66 @@
    {
     "margin": 9.04,
     "margin_display": "9.0%",
-    "growth": 32.555,
-    "growth_display": "32.6%"
+    "growth": 31.198,
+    "growth_display": "31.2%"
    },
    {
     "margin": 10.04,
     "margin_display": "10.0%",
-    "growth": 27.35,
-    "growth_display": "27.3%"
+    "growth": 26.236,
+    "growth_display": "26.2%"
    },
    {
     "margin": 11.04,
     "margin_display": "11.0%",
-    "growth": 23.394,
-    "growth_display": "23.4%"
+    "growth": 22.429,
+    "growth_display": "22.4%"
    },
    {
     "margin": 12.04,
     "margin_display": "12.0%",
-    "growth": 20.22,
-    "growth_display": "20.2%"
+    "growth": 19.356,
+    "growth_display": "19.4%"
    },
    {
     "margin": 13.04,
     "margin_display": "13.0%",
-    "growth": 17.578,
-    "growth_display": "17.6%"
+    "growth": 16.788,
+    "growth_display": "16.8%"
    },
    {
     "margin": 14.04,
     "margin_display": "14.0%",
-    "growth": 15.321,
-    "growth_display": "15.3%"
+    "growth": 14.586,
+    "growth_display": "14.6%"
    },
    {
     "margin": 15.04,
     "margin_display": "15.0%",
-    "growth": 13.355,
-    "growth_display": "13.4%"
+    "growth": 12.664,
+    "growth_display": "12.7%"
    },
    {
     "margin": 16.04,
     "margin_display": "16.0%",
-    "growth": 11.615,
-    "growth_display": "11.6%"
+    "growth": 10.96,
+    "growth_display": "11.0%"
    },
    {
     "margin": 17.04,
     "margin_display": "17.0%",
-    "growth": 10.057,
-    "growth_display": "10.1%"
+    "growth": 9.432,
+    "growth_display": "9.4%"
    }
   ],
-  "price_value": 1377.9,
-  "price_display": "₹1,378",
+  "price_value": 1380.1,
+  "price_display": "₹1,380",
   "scenarios": [
    {
     "key": "bear",
     "name": "Bear",
-    "value": 448.2,
-    "display": "₹448",
+    "value": 454.91,
+    "display": "₹455",
     "what": "Revenue grows at 50% of its FY23-FY26 rate for five years, the operating margin slips 2 points, and growth after year 10 earns no more than its cost of capital.",
     "assumptions": [
      [
@@ -10625,19 +10697,19 @@
      ],
      [
       "Long-run return on new capital",
-      "8.8%"
+      "8.7%"
      ],
      [
       "Terminal value share of EV",
-      "67.2%"
+      "67.5%"
      ]
     ]
    },
    {
     "key": "base",
     "name": "Base",
-    "value": 1041.08,
-    "display": "₹1,041",
+    "value": 1075.37,
+    "display": "₹1,075",
     "what": "Revenue keeps its FY23-FY26 growth rate for five years, the FY26 margin holds, and DRREDDY keeps its historical return on capital indefinitely.",
     "assumptions": [
      [
@@ -10658,15 +10730,15 @@
      ],
      [
       "Terminal value share of EV",
-      "89.9%"
+      "90.1%"
      ]
     ]
    },
    {
     "key": "bull",
     "name": "Bull",
-    "value": 1267.8,
-    "display": "₹1,268",
+    "value": 1311.38,
+    "display": "₹1,311",
     "what": "Revenue grows 2 points a year faster than its FY23-FY26 rate for five years and the margin rises 1 point.",
     "assumptions": [
      [
@@ -10687,16 +10759,16 @@
      ],
      [
       "Terminal value share of EV",
-      "92.1%"
+      "92.3%"
      ]
     ]
    }
   ],
-  "base_value": 1041.08,
-  "base_display": "₹1,041",
+  "base_value": 1075.37,
+  "base_display": "₹1,075",
   "wacc": {
-   "wacc": "8.77%",
-   "ke": "8.99%",
+   "wacc": "8.67%",
+   "ke": "8.88%",
    "rf": "6.84%",
    "rf_n": "12",
    "rf_spot": "7.34%",
@@ -10704,7 +10776,7 @@
    "rf_max": "7.19%",
    "spread": "1.75%",
    "rf_local": "5.09%",
-   "beta": "0.56",
+   "beta": "0.55",
    "erp": "6.92%",
    "kd": "5.22%",
    "we": "94.1%",
@@ -10714,11 +10786,11 @@
   },
   "heatmap": {
    "wacc": [
-    "7.76%",
-    "8.27%",
-    "8.77%",
-    "9.26%",
-    "9.77%"
+    "7.67%",
+    "8.17%",
+    "8.67%",
+    "9.17%",
+    "9.67%"
    ],
    "g": [
     "3.50%",
@@ -10731,7 +10803,98 @@
    "cells": [
     [
      {
-      "display": "₹1,057",
+      "display": "₹1,088",
+      "step": 3,
+      "above_price": false
+     },
+     {
+      "display": "₹945",
+      "step": 2,
+      "above_price": false
+     },
+     {
+      "display": "₹830",
+      "step": 1,
+      "above_price": false
+     },
+     {
+      "display": "₹737",
+      "step": 1,
+      "above_price": false
+     },
+     {
+      "display": "₹659",
+      "step": 0,
+      "above_price": false
+     }
+    ],
+    [
+     {
+      "display": "₹1,203",
+      "step": 4,
+      "above_price": false
+     },
+     {
+      "display": "₹1,029",
+      "step": 2,
+      "above_price": false
+     },
+     {
+      "display": "₹894",
+      "step": 2,
+      "above_price": false
+     },
+     {
+      "display": "₹786",
+      "step": 1,
+      "above_price": false
+     },
+     {
+      "display": "₹698",
+      "step": 0,
+      "above_price": false
+     }
+    ],
+    [
+     {
+      "display": "₹1,355",
+      "step": 5,
+      "above_price": false
+     },
+     {
+      "display": "₹1,138",
+      "step": 3,
+      "above_price": false
+     },
+     {
+      "display": "₹974",
+      "step": 2,
+      "above_price": false
+     },
+     {
+      "display": "₹846",
+      "step": 1,
+      "above_price": false
+     },
+     {
+      "display": "₹743",
+      "step": 1,
+      "above_price": false
+     }
+    ],
+    [
+     {
+      "display": "₹1,565",
+      "step": 6,
+      "above_price": true
+     },
+     {
+      "display": "₹1,281",
+      "step": 4,
+      "above_price": false
+     },
+     {
+      "display": "₹1,075",
       "step": 3,
       "above_price": false
      },
@@ -10741,98 +10904,7 @@
       "above_price": false
      },
      {
-      "display": "₹810",
-      "step": 1,
-      "above_price": false
-     },
-     {
-      "display": "₹720",
-      "step": 1,
-      "above_price": false
-     },
-     {
-      "display": "₹646",
-      "step": 0,
-      "above_price": false
-     }
-    ],
-    [
-     {
-      "display": "₹1,165",
-      "step": 4,
-      "above_price": false
-     },
-     {
-      "display": "₹1,000",
-      "step": 2,
-      "above_price": false
-     },
-     {
-      "display": "₹871",
-      "step": 2,
-      "above_price": false
-     },
-     {
-      "display": "₹767",
-      "step": 1,
-      "above_price": false
-     },
-     {
-      "display": "₹682",
-      "step": 0,
-      "above_price": false
-     }
-    ],
-    [
-     {
-      "display": "₹1,307",
-      "step": 5,
-      "above_price": false
-     },
-     {
-      "display": "₹1,102",
-      "step": 3,
-      "above_price": false
-     },
-     {
-      "display": "₹946",
-      "step": 2,
-      "above_price": false
-     },
-     {
-      "display": "₹824",
-      "step": 1,
-      "above_price": false
-     },
-     {
-      "display": "₹725",
-      "step": 1,
-      "above_price": false
-     }
-    ],
-    [
-     {
-      "display": "₹1,501",
-      "step": 6,
-      "above_price": true
-     },
-     {
-      "display": "₹1,235",
-      "step": 4,
-      "above_price": false
-     },
-     {
-      "display": "₹1,041",
-      "step": 3,
-      "above_price": false
-     },
-     {
-      "display": "₹894",
-      "step": 2,
-      "above_price": false
-     },
-     {
-      "display": "₹778",
+      "display": "₹799",
       "step": 1,
       "above_price": false
      }
@@ -10842,64 +10914,64 @@
   "tornado": [
    {
     "driver": "Cost of capital (WACC)",
-    "low": 778.34,
-    "high": 1500.4,
-    "low_display": "₹778",
-    "high_display": "₹1,500",
-    "low_input": "9.8%",
-    "high_input": "7.8%"
+    "low": 799.3,
+    "high": 1565.43,
+    "low_display": "₹799",
+    "high_display": "₹1,565",
+    "low_input": "9.7%",
+    "high_input": "7.7%"
    },
    {
     "driver": "Long-run return on new capital",
-    "low": 631.0,
-    "high": 1097.1,
-    "low_display": "₹631",
-    "high_display": "₹1,097",
-    "low_input": "8.8%",
+    "low": 642.24,
+    "high": 1133.42,
+    "low_display": "₹642",
+    "high_display": "₹1,133",
+    "low_input": "8.7%",
     "high_input": "27.0%"
    },
    {
     "driver": "Operating margin from year 5",
-    "low": 843.46,
-    "high": 1238.7,
-    "low_display": "₹843",
-    "high_display": "₹1,239",
+    "low": 872.29,
+    "high": 1278.45,
+    "low_display": "₹872",
+    "high_display": "₹1,278",
     "low_input": "11.0%",
     "high_input": "15.0%"
    },
    {
-    "driver": "Capital needed per ₹ of sales",
-    "low": 933.05,
-    "high": 1105.9,
-    "low_display": "₹933",
-    "high_display": "₹1,106",
-    "low_input": "0.83×",
-    "high_input": "1.38×"
-   },
-   {
     "driver": "Revenue growth, years 1–5",
-    "low": 959.93,
-    "high": 1131.11,
-    "low_display": "₹960",
-    "high_display": "₹1,131",
+    "low": 990.26,
+    "high": 1169.82,
+    "low_display": "₹990",
+    "high_display": "₹1,170",
     "low_input": "9.0%",
     "high_input": "13.0%"
    },
    {
+    "driver": "Capital needed per ₹ of sales",
+    "low": 966.87,
+    "high": 1140.47,
+    "low_display": "₹967",
+    "high_display": "₹1,140",
+    "low_input": "0.83×",
+    "high_input": "1.38×"
+   },
+   {
     "driver": "Long-run growth",
-    "low": 945.71,
-    "high": 1061.81,
-    "low_display": "₹946",
-    "high_display": "₹1,062",
+    "low": 973.68,
+    "high": 1097.55,
+    "low_display": "₹974",
+    "high_display": "₹1,098",
     "low_input": "4.5%",
     "high_input": "5.1%"
    },
    {
     "driver": "Tax rate",
-    "low": 1005.47,
-    "high": 1076.69,
-    "low_display": "₹1,005",
-    "high_display": "₹1,077",
+    "low": 1038.83,
+    "high": 1111.91,
+    "low_display": "₹1,039",
+    "high_display": "₹1,112",
     "low_input": "25.7%",
     "high_input": "21.7%"
    }
@@ -10908,22 +10980,22 @@
   "template_b": {
    "name": "Template B · reinvestment phase",
    "why": "Template A needs free cash flow to the firm to be positive in at least three of the last four years, and here it was −₹450 crore in FY24, −₹3,397 crore in FY25 and −₹1,853 crore in FY26.",
-   "test": "Template B runs the same model but asks a different question of the past: does the capital being reinvested earn more than it costs? The median return on invested capital over FY24–FY26 was 21.6%, against a cost of capital of 8.77%. Its bear and bull cases are set around the history growth rate, because the latest years are the reinvestment itself.",
+   "test": "Template B runs the same model but asks a different question of the past: does the capital being reinvested earn more than it costs? The median return on invested capital over FY24–FY26 was 21.6%, against a cost of capital of 8.67%. Its bear and bull cases are set around the history growth rate, because the latest years are the reinvestment itself.",
    "tiles": [
     [
      "₹38,260 crore",
      "capital in place, 30 Sep 2026"
     ],
     [
-     "₹6,218 crore",
+     "₹6,586 crore",
      "economic profit, years 1–10, today's value"
     ],
     [
-     "₹41,905 crore",
+     "₹44,400 crore",
      "economic profit after year 10, today's value"
     ],
     [
-     "₹86,383 crore",
+     "₹89,246 crore",
      "enterprise value, base case"
     ]
    ],
@@ -10941,16 +11013,16 @@
     "FY36"
    ],
    "ep": [
-    218.44,
-    628.75,
-    755.28,
-    895.68,
-    1051.46,
-    1157.11,
-    1247.72,
-    1319.71,
-    1369.98,
-    1396.04
+    236.67,
+    668.52,
+    798.76,
+    943.27,
+    1103.61,
+    1214.32,
+    1309.93,
+    1386.75,
+    1441.52,
+    1471.65
    ],
    "fcff": [
     184.73,
@@ -10965,16 +11037,16 @@
     4553.81
    ],
    "ep_display": [
-    "₹218 crore",
-    "₹629 crore",
-    "₹755 crore",
-    "₹896 crore",
-    "₹1,051 crore",
-    "₹1,157 crore",
-    "₹1,248 crore",
-    "₹1,320 crore",
-    "₹1,370 crore",
-    "₹1,396 crore"
+    "₹237 crore",
+    "₹669 crore",
+    "₹799 crore",
+    "₹943 crore",
+    "₹1,104 crore",
+    "₹1,214 crore",
+    "₹1,310 crore",
+    "₹1,387 crore",
+    "₹1,442 crore",
+    "₹1,472 crore"
    ],
    "fcff_display": [
     "₹185 crore",
@@ -10993,80 +11065,80 @@
      "FY27 (rest of year)",
      "₹38,260 crore",
      "₹1,855 crore",
-     "₹1,637 crore",
-     "₹218 crore",
+     "₹1,619 crore",
+     "₹237 crore",
      "₹185 crore"
     ],
     [
      "FY28",
      "₹39,931 crore",
      "₹4,129 crore",
-     "₹3,500 crore",
-     "₹629 crore",
+     "₹3,460 crore",
+     "₹669 crore",
      "₹411 crore"
     ],
     [
      "FY29",
      "₹43,648 crore",
      "₹4,581 crore",
-     "₹3,826 crore",
-     "₹755 crore",
+     "₹3,783 crore",
+     "₹799 crore",
      "₹456 crore"
     ],
     [
      "FY30",
      "₹47,773 crore",
      "₹5,083 crore",
-     "₹4,188 crore",
-     "₹896 crore",
+     "₹4,140 crore",
+     "₹943 crore",
      "₹506 crore"
     ],
     [
      "FY31",
      "₹52,351 crore",
      "₹5,640 crore",
-     "₹4,589 crore",
-     "₹1,051 crore",
+     "₹4,537 crore",
+     "₹1,104 crore",
      "₹562 crore"
     ],
     [
      "FY32",
      "₹57,429 crore",
      "₹6,191 crore",
-     "₹5,034 crore",
-     "₹1,157 crore",
+     "₹4,977 crore",
+     "₹1,214 crore",
      "₹1,169 crore"
     ],
     [
      "FY33",
      "₹62,452 crore",
      "₹6,722 crore",
-     "₹5,474 crore",
-     "₹1,248 crore",
+     "₹5,412 crore",
+     "₹1,310 crore",
      "₹1,882 crore"
     ],
     [
      "FY34",
      "₹67,292 crore",
      "₹7,218 crore",
-     "₹5,898 crore",
-     "₹1,320 crore",
+     "₹5,831 crore",
+     "₹1,387 crore",
      "₹2,693 crore"
     ],
     [
      "FY35",
      "₹71,817 crore",
      "₹7,665 crore",
-     "₹6,295 crore",
-     "₹1,370 crore",
+     "₹6,224 crore",
+     "₹1,442 crore",
      "₹3,590 crore"
     ],
     [
      "FY36",
      "₹75,892 crore",
      "₹8,048 crore",
-     "₹6,652 crore",
-     "₹1,396 crore",
+     "₹6,577 crore",
+     "₹1,472 crore",
      "₹4,554 crore"
     ]
    ]
@@ -11562,6 +11634,69 @@
     "title": "NIFTY PHARMA historical data",
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-19",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY PHARMA historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-18",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY PHARMA historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-19 to 2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY PHARMA historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-08",
     "published": "",
     "url": "https://www.nseindia.in/reports-indices-historical-index-data",
     "link": "page"

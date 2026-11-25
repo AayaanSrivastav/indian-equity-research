@@ -10,7 +10,7 @@
     "industry": "Power",
     "sector_index": "NIFTY ENERGY"
   },
-  "valuation_date": "2026-11-16",
+  "valuation_date": "2026-11-23",
   "balance_sheet_date": "2026-09-30",
   "inputs_verification": {
     "facts_by_status": {
@@ -38,15 +38,15 @@
     ]
   },
   "market": {
-    "price": 345.5,
+    "price": 328.0,
     "price_label": "FACT",
-    "price_source": "NSE close (BhavCopy_NSE_CM_0_0_0_20261116_F_0000.csv.zip); checked against the raw file at build time",
+    "price_source": "NSE close (BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip); checked against the raw file at build time",
     "shares": 3195600000.0,
     "shares_basis": "share capital ÷ ₹1 face value at 2026-09-30",
-    "market_cap": 110407.98,
-    "enterprise_value": 170033.45,
-    "pe_ttm": 25.617116751316146,
-    "ev_ebit_ttm": 20.48669831439691,
+    "market_cap": 104815.68,
+    "enterprise_value": 164441.15,
+    "pe_ttm": 24.319578276213303,
+    "ev_ebit_ttm": 19.81290287600757,
     "ttm": {
       "quarters": [
         "2025-12-31",
@@ -59,12 +59,12 @@
       "profit_owners": 4309.93
     },
     "beta": {
-      "beta": 0.9132622886403727,
-      "std_error": 0.0667017183898342,
-      "n": 494,
-      "blume_adjusted": 0.9418857333890498,
-      "first_session": "2024-11-18",
-      "last_session": "2026-11-16"
+      "beta": 0.9261240498187953,
+      "std_error": 0.06672924558279439,
+      "n": 496,
+      "blume_adjusted": 0.9505031133785928,
+      "first_session": "2024-11-25",
+      "last_session": "2026-11-23"
     }
   },
   "latest_quarter": {
@@ -190,10 +190,10 @@
     "template": "B (reinvestment phase, return on capital above its cost)",
     "applicable": false,
     "reasons": [
-      "median return on invested capital over the last 3 years (8.0%) is not above the cost of capital (8.66%), so growth would not add value"
+      "median return on invested capital over the last 3 years (8.0%) is not above the cost of capital (8.63%), so growth would not add value"
     ],
     "median_roic_recent": 0.07966139795059438,
-    "wacc": 0.08659670602584968,
+    "wacc": 0.08626678724450569,
     "roic_years": [
       "2024-03-31",
       "2025-03-31",

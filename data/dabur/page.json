@@ -1,5 +1,5 @@
 {
- "built": "2026-11-17",
+ "built": "2026-11-25",
  "slug": "dabur",
  "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
  "header": {
@@ -10,12 +10,12 @@
   "sector": "Personal care and ayurvedic products",
   "sector_label": "FMCG",
   "sector_index": "NIFTY FMCG",
-  "price": "₹381.90",
-  "change": "+₹1.40",
-  "change_pct": "+0.37%",
+  "price": "₹399.00",
+  "change": "+₹5.90",
+  "change_pct": "+1.50%",
   "up": true,
-  "as_of": "16 Nov 2026",
-  "market_cap": "₹0.68 lakh crore",
+  "as_of": "23 Nov 2026",
+  "market_cap": "₹0.71 lakh crore",
   "high_52w": "₹534.00",
   "low_52w": "₹354.30",
   "source": "NSE closing price (end of day, not live); 52-week range computed from daily highs and lows (NSE bhavcopy)"
@@ -58,7 +58,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "At ₹382 (NSE close, 16 Nov 2026), a discounted cash flow model with a 10.11% cost of capital matches the price if revenue grows about 19.9% a year for five years at the FY26 operating margin of 15.0%; DABUR's revenue grew 4.9% a year over FY22–FY26."
+      "text": "At ₹399 (NSE close, 23 Nov 2026), a discounted cash flow model with a 10.08% cost of capital matches the price if revenue grows about 20.8% a year for five years at the FY26 operating margin of 15.0%; DABUR's revenue grew 4.9% a year over FY22–FY26."
      }
     ]
    },
@@ -67,7 +67,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹174 to ₹238 a share) and to how long DABUR keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹158 to ₹203 a share); the Q3 FY27 result will be the next reported quarter."
+      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹175 to ₹239 a share) and to how long DABUR keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹158 to ₹204 a share); the Q3 FY27 result will be the next reported quarter."
      }
     ]
    }
@@ -78,7 +78,7 @@
  "prices": {
   "base_date": "2023-10-23",
   "base_display": "23 Oct 2023",
-  "end_display": "16 Nov 2026",
+  "end_display": "23 Nov 2026",
   "series": {
    "DABUR": [
     {
@@ -3098,6 +3098,10 @@
      "value": 72.95
     },
     {
+     "time": "2026-11-08",
+     "value": 73.42
+    },
+    {
      "time": "2026-11-09",
      "value": 71.98
     },
@@ -3116,6 +3120,26 @@
     {
      "time": "2026-11-16",
      "value": 73.25
+    },
+    {
+     "time": "2026-11-17",
+     "value": 73.71
+    },
+    {
+     "time": "2026-11-18",
+     "value": 72.74
+    },
+    {
+     "time": "2026-11-19",
+     "value": 74.93
+    },
+    {
+     "time": "2026-11-20",
+     "value": 75.4
+    },
+    {
+     "time": "2026-11-23",
+     "value": 76.53
     }
    ],
    "NIFTY 50": [
@@ -6136,6 +6160,10 @@
      "value": 129.81
     },
     {
+     "time": "2026-11-08",
+     "value": 129.59
+    },
+    {
      "time": "2026-11-09",
      "value": 129.89
     },
@@ -6154,6 +6182,26 @@
     {
      "time": "2026-11-16",
      "value": 131.17
+    },
+    {
+     "time": "2026-11-17",
+     "value": 131.67
+    },
+    {
+     "time": "2026-11-18",
+     "value": 130.84
+    },
+    {
+     "time": "2026-11-19",
+     "value": 132.32
+    },
+    {
+     "time": "2026-11-20",
+     "value": 133.81
+    },
+    {
+     "time": "2026-11-23",
+     "value": 131.47
     }
    ],
    "NIFTY FMCG": [
@@ -9174,6 +9222,10 @@
      "value": 90.98
     },
     {
+     "time": "2026-11-08",
+     "value": 90.88
+    },
+    {
      "time": "2026-11-09",
      "value": 90.74
     },
@@ -9192,6 +9244,26 @@
     {
      "time": "2026-11-16",
      "value": 92.78
+    },
+    {
+     "time": "2026-11-17",
+     "value": 92.59
+    },
+    {
+     "time": "2026-11-18",
+     "value": 92.51
+    },
+    {
+     "time": "2026-11-19",
+     "value": 94.44
+    },
+    {
+     "time": "2026-11-20",
+     "value": 94.39
+    },
+    {
+     "time": "2026-11-23",
+     "value": 93.95
     }
    ]
   },
@@ -9243,7 +9315,7 @@
   {
    "id": "market_cap",
    "label": "Market cap",
-   "display": "₹0.68 lakh crore",
+   "display": "₹0.71 lakh crore",
    "type": "CALCULATION",
    "definition": "Price × shares outstanding (share capital ÷ ₹1 face value at 2026-09-30).",
    "source": "NSE close; DABUR FY26 statements"
@@ -9251,7 +9323,7 @@
   {
    "id": "pe_ttm",
    "label": "P/E (TTM)",
-   "display": "33.5×",
+   "display": "35.0×",
    "type": "CALCULATION",
    "definition": "Price ÷ earnings per share over the last four reported quarters (Q3 FY26 – Q2 FY27).",
    "source": "DABUR quarterly filings"
@@ -9259,7 +9331,7 @@
   {
    "id": "ev_ebit_ttm",
    "label": "EV / EBIT (TTM)",
-   "display": "28.8×",
+   "display": "30.2×",
    "type": "CALCULATION",
    "definition": "Enterprise value (market cap − the net cash and treasury figure below) ÷ operating profit over the last four quarters.",
    "source": "DABUR filings; NSE close"
@@ -9315,7 +9387,7 @@
   {
    "id": "beta",
    "label": "Beta vs NIFTY 50",
-   "display": "0.74",
+   "display": "0.73",
    "type": "CALCULATION",
    "definition": "Sensitivity of DABUR's daily return to the NIFTY 50's, over the two years to the price date.",
    "source": "NSE and niftyindices daily closes"
@@ -10664,16 +10736,16 @@
   "applicable": true,
   "template": "A",
   "headline": {
-   "price": "₹382",
-   "as_of": "16 Nov 2026",
-   "implied_growth": "19.9%",
+   "price": "₹399",
+   "as_of": "23 Nov 2026",
+   "implied_growth": "20.8%",
    "margin": "15.0%",
    "last_fy": "FY26",
    "history_span": "FY22–FY26",
    "history_growth": "4.9%",
    "last_year_growth": "5.0%",
    "alts": [
-    "margin rising to 33.0%",
+    "margin rising to 34.5%",
     "no long-run growth up to the default-free rate of 5.09%"
    ],
    "beyond": false
@@ -10682,65 +10754,65 @@
    {
     "margin": 11.03,
     "margin_display": "11.0%",
-    "growth": 26.896,
-    "growth_display": "26.9%"
+    "growth": 27.766,
+    "growth_display": "27.8%"
    },
    {
     "margin": 12.03,
     "margin_display": "12.0%",
-    "growth": 24.862,
-    "growth_display": "24.9%"
+    "growth": 25.723,
+    "growth_display": "25.7%"
    },
    {
     "margin": 13.03,
     "margin_display": "13.0%",
-    "growth": 23.052,
-    "growth_display": "23.1%"
+    "growth": 23.906,
+    "growth_display": "23.9%"
    },
    {
     "margin": 14.03,
     "margin_display": "14.0%",
-    "growth": 21.424,
-    "growth_display": "21.4%"
+    "growth": 22.27,
+    "growth_display": "22.3%"
    },
    {
     "margin": 15.03,
     "margin_display": "15.0%",
-    "growth": 19.945,
-    "growth_display": "19.9%"
+    "growth": 20.785,
+    "growth_display": "20.8%"
    },
    {
     "margin": 16.03,
     "margin_display": "16.0%",
-    "growth": 18.592,
-    "growth_display": "18.6%"
+    "growth": 19.426,
+    "growth_display": "19.4%"
    },
    {
     "margin": 17.03,
     "margin_display": "17.0%",
-    "growth": 17.345,
-    "growth_display": "17.3%"
+    "growth": 18.173,
+    "growth_display": "18.2%"
    },
    {
     "margin": 18.03,
     "margin_display": "18.0%",
-    "growth": 16.189,
-    "growth_display": "16.2%"
+    "growth": 17.013,
+    "growth_display": "17.0%"
    },
    {
     "margin": 19.03,
     "margin_display": "19.0%",
-    "growth": 15.114,
-    "growth_display": "15.1%"
+    "growth": 15.932,
+    "growth_display": "15.9%"
    }
   ],
-  "price_value": 381.9,
-  "price_display": "₹382",
+  "price_value": 399.0,
+  "price_display": "₹399",
   "scenarios": [
    {
     "key": "bear",
     "name": "Bear",
-    "value": 142.0,
+    "value": 142.32,
     "display": "₹142",
     "what": "Revenue grows only at FY26's pace for five years, the operating margin slips 2 points, and growth after year 10 earns no more than its cost of capital.",
     "assumptions": [
@@ -10762,15 +10834,15 @@
      ],
      [
       "Terminal value share of EV",
-      "49.3%"
+      "49.4%"
      ]
     ]
    },
    {
     "key": "base",
     "name": "Base",
-    "value": 199.67,
-    "display": "₹200",
+    "value": 200.53,
+    "display": "₹201",
     "what": "Revenue keeps its FY22-FY26 growth rate for five years, the FY26 margin holds, and DABUR keeps its historical return on capital indefinitely.",
     "assumptions": [
      [
@@ -10791,15 +10863,15 @@
      ],
      [
       "Terminal value share of EV",
-      "63.6%"
+      "63.8%"
      ]
     ]
    },
    {
     "key": "bull",
     "name": "Bull",
-    "value": 275.85,
-    "display": "₹276",
+    "value": 277.25,
+    "display": "₹277",
     "what": "Revenue grows at H1 FY27's year-on-year pace for five years and the margin rises 1 point.",
     "assumptions": [
      [
@@ -10820,16 +10892,16 @@
      ],
      [
       "Terminal value share of EV",
-      "69.6%"
+      "69.7%"
      ]
     ]
    }
   ],
-  "base_value": 199.67,
-  "base_display": "₹200",
+  "base_value": 200.53,
+  "base_display": "₹201",
   "wacc": {
-   "wacc": "10.11%",
-   "ke": "10.21%",
+   "wacc": "10.08%",
+   "ke": "10.18%",
    "rf": "6.84%",
    "rf_n": "12",
    "rf_spot": "7.34%",
@@ -10837,21 +10909,21 @@
    "rf_max": "7.19%",
    "spread": "1.75%",
    "rf_local": "5.09%",
-   "beta": "0.74",
+   "beta": "0.73",
    "erp": "6.92%",
    "kd": "5.27%",
-   "we": "97.9%",
-   "wd": "2.1%",
+   "we": "98.0%",
+   "wd": "2.0%",
    "debt_label": "debt",
    "beta_years": "two"
   },
   "heatmap": {
    "wacc": [
-    "9.11%",
-    "9.61%",
-    "10.11%",
-    "10.61%",
-    "11.11%"
+    "9.08%",
+    "9.58%",
+    "10.08%",
+    "10.58%",
+    "11.08%"
    ],
    "g": [
     "3.50%",
@@ -10869,12 +10941,12 @@
       "above_price": false
      },
      {
-      "display": "₹187",
+      "display": "₹188",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹176",
+      "display": "₹177",
       "step": 1,
       "above_price": false
      },
@@ -10884,7 +10956,7 @@
       "above_price": false
      },
      {
-      "display": "₹158",
+      "display": "₹159",
       "step": 0,
       "above_price": false
      }
@@ -10896,7 +10968,7 @@
       "above_price": false
      },
      {
-      "display": "₹195",
+      "display": "₹196",
       "step": 3,
       "above_price": false
      },
@@ -10906,7 +10978,7 @@
       "above_price": false
      },
      {
-      "display": "₹172",
+      "display": "₹173",
       "step": 1,
       "above_price": false
      },
@@ -10918,44 +10990,44 @@
     ],
     [
      {
-      "display": "₹223",
+      "display": "₹224",
       "step": 5,
       "above_price": false
      },
      {
-      "display": "₹205",
+      "display": "₹206",
       "step": 4,
       "above_price": false
      },
      {
-      "display": "₹190",
+      "display": "₹191",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹178",
+      "display": "₹179",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹168",
+      "display": "₹169",
       "step": 1,
       "above_price": false
      }
     ],
     [
      {
-      "display": "₹238",
+      "display": "₹239",
       "step": 6,
       "above_price": false
      },
      {
-      "display": "₹217",
+      "display": "₹218",
       "step": 4,
       "above_price": false
      },
      {
-      "display": "₹200",
+      "display": "₹201",
       "step": 3,
       "above_price": false
      },
@@ -10965,7 +11037,7 @@
       "above_price": false
      },
      {
-      "display": "₹174",
+      "display": "₹175",
       "step": 1,
       "above_price": false
      }
@@ -10975,64 +11047,64 @@
   "tornado": [
    {
     "driver": "Cost of capital (WACC)",
-    "low": 174.05,
-    "high": 237.77,
-    "low_display": "₹174",
-    "high_display": "₹238",
+    "low": 174.65,
+    "high": 239.1,
+    "low_display": "₹175",
+    "high_display": "₹239",
     "low_input": "11.1%",
     "high_input": "9.1%"
    },
    {
     "driver": "Long-run return on new capital",
-    "low": 158.06,
-    "high": 202.72,
+    "low": 158.43,
+    "high": 203.6,
     "low_display": "₹158",
-    "high_display": "₹203",
+    "high_display": "₹204",
     "low_input": "10.1%",
     "high_input": "47.1%"
    },
    {
     "driver": "Operating margin from year 5",
-    "low": 179.39,
-    "high": 219.94,
-    "low_display": "₹179",
-    "high_display": "₹220",
+    "low": 180.14,
+    "high": 220.92,
+    "low_display": "₹180",
+    "high_display": "₹221",
     "low_input": "13.0%",
     "high_input": "17.0%"
    },
    {
     "driver": "Revenue growth, years 1–5",
-    "low": 184.5,
-    "high": 216.55,
+    "low": 185.26,
+    "high": 217.53,
     "low_display": "₹185",
-    "high_display": "₹217",
+    "high_display": "₹218",
     "low_input": "2.9%",
     "high_input": "6.9%"
    },
    {
     "driver": "Long-run growth",
-    "low": 190.48,
-    "high": 201.58,
-    "low_display": "₹190",
+    "low": 191.23,
+    "high": 202.47,
+    "low_display": "₹191",
     "high_display": "₹202",
     "low_input": "4.5%",
     "high_input": "5.1%"
    },
    {
     "driver": "Tax rate",
-    "low": 195.38,
-    "high": 203.96,
-    "low_display": "₹195",
-    "high_display": "₹204",
+    "low": 196.21,
+    "high": 204.84,
+    "low_display": "₹196",
+    "high_display": "₹205",
     "low_input": "25.0%",
     "high_input": "21.0%"
    },
    {
     "driver": "Capital needed per ₹ of sales",
-    "low": 196.75,
-    "high": 201.42,
-    "low_display": "₹197",
-    "high_display": "₹201",
+    "low": 197.61,
+    "high": 202.28,
+    "low_display": "₹198",
+    "high_display": "₹202",
     "low_input": "2.29×",
     "high_input": "3.82×"
    }
@@ -11572,6 +11644,78 @@
     "title": "NIFTY FMCG historical data",
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-19",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY FMCG historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-18",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY FMCG historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-19 to 2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY FMCG historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-08",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY FMCG historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-08",
     "published": "",
     "url": "https://www.nseindia.in/reports-indices-historical-index-data",
     "link": "page"

@@ -1,5 +1,5 @@
 {
- "built": "2026-11-17",
+ "built": "2026-11-25",
  "slug": "sunpharma",
  "disclaimer": "Academic case study, not investment advice and not SEBI-registered research. No price target and no 'fair value': the DCF is a range under stated assumptions; the headline is what the current price implies.",
  "header": {
@@ -10,12 +10,12 @@
   "sector": "Pharmaceuticals",
   "sector_label": "pharma",
   "sector_index": "NIFTY PHARMA",
-  "price": "₹1,867.50",
-  "change": "−₹12.50",
-  "change_pct": "-0.66%",
+  "price": "₹1,860.00",
+  "change": "−₹24.90",
+  "change_pct": "-1.32%",
   "up": false,
-  "as_of": "16 Nov 2026",
-  "market_cap": "₹4.48 lakh crore",
+  "as_of": "23 Nov 2026",
+  "market_cap": "₹4.46 lakh crore",
   "high_52w": "₹2,046.90",
   "low_52w": "₹1,583.70",
   "source": "NSE closing price (end of day, not live); 52-week range computed from daily highs and lows (NSE bhavcopy)"
@@ -58,7 +58,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "At ₹1,868 (NSE close, 16 Nov 2026), a discounted cash flow model with a 8.84% cost of capital matches the price if revenue grows about 14.0% a year for five years at the FY26 operating margin of 25.3%; SUNPHARMA's revenue grew 10.0% a year over FY23–FY26."
+      "text": "At ₹1,860 (NSE close, 23 Nov 2026), a discounted cash flow model with a 8.83% cost of capital matches the price if revenue grows about 13.9% a year for five years at the FY26 operating margin of 25.3%; SUNPHARMA's revenue grew 10.0% a year over FY23–FY26."
      }
     ]
    },
@@ -67,7 +67,7 @@
     "claims": [
      {
       "label": "CALCULATION",
-      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹1,241 to ₹2,083 a share) and to how long SUNPHARMA keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹1,075 to ₹1,613 a share); the Q3 FY27 result will be the next reported quarter."
+      "text": "With the other assumptions at base, the valuation is most sensitive to the cost of capital (one percentage point either way: a model value of ₹1,243 to ₹2,087 a share) and to how long SUNPHARMA keeps earning high returns on new investment (anywhere from returns equal to its cost of capital to a quarter above its past level: a model value of ₹1,075 to ₹1,616 a share); the Q3 FY27 result will be the next reported quarter."
      }
     ]
    }
@@ -78,7 +78,7 @@
  "prices": {
   "base_date": "2023-10-23",
   "base_display": "23 Oct 2023",
-  "end_display": "16 Nov 2026",
+  "end_display": "23 Nov 2026",
   "series": {
    "SUNPHARMA": [
     {
@@ -3098,6 +3098,10 @@
      "value": 165.71
     },
     {
+     "time": "2026-11-08",
+     "value": 170.61
+    },
+    {
      "time": "2026-11-09",
      "value": 169.67
     },
@@ -3116,6 +3120,26 @@
     {
      "time": "2026-11-16",
      "value": 166.38
+    },
+    {
+     "time": "2026-11-17",
+     "value": 166.6
+    },
+    {
+     "time": "2026-11-18",
+     "value": 166.73
+    },
+    {
+     "time": "2026-11-19",
+     "value": 169.27
+    },
+    {
+     "time": "2026-11-20",
+     "value": 167.93
+    },
+    {
+     "time": "2026-11-23",
+     "value": 165.71
     }
    ],
    "NIFTY 50": [
@@ -6136,6 +6160,10 @@
      "value": 129.81
     },
     {
+     "time": "2026-11-08",
+     "value": 129.59
+    },
+    {
      "time": "2026-11-09",
      "value": 129.89
     },
@@ -6154,6 +6182,26 @@
     {
      "time": "2026-11-16",
      "value": 131.17
+    },
+    {
+     "time": "2026-11-17",
+     "value": 131.67
+    },
+    {
+     "time": "2026-11-18",
+     "value": 130.84
+    },
+    {
+     "time": "2026-11-19",
+     "value": 132.32
+    },
+    {
+     "time": "2026-11-20",
+     "value": 133.81
+    },
+    {
+     "time": "2026-11-23",
+     "value": 131.47
     }
    ],
    "NIFTY PHARMA": [
@@ -9174,6 +9222,10 @@
      "value": 187.37
     },
     {
+     "time": "2026-11-08",
+     "value": 190.64
+    },
+    {
      "time": "2026-11-09",
      "value": 193.78
     },
@@ -9192,6 +9244,26 @@
     {
      "time": "2026-11-16",
      "value": 188.43
+    },
+    {
+     "time": "2026-11-17",
+     "value": 188.83
+    },
+    {
+     "time": "2026-11-18",
+     "value": 189.12
+    },
+    {
+     "time": "2026-11-19",
+     "value": 190.27
+    },
+    {
+     "time": "2026-11-20",
+     "value": 190.37
+    },
+    {
+     "time": "2026-11-23",
+     "value": 189.71
     }
    ]
   },
@@ -9243,7 +9315,7 @@
   {
    "id": "market_cap",
    "label": "Market cap",
-   "display": "₹4.48 lakh crore",
+   "display": "₹4.46 lakh crore",
    "type": "CALCULATION",
    "definition": "Price × shares outstanding (share capital ÷ ₹1 face value at 2026-09-30).",
    "source": "NSE close; SUNPHARMA FY26 statements"
@@ -9251,7 +9323,7 @@
   {
    "id": "pe_ttm",
    "label": "P/E (TTM)",
-   "display": "40.9×",
+   "display": "40.7×",
    "type": "CALCULATION",
    "definition": "Price ÷ earnings per share over the last four reported quarters (Q3 FY26 – Q2 FY27).",
    "source": "SUNPHARMA quarterly filings"
@@ -9259,7 +9331,7 @@
   {
    "id": "ev_ebit_ttm",
    "label": "EV / EBIT (TTM)",
-   "display": "27.5×",
+   "display": "27.4×",
    "type": "CALCULATION",
    "definition": "Enterprise value (market cap − the net cash and treasury figure below) ÷ operating profit over the last four quarters.",
    "source": "SUNPHARMA filings; NSE close"
@@ -10531,16 +10603,16 @@
   "applicable": true,
   "template": "A",
   "headline": {
-   "price": "₹1,868",
-   "as_of": "16 Nov 2026",
-   "implied_growth": "14.0%",
+   "price": "₹1,860",
+   "as_of": "23 Nov 2026",
+   "implied_growth": "13.9%",
    "margin": "25.3%",
    "last_fy": "FY26",
    "history_span": "FY23–FY26",
    "history_growth": "10.0%",
    "last_year_growth": "11.2%",
    "alts": [
-    "margin rising to 30.6%",
+    "margin rising to 30.4%",
     "no long-run growth up to the default-free rate of 5.09%"
    ],
    "beyond": false
@@ -10549,66 +10621,66 @@
    {
     "margin": 21.3,
     "margin_display": "21.3%",
-    "growth": 17.864,
-    "growth_display": "17.9%"
+    "growth": 17.74,
+    "growth_display": "17.7%"
    },
    {
     "margin": 22.3,
     "margin_display": "22.3%",
-    "growth": 16.804,
-    "growth_display": "16.8%"
+    "growth": 16.68,
+    "growth_display": "16.7%"
    },
    {
     "margin": 23.3,
     "margin_display": "23.3%",
-    "growth": 15.811,
-    "growth_display": "15.8%"
+    "growth": 15.689,
+    "growth_display": "15.7%"
    },
    {
     "margin": 24.3,
     "margin_display": "24.3%",
-    "growth": 14.879,
-    "growth_display": "14.9%"
+    "growth": 14.758,
+    "growth_display": "14.8%"
    },
    {
     "margin": 25.3,
     "margin_display": "25.3%",
-    "growth": 14.0,
-    "growth_display": "14.0%"
+    "growth": 13.881,
+    "growth_display": "13.9%"
    },
    {
     "margin": 26.3,
     "margin_display": "26.3%",
-    "growth": 13.17,
-    "growth_display": "13.2%"
+    "growth": 13.051,
+    "growth_display": "13.1%"
    },
    {
     "margin": 27.3,
     "margin_display": "27.3%",
-    "growth": 12.383,
-    "growth_display": "12.4%"
+    "growth": 12.265,
+    "growth_display": "12.3%"
    },
    {
     "margin": 28.3,
     "margin_display": "28.3%",
-    "growth": 11.634,
-    "growth_display": "11.6%"
+    "growth": 11.518,
+    "growth_display": "11.5%"
    },
    {
     "margin": 29.3,
     "margin_display": "29.3%",
-    "growth": 10.922,
-    "growth_display": "10.9%"
+    "growth": 10.807,
+    "growth_display": "10.8%"
    }
   ],
-  "price_value": 1867.5,
-  "price_display": "₹1,868",
+  "price_value": 1860.0,
+  "price_display": "₹1,860",
   "scenarios": [
    {
     "key": "bear",
     "name": "Bear",
-    "value": 1018.87,
-    "display": "₹1,019",
+    "value": 1019.66,
+    "display": "₹1,020",
     "what": "Revenue grows only at FY26's pace for five years, the operating margin slips 2 points, and growth after year 10 earns no more than its cost of capital.",
     "assumptions": [
      [
@@ -10629,15 +10701,15 @@
      ],
      [
       "Terminal value share of EV",
-      "65.2%"
+      "65.3%"
      ]
     ]
    },
    {
     "key": "base",
     "name": "Base",
-    "value": 1551.77,
-    "display": "₹1,552",
+    "value": 1554.12,
+    "display": "₹1,554",
     "what": "Revenue keeps its FY23-FY26 growth rate for five years, the FY26 margin holds, and SUNPHARMA keeps its historical return on capital indefinitely.",
     "assumptions": [
      [
@@ -10658,15 +10730,15 @@
      ],
      [
       "Terminal value share of EV",
-      "76.3%"
+      "76.4%"
      ]
     ]
    },
    {
     "key": "bull",
     "name": "Bull",
-    "value": 1728.22,
-    "display": "₹1,728",
+    "value": 1730.96,
+    "display": "₹1,731",
     "what": "Revenue grows at H1 FY27's year-on-year pace for five years and the margin rises 1 point.",
     "assumptions": [
      [
@@ -10692,10 +10764,10 @@
     ]
    }
   ],
-  "base_value": 1551.77,
-  "base_display": "₹1,552",
+  "base_value": 1554.12,
+  "base_display": "₹1,554",
   "wacc": {
-   "wacc": "8.84%",
+   "wacc": "8.83%",
    "ke": "8.86%",
    "rf": "6.84%",
    "rf_n": "12",
@@ -10714,11 +10786,11 @@
   },
   "heatmap": {
    "wacc": [
-    "7.84%",
-    "8.34%",
-    "8.84%",
-    "9.34%",
-    "9.84%"
+    "7.83%",
+    "8.33%",
+    "8.83%",
+    "9.33%",
+    "9.83%"
    ],
    "g": [
     "3.50%",
@@ -10731,108 +10803,108 @@
    "cells": [
     [
      {
-      "display": "₹1,564",
+      "display": "₹1,566",
       "step": 3,
       "above_price": false
      },
      {
-      "display": "₹1,404",
+      "display": "₹1,405",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹1,273",
+      "display": "₹1,275",
       "step": 1,
       "above_price": false
      },
      {
-      "display": "₹1,166",
+      "display": "₹1,167",
       "step": 1,
       "above_price": false
      },
      {
-      "display": "₹1,076",
+      "display": "₹1,077",
       "step": 0,
       "above_price": false
      }
     ],
     [
      {
-      "display": "₹1,692",
+      "display": "₹1,695",
       "step": 4,
       "above_price": false
      },
      {
-      "display": "₹1,500",
+      "display": "₹1,502",
       "step": 3,
       "above_price": false
      },
      {
-      "display": "₹1,347",
+      "display": "₹1,349",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹1,224",
+      "display": "₹1,225",
       "step": 1,
       "above_price": false
      },
      {
-      "display": "₹1,122",
+      "display": "₹1,123",
       "step": 0,
       "above_price": false
      }
     ],
     [
      {
-      "display": "₹1,859",
+      "display": "₹1,862",
       "step": 5,
-      "above_price": false
+      "above_price": true
      },
      {
-      "display": "₹1,621",
+      "display": "₹1,623",
       "step": 3,
       "above_price": false
      },
      {
-      "display": "₹1,438",
+      "display": "₹1,440",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹1,293",
+      "display": "₹1,295",
       "step": 1,
       "above_price": false
      },
      {
-      "display": "₹1,176",
+      "display": "₹1,177",
       "step": 1,
       "above_price": false
      }
     ],
     [
      {
-      "display": "₹2,083",
+      "display": "₹2,087",
       "step": 6,
       "above_price": true
      },
      {
-      "display": "₹1,777",
+      "display": "₹1,780",
       "step": 4,
       "above_price": false
      },
      {
-      "display": "₹1,552",
+      "display": "₹1,554",
       "step": 3,
       "above_price": false
      },
      {
-      "display": "₹1,378",
+      "display": "₹1,380",
       "step": 2,
       "above_price": false
      },
      {
-      "display": "₹1,241",
+      "display": "₹1,243",
       "step": 1,
       "above_price": false
      }
@@ -10842,64 +10914,64 @@
   "tornado": [
    {
     "driver": "Cost of capital (WACC)",
-    "low": 1241.39,
-    "high": 2082.97,
-    "low_display": "₹1,241",
-    "high_display": "₹2,083",
+    "low": 1242.87,
+    "high": 2087.29,
+    "low_display": "₹1,243",
+    "high_display": "₹2,087",
     "low_input": "9.8%",
     "high_input": "7.8%"
    },
    {
     "driver": "Long-run return on new capital",
-    "low": 1074.52,
-    "high": 1613.02,
+    "low": 1075.34,
+    "high": 1615.5,
     "low_display": "₹1,075",
-    "high_display": "₹1,613",
+    "high_display": "₹1,616",
     "low_input": "8.8%",
     "high_input": "28.3%"
    },
    {
     "driver": "Revenue growth, years 1–5",
-    "low": 1415.74,
-    "high": 1702.9,
-    "low_display": "₹1,416",
-    "high_display": "₹1,703",
+    "low": 1417.81,
+    "high": 1705.57,
+    "low_display": "₹1,418",
+    "high_display": "₹1,706",
     "low_input": "8.0%",
     "high_input": "12.0%"
    },
    {
     "driver": "Operating margin from year 5",
-    "low": 1432.96,
-    "high": 1670.58,
-    "low_display": "₹1,433",
-    "high_display": "₹1,671",
+    "low": 1435.12,
+    "high": 1673.13,
+    "low_display": "₹1,435",
+    "high_display": "₹1,673",
     "low_input": "23.3%",
     "high_input": "27.3%"
    },
    {
     "driver": "Long-run growth",
-    "low": 1437.96,
-    "high": 1576.34,
-    "low_display": "₹1,438",
-    "high_display": "₹1,576",
+    "low": 1439.89,
+    "high": 1578.79,
+    "low_display": "₹1,440",
+    "high_display": "₹1,579",
     "low_input": "4.5%",
     "high_input": "5.1%"
    },
    {
     "driver": "Capital needed per ₹ of sales",
-    "low": 1493.19,
-    "high": 1586.92,
-    "low_display": "₹1,493",
-    "high_display": "₹1,587",
+    "low": 1495.52,
+    "high": 1589.29,
+    "low_display": "₹1,496",
+    "high_display": "₹1,589",
     "low_input": "0.83×",
     "high_input": "1.38×"
    },
    {
     "driver": "Tax rate",
-    "low": 1512.6,
-    "high": 1590.94,
-    "low_display": "₹1,513",
-    "high_display": "₹1,591",
+    "low": 1514.89,
+    "high": 1593.36,
+    "low_display": "₹1,515",
+    "high_display": "₹1,593",
     "low_input": "20.9%",
     "high_input": "16.9%"
    }
@@ -11378,6 +11450,69 @@
     "title": "NIFTY PHARMA historical data",
     "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
     "period": "2026-11-16",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-19",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY PHARMA historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-17 to 2026-11-18",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY PHARMA historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-19 to 2026-11-20",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY PHARMA historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-23",
+    "published": "",
+    "url": "https://www.nseindia.in/reports-indices-historical-index-data",
+    "link": "page"
+   },
+   {
+    "kind": "Market data",
+    "title": "NIFTY 50 historical data",
+    "publisher": "NSE Indices Ltd (via nseindia.com historical index data)",
+    "period": "2026-11-08",
     "published": "",
     "url": "https://www.nseindia.in/reports-indices-historical-index-data",
     "link": "page"
